@@ -1,3 +1,13 @@
+
+
+suppressPackageStartupMessages({
+  library("stringr")
+  library("lubridate")
+  library("glue")
+})
+
+
+
 ##FROM excessILI package, Marcus Russi
 now <- lubridate::now()
 
@@ -26,7 +36,9 @@ retrievePath <- function(fname, basepath='.', goalDate=lubridate::now()) {
   
   # Get a list of modification times for each file in the directory
   fullPaths <- file.path(fullpath, dirListing)
-  mtimes <- purrr::lift_dl(file.mtime)(fullPaths)
+  # purrr() v 1.0.0. depreciated lift(). Apply function directly instead.
+  #mtimes <- purrr::lift_dl(file.mtime)(fullPaths)
+  mtimes <- file.mtime(fullPaths)
   
   # The interval elapsed between the modified time of each file, and the 
   # goalDate. Our goal is to get the file with the smallest delta.
@@ -94,9 +106,9 @@ retrieveRDS <- function(fname, basepath='.', goalDate=Sys.time())
 #' # │   ├── 2020_04_09_16_41.rds
 #'
 #' @export
-storeRDS <- function(obj, fname, basepath='.') {
+storeRDS <- function(obj, fname, basepath='.', source) {
   
-  if (!dir.exists(basepath)){
+  if (!dir.exists(basepath)) {
     stop(sprintf("Basepath '%s' does not exist. Cannot write file.", basepath))
   }
   
@@ -111,7 +123,7 @@ storeRDS <- function(obj, fname, basepath='.') {
       stop(sprintf("Failed to create directory %s", fullPath))
   }
   
-  name <- format(Sys.time(), format="%Y_%m_%d_%H_%M.parquet")
+  name <- format(Sys.time(), paste(source, format="%Y_%m_%d_%H_%M.parquet"), sep = "_")
   writepath <- file.path(basepath, fname, name)
   
   #saveRDS(obj, writepath)
@@ -161,19 +173,60 @@ mostRecentTimestamp <- function(fname, basepath='.') {
   
   # Make sure that this path is a directory I.e., archive/fname.txt needs to 
   # be a folder, not regular file.
-  if (!dir.exists(fullpath))
+  if (!dir.exists(fullpath)) {
     return(NA)
+  }
   
   # Get all the files in this directory
   dirListing <- list.files(fullpath)
   
   # If there were no files in the directory, we can't retrieve them!
-  if (length(dirListing) == 0)
+  if (length(dirListing) == 0) {
     return(NA)
+  }
   
   # Get a list of modification times for each file in the directory
-  fullPaths <- file.path(fullpath, dirListing)
-  mtimes <- purrr::lift_dl(file.mtime)(fullPaths)
+  # Below is the original code comment out. It was drawing the time information
+  # from the file metadata as opposed to the name. Change this process to
+  # pull from the file name for more flexibility. Notice this assumes files
+  # are stored "source_name_%Y_%m_%d_%H_%M.parquet", as used in storeRDS().
+  # 
+  #fullPaths <- file.path(fullpath, dirListing)
+  # purrr() v 1.0.0. depreciated lift(). Apply function directly instead.
+  #mtimes <- purrr::lift_dl(file.mtime)(fullPaths)
+  #mtimes <- file.mtime(fullPaths)
+  #max(mtimes)
   
-  max(mtimes)
+  # Extract the time elements from the file name. Unfortunately, because
+  # we're reading from right to left, each element needs to be extracted
+  # individually. Repeat this for each source represented in the file.
+  
+  source <- str_replace(dirListing, "_[0-9]{4}_[0-9]{2}_[0-9]{2}_[0-9]{2}_[0-9]{2}.parquet", "")
+  
+  recent_update <- data.frame("Source" = unique(source), "Latest" = rep(NA, length(unique(source)) )) 
+  for(i in 1:length(unique(source))) {
+    time <- dirListing[source %in% unique(source)[i]] %>%
+      (\(y) {
+        str_c(
+          str_c(str_split_i(y, "_", -5), "-",
+                str_split_i(y, "_", -4), "-",
+                str_split_i(y, "_", -3)), " ",
+          str_c(str_split_i(y, "_", -2), ":",
+                str_split_i(y, "_", -1) %>% str_replace(., ".parquet", ""))
+        )
+      }) %>% max()
+    
+    recent_update[i, "Latest"] <- time
+  }
+  
+  # Report the max time.
+  recent_update
+  
 }
+
+
+
+
+
+
+

@@ -11,13 +11,18 @@
 #   called again?
 
 source('./Data Pull/fileCache.R')
-runIfExpired <- function(storeName, basepath, f, maxage=hours(0)) {
+
+runIfExpired <- function(storeName, basepath, source, f, maxage=hours(0)) {
+  storeName = "RESP NET Archive"
+  basepath = "Data Pull"
+  f = ~ read.socrata(url_rsv_net)
+  
   mostRecent <- mostRecentTimestamp(storeName, basepath=basepath)
   f <- rlang::as_function(f)
   
   runAndArchive <- function() {
     data <- f()
-    storeRDS(data, storeName, basepath)
+    storeRDS(data, storeName, basepath, source)
     data
   }
   

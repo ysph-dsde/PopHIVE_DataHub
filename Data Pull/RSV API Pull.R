@@ -13,6 +13,11 @@
 ## ----------------------------------------------------------------
 ## SET UP THE ENVIRONMENT
 
+# NOTE: the renv initializing might need to be run twice when the repo is
+#       first being copied.
+renv::restore()
+
+
 suppressPackageStartupMessages({
   library("arrow")
   library("readxl")
@@ -26,12 +31,11 @@ suppressPackageStartupMessages({
   library("glue")
   library("RSocrata")
   library("MMWRweek")
-  library("glue")
 })
 
 "%!in%" <- function(x,y)!("%in%"(x,y))
 
-source('./Data Pull/runIfExpired.R')
+source('./Data Pull/Support Functions/API Interaction.R')
 
 
 
@@ -45,7 +49,20 @@ url_rsv_net <- "https://data.cdc.gov/resource/29hc-w46k.csv"
 # If a file has been downloaded within past week (24*7 hours), 
 # it just reads in latest file, otherwise it downloads fresh copy.
 
-cdc_rsv_net_ed1 <- runIfExpired("RESP NET Archive", "Data Pull", ~ read.socrata(url_rsv_net), maxage = hours(24*7))
+cdc_rsv_net_ed1 <- runIfExpired("some_name", "RESP NET Archive", "Data Pull", 
+                                f=~ read.socrata(url_rsv_net), tolerance=24)
+
+
+
+
+url_covid_net <- "https://data.cdc.gov/resource/6jg4-xsqq.csv"
+
+# Creates a time/date stamped parquet file in the folder "RESP NET Archive".
+# If a file has been downloaded within past week (24*7 hours), 
+# it just reads in latest file, otherwise it downloads fresh copy.
+
+cdc_covid_net_ed1 <- runIfExpired("RESP NET Archive", "Data Pull", "covid", ~ read.socrata(url_covid_net), 
+                                maxage = hours(24*7))
 
 
 
