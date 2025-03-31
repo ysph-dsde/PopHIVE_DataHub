@@ -213,7 +213,7 @@ runIfExpired <- function(source, storeName, basepath, f, tolerance=24) {
   data <- api_function()
   
   
-  if ( is.na(nrow(mostRecent)) ) {
+  if ( nrow(mostRecent) == 0 ) {
     # Here is where the cross-over check will be done. Save the appended
     # result that is read in memory.
     
