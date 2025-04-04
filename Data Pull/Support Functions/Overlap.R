@@ -137,7 +137,7 @@ rm_recent_null <- function(data, date_col, dictionary){
     paste(date_col, ., sep = " %!in% ")
   
   # Remove these values.
-  result <- data %>% 
+  result <- data %>% ƒdelta
     filter(eval(rlang::parse_expr(date_filter_argument))) %>%
     `rownames<-`(NULL)
   
