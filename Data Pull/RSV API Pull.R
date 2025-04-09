@@ -26,6 +26,7 @@ suppressPackageStartupMessages({
   library("stringr")
   library("lubridate")
   library("glue")
+  library("parquetize")
   library("RSocrata")
   library("MMWRweek")
 })
