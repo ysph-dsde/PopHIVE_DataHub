@@ -1,18 +1,17 @@
 ## ----------------------------------------------------------------
-## Simulation to construct nuanced file ingestion following API call.
+## Simulation to construct nuanced API calling
 ##
 ## Date: March 30th, 2025
 ## Author: Shelby Golden, M.S.
 ## 
-## Description: The API call functions account for recently updated archived
-##              data, but does not account for entry crossover. Some
-##              datasets will require "blunt" archival, only keeping new
-##              rows of entries for new dates, and some need a degree of
-##              crossover maintained to trace backward value updating.
+## Description: The API call currently draws in the entire snapshot of data
+##              accessible by the simple API URL. Some datasets queries
+##              will exceed limits on bandwidth or file size, and some datasets
+##              do not require an evaluation of the full available set. 
 ##              Additionally, some recent entries in data pulled from the API
 ##              will have missing values. These do not need to be retained.
 ##              
-##              This script is intended to practice nuanced archival using
+##              This script is intended to practice nuanced data pull using
 ##              simulated datasets.
 ## 
 
@@ -49,14 +48,14 @@ suppressPackageStartupMessages({
 
 set.seed(0)
 
-starting <- read_parquet(file.path(getwd(), "/Data Pull/Support Functions/Nuanced Inport Simulation/rsv-net_2025_03_28_23_54.parquet")) %>%
+starting <- read_parquet(file.path(getwd(), "/Data Pull/Support Functions/Nuanced Pull Simulation/rsv-net_2025_03_28_23_54.parquet")) %>%
   as.data.frame()
 
 starting <- starting[with(starting, order(week_ending_date, season, state, sex, race, age_category)), ] %>% 
   `rownames<-`(NULL)
 
 
-data_dictionary <- read_excel("Data Pull/Support Functions/Nuanced Inport Simulation/Data Dictionary_RESP-NET Programs_copied 03.30.2025.xlsx", 
+data_dictionary <- read_excel("Data Pull/Support Functions/Nuanced Pull Simulation/Data Dictionary_RESP-NET Programs_copied 03.30.2025.xlsx", 
                               sheet = "RSV-NET") %>%
   as.data.frame()
 
@@ -99,49 +98,6 @@ write_parquet(null_one, file.path(file.path(getwd(), "/Data Pull/Support Functio
 
 
 
-# -----------------------------
-# New dates entries for simulated data
-
-add = c("2024-25", "2024-25 (All Ages)", "2025-26", "2025-26 (All Ages)")
-
-cross_over_rows <- starting %>%
-  filter(season %in% unique(starting$season)[7:16])
-
-new_rows <- starting %>%
-  filter(season %in% unique(starting$season)[1:4])
-
-
-new_rows[new_rows$season %in% "2016-17", "season"] <- "2024-25"
-new_rows[new_rows$season %in% "2017-18", "season"] <- "2025-26"
-new_rows[new_rows$season %in% "2016-17 (All Ages)", "season"] <- "2024-25 (All Ages)"
-new_rows[new_rows$season %in% "2017-18 (All Ages)", "season"] <- "2025-26 (All Ages)"
-
-new_rows$week_ending_date <- as.Date(new_rows$week_ending_date) %m+% years(8)
-new_rows$week_ending_date <- as.character(new_rows$week_ending_date)
-
-
-
-
-
-# -----------------------------
-# Back-filling
-
-
-
-
-
-# Calculate the cumulative sum.
-c <- new_rows %>%
-  filter(type == "Crude Rate") %>%
-  group_by(season, state, age_category, sex, race) %>%
-  mutate("new_cumSum" = cumsum(rate)) %>% 
-  ungroup() %>%
-  as.data.frame()
-
-
-
-
-
 ## ----------------------------------------------------------------
 ## FUNCTIONS
 
@@ -169,7 +125,7 @@ raw_columns <- function(dictionary){
 # -----------------------------
 # Remove recent entries that are all NULL or NA
 
-na1 <- read_parquet(file.path(getwd(), "/Data Pull/Support Functions/Nuanced Inport Simulation/null_one.parquet"))
+na1 <- read_parquet(file.path(getwd(), "/Data Pull/Support Functions/Nuanced Pull Simulation/null_one.parquet"))
 
 # Save result that removed recent NULL/NA's
 na2 <- rm_recent_null(na1, "week_ending_date", data_dictionary)
@@ -179,9 +135,11 @@ rm_recent_null(na2, "week_ending_date", data_dictionary)
 
 
 rm_recent_null <- function(data, date_col, dictionary){
-  # This will remove recently dated entries that have no value entered.
-  # Some sources will add rows that are recent to the API call, but
-  # lack any value entries. They're recorded as "NULL" or NA's
+  # Some sources will add rows that are recent to the API call, but lack
+  # any value entries. They're recorded as "NULL" or NA's. This function
+  # will remove recently dated entries that have no value entered. It
+  # references the Data Dictionary to find rows in the raw format that
+  # are labeled as "Outcome", and uses all of these to search over.
   #
   #       "data": the data that was recently called in by the API.
   #   "date_col": specify the column with whole date associated. 
@@ -255,12 +213,6 @@ rm_recent_null <- function(data, date_col, dictionary){
   result
   
 }
-
-
-
-
-# -----------------------------
-# Blunt date storage, no accounting for overlap.
 
 
 
