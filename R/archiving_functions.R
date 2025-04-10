@@ -300,14 +300,14 @@ storeParquet <- function(obj, source, storeIn, basepath='.', tolerance=24,mostRe
 ## ----------------------------------------------------------------
 ## FROM "runIfExpired.R"
 
-runIfExpired <- function(source, storeIn, f, tolerance = (24*7), return_recent = FALSE, basepath = "Data Pull") {
+runIfExpired <- function(source, storeIn, f, tolerance = (24*7), return_recent = TRUE, basepath = "Data Pull") {
   # url_nssp <- "https://data.cdc.gov/resource/rdmq-nq56.csv"
   # source='nssp_ed1'
   # storeIn='Raw'
   # basepath='./Data/Archive'
   #   f=~ read.socrata(url_nssp)
   #  tolerance = 24
-  #  return_recent = FALSE
+  #  return_recent = TRUE
   
   api_function <- rlang::as_function(f)
   
@@ -317,27 +317,35 @@ runIfExpired <- function(source, storeIn, f, tolerance = (24*7), return_recent =
     mostRecent <- mostRecent_check$`Report Relative to Date` %>%
     filter(Source == source, Status %in% c("Recent Pull", "Both"))
   }
-  data <- api_function()
   
   if(is.null(mostRecent_check)){
     mostRecent <- data.frame(History = 99999)
   }
   
-  if ( nrow(mostRecent) == 0 ) {
-    rm_recent_null()
+  if ( is.null(mostRecent_check) ) {
+    #run this if the directory is empty
+    #rm_recent_null()
+    data <- api_function()
     
     message(sprintf("NEW dataset for '%s' in this directory.", source))
-    return(storeParquet(data, source, storeIn, basepath, tolerance))
+    storeParquet(data, source, storeIn, basepath, tolerance,mostRecent)
+    full_path <- paste(basepath,source,storeIn, sep='/')
+     new.file <- list.files(path=paste(basepath,source,storeIn, sep='/'))
+    
+    return(read_parquet( paste(full_path,new.file , sep='/')))
     
   } else if(return_recent == TRUE & mostRecent$History %--% now() < hours(tolerance) ){
     message(sprintf("OLD dataset for '%s' is being called to memory. Save query is within the tolerance level.", source))
-    return(read_parquet( file.path(basepath, storeIn, mostRecent$filePath) ))
+    full_path <- paste(basepath,source,storeIn, sep='/')
+    
+     return(read_parquet( file.path(basepath,  source, storeIn, mostRecent$filePath) ))
     
   } else if(return_recent == FALSE & mostRecent$History %--% now() < hours(tolerance)) {
     message(sprintf("Request is too close to the most recent archive '%s'.", mostRecent$filePath))
     return(NULL)
     
   } else{
+    data <- api_function()
     message(sprintf("Added another dataset for '%s' in this directory.", source))
     return(storeParquet(data, source, storeIn, basepath, tolerance,mostRecent))
     

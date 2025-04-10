@@ -24,10 +24,7 @@ cdc_nssp_ed1 <- runIfExpired(source='nssp_ed1',storeIn='Raw',  basepath='./Data/
                             f=~ read.socrata(url_nssp),tolerance=(24*7)
 )
 
-verify_update(  test_file = cdc_nssp_ed1, ds_path='./Data/nssp_ed1/') %>%
-  write_parquet('./Data/Cleaned/nssp_rsv_county.parquet')
-
-nssp_harmonized <- open_dataset('./Data/Cleaned/nssp_rsv_county.parquet') %>%
+nssp_harmonized <- cdc_nssp_ed1 %>%
   filter(county=='All'  ) %>%
   rename(state=geography, date='week_end') %>%
   dplyr::select(state, date, percent_visits_rsv) %>%
@@ -60,10 +57,7 @@ cdc_respnet <- runIfExpired(source='respnet',storeIn='Raw',  basepath='./Data/Ar
                             ~ read.socrata(url_resp_net),tolerance=(24*7)
 )
 
-current_data = verify_update(  test_file = cdc_respnet, ds_path='./Data/respnet/') %>%
-  write_parquet('./Data/Cleaned/respnet_hosp.parquet')
-
-h1_harmonized <- open_dataset('./Data/Cleaned/respnet_hosp.parquet') %>%
+h1_harmonized <- cdc_respnet %>%
   filter( site != 'Overall' & surveillance_network=='RSV-NET' & type=='Unadjusted Rate' & age_group=='Overall' &
             sex=='Overall' & race_ethnicity=='Overall') %>%
   rename(state=site, hosp_rate=weekly_rate, date=X_weekenddate) %>%
@@ -97,9 +91,6 @@ cdc_rsvnet <- runIfExpired(source='rsvnet',storeIn='Raw',  basepath='./Data/Arch
                            ~ read.socrata(url_rsv_net),tolerance=(24*7)
 )
 
-verify_update(  test_file = cdc_rsvnet, ds_path='./Data/rsvnet/') %>%
-  write_parquet('./Data/Cleaned/rsvnet_hosp.parquet')
-
 
 h1.age <- cdc_rsvnet %>%
   filter(state!="RSV-NET" & sex=='All' & race=='All' & type=='Crude Rate') %>%
@@ -128,7 +119,7 @@ h1.age <- cdc_rsvnet %>%
   as.data.frame()
 
 
-write.csv(h1.age,'./Data/plot_files/RespNet/h1.age_rsv_hosp.csv')
+write.csv(h1.age,'./Data/plot_files/rsv_hosp_age_respnet.csv')
 
 #######################################
 ###Google searches for RSV vaccination
@@ -146,8 +137,8 @@ google_rsv_vax <- runIfExpired(source='google_rsv_vax', storeIn='Raw',  basepath
 )
 
 g1_vax_state <- google_rsv_vax %>%
-  collect() %>%
-  mutate(date=as.Date(date),
+  filter( location %in% g_states ) %>%
+    mutate(date=as.Date(date),
          date = as.Date(ceiling_date(date, 'week'))-1,
          stateabb= gsub('US-','', location),
          state=state.name[match(stateabb,state.abb)],
@@ -156,7 +147,8 @@ g1_vax_state <- google_rsv_vax %>%
   dplyr::select(state, date, search_volume_vax) %>%
   distinct() %>%
   filter(date>='2014-01-01') %>%
-  write_parquet('./Data/Cleaned/google_rsv_vax.parquet')
+  group_by(state,date) %>%
+  summarize(search_volume_vax=mean(search_volume_vax, na.rm=T))
 
 #######################################
 ###Google searches for 'RSV' 
@@ -171,9 +163,8 @@ google_rsv <- runIfExpired(source='google_rsv',storeIn='Raw',  basepath='./Data/
                            tolerance=(24*7)
 )
 
-current_data = verify_update(test_file = google_rsv, ds_path='./Data/google_rsv/') %>%
+google_merged_rsv = google_rsv %>%
   filter(location %in% g_states) %>%
-  collect() %>%
   mutate(date=as.Date(date),
          date = as.Date(ceiling_date(date, 'week'))-1,
          stateabb= gsub('US-','', location),
@@ -181,7 +172,8 @@ current_data = verify_update(test_file = google_rsv, ds_path='./Data/google_rsv/
          value=round(value,2)) %>%
   rename(search_volume=value) %>%
   dplyr::select(state, date, search_volume) %>%
-  distinct() %>%
+  group_by(state,date) %>%
+  summarize(search_volume=mean(search_volume, na.rm=T)) %>%
   filter(date>='2014-01-01') %>%
   full_join(g1_vax_state, by=c('state', 'date') ) %>%
   mutate(month=month(date),
@@ -193,11 +185,9 @@ current_data = verify_update(test_file = google_rsv, ds_path='./Data/google_rsv/
          rsv_novax2 = rsv_novax2 / max(rsv_novax2, na.rm=T),
          search_volume = search_volume/ max(search_volume, na.rm=T),
          search_volume_vax = search_volume_vax/ max(search_volume_vax, na.rm=T)
-  ) %>%
-  write_parquet('./Data/Cleaned/google_rsv.parquet')
-
-
-g1_state_harmonized_v1 <- open_dataset('./Data/Cleaned/google_rsv.parquet') %>%
+  ) 
+  
+g1_state_harmonized_v1 <- google_merged_rsv %>%
   rename(Outcome_value1=rsv_novax,
          geography=state) %>%
   mutate(outcome_type='Google Searches',
@@ -214,12 +204,10 @@ g1_state_harmonized_v1 <- open_dataset('./Data/Cleaned/google_rsv.parquet') %>%
          additional_strata1 = 'none',
          additional_strata_level = NA_character_,
          sex_strata = 'none',
-         sex_level = NA_character_) %>%
-  collect() 
+         sex_level = NA_character_) 
 
 
-
-g1_state_harmonized_v2 <- open_dataset('./Data/Cleaned/google_rsv.parquet') %>%
+g1_state_harmonized_v2 <- google_merged_rsv %>%
   rename(Outcome_value1=rsv_novax2,
          geography=state) %>%
   mutate(outcome_type='Google Searches',
@@ -236,8 +224,7 @@ g1_state_harmonized_v2 <- open_dataset('./Data/Cleaned/google_rsv.parquet') %>%
          additional_strata1 = 'none',
          additional_strata_level = NA_character_,
          sex_strata = 'none',
-         sex_level = NA_character_) %>%
-  collect()
+         sex_level = NA_character_) 
 
 #od1 <- lme4::lmer(search_volume~ 1 + season*search_volume_vax +  (1|state), data=g1_state[g1_state$date>=as.Date('2023-07-01'),])
 # coef.vax <- summary(mod1)$coefficients['search_volume_vax','Estimate']
@@ -252,14 +239,10 @@ cdc_nrevss_rsv <- runIfExpired(source='nrevss_rsv',storeIn='Raw',  basepath='./D
                                ~ read.socrata(url_nrevss_rsv),tolerance=(24*7)
 )
 
-verify_update(  test_file = cdc_nrevss_rsv, ds_path='./Data/nrevss_rsv/') %>%
-  filter(posted==max(posted)) %>%
-  write_parquet('./Data/Cleaned/nrevss_rsv.parquet')
 
-key <- readRDS('./Data/hhs_regions.rds')
+key <- readRDS('./Data/other_data/hhs_regions.rds')
 
-rsv1_tests <- open_dataset('./Data/Cleaned/nrevss_rsv.parquet') %>%
-  collect() %>%
+rsv1_tests <- cdc_nrevss_rsv %>%
   as.data.frame()
 
 rsv_ts <- rsv1_tests %>%
@@ -297,10 +280,8 @@ cdc_ww_rsv <- runIfExpired(source='wastewater_rsv',storeIn='Raw',  basepath='./D
                            ~ read_csv(url_ww_rsv),tolerance=(24*7)
 )
 
-verify_update(  test_file = cdc_ww_rsv, ds_path='./Data/wastewater_rsv/') %>%
-  write_parquet('./Data/Cleaned/wastewater_rsv.parquet')
 
-ww1_harmonized <- open_dataset('./Data/Cleaned/wastewater_rsv.parquet') %>%
+ww1_harmonized <- cdc_ww_rsv%>%
   mutate(date=as.Date(Week_Ending_Date)) %>%
   filter(Data_Collection_Period=='All Results') %>%
   rename(state="State/Territory", rsv_ww="State/Territory_WVAL") %>%
@@ -331,7 +312,7 @@ ww1_harmonized <- open_dataset('./Data/Cleaned/wastewater_rsv.parquet') %>%
 ###Epic ED for RSV
 #######################################
 
-epic_ed_virus <- open_dataset( './Data/Cleaned/epic_cosmos_flu_rsv_covid.parquet') %>%
+epic_ed_virus <- open_dataset( './Data/Archive/Cosmos ED/epic_cosmos_flu_rsv_covid.parquet') %>%
   collect()
 
 e1 <- epic_ed_virus %>%
@@ -339,7 +320,7 @@ e1 <- epic_ed_virus %>%
   )
 
 e1 %>% 
-  write.csv(., './Data/plot_files/EpicCosmos/e1_age_epic_age_rsv_flu_covid.csv')
+  write.csv(., './Data/plot_files/rsv_flu_covid_epic_cosmos_age_state.csv')
 
 
 
@@ -367,7 +348,7 @@ dwh <- cbind.data.frame(dwh,dates2[,c('MMWRyear', 'MMWRweek')]) %>%
           epiwk=epiwk-26
   )
 
-write.csv(dwh,'./Data/plot_files/dwh_combined_plot1_long.csv')
+write.csv(dwh,'./Data/plot_files/rsv_combined_all_outcomes_state.csv')
 
 
 ##############################################################
@@ -379,17 +360,15 @@ dates <- seq.Date(from=as.Date('2022-10-01'), to=Sys.Date(),by='week')
 
 i=length(dates)-1
 
-d1_state <- open_dataset('./Data/Cleaned/nssp_rsv_county.parquet') %>%
+d1_state <- cdc_nssp_ed1 %>%
   filter(county=='All'  ) %>%
   rename(percent_visits_rsv_state =percent_visits_rsv ) %>%
   # percent_visits_rsv_state=if_else(percent_visits_rsv>1,1,percent_visits_rsv) ) %>%
   rename(state=geography) %>%
-  dplyr::select(state,week_end, percent_visits_rsv_state) %>%
-  collect()
+  dplyr::select(state,week_end, percent_visits_rsv_state) 
 
-d1_all <- open_dataset('./Data/Cleaned/nssp_rsv_county.parquet') %>%
+d1_all <- cdc_nssp_ed1 %>%
   filter(county!='All' ) %>%
-  collect() %>%
   rename(state=geography) %>%
   dplyr::select(state, county, fips, week_end, percent_visits_rsv) %>%
   left_join(d1_state, by=c('week_end', 'state')) %>%
