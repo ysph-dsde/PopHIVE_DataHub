@@ -580,19 +580,22 @@ dates <- seq.Date(from=as.Date('2022-10-01'), to=Sys.Date(),by='week')
 
 i=length(dates)-1
 
-d1_state <- cdc_nssp_rsv_flu_covid_ed1 %>%
+d1_state_rsv_flu_covid <- cdc_nssp_rsv_flu_covid_ed1 %>%
   filter(county=='All'  ) %>%
-  rename(percent_visits_rsv_state =percent_visits_rsv ) %>%
+  rename(percent_visits_rsv_state =percent_visits_rsv,
+         percent_visits_covid_state =percent_visits_covid,
+         percent_visits_flu_state =percent_visits_influenza) %>%
   # percent_visits_rsv_state=if_else(percent_visits_rsv>1,1,percent_visits_rsv) ) %>%
   rename(state=geography) %>%
-  dplyr::select(state,week_end, percent_visits_rsv_state) 
+  dplyr::select(state,week_end, percent_visits_rsv_state,percent_visits_covid_state, percent_visits_flu_state) 
 
 d1_all <- cdc_nssp_rsv_flu_covid_ed1 %>%
   filter(county!='All' ) %>%
   rename(state=geography) %>%
-  dplyr::select(state, county, fips, week_end, percent_visits_rsv) %>%
-  left_join(d1_state, by=c('week_end', 'state')) %>%
-  mutate(percent_visits_rsv = if_else(is.na(percent_visits_rsv),percent_visits_rsv_state,percent_visits_rsv ),
+  dplyr::select(state, county, fips, week_end, percent_visits_rsv,percent_visits_covid,percent_visits_influenza) %>%
+  left_join(d1_state_rsv_flu_covid, by=c('week_end', 'state')) %>%
+  mutate(percent_visits_covid = if_else(is.na(percent_visits_covid),percent_visits_covid_state,percent_visits_covid),
+         percent_visits_flu = if_else(is.na(percent_visits_influenza),percent_visits_flu_state,percent_visits_influenza ),
          #fix CT county coding
          fips = if_else(state=='Connecticut' & county=='Fairfield',9001 ,
                         if_else(state=='Connecticut' &  county=='Hartford', 9003,
@@ -605,7 +608,7 @@ d1_all <- cdc_nssp_rsv_flu_covid_ed1 %>%
          ) ) %>%
   as.data.frame()
 
-write.csv(d1_all,'./Data/plot_files/rsv_county_filled_map_nssp.csv')
+write.csv(d1_all,'./Data/plot_files/rsv_flu_covid_county_filled_map_nssp.csv')
 
 #fluA
 #ww_flu1 <- read.csv('https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/FluA/FluAStateMapDownloadCSV.csv')%>%
