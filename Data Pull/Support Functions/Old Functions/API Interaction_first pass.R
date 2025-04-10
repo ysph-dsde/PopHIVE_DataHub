@@ -1,18 +1,30 @@
 ## ----------------------------------------------------------------
-## Functions to deal with dataset overlapping.
+## Functions to pull in data from different API's.
 ##
-## Date: March 29th, 2025
+##   Date: March 29th, 2025
 ## Author: Shelby Golden, M.S.
 ## 
+##     Version: v1
+## Last Edited: April 1st, 2025
+## 
 ## Description: These are adaptations from the runIfExpired.R and fileCache.R
-##              scripts that Dan provded, itself originally adapted from ExcessILI
-##              data archiving functions by Marcus Russi. 
+##              scripts that Dan provided, itself originally adapted from
+##              ExcessILI data archiving functions by Marcus Russi. 
 ##              
 ##              The primary changes are:
-##                 - Base path and source type is user provided
+##                 - Base path and source type is user provided.
 ##                 - Source name is added the beginning of the file so that it
-##                   has the format: "source_name_%Y_%m_%d_%H_%M.parquet"
-##                 - 
+##                   has the format: "source_name_%Y_%m_%d_%H_%M.parquet".
+##                 - Time stamp is drawn from the file name itself instead of 
+##                   the file metadata.
+##                 - Current date and relative date in archive are formally
+##                   separated actions. Previously they overlapped.
+##                 - Include a function that will remove "outcomes" from the
+##                   recently pulled dataset in entries nearest the query
+##                   date, but lack any entries. These are not interpreted
+##                   as canonical NA's or NULL entries.
+##                 - Add function to timeStamp() function that will produce
+##                   a table summarizing archival history in that directory.
 ## 
 
 ## ----------------------------------------------------------------
