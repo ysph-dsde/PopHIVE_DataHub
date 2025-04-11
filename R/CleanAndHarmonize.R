@@ -19,7 +19,7 @@ source('./R/OtherFunctions/archiving_functions.R') #function for archiving
 #######################################
 #Read in and archive latest Epic Files
 #####################################
-source('./R/EpicClean/harmonize_epic.R')
+source('./R/EpicClean/harmonize_epic_flu_covid_rsv.R')
 
 #############################################
 #Read in and archive latest files from APIs

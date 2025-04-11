@@ -1,0 +1,454 @@
+﻿Session Title,Number of Patients by Age at Encounter in Years Range and State of Residence (U.S.),
+Session Description,"Patients, problem list (new diagnoses) huge list of icd10 codes, sliced by state and by age. includes 1/6/2019-3/26/2025",
+Session ID,2727662,
+Data Model,Patients,
+Population Base,All Patients,
+Population Criteria Filters: These criteria are a summary and do not fully reflect the content of the exported session.,"Problem List (New Diagnoses): Self inflicted injury, Nonsuicidal self-harm( ICD-10-CM: R45.88 ), Intentional self-harm by blunt object( ICD-10-CM: X79.* ), Intentional self-harm by sharp object( ICD-10-CM: X78.* ), Intentional self-harm by handgun discharge( ICD-10-CM: X72.* ), Intentional self-harm by knife, sequela( ICD-10-CM: X78.1XXS ), Intentional self-harm by drowning and submersion( ICD-10-CM: X71.* ), Intentional self-harm by explosive material( ICD-10-CM: X75.* ), Intentional self-harm by other specified means( ICD-10-CM: X83.* ), Intentional self-harm by smoke, fire and flames( ICD-10-CM: X76.* ), Intentional self-harm by airgun, initial encounter( ICD-10-CM: X74.01XA ), Intentional self-harm by blunt object, sequela( ICD-10-CM: X79.XXXS ), Intentional self-harm by crashing of motor vehicle( ICD-10-CM: X82.* ), Intentional self-harm by explosive material, sequela( ICD-10-CM: X75.XXXS ), Intentional self-harm by handgun discharge, sequela( ICD-10-CM: X72.XXXS ), Intentional self-harm by jumping from a high place( ICD-10-CM: X80.* ), Intentional self-harm by knife, initial encounter( ICD-10-CM: X78.1XXA ), Intentional self-harm by blunt object, initial encounter( ICD-10-CM: X79.XXXA ), Intentional self-harm by electrocution, initial encounter( ICD-10-CM: X83.1XXA ), Intentional self-harm by handgun discharge, initial encounter( ICD-10-CM: X72.XXXA ), Intentional self-harm by hot tap water, initial encounter( ICD-10-CM: X77.1XXA ), Intentional self-harm by other hot fluids, initial encounter( ICD-10-CM: X77.2XXA ), Intentional self-harm by other hot objects, initial encounter( ICD-10-CM: X77.8XXA ), Intentional self-harm by paintball gun, initial encounter( ICD-10-CM: X74.02XA ), Intentional self-harm by sharp glass, initial encounter( ICD-10-CM: X78.0XXA ), Intentional self-harm by shotgun discharge, initial encounter( ICD-10-CM: X73.0XXA ), Intentional self-harm by steam, hot vapors and hot objects( ICD-10-CM: X77.* ), Intentional self-harm by sword or dagger, initial encounter( ICD-10-CM: X78.2XXA ), Poisoning by heroin, intentional self-harm, initial encounter( ICD-10-CM: T40.1X2A ), Poisoning by opium, intentional self-harm, initial encounter( ICD-10-CM: T40.0X2A ), Asphyxiation due to hanging, intentional self-harm, initial encounter( ICD-10-CM: T71.162A ), Intentional self-harm by explosive material, initial encounter( ICD-10-CM: X75.XXXA ), Intentional self-harm by crashing of aircraft, initial encounter( ICD-10-CM: X83.0XXA ), Intentional self-harm by exposure to extremes of cold, initial encounter( ICD-10-CM: X83.2XXA ), Intentional self-harm by hunting rifle discharge, initial encounter( ICD-10-CM: X73.1XXA ), Intentional self-harm by jumping from a high place, initial encounter( ICD-10-CM: X80.XXXA ), Intentional self-harm by jumping or lying in front of moving object( ICD-10-CM: X81.* ), Intentional self-harm by machine gun discharge, initial encounter( ICD-10-CM: X73.2XXA ), Intentional self-harm by other firearm discharge, initial encounter( ICD-10-CM: X74.8XXA ), Intentional self-harm by other and unspecified firearm and gun discharge( ICD-10-CM: X74.* ), Intentional self-harm by other sharp object, initial encounter( ICD-10-CM: X78.8XXA ), Intentional self-harm by other specified means, initial encounter( ICD-10-CM: X83.8XXA ), Intentional self-harm by rifle, shotgun and larger firearm discharge( ICD-10-CM: X73.* ), Poisoning by amphetamines, intentional self-harm, initial encounter( ICD-10-CM: T43.622A ), Poisoning by antiasthmatics, intentional self-harm, initial encounter( ICD-10-CM: T48.6X2A ), Poisoning by anticoagulants, intentional self-harm, initial encounter( ICD-10-CM: T45.512A ), Poisoning by antiviral drugs, intentional self-harm, initial encounter( ICD-10-CM: T37.5X2A ), Poisoning by aspirin, intentional self-harm, initial encounter( ICD-10-CM: T39.012A ), Poisoning by aspirin, intentional self-harm, subsequent encounter( ICD-10-CM: T39.012D ), Poisoning by barbiturates, intentional self-harm, initial encounter( ICD-10-CM: T42.3X2A ), Poisoning by benzodiazepines, intentional self-harm, initial encounter( ICD-10-CM: T42.4X2A ), Poisoning by caffeine, intentional self-harm, initial encounter( ICD-10-CM: T43.612A ), Poisoning by cannabis, intentional self-harm, initial encounter( ICD-10-CM: T40.712A ), Poisoning by ecstasy, intentional self-harm, initial encounter( ICD-10-CM: T43.642A ), Poisoning by digestants, intentional self-harm, initial encounter( ICD-10-CM: T47.5X2A ), Poisoning by expectorants, intentional self-harm, initial encounter( ICD-10-CM: T48.4X2A ), Poisoning by iminostilbenes, intentional self-harm, initial encounter( ICD-10-CM: T42.1X2A ), Poisoning by immunoglobulin, intentional self-harm, initial encounter( ICD-10-CM: T50.Z12A ), Poisoning by cocaine, intentional self-harm, initial encounter( ICD-10-CM: T40.5X2A ), Poisoning by tramadol, intentional self-harm, initial encounter( ICD-10-CM: T40.422A ), Poisoning by vitamins, intentional self-harm, initial encounter( ICD-10-CM: T45.2X2A ), Toxic effect of latex, intentional self-harm, initial encounter( ICD-10-CM: T65.812A ), Toxic effect of smoke, intentional self-harm, initial encounter( ICD-10-CM: T59.812A ), Toxic effect of soaps, intentional self-harm, initial encounter( ICD-10-CM: T55.0X2A ), Poisoning by macrolides, intentional self-harm, initial encounter( ICD-10-CM: T36.3X2A ), Poisoning by methadone, intentional self-harm, initial encounter( ICD-10-CM: T40.3X2A ), Toxic effect of ethanol, intentional self-harm, initial encounter( ICD-10-CM: T51.0X2A ), Toxic effect of glycols, intentional self-harm, initial encounter( ICD-10-CM: T52.3X2A ), Toxic effect of ketones, intentional self-harm, initial encounter( ICD-10-CM: T52.4X2A ), Poisoning by antipruritics, intentional self-harm, initial encounter( ICD-10-CM: T49.1X2A ), Poisoning by antitussives, intentional self-harm, initial encounter( ICD-10-CM: T48.3X2A ), Poisoning by other opioids, intentional self-harm, initial encounter( ICD-10-CM: T40.2X2A ), Poisoning by penicillins, intentional self-harm, initial encounter( ICD-10-CM: T36.0X2A ), Poisoning by rifampicins, intentional self-harm, initial encounter( ICD-10-CM: T36.6X2A ), Poisoning by salicylates, intentional self-harm, initial encounter( ICD-10-CM: T39.092A ), Poisoning by sulfonamides, intentional self-harm, initial encounter( ICD-10-CM: T37.0X2A ), Poisoning by tetracyclines, intentional self-harm, initial encounter( ICD-10-CM: T36.4X2A ), Toxic effect of 2-Propanol, intentional self-harm, initial encounter( ICD-10-CM: T51.2X2A ), Toxic effect of cyanides, intentional self-harm, initial encounter( ICD-10-CM: T65.0X2A ), Toxic effect of detergents, intentional self-harm, initial encounter( ICD-10-CM: T55.1X2A ), Toxic effect of fusel oil, intentional self-harm, initial encounter( ICD-10-CM: T51.3X2A ), Toxic effect of gadolinium, intentional self-harm, initial encounter( ICD-10-CM: T56.822A ), Toxic effect of methanol, intentional self-harm, initial encounter( ICD-10-CM: T51.1X2A ), Poisoning by anthelminthics, intentional self-harm, initial encounter( ICD-10-CM: T37.4X2A ), Poisoning by lysergide (lsd), intentional self-harm, initial encounter( ICD-10-CM: T40.8X2A ), Poisoning by methamphetamines intentional self-harm, initial encounter( ICD-10-CM: T43.652A ), Poisoning by methylphenidate, intentional self-harm, initial encounter( ICD-10-CM: T43.632A ), Poisoning by other laxatives, intentional self-harm, initial encounter( ICD-10-CM: T47.4X2A ), Poisoning by oxytocic drugs, intentional self-harm, initial encounter( ICD-10-CM: T48.0X2A ), Toxic effect of chlorine gas, intentional self-harm, initial encounter( ICD-10-CM: T59.4X2A ), Toxic effect of formaldehyde, intentional self-harm, initial encounter( ICD-10-CM: T59.2X2A ), Toxic effect of other metals, intentional self-harm, initial encounter( ICD-10-CM: T56.892A ), Toxic effect of rodenticides, intentional self-harm, initial encounter( ICD-10-CM: T60.4X2A ), Asphyxiation due to plastic bag, intentional self-harm, initial encounter( ICD-10-CM: T71.122A ), Poisoning by antithyroid drugs, intentional self-harm, initial encounter( ICD-10-CM: T38.2X2A ), Poisoning by local anesthetics, intentional self-harm, initial encounter( ICD-10-CM: T41.3X2A ), Poisoning by therapeutic gases, intentional self-harm, initial encounter( ICD-10-CM: T41.5X2A ), Toxic effect of carbon dioxide, intentional self-harm, initial encounter( ICD-10-CM: T59.7X2A ), Toxic effect of chewing tobacco, intentional self-harm, initial encounter( ICD-10-CM: T65.212A ), Toxic effect of nitrogen oxides, intentional self-harm, initial encounter( ICD-10-CM: T59.0X2A ), Toxic effect of other alcohols, intentional self-harm, initial encounter( ICD-10-CM: T51.8X2A ), Toxic effect of venom of bees, intentional self-harm, initial encounter( ICD-10-CM: T63.442A ), Toxic effect of venom of wasps, intentional self-harm, initial encounter( ICD-10-CM: T63.462A ), Poisoning by antidiarrheal drugs, intentional self-harm, initial encounter( ICD-10-CM: T47.6X2A ), Poisoning by antithrombotic drugs, intentional self-harm, initial encounter( ICD-10-CM: T45.522A ), Poisoning by appetite depressants, intentional self-harm, initial encounter( ICD-10-CM: T50.5X2A ), Poisoning by coronary vasodilators, intentional self-harm, initial encounter( ICD-10-CM: T46.3X2A ), Poisoning by hydantoin derivatives, intentional self-harm, initial encounter( ICD-10-CM: T42.0X2A ), Poisoning by inhaled anesthetics, intentional self-harm, initial encounter( ICD-10-CM: T41.0X2A ), Poisoning by mixed antiepileptics, intentional self-harm, initial encounter( ICD-10-CM: T42.5X2A ), Poisoning by oral contraceptives, intentional self-harm, initial encounter( ICD-10-CM: T38.4X2A ), Poisoning by other antidepressants, intentional self-harm, initial encounter( ICD-10-CM: T43.292A ), Poisoning by other topical agents, intentional self-harm, initial encounter( ICD-10-CM: T49.8X2A ), Poisoning by other viral vaccines, intentional self-harm, initial encounter( ICD-10-CM: T50.B92A ), Poisoning by stimulant laxatives, intentional self-harm, initial encounter( ICD-10-CM: T47.2X2A ), Poisoning by unspecified narcotics, intentional self-harm, initial encounter( ICD-10-CM: T40.602A ), Toxic effect of hydrogen sulfide, intentional self-harm, initial encounter( ICD-10-CM: T59.6X2A ), Toxic effect of ingested berries, intentional self-harm, initial encounter( ICD-10-CM: T62.1X2A ), Toxic effect of ingested mushrooms, intentional self-harm, initial encounter( ICD-10-CM: T62.0X2A ), Toxic effect of other insecticides, intentional self-harm, initial encounter( ICD-10-CM: T60.2X2A ), Toxic effect of other pesticides, intentional self-harm, initial encounter( ICD-10-CM: T60.8X2A ), Toxic effect of petroleum products, intentional self-harm, initial encounter( ICD-10-CM: T52.0X2A ), Toxic effect of rattlesnake venom, intentional self-harm, initial encounter( ICD-10-CM: T63.012A ), Toxic effect of tobacco cigarettes, intentional self-harm, initial encounter( ICD-10-CM: T65.222A ), Poisoning by antimycobacterial drugs, intentional self-harm, initial encounter( ICD-10-CM: T37.1X2A ), Poisoning by calcium-channel blockers, intentional self-harm, initial encounter( ICD-10-CM: T46.1X2A ), Poisoning by iron and its compounds, intentional self-harm, initial encounter( ICD-10-CM: T45.4X2A ), Poisoning by other bacterial vaccines, intentional self-harm, initial encounter( ICD-10-CM: T50.A92A ), Poisoning by other psychostimulants, intentional self-harm, initial encounter( ICD-10-CM: T43.692A ), Poisoning by other psychotropic drugs, intentional self-harm, initial encounter( ICD-10-CM: T43.8X2A ), Poisoning by peripheral vasodilators, intentional self-harm, initial encounter( ICD-10-CM: T46.7X2A ), Poisoning by unspecified anesthetic, intentional self-harm, initial encounter( ICD-10-CM: T41.42XA ), Toxic effect of unspecified alcohol, intentional self-harm, initial encounter( ICD-10-CM: T51.92XA ), Toxic effect of unspecified pesticide, intentional self-harm, initial encounter( ICD-10-CM: T60.92XA ), Toxic effect of unspecified substance, intentional self-harm, initial encounter( ICD-10-CM: T65.92XA ), Poisoning by synthetic cannabinoids, intentional self-harm, initial encounter( ICD-10-CM: T40.722A ), Poisoning by 4-aminophenol derivatives, intentional self-harm, initial encounter( ICD-10-CM: T39.1X2A ), Poisoning by anticholinesterase agents, intentional self-harm, initial encounter( ICD-10-CM: T44.0X2A ), Poisoning by ganglionic blocking drugs, intentional self-harm, initial encounter( ICD-10-CM: T44.2X2A ), Poisoning by other antidysrhythmic drugs, intentional self-harm, initial encounter( ICD-10-CM: T46.2X2A ), Poisoning by other general anesthetics, intentional self-harm, initial encounter( ICD-10-CM: T41.292A ), Poisoning by propionic acid derivatives, intentional self-harm, initial encounter( ICD-10-CM: T39.312A ), Poisoning by tetracyclic antidepressants, intentional self-harm, initial encounter( ICD-10-CM: T43.022A ), Poisoning by tricyclic antidepressants, intentional self-harm, initial encounter( ICD-10-CM: T43.012A ), Poisoning by unspecified antidepressants, intentional self-harm, initial encounter( ICD-10-CM: T43.202A ), Poisoning by unspecified topical agent, intentional self-harm, initial encounter( ICD-10-CM: T49.92XA ), Toxic effect of lead and its compounds, intentional self-harm, initial encounter( ICD-10-CM: T56.0X2A ), Toxic effect of other organic solvents, intentional self-harm, initial encounter( ICD-10-CM: T52.8X2A ), Toxic effect of unspecified snake venom, intentional self-harm, initial encounter( ICD-10-CM: T63.002A ), Toxic effect of unspecified spider venom, intentional self-harm, initial encounter( ICD-10-CM: T63.302A ), Toxic effect of zinc and its compounds, intentional self-harm, initial encounter( ICD-10-CM: T56.5X2A ), Asphyxiation due to smothering under pillow, intentional self-harm, initial encounter( ICD-10-CM: T71.112A ), Poisoning by antidotes and chelating agents, intentional self-harm, initial encounter( ICD-10-CM: T50.6X2A ), Poisoning by fentanyl or fentanyl analogs, intentional self-harm, initial encounter( ICD-10-CM: T40.412A ), Poisoning by histamine h2-receptor blockers, intentional self-harm, initial encounter( ICD-10-CM: T47.0X2A ), Poisoning by other anti-common-cold drugs, intentional self-harm, initial encounter( ICD-10-CM: T48.5X2A ), Poisoning by other antihypertensive drugs, intentional self-harm, initial encounter( ICD-10-CM: T46.5X2A ), Poisoning by other drugs acting on muscles, intentional self-harm, initial encounter( ICD-10-CM: T48.292A ), Poisoning by saline and osmotic laxatives, intentional self-harm, initial encounter( ICD-10-CM: T47.3X2A ), Poisoning by unspecified psychostimulants, intentional self-harm, initial encounter( ICD-10-CM: T43.602A ), Poisoning by unspecified psychotropic drug, intentional self-harm, initial encounter( ICD-10-CM: T43.92XA ), Toxic effect of arsenic and its compounds, intentional self-harm, initial encounter( ICD-10-CM: T57.0X2A ), Toxic effect of cadmium and its compounds, intentional self-harm, initial encounter( ICD-10-CM: T56.3X2A ), Toxic effect of mercury and its compounds, intentional self-harm, initial encounter( ICD-10-CM: T56.1X2A ), Toxic effect of other specified substances, intentional self-harm, initial encounter( ICD-10-CM: T65.892A ), Toxic effect of other tobacco and nicotine, intentional self-harm, initial encounter( ICD-10-CM: T65.292A ), Poisoning by alpha-adrenoreceptor antagonists, intentional self-harm, initial encounter( ICD-10-CM: T44.6X2A ), Poisoning by antiallergic and antiemetic drugs, intentional self-harm, initial encounter( ICD-10-CM: T45.0X2A ), Poisoning by beta-adrenoreceptor antagonists, intentional self-harm, initial encounter( ICD-10-CM: T44.7X2A ), Poisoning by dental drugs, topically applied, intentional self-harm, initial encounter( ICD-10-CM: T49.7X2A ), Poisoning by other estrogens and progestogens, intentional self-harm, initial encounter( ICD-10-CM: T38.5X2A ), Poisoning by thyroid hormones and substitutes, intentional self-harm, initial encounter( ICD-10-CM: T38.1X2A ), Poisoning by unspecified systemic antibiotic, intentional self-harm, initial encounter( ICD-10-CM: T36.92XA ), Toxic effect of venom of brown recluse spider, intentional self-harm, initial encounter( ICD-10-CM: T63.332A ), Asphyxiation due to being trapped in a car trunk, intentional self-harm, initial encounter( ICD-10-CM: T71.222A ), Asphyxiation due to being trapped in bed linens, intentional self-harm, initial encounter( ICD-10-CM: T71.132A ), Poisoning by other antipsychotics and neuroleptics, intentional self-harm, initial encounter( ICD-10-CM: T43.592A ), Poisoning by succinimides and oxazolidinediones, intentional self-harm, initial encounter( ICD-10-CM: T42.2X2A ), Poisoning by unspecified drugs acting on muscles, intentional self-harm, initial encounter( ICD-10-CM: T48.202A ), Toxic effect of carbon monoxide from other source, intentional self-harm, initial encounter( ICD-10-CM: T58.8X2A ), Toxic effect of carbon monoxide from utility gas, intentional self-harm, initial encounter( ICD-10-CM: T58.12XA ), Toxic effect of other ingested (parts of) plant(s), intentional self-harm, initial encounter( ICD-10-CM: T62.2X2A ), Toxic effect of unspecified corrosive substance, intentional self-harm, initial encounter( ICD-10-CM: T54.92XA ), Toxic effect of unspecified inorganic substance, intentional self-harm, initial encounter( ICD-10-CM: T57.92XA ), Poisoning by antirheumatics, not elsewhere classified, intentional self-harm, initial encounter( ICD-10-CM: T39.4X2A ), Poisoning by glucocorticoids and synthetic analogues, intentional self-harm, initial encounter( ICD-10-CM: T38.0X2A ), Poisoning by antifungal antibiotics, systemically used, intentional self-harm, initial encounter( ICD-10-CM: T36.7X2A ), Poisoning by local astringents and local detergents, intentional self-harm, initial encounter( ICD-10-CM: T49.2X2A ), Poisoning by mineralocorticoids and their antagonists, intentional self-harm, initial encounter( ICD-10-CM: T50.0X2A ), Poisoning by other hormones and synthetic substitutes, intentional self-harm, initial encounter( ICD-10-CM: T38.892A ), Poisoning by other parasympathomimetics (cholinergics), intentional self-harm, initial encounter( ICD-10-CM: T44.1X2A ), Poisoning by other psychodysleptics (hallucinogens), intentional self-harm, initial encounter( ICD-10-CM: T40.992A ), Poisoning by selective serotonin reuptake inhibitors, intentional self-harm, initial encounter( ICD-10-CM: T43.222A ), Toxic effect of unspecified gases, fumes and vapors, intentional self-harm, initial encounter( ICD-10-CM: T59.92XA ), Poisoning by analeptics and opioid receptor antagonists, intentional self-harm, initial encounter( ICD-10-CM: T50.7X2A ), Poisoning by antineoplastic and immunosuppressive drugs, intentional self-harm, initial encounter( ICD-10-CM: T45.1X2A ), Poisoning by butyrophenone and thiothixene neuroleptics, intentional self-harm, initial encounter( ICD-10-CM: T43.4X2A ), Poisoning by monoamine-oxidase-inhibitor antidepressants, intentional self-harm, initial encounter( ICD-10-CM: T43.1X2A ), Poisoning by phenothiazine antipsychotics and neuroleptics, intentional self-harm, initial encounter( ICD-10-CM: T43.3X2A ), Poisoning by predominantly alpha-adrenoreceptor agonists, intentional self-harm, initial encounter( ICD-10-CM: T44.4X2A ), Poisoning by predominantly beta-adrenoreceptor agonists, intentional self-harm, initial encounter( ICD-10-CM: T44.5X2A ), Poisoning by unspecified antipsychotics and neuroleptics, intentional self-harm, initial encounter( ICD-10-CM: T43.502A ), Poisoning by unspecified psychodysleptics (hallucinogens), intentional self-harm, initial encounter( ICD-10-CM: T40.902A ), Toxic effect of carbon monoxide from unspecified source, intentional self-harm, initial encounter( ICD-10-CM: T58.92XA ), Toxic effect of organophosphate and carbamate insecticides, intentional self-harm, initial encounter( ICD-10-CM: T60.0X2A ), Toxic effect of other specified gases, fumes and vapors, intentional self-harm, initial encounter( ICD-10-CM: T59.892A ), Poisoning by antihyperlipidemic and antiarteriosclerotic drugs, intentional self-harm, initial encounter( ICD-10-CM: T46.6X2A ), Poisoning by cephalosporins and other beta-lactam antibiotics, intentional self-harm, initial encounter( ICD-10-CM: T36.1X2A ), Poisoning by anterior pituitary (adenohypophyseal) hormones, intentional self-harm, initial encounter( ICD-10-CM: T38.812A ), Poisoning by electrolytic, caloric and water-balance agents, intentional self-harm, initial encounter( ICD-10-CM: T50.3X2A ), Poisoning by other antacids and anti-gastric-secretion drugs, intentional self-harm, initial encounter( ICD-10-CM: T47.1X2A ), Poisoning by other antiepileptic and sedative-hypnotic drugs, intentional self-harm, initial encounter( ICD-10-CM: T42.6X2A ), Poisoning by other primarily systemic and hematological agents, intentional self-harm, initial encounter( ICD-10-CM: T45.8X2A ), Poisoning by other drugs, medicaments and biological substances, intentional self-harm, initial encounter( ICD-10-CM: T50.992A ), Poisoning by other nonsteroidal anti-inflammatory drugs (nsaid), intentional self-harm, initial encounter( ICD-10-CM: T39.392A ), Poisoning by insulin and oral hypoglycemic (antidiabetic) drugs, intentional self-harm, initial encounter( ICD-10-CM: T38.3X2A ), Asphyxiation due to mechanical threat to breathing due to other causes, intentional self-harm, initial encounter( ICD-10-CM: T71.192A ), Poisoning by anticoagulant antagonists, vitamin k and other coagulants, intentional self-harm, initial encounter( ICD-10-CM: T45.7X2A ), Poisoning by antimalarials and drugs acting on other blood protozoa, intentional self-harm, initial encounter( ICD-10-CM: T37.2X2A ), Toxic effect of other halogen derivatives of aliphatic hydrocarbons, intentional self-harm, initial encounter( ICD-10-CM: T53.6X2A ), Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm, initial encounter( ICD-10-CM: T50.902A ), Poisoning by other drug primarily affecting the autonomic nervous system, intentional self-harm, initial encounter( ICD-10-CM: T44.992A ), Poisoning by other specified systemic anti-infectives and antiparasitics, intentional self-harm, initial encounter( ICD-10-CM: T37.8X2A ), Poisoning by antiparkinsonism drugs and other central muscle-tone depressants, intentional self-harm, initial encounter( ICD-10-CM: T42.8X2A ), Poisoning by unspecified nonopioid analgesic, antipyretic and antirheumatic, intentional self-harm, initial encounter( ICD-10-CM: T39.92XA ), Poisoning by unspecified agents primarily affecting the cardiovascular system, intentional self-harm, initial encounter( ICD-10-CM: T46.902A ), Poisoning by multiple unspecified drugs, medicaments and biological substances, intentional self-harm, initial encounter( ICD-10-CM: T50.912A ), Poisoning by unspecified agents primarily acting on the respiratory system, intentional self-harm, initial encounter( ICD-10-CM: T48.902A ), Poisoning by local antifungal, anti-infective and anti-inflammatory drugs, intentional self-harm, initial encounter( ICD-10-CM: T49.0X2A ), Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm, initial encounter( ICD-10-CM: T46.0X2A ), Poisoning by centrally-acting and adrenergic-neuron-blocking agents, intentional self-harm, initial encounter( ICD-10-CM: T44.8X2A ), Poisoning by mixed bacterial vaccines without a pertussis component, intentional self-harm, initial encounter( ICD-10-CM: T50.A22A ), Poisoning by other agents primarily acting on the respiratory system, intentional self-harm, initial encounter( ICD-10-CM: T48.992A ), Poisoning by unspecified antiepileptic and sedative-hypnotic drugs, intentional self-harm, initial encounter( ICD-10-CM: T42.72XA ), Toxic effect of nitroglycerin and other nitric acids and esters, intentional self-harm, initial encounter( ICD-10-CM: T65.5X2A ), Toxic effect of corrosive alkalis and alkali-like substances, intentional self-harm, initial encounter( ICD-10-CM: T54.3X2A ), Toxic effect of unspecified noxious substance eaten as food, intentional self-harm, initial encounter( ICD-10-CM: T62.92XA ), Toxic effect of carbon monoxide from motor vehicle exhaust, intentional self-harm, initial encounter( ICD-10-CM: T58.02XA ), Poisoning by androgens and anabolic congeners, intentional self-harm, initial encounter( ICD-10-CM: T38.7X2A ), Toxic effect of venom of other arthropod, intentional self-harm, initial encounter( ICD-10-CM: T63.482A ), Poisoning by other synthetic narcotics, intentional self-harm, initial encounter( ICD-10-CM: T40.492A ), Asphyxiation due to being trapped in a (discarded) refrigerator, intentional self-harm, initial encounter( ICD-10-CM: T71.232A ), Poisoning by selective serotonin and norepinephrine reuptake inhibitors, intentional self-harm, initial encounter( ICD-10-CM: T43.212A ), Poisoning by skeletal muscle relaxants (neuromuscular blocking agents), intentional self-harm, initial encounter( ICD-10-CM: T48.1X2A ), Poisoning by carbonic-anhydrase inhibitors, benzothiadiazides and other diuretics, intentional self-harm, initial encounter( ICD-10-CM: T50.2X2A ), Poisoning by unspecified drugs primarily affecting the autonomic nervous system, intentional self-harm, initial encounter( ICD-10-CM: T44.902A ), Poisoning by other nonopioid analgesics and antipyretics, not elsewhere classified, intentional self-harm, initial encounter( ICD-10-CM: T39.8X2A ), Poisoning by other parasympatholytics (anticholinergics and antimuscarinics) and spasmolytics, intentional self-harm, initial encounter( ICD-10-CM: T44.3X2A ), Poisoning by keratolytics, keratoplastics, and other hair treatment drugs and preparations, intentional self-harm, initial encounter( ICD-10-CM: T49.4X2A ), Toxic effect of carbon monoxide from incomplete combustion of other domestic fuels, intentional self-harm, initial encounter( ICD-10-CM: T58.2X2A )",Encounter Type: Emergency
+Session Date Range,1/6/2019 - 3/26/2025,
+Measure,Number of Patients,
+Export User,Stephanie Perniciaro,
+Date of Export,4/11/2025,
+,,
+,,
+,,Number of Patients
+State of Residence (U.S.),Age at Encounter in Years,
+North Carolina,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,436
+,≥ 15 and < 20 Years,849
+,≥ 20 and < 40 Years,1256
+,≥ 40 and < 65 Years,757
+,65 Years or more,131
+,No value,10 or fewer
+,"Total: Total includes all data under the North Carolina bucket, including data from rows not currently displayed.",3428
+Texas,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,838
+,≥ 15 and < 20 Years,1192
+,≥ 20 and < 40 Years,584
+,≥ 40 and < 65 Years,308
+,65 Years or more,57
+,No value,10 or fewer
+,"Total: Total includes all data under the Texas bucket, including data from rows not currently displayed.",2980
+Ohio,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,202
+,≥ 15 and < 20 Years,546
+,≥ 20 and < 40 Years,1127
+,≥ 40 and < 65 Years,585
+,65 Years or more,107
+,No value,10 or fewer
+,"Total: Total includes all data under the Ohio bucket, including data from rows not currently displayed.",2570
+Florida,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,229
+,≥ 15 and < 20 Years,435
+,≥ 20 and < 40 Years,527
+,≥ 40 and < 65 Years,432
+,65 Years or more,98
+,No value,10 or fewer
+,"Total: Total includes all data under the Florida bucket, including data from rows not currently displayed.",1721
+Virginia,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,144
+,≥ 15 and < 20 Years,412
+,≥ 20 and < 40 Years,668
+,≥ 40 and < 65 Years,409
+,65 Years or more,73
+,No value,10 or fewer
+,"Total: Total includes all data under the Virginia bucket, including data from rows not currently displayed.",1706
+Pennsylvania,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,101
+,≥ 15 and < 20 Years,273
+,≥ 20 and < 40 Years,614
+,≥ 40 and < 65 Years,401
+,65 Years or more,92
+,No value,10 or fewer
+,"Total: Total includes all data under the Pennsylvania bucket, including data from rows not currently displayed.",1479
+Michigan,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,141
+,≥ 15 and < 20 Years,330
+,≥ 20 and < 40 Years,576
+,≥ 40 and < 65 Years,364
+,65 Years or more,58
+,No value,10 or fewer
+,"Total: Total includes all data under the Michigan bucket, including data from rows not currently displayed.",1472
+Indiana,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,157
+,≥ 15 and < 20 Years,337
+,≥ 20 and < 40 Years,501
+,≥ 40 and < 65 Years,340
+,65 Years or more,41
+,No value,10 or fewer
+,"Total: Total includes all data under the Indiana bucket, including data from rows not currently displayed.",1372
+Illinois,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,97
+,≥ 15 and < 20 Years,283
+,≥ 20 and < 40 Years,548
+,≥ 40 and < 65 Years,315
+,65 Years or more,45
+,No value,10 or fewer
+,"Total: Total includes all data under the Illinois bucket, including data from rows not currently displayed.",1287
+Colorado,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,139
+,≥ 15 and < 20 Years,262
+,≥ 20 and < 40 Years,456
+,≥ 40 and < 65 Years,202
+,65 Years or more,43
+,No value,10 or fewer
+,"Total: Total includes all data under the Colorado bucket, including data from rows not currently displayed.",1103
+Minnesota,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,91
+,≥ 15 and < 20 Years,242
+,≥ 20 and < 40 Years,497
+,≥ 40 and < 65 Years,193
+,65 Years or more,41
+,No value,10 or fewer
+,"Total: Total includes all data under the Minnesota bucket, including data from rows not currently displayed.",1064
+Iowa,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,99
+,≥ 15 and < 20 Years,274
+,≥ 20 and < 40 Years,413
+,≥ 40 and < 65 Years,231
+,65 Years or more,33
+,No value,10 or fewer
+,"Total: Total includes all data under the Iowa bucket, including data from rows not currently displayed.",1045
+Georgia,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,219
+,≥ 15 and < 20 Years,314
+,≥ 20 and < 40 Years,302
+,≥ 40 and < 65 Years,169
+,65 Years or more,32
+,No value,10 or fewer
+,"Total: Total includes all data under the Georgia bucket, including data from rows not currently displayed.",1042
+South Carolina,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,150
+,≥ 15 and < 20 Years,239
+,≥ 20 and < 40 Years,329
+,≥ 40 and < 65 Years,203
+,65 Years or more,43
+,No value,10 or fewer
+,"Total: Total includes all data under the South Carolina bucket, including data from rows not currently displayed.",966
+Wisconsin,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,187
+,≥ 15 and < 20 Years,286
+,≥ 20 and < 40 Years,287
+,≥ 40 and < 65 Years,171
+,65 Years or more,24
+,No value,10 or fewer
+,"Total: Total includes all data under the Wisconsin bucket, including data from rows not currently displayed.",955
+New York,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,90
+,≥ 15 and < 20 Years,193
+,≥ 20 and < 40 Years,348
+,≥ 40 and < 65 Years,194
+,65 Years or more,52
+,No value,10 or fewer
+,"Total: Total includes all data under the New York bucket, including data from rows not currently displayed.",877
+Arkansas,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,124
+,≥ 15 and < 20 Years,217
+,≥ 20 and < 40 Years,267
+,≥ 40 and < 65 Years,176
+,65 Years or more,15
+,No value,10 or fewer
+,"Total: Total includes all data under the Arkansas bucket, including data from rows not currently displayed.",799
+Mississippi,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,151
+,≥ 15 and < 20 Years,227
+,≥ 20 and < 40 Years,241
+,≥ 40 and < 65 Years,158
+,65 Years or more,15
+,No value,10 or fewer
+,"Total: Total includes all data under the Mississippi bucket, including data from rows not currently displayed.",794
+Kentucky,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,90
+,≥ 15 and < 20 Years,172
+,≥ 20 and < 40 Years,303
+,≥ 40 and < 65 Years,200
+,65 Years or more,26
+,No value,10 or fewer
+,"Total: Total includes all data under the Kentucky bucket, including data from rows not currently displayed.",788
+Connecticut,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,115
+,≥ 15 and < 20 Years,199
+,≥ 20 and < 40 Years,227
+,≥ 40 and < 65 Years,134
+,65 Years or more,36
+,No value,10 or fewer
+,"Total: Total includes all data under the Connecticut bucket, including data from rows not currently displayed.",712
+Nebraska,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,47
+,≥ 15 and < 20 Years,159
+,≥ 20 and < 40 Years,333
+,≥ 40 and < 65 Years,144
+,65 Years or more,21
+,No value,10 or fewer
+,"Total: Total includes all data under the Nebraska bucket, including data from rows not currently displayed.",703
+California,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,72
+,≥ 15 and < 20 Years,152
+,≥ 20 and < 40 Years,267
+,≥ 40 and < 65 Years,147
+,65 Years or more,40
+,No value,10 or fewer
+,"Total: Total includes all data under the California bucket, including data from rows not currently displayed.",680
+Maryland,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,74
+,≥ 15 and < 20 Years,151
+,≥ 20 and < 40 Years,270
+,≥ 40 and < 65 Years,138
+,65 Years or more,33
+,No value,10 or fewer
+,"Total: Total includes all data under the Maryland bucket, including data from rows not currently displayed.",667
+Louisiana,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,71
+,≥ 15 and < 20 Years,129
+,≥ 20 and < 40 Years,237
+,≥ 40 and < 65 Years,157
+,65 Years or more,26
+,No value,10 or fewer
+,"Total: Total includes all data under the Louisiana bucket, including data from rows not currently displayed.",622
+Arizona,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,18
+,≥ 15 and < 20 Years,75
+,≥ 20 and < 40 Years,286
+,≥ 40 and < 65 Years,188
+,65 Years or more,30
+,No value,10 or fewer
+,"Total: Total includes all data under the Arizona bucket, including data from rows not currently displayed.",597
+Oregon,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,71
+,≥ 15 and < 20 Years,132
+,≥ 20 and < 40 Years,202
+,≥ 40 and < 65 Years,102
+,65 Years or more,26
+,No value,10 or fewer
+,"Total: Total includes all data under the Oregon bucket, including data from rows not currently displayed.",534
+New Jersey,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,53
+,≥ 15 and < 20 Years,118
+,≥ 20 and < 40 Years,190
+,≥ 40 and < 65 Years,132
+,65 Years or more,20
+,No value,10 or fewer
+,"Total: Total includes all data under the New Jersey bucket, including data from rows not currently displayed.",512
+North Dakota,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,58
+,≥ 15 and < 20 Years,146
+,≥ 20 and < 40 Years,186
+,≥ 40 and < 65 Years,76
+,65 Years or more,13
+,No value,10 or fewer
+,"Total: Total includes all data under the North Dakota bucket, including data from rows not currently displayed.",481
+Massachusetts,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,50
+,≥ 15 and < 20 Years,106
+,≥ 20 and < 40 Years,160
+,≥ 40 and < 65 Years,109
+,65 Years or more,30
+,No value,10 or fewer
+,"Total: Total includes all data under the Massachusetts bucket, including data from rows not currently displayed.",457
+Tennessee,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,57
+,≥ 15 and < 20 Years,117
+,≥ 20 and < 40 Years,153
+,≥ 40 and < 65 Years,90
+,65 Years or more,18
+,No value,10 or fewer
+,"Total: Total includes all data under the Tennessee bucket, including data from rows not currently displayed.",439
+Oklahoma,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,68
+,≥ 15 and < 20 Years,117
+,≥ 20 and < 40 Years,131
+,≥ 40 and < 65 Years,71
+,65 Years or more,12
+,No value,10 or fewer
+,"Total: Total includes all data under the Oklahoma bucket, including data from rows not currently displayed.",402
+Washington,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,29
+,≥ 15 and < 20 Years,78
+,≥ 20 and < 40 Years,144
+,≥ 40 and < 65 Years,95
+,65 Years or more,15
+,No value,10 or fewer
+,"Total: Total includes all data under the Washington bucket, including data from rows not currently displayed.",361
+West Virginia,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,38
+,≥ 15 and < 20 Years,72
+,≥ 20 and < 40 Years,114
+,≥ 40 and < 65 Years,76
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the West Virginia bucket, including data from rows not currently displayed.",309
+Idaho,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,37
+,≥ 15 and < 20 Years,68
+,≥ 20 and < 40 Years,104
+,≥ 40 and < 65 Years,55
+,65 Years or more,13
+,No value,10 or fewer
+,"Total: Total includes all data under the Idaho bucket, including data from rows not currently displayed.",275
+Kansas,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,24
+,≥ 15 and < 20 Years,59
+,≥ 20 and < 40 Years,101
+,≥ 40 and < 65 Years,55
+,65 Years or more,15
+,No value,10 or fewer
+,"Total: Total includes all data under the Kansas bucket, including data from rows not currently displayed.",255
+Missouri,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,32
+,≥ 20 and < 40 Years,81
+,≥ 40 and < 65 Years,45
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Missouri bucket, including data from rows not currently displayed.",177
+Nevada,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,30
+,≥ 20 and < 40 Years,82
+,≥ 40 and < 65 Years,47
+,65 Years or more,11
+,No value,10 or fewer
+,"Total: Total includes all data under the Nevada bucket, including data from rows not currently displayed.",177
+South Dakota,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,24
+,≥ 15 and < 20 Years,60
+,≥ 20 and < 40 Years,46
+,≥ 40 and < 65 Years,23
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the South Dakota bucket, including data from rows not currently displayed.",155
+Alabama,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,29
+,≥ 20 and < 40 Years,77
+,≥ 40 and < 65 Years,28
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Alabama bucket, including data from rows not currently displayed.",145
+Montana,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,20
+,≥ 15 and < 20 Years,38
+,≥ 20 and < 40 Years,45
+,≥ 40 and < 65 Years,19
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Montana bucket, including data from rows not currently displayed.",128
+Delaware,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,26
+,≥ 15 and < 20 Years,40
+,≥ 20 and < 40 Years,34
+,≥ 40 and < 65 Years,16
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Delaware bucket, including data from rows not currently displayed.",118
+Vermont,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,28
+,≥ 20 and < 40 Years,26
+,≥ 40 and < 65 Years,14
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Vermont bucket, including data from rows not currently displayed.",79
+Maine,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,15
+,≥ 20 and < 40 Years,23
+,≥ 40 and < 65 Years,16
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Maine bucket, including data from rows not currently displayed.",60
+Wyoming,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,19
+,≥ 20 and < 40 Years,18
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Wyoming bucket, including data from rows not currently displayed.",57
+Hawaii,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,18
+,≥ 40 and < 65 Years,12
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Hawaii bucket, including data from rows not currently displayed.",56
+Utah,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,15
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Utah bucket, including data from rows not currently displayed.",36
+New Mexico,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,15
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the New Mexico bucket, including data from rows not currently displayed.",28
+New Hampshire,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,10 or fewer
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the New Hampshire bucket, including data from rows not currently displayed.",26
+Rhode Island,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,10 or fewer
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Rhode Island bucket, including data from rows not currently displayed.",21
+District of Columbia,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,10 or fewer
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the District of Columbia bucket, including data from rows not currently displayed.",13
+Alaska,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,10 or fewer
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Alaska bucket, including data from rows not currently displayed.",10 or fewer
+Armed Forces Africa,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,10 or fewer
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Armed Forces Africa bucket, including data from rows not currently displayed.",10 or fewer
+Puerto Rico,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,10 or fewer
+,≥ 15 and < 20 Years,10 or fewer
+,≥ 20 and < 40 Years,10 or fewer
+,≥ 40 and < 65 Years,10 or fewer
+,65 Years or more,10 or fewer
+,No value,10 or fewer
+,"Total: Total includes all data under the Puerto Rico bucket, including data from rows not currently displayed.",10 or fewer
+None of the above,Less than 10 Years,10 or fewer
+,≥ 10 and < 15 Years,20
+,≥ 15 and < 20 Years,46
+,≥ 20 and < 40 Years,102
+,≥ 40 and < 65 Years,56
+,65 Years or more,11
+,No value,10 or fewer
+,"Total: Total includes all data under the None of the above bucket, including data from rows not currently displayed.",234
+Total,Less than 10 Years,88
+,≥ 10 and < 15 Years,4722
+,≥ 15 and < 20 Years,9337
+,≥ 20 and < 40 Years,13558
+,≥ 40 and < 65 Years,7884
+,65 Years or more,1448
+,No value,10 or fewer
+,"Total: Total includes all data under the Total bucket, including data from rows not currently displayed.",36969
