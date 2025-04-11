@@ -23,6 +23,7 @@
 
 suppressPackageStartupMessages({
   library("arrow")
+  library("readxl")
   library("assertthat")
   library("tidyr")
   library("dplyr")
@@ -45,7 +46,8 @@ datetimeStamp(storeIn = "RESP NET Archive", goalDate = as.POSIXct("2025-03-30 23
 datetimeStamp <- function(storeIn, goalDate = lubridate::now(), basepath = "Data Pull", timeZone = "EST") {
   # Previously was mostRecentTimestamp() and retrievePath() used by retrieveRDS().
   # 
-  #  "basepath": path location following the getwd() result.
+  #   basepath": path location following the getwd() result.
+  #   "storeIn": archive directory name, immediately following basepath.
   #  "goalDate": the relative date to find archival history. Can be set to
   #              any date prior to the current date.
   #  "timeZone": the lubridate time zone for the time stamp.
@@ -168,7 +170,7 @@ storeFile <- function(pulledData, sourceName, storeIn, fileType = "parquet",
   # Previously was storeRDS().
   # 
   #     "pulledData": the data recently queried from the API into memory.
-  #     "sourceName": the name of the source. Recommend using standard naming
+  #     "sourceName": the name of the source. Recommend using standard naming.
   #                   schemes to better manage archive. One "source" for one API.
   #       "basepath": path location following the getwd() result.
   #        "storeIn": archive directory name, immediately following basepath.
@@ -176,9 +178,10 @@ storeFile <- function(pulledData, sourceName, storeIn, fileType = "parquet",
   #                   is "csv".
   #    "includeTime": toggle to include or exclude the hour and minutes with
   #                   the date.
+  # "stampBeginning": toggle where to place time and date stamp.
   #      "tolerance": the difference (in hours) between the nearest recorded
   #                   archival record for the same source.
-  # "stampBeginning": toggle where to place time and date stamp.
+  #       "timeZone": the lubridate time zone for the time stamp.
   # 
   # 
   # This function will store the file called into memory from a specific API.
@@ -203,7 +206,7 @@ storeFile <- function(pulledData, sourceName, storeIn, fileType = "parquet",
   # an existing file or is going to save something within a specified time frame 
   # since the recent pull.
   
-  mostRecent <- datetimeStamp(storeIn = storeIn, basepath = basepath)
+  mostRecent <- suppressMessages(datetimeStamp(storeIn = storeIn, basepath = basepath))
   
   # Current time translated into the timezone of the history record.
   time_now  <- Sys.time() %>% as.POSIXct(., tz = timeZone)
@@ -261,7 +264,7 @@ storeFile <- function(pulledData, sourceName, storeIn, fileType = "parquet",
     fileName <- paste(sourceName, addTime, sep = "_")
   }
   
-  
+  # Write different file types.
   if(fileType == "parquet") {
     writepath <- file.path(basepath, storeIn, paste(fileName, ".parquet", sep = ""))
     
@@ -285,66 +288,175 @@ storeFile <- function(pulledData, sourceName, storeIn, fileType = "parquet",
 
 url_rsv_net <- "https://data.cdc.gov/resource/29hc-w46k.csv"
 
+runIfExpired(sourceName = "rsv-net", storeIn = "RESP NET Archive Test", 
+             f = ~ read.socrata(url_rsv_net))
+
 
 runIfExpired <- function(sourceName, storeIn, f, fileType = "parquet", returnRecent = TRUE,
                          includeTime = TRUE, stampBeginning = TRUE, tolerance = (24*7), 
                          basepath = "Data Pull", timeZone = "EST") {
-  sourceName = "rsv-net"
-  storeIn = "RESP NET Archive Test"
-  f = ~ read.socrata(url_rsv_net)
-  basepath = "Data Pull"
-  fileType = "parquet"
-  tolerance = 24
-  returnRecent = TRUE
-  includeTime = TRUE
-  stampBeginning = TRUE
-  timeZone = "EST"
+  #     "sourceName": the name of the source. Recommend using standard naming
+  #                   schemes to better manage archive. One "source" for one API.
+  #              "f": the API URL used to call in the data through Rsocrata().
+  #       "basepath": path location following the getwd() result.
+  #        "storeIn": archive directory name, immediately following basepath.
+  #       "fileType": choose the file type saved. Default is "parquet", alternative
+  #                   is "csv".
+  #   "returnRecent": if the data had been archived within the tolerance, toggle
+  #                   this setting to optionally pull in the recently archived file.
+  #    "includeTime": toggle to include or exclude the hour and minutes with
+  #                   the date.
+  # "stampBeginning": toggle where to place time and date stamp.
+  #      "tolerance": the difference (in hours) between the nearest recorded
+  #                   archival record for the same source.
+  #       "timeZone": the lubridate time zone for the time stamp.
+  # 
+  # 
+  # This function will pull in data using the user-provided URL to an Rsocrata()
+  # compatible API. It will do light checks with the current archive present
+  # in the destined directory, but most of those QC checks are handled in
+  # storeFile() and/or datetimeStamp().
+  # 
+  # The user can set the tolerance level, in which the function will evaluate
+  # the current date and time of the query with the most recent file for that
+  # source present in the directory. If it is within the tolerance level, the
+  # function will either pull in the most recent archive already saved, or
+  # else return nothing. New files are written only when the time space is
+  # outside of the tolerance level.
   
   
+  # Quick check about archive status before calling in the file.
+  mostRecent <- suppressMessages(datetimeStamp(storeIn = storeIn, basepath = basepath))
   
-  api_function <- rlang::as_function(f)
+  # Current time translated into the timezone of the history record.
+  time_now  <- Sys.time() %>% as.POSIXct(., tz = timeZone)
   
-  mostRecent_check <- datetimeStamp(storeIn = storeIn, basepath = basepath)
   
-  if(mostRecent_check) {
-    mostRecent <- mostRecent_check$`Report Relative to Date` %>%
-      filter(Source == source, Status %in% c("Recent Pull", "Both"))
-  }
-  
-  if(is.null(mostRecent_check)){
-    mostRecent <- data.frame(History = 99999)
-  }
-  
-  if ( is.null(mostRecent_check) ) {
-    #run this if the directory is empty
-    #rm_recent_null()
-    data <- api_function()
+  # If there are no records in the directory or if there are but none are for the 
+  # sourceName, then save a new file.
+  if(any(mostRecent == "No History") | length(mostRecent) != 2) {
+    # Call in the data from the API.
+    pulledData <- rlang::as_function(f)()
     
-    message(sprintf("NEW dataset for '%s' in this directory.", source))
-    storeParquet(data, source, storeIn, basepath, tolerance,mostRecent)
-    full_path <- paste(basepath,source,storeIn, sep='/')
-    new.file <- list.files(path=paste(basepath,source,storeIn, sep='/'))
+    # Store the file with the user-provided settings.
+    storeFile(pulledData, sourceName = sourceName, storeIn = storeIn, fileType = fileType, 
+              includeTime = includeTime, stampBeginning = stampBeginning, tolerance = tolerance, 
+              basepath = basepath, timeZone = timeZone)
     
-    return(read_parquet( paste(full_path,new.file , sep='/')))
+    return(pulledData)
     
-  } else if(returnRecent == TRUE & mostRecent$History %--% now() < hours(tolerance) ){
-    message(sprintf("OLD dataset for '%s' is being called to memory. Save query is within the tolerance level.", source))
-    full_path <- paste(basepath,source,storeIn, sep='/')
+  # If there are records for sourceName, then do a quick check for 
+  } else {
+    mostRecent <- suppressMessages(datetimeStamp(storeIn = storeIn, basepath = basepath))$`Report Relative to Date` %>%
+      filter(Source == sourceName)
     
-    return(read_parquet( file.path(basepath,  source, storeIn, mostRecent$filePath) ))
-    
-  } else if(returnRecent == FALSE & mostRecent$History %--% now() < hours(tolerance)) {
-    message(sprintf("Request is too close to the most recent archive '%s'.", mostRecent$filePath))
-    return(NULL)
-    
-  } else{
-    data <- api_function()
-    message(sprintf("Added another dataset for '%s' in this directory.", source))
-    return(storeParquet(data, source, storeIn, basepath, tolerance,mostRecent))
-    
+    # Consider if the user wants to pull in the recently saved file if the
+    # recent archive happened within the tolerance. If outside of the tolerance
+    # then only load the recently pulled data into memory.
+    if( returnRecent == TRUE & mostRecent$History %--% now() < hours(tolerance) ){
+      message(sprintf("OLD dataset for '%s' is being called to memory. Save query is within the tolerance level.", sourceName))
+      
+      # Depending on the file type, read in the file. Handle CSV, XLSX, or Parquet
+      # file types.
+      if(str_detect(mostRecent$filePath, "csv\\b")) {
+        return( read.csv(file.path(basepath, storeIn, mostRecent$filePath)) )
+        
+      } else if(str_detect(mostRecent$filePath, "parquet\\b")) {
+        return( read_parquet(file.path(basepath, storeIn, mostRecent$filePath)) )
+        
+      } else if(str_detect(mostRecent$filePath, "xlsx\\b")) {
+        return( read_excel(file.path(basepath, storeIn, mostRecent$filePath)) )
+        
+      }
+      
+    # If within tolerance, and the user does not want to load recent file, then
+    # exit the operation.
+    } else if(returnRecent == FALSE & mostRecent$History %--% now() < hours(tolerance) ) {
+      stop(sprintf("Request is too close to the most recent archive of '%s'.", mostRecent$filePath))
+      
+    # Recent pull is outside of the user-provided tolerance, then save a new
+    # file to the archive and return the recent pull to memory.
+    } else {
+      # Call in the data from the API.
+      pulledData <- rlang::as_function(f)()
+      
+      # Store the file with the user-provided settings.
+      storeFile(pulledData, sourceName = sourceName, storeIn = storeIn, fileType = fileType, 
+                includeTime = includeTime, stampBeginning = stampBeginning, tolerance = tolerance, 
+                basepath = basepath, timeZone = timeZone)
+      
+      return(pulledData)
+      
+    }
   }
   
 }
+
+
+
+
+# runIfExpired <- function(sourceName, storeIn, f, fileType = "parquet", returnRecent = TRUE,
+#                          includeTime = TRUE, stampBeginning = TRUE, tolerance = (24*7), 
+#                          basepath = "Data Pull", timeZone = "EST") {
+#   sourceName = "rsv-net"
+#   storeIn = "RESP NET Archive Test"
+#   f = ~ read.socrata(url_rsv_net)
+#   basepath = "Data Pull"
+#   fileType = "parquet"
+#   tolerance = 24
+#   returnRecent = TRUE
+#   includeTime = TRUE
+#   stampBeginning = TRUE
+#   timeZone = "EST"
+#   
+#   
+#   
+#   api_function <- rlang::as_function(f)
+#   
+#   mostRecent_check <- datetimeStamp(storeIn = storeIn, basepath = basepath)
+#   
+#   if(mostRecent_check)  {
+#     mostRecent <- mostRecent_check$`Report Relative to Date` %>%
+#       filter(Source == source, Status %in% c("Recent Pull", "Both"))
+#   }
+#   
+#   if(is.null(mostRecent_check)){
+#     mostRecent <- data.frame(History = 99999)
+#   }
+#   
+#   if ( is.null(mostRecent_check) ) {
+#     #run this if the directory is empty
+#     #rm_recent_null()
+#     data <- api_function()
+#     
+#     message(sprintf("NEW dataset for '%s' in this directory.", source))
+#     storeParquet(data, source, storeIn, basepath, tolerance,mostRecent)
+#     full_path <- paste(basepath,source,storeIn, sep='/')
+#     new.file <- list.files(path=paste(basepath,source,storeIn, sep='/'))
+#     
+#     return(read_parquet( paste(full_path,new.file , sep='/')))
+#     
+#   } else if(returnRecent == TRUE & mostRecent$History %--% now() < hours(tolerance) ){
+#     message(sprintf("OLD dataset for '%s' is being called to memory. Save query is within the tolerance level.", source))
+#     full_path <- paste(basepath,source,storeIn, sep='/')
+#     
+#     return(read_parquet( file.path(basepath,  source, storeIn, mostRecent$filePath) ))
+#     
+#   } else if(returnRecent == FALSE & mostRecent$History %--% now() < hours(tolerance)) {
+#     message(sprintf("Request is too close to the most recent archive '%s'.", mostRecent$filePath))
+#     return(NULL)
+#     
+#   } else{
+#     data <- api_function()
+#     message(sprintf("Added another dataset for '%s' in this directory.", source))
+#     return(storeParquet(data, source, storeIn, basepath, tolerance,mostRecent))
+#     
+#   }
+#   
+# }
+
+
+
 
 # -----------------------------
 # Remove missing entries from recently dated entries.
