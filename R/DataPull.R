@@ -21,7 +21,7 @@ source('./R/harmonize_epic.R')
 url_nssp <- "https://data.cdc.gov/resource/rdmq-nq56.csv"
 
 cdc_nssp_rsv_flu_covid_ed1 <- runIfExpired(source='nssp_ed1',storeIn='Raw',  basepath='./Data/Archive',
-                            f=~ read.socrata(url_nssp),tolerance=(24*7)
+                                           f=~ read.socrata(url_nssp),tolerance=(24*7)
 )
 
 nssp_harmonized_rsv <- cdc_nssp_rsv_flu_covid_ed1 %>%
@@ -240,7 +240,7 @@ google_rsv_vax <- runIfExpired(source='google_rsv_vax', storeIn='Raw',  basepath
 
 g1_vax_state <- google_rsv_vax %>%
   filter( location %in% g_states ) %>%
-    mutate(date=as.Date(date),
+  mutate(date=as.Date(date),
          date = as.Date(ceiling_date(date, 'week'))-1,
          stateabb= gsub('US-','', location),
          state=state.name[match(stateabb,state.abb)],
@@ -288,7 +288,7 @@ google_merged_rsv = google_rsv %>%
          search_volume = search_volume/ max(search_volume, na.rm=T),
          search_volume_vax = search_volume_vax/ max(search_volume_vax, na.rm=T)
   ) 
-  
+
 g1_state_harmonized_v1 <- google_merged_rsv %>%
   rename(Outcome_value1=rsv_novax,
          geography=state) %>%
@@ -394,7 +394,7 @@ ww1_rsv_harmonized <- cdc_ww_rsv%>%
   rename(Outcome_value1=rsv_ww,
          geography=state) %>%
   mutate(outcome_type='WasteWater',
-         outcome_label1 = 'Waste Water',
+         outcome_label1 = 'Waste Water wval (RSV)',
          domain = 'Respiratory infections',
          date_resolution = 'week',
          update_frequency = 'weekly',
@@ -428,7 +428,7 @@ ww1_flu_harmonized <- cdc_ww_flu %>%
   rename(Outcome_value1=flu_ww,
          geography=state) %>%
   mutate(outcome_type='WasteWater',
-         outcome_label1 = 'Waste Water (flu)',
+         outcome_label1 = 'Waste Water wval (Influenza)',
          domain = 'Respiratory infections',
          date_resolution = 'week',
          update_frequency = 'weekly',
@@ -447,7 +447,7 @@ ww1_flu_harmonized <- cdc_ww_flu %>%
 url_ww_covid <- "https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/SC2StateLevelDownloadCSV.csv"
 
 cdc_ww_covid <- runIfExpired(source='wastewater_covid',storeIn='Raw',  basepath='./Data/Archive',
-                           ~ read_csv(url_ww_flu),tolerance=(24*7)
+                             ~ read_csv(url_ww_covid),tolerance=(24*7)
 )
 
 
@@ -462,7 +462,7 @@ ww1_covid_harmonized <- cdc_ww_covid %>%
   rename(Outcome_value1=covid_ww,
          geography=state) %>%
   mutate(outcome_type='WasteWater',
-         outcome_label1 = 'Waste Water (covid)',
+         outcome_label1 = 'Waste Water wval (SARS-CoV-2)',
          domain = 'Respiratory infections',
          date_resolution = 'week',
          update_frequency = 'weekly',
@@ -478,11 +478,12 @@ ww1_covid_harmonized <- cdc_ww_covid %>%
          sex_level = NA_character_) 
 
 
+
 #######################################
 ###Epic ED for RSV
 #######################################
 
-epic_ed_rsv_flu_covid <- open_dataset( './Data/Archive/Cosmos ED/epic_cosmos_flu_rsv_covid.parquet') %>%
+epic_ed_rsv_flu_covid <- open_dataset( './Data/Archive/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet') %>%
   collect()
 
 e1 <- epic_ed_rsv_flu_covid %>%
@@ -596,6 +597,7 @@ d1_all <- cdc_nssp_rsv_flu_covid_ed1 %>%
   left_join(d1_state_rsv_flu_covid, by=c('week_end', 'state')) %>%
   mutate(percent_visits_covid = if_else(is.na(percent_visits_covid),percent_visits_covid_state,percent_visits_covid),
          percent_visits_flu = if_else(is.na(percent_visits_influenza),percent_visits_flu_state,percent_visits_influenza ),
+         percent_visits_rsv = if_else(is.na(percent_visits_rsv),percent_visits_rsv_state,percent_visits_rsv ),
          #fix CT county coding
          fips = if_else(state=='Connecticut' & county=='Fairfield',9001 ,
                         if_else(state=='Connecticut' &  county=='Hartford', 9003,
@@ -606,7 +608,9 @@ d1_all <- cdc_nssp_rsv_flu_covid_ed1 %>%
                                                                 if_else(state=='Connecticut' & county=='Tolland',9013 ,
                                                                         if_else(state=='Connecticut' & county=='Windham', 9015, fips)))))))
          ) ) %>%
-  as.data.frame()
+  dplyr::select(state, county, fips, week_end,percent_visits_covid, percent_visits_flu, percent_visits_rsv) %>%
+  as.data.frame() 
+
 
 write.csv(d1_all,'./Data/plot_files/rsv_flu_covid_county_filled_map_nssp.csv')
 
@@ -618,14 +622,14 @@ write.csv(d1_all,'./Data/plot_files/rsv_flu_covid_county_filled_map_nssp.csv')
 
 ##Metro; Crosswalk the DMA to counties FIPS codes
 #https://www.kaggle.com/datasets/kapastor/google-trends-countydma-mapping?resource=download
-# cw1 <- read.csv('./Data/GoogleTrends_CountyDMA_Mapping.csv') %>%
+# cw1 <- read.csv('./Data/other_data/GoogleTrends_CountyDMA_Mapping.csv') %>%
 #   mutate(GOOGLE_DMA=toupper(GOOGLE_DMA))
 # 
 # #Metro region
 # #https://stackoverflow.com/questions/61213647/what-do-gtrendsr-statistical-areas-correlate-with
 # #Nielsen DMA map: http://bl.ocks.org/simzou/6459889
-# data("countries")
-# 
+# #read in 'countries' file from gtrendsR
+# countries <- read.csv('./Data/other_data/countries_gtrendsR.csv')
 # metros <- countries[countries$country_code == 'US', ]
 # 
 # metros <-
@@ -638,10 +642,14 @@ write.csv(d1_all,'./Data/plot_files/rsv_flu_covid_county_filled_map_nssp.csv')
 #   rename(DMA_ID=DMA) %>%
 #   full_join(cw1, by=c("DMA_name"="GOOGLE_DMA"))
 # 
-
-
-##Google metro data
-# g1_metro <- read_parquet(temp_file) %>%
+# 
+# 
+# ##Google metro data
+# url1 <- "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet"
+# temp_file1 <- tempfile(fileext = ".parquet")
+# download.file(url1, temp_file1, mode = "wb")
+# 
+# g1_metro <- read_parquet(temp_file1) %>%
 #   filter(!(location %in% g_states) ) %>%
 #   collect() %>%
 #   mutate(date2=as.Date(date, '%b %d %Y'),
@@ -652,6 +660,50 @@ write.csv(d1_all,'./Data/plot_files/rsv_flu_covid_county_filled_map_nssp.csv')
 #    group_by(STATEFP,CNTYFP) %>%
 #    mutate(fips=paste0(STATEFP,sprintf("%03d", CNTYFP)),
 #           fips=as.numeric(fips),
-#           
+# 
 #           search_volume_scale = search_volume/max(search_volume,na.rm=T)*100) %>%
-#    ungroup() 
+#    ungroup()
+
+
+################
+##Pneumococcal disease 
+################
+#csv_to_parquet('https://data.cdc.gov/resource/qvzb-qs6p.csv',path_to_parquet ='./Data/ipd_cdc1998.parquet')
+
+ipd1 <- readRDS('./Data/Archive/pneumococcus/ABCs_st_1998_2023.rds') %>%
+  rename(agec = "Age.Group..years.",
+         year=Year,
+         st=IPD.Serotype,
+         N_IPD = Frequency.Count) %>%
+  mutate( st= if_else(st=='16','16F', st),
+          agec1 = if_else(agec %in% c("Age <2","Age 2-4") ,1,2 ),
+          agec=gsub('Age ', '', agec),
+          agec2 = if_else( agec %in% c('<2','2-4'), '<5',
+                           if_else( agec %in% c('5-17','18-49'), '5-49',
+                                    if_else( agec %in% c('50-64','65+'), '50+',NA))),
+          agec2 = factor(agec2, levels=c('<5','5-49','50+'), labels=c('<5 years', '5-49 years', '50+ years') )
+  ) %>%
+  group_by(st,agec2, year) %>%
+  summarize(N_IPD=sum(N_IPD)) %>%
+  ungroup()
+
+write.csv(ipd1, './Data/plot_files/ipd_serotype_age_year.csv')
+
+
+
+# pneumococcal serotype by state
+b2019 <- read.csv('./Data/Archive/pneumococcus/jiac058_suppl_supplementary_table_s2.csv') %>%
+  group_by(State, sero) %>%
+  summarize(N_cases=n()) %>%
+  mutate(sero=as.factor(sero)) %>%
+  ungroup() %>%
+  group_by(State, sero) %>%
+  mutate(mean_cases=max(N_cases,na.rm=T)
+  ) %>%
+  group_by(State) %>%
+  mutate(         pct = N_cases/sum(N_cases, na.rm=T)*100) %>%
+  ungroup() %>%
+  tidyr::complete(sero,State , fill=list(pct=0))  #fills 0
+
+write.csv(b2019, './Data/plot_files/ipd_serotype_state_pct.csv')
+
