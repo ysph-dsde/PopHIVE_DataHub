@@ -37,7 +37,7 @@ g1_naloxone <- google_naloxone %>%
   arrange(state, date) %>%
   mutate(naloxone_search_12m = zoo::rollapplyr(search_volume_naloxone,52,mean, partial=T, na.rm=T) ) %>%
   ungroup() %>%
-  filter(date==max(date)) %>%
+  #filter(date==max(date)) %>%
   dplyr::select(date,state, naloxone_search_12m )
 
 
@@ -76,7 +76,7 @@ g1_overdose <- google_overdose %>%
   mutate(overdose_search_12m = zoo::rollapplyr(search_volume_overdose,52,mean, partial=T, na.rm=T) ) %>%
   ungroup() %>%
   dplyr::select(date,state, overdose_search_12m ) %>%
-  filter(date==max(date)) %>%
+  #filter(date==max(date)) %>%
   full_join(g1_naloxone, by=c('state','date'))
 
 write.csv(g1_overdose,'./Data/Archive/google_overdose/OD_search_state_recent12m.csv')
