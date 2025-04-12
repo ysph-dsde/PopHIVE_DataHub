@@ -81,6 +81,6 @@ g1_overdose <- google_overdose %>%
   filter(date==max(date)) %>%
   full_join(g1_naloxone, by=c('state','date'))
 
-write.csv(g1_overdose,'./Data/Archive/google_overdose/OD_search_state_recent12m')
+write.csv(g1_overdose,'./Data/Archive/google_overdose/OD_search_state_recent12m.csv')
 
 #plot(g1_overdose$overdose_search_12m, g1_overdose$naloxone_search_12m)
