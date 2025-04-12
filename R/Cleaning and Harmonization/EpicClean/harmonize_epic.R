@@ -1,7 +1,7 @@
 
 
 library(tidyverse)
-source('./R/EpicClean/epic_age_import.R')
+source('./R/Cleaning and Harmonization/EpicClean/epic_age_import.R')
 
 #EPIC ED all cause
 epic_ed_all_latest_file = datetimeStamp( basepath='./Data/Archive/Cosmos ED/All visits/')$`Report Relative to Date` %>%
