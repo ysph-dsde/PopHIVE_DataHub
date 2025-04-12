@@ -35,9 +35,8 @@ g1_naloxone <- google_naloxone %>%
   summarize(search_volume_naloxone=mean(search_volume_naloxone, na.rm=T)) %>%
   ungroup() %>%
   arrange(state, date) %>%
-  mutate(outcome_12m = zoo::rollapplyr(search_volume_naloxone,52,mean, partial=T, na.rm=T) ) %>%
+  mutate(naloxone_search_12m = zoo::rollapplyr(search_volume_naloxone,52,mean, partial=T, na.rm=T) ) %>%
   ungroup() %>%
-  mutate(naloxone_search_12m = outcome_12m/max(outcome_12m, na.rm=T))%>%
   filter(date==max(date)) %>%
   dplyr::select(date,state, naloxone_search_12m )
 
@@ -74,9 +73,8 @@ g1_overdose <- google_overdose %>%
   summarize(search_volume_overdose=mean(search_volume_overdose, na.rm=T)) %>%
   ungroup() %>%
   arrange(state, date) %>%
-  mutate(outcome_12m = zoo::rollapplyr(search_volume_overdose,52,mean, partial=T, na.rm=T) ) %>%
+  mutate(overdose_search_12m = zoo::rollapplyr(search_volume_overdose,52,mean, partial=T, na.rm=T) ) %>%
   ungroup() %>%
-  mutate(overdose_search_12m = outcome_12m/max(outcome_12m, na.rm=T)) %>%
   dplyr::select(date,state, overdose_search_12m ) %>%
   filter(date==max(date)) %>%
   full_join(g1_naloxone, by=c('state','date'))
