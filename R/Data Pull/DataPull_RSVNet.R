@@ -34,4 +34,4 @@ h1.age.rsv <- cdc_rsvnet %>%
   ) %>%
   as.data.frame()
 
-write.csv(h1.age.rsv,'./Data/plot_files/rsv_hosp_age_respnet.csv')
+write.csv(h1.age.rsv,'./Data/Plot Files/rsv_hosp_age_respnet.csv')

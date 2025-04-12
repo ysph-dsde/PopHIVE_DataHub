@@ -25,7 +25,10 @@ source('./R/Cleaning and Harmonization/EpicClean/harmonize_epic.R')
 #Read in and archive latest files from APIs
 #############################################
 
-lapply(list.files('./R/Data Pull/', full.names=T), source)
+lapply(list.files('./R/Data Pull/', full.names=T), function(X){
+  print(X)
+  source(X)
+} )
 
 
 #######################################
@@ -40,7 +43,7 @@ e1 <- epic_ed_rsv_flu_covid %>%
   )
 
 e1 %>% 
-  write.csv(., './Data/plot_files/rsv_flu_covid_epic_cosmos_age_state.csv')
+  write.csv(., './Data/Plot Files/rsv_flu_covid_epic_cosmos_age_state.csv')
 
 
 
@@ -69,7 +72,7 @@ combined_file_rsv <- cbind.data.frame(combined_file_rsv,dates2[,c('MMWRyear', 'M
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_rsv,'./Data/plot_files/rsv_combined_all_outcomes_state.csv')
+write.csv(combined_file_rsv,'./Data/Plot Files/rsv_combined_all_outcomes_state.csv')
 
 #########################################################
 ###Combined file for overlaid time series flu figure
@@ -96,7 +99,7 @@ combined_file_flu <- cbind.data.frame(combined_file_flu,dates2[,c('MMWRyear', 'M
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_flu,'./Data/plot_files/flu_combined_all_outcomes_state.csv')
+write.csv(combined_file_flu,'./Data/Plot Files/flu_combined_all_outcomes_state.csv')
 
 #########################################################
 ###Combined file for overlaid time series COVID-19 figure
@@ -123,7 +126,7 @@ combined_file_covid <- cbind.data.frame(combined_file_covid,dates2[,c('MMWRyear'
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_covid,'./Data/plot_files/covid_combined_all_outcomes_state.csv')
+write.csv(combined_file_covid,'./Data/Plot Files/covid_combined_all_outcomes_state.csv')
 
 
 ##############################################################
@@ -166,7 +169,7 @@ d1_all <- cdc_nssp_rsv_flu_covid_ed1 %>%
   as.data.frame() 
   
 
-write.csv(d1_all,'./Data/plot_files/rsv_flu_covid_county_filled_map_nssp.csv')
+write.csv(d1_all,'./Data/Plot Files/rsv_flu_covid_county_filled_map_nssp.csv')
 
 
 
@@ -259,7 +262,7 @@ ipd1 <- readRDS('./Data/Archive/pneumococcus/ABCs_st_1998_2023.rds') %>%
   summarize(N_IPD=sum(N_IPD)) %>%
   ungroup()
 
-write.csv(ipd1, './Data/plot_files/ipd_serotype_age_year.csv')
+write.csv(ipd1, './Data/Plot Files/ipd_serotype_age_year.csv')
 
 
 
@@ -277,5 +280,5 @@ b2019 <- read.csv('./Data/Archive/pneumococcus/jiac058_suppl_supplementary_table
   ungroup() %>%
   tidyr::complete(sero,State , fill=list(pct=0))  #fills 0
 
-write.csv(b2019, './Data/plot_files/ipd_serotype_state_pct.csv')
+write.csv(b2019, './Data/Plot Files/ipd_serotype_state_pct.csv')
 

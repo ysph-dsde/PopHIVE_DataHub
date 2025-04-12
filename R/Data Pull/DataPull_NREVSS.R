@@ -38,4 +38,4 @@ rsv_ts <- cbind.data.frame(rsv_ts,dates2_rsv_ts[,c('MMWRyear', 'MMWRweek')]) %>%
           epiwk=epiwk-26
   )
 
-write.csv(rsv_ts,'./Data/plot_files/rsv_ts_nrevss_test_rsv.csv')
+write.csv(rsv_ts,'./Data/Plot Files/rsv_ts_nrevss_test_rsv.csv')
