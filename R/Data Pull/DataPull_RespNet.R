@@ -15,23 +15,7 @@
 
 # NOTE: the renv initializing might need to be run twice when the repo is
 #       first being copied.
-renv::restore()
-
-
-suppressPackageStartupMessages({
-  library("arrow")
-  library("readxl")
-  library("readr")
-  library("data.table")
-  library("R.utils")
-  library("tidyr")
-  library("dplyr")
-  library("stringr")
-  library("lubridate")
-  library("glue")
-  library("RSocrata")
-  library("MMWRweek")
-})
+#renv::restore()
 
 "%!in%" <- function(x,y)!("%in%"(x,y))
 
@@ -50,11 +34,7 @@ source('./R/Support Functions/API Interaction.R')
 
 url_resp_net <- "https://data.cdc.gov/resource/kvib-3txy.csv"
 
-# Try out the new directory features
-# 1. commit "respnet" to "Data/Pulled Data/test" when "~/test" does not exist.
-# 2. change sourceName = "respnet-2" and try to see the function commit
-#    regardless of no previous archives for that source.
-cdc_respnet <- runIfExpired(sourceName = "respnet", storeIn = "test", 
+cdc_respnet <- runIfExpired(source = "respnet", storeIn='Raw',  basepath='./Data/Archive',
                             f = ~ read.socrata(url_resp_net), 
                             fileType = "parquet", tolerance = (24*7))
 

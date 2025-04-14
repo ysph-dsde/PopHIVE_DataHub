@@ -1,8 +1,23 @@
-library(tidyverse)
-library(RSocrata)
-library(parquetize)
-library(arrow)
-library(MMWRweek)
+
+
+suppressPackageStartupMessages({
+  library("arrow")
+  library("readxl")
+  library("readr")
+  library("data.table")
+  library("R.utils")
+  library("tidyr")
+  library("dplyr")
+  library("stringr")
+  library("lubridate")
+  library("glue")
+  library("RSocrata")
+  library("MMWRweek")
+  library("tidyverse")
+  library("parquetize")
+})
+
+renv::restore()
 
 source('./R/Support Functions/archiving_functions.R') #function for archiving
 
