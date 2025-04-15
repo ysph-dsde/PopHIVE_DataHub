@@ -19,9 +19,6 @@
 
 "%!in%" <- function(x,y)!("%in%"(x,y))
 
-source('./R/Support Functions/API Interaction.R')
-
-
 
 
 ## ----------------------------------------------------------------
@@ -36,7 +33,7 @@ url_resp_net <- "https://data.cdc.gov/resource/kvib-3txy.csv"
 
 cdc_respnet <- runIfExpired(source = "respnet", storeIn='Raw',  basepath='./Data/Archive',
                             f = ~ read.socrata(url_resp_net), 
-                            fileType = "parquet", tolerance = (24*7))
+                             tolerance = (24*7))
 
 #runIfExpired(source = 'respnet',storeIn='Raw',  basepath='./Data/Archive',=
 #               ~ read.socrata(url_resp_net),tolerance=(24*7))
