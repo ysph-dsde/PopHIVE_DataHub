@@ -1,6 +1,4 @@
 
-
-library(tidyverse)
 source('./R/Cleaning and Harmonization/EpicClean/epic_age_import.R')
 
 #EPIC ED all cause
@@ -35,7 +33,7 @@ epic_ed_flu_latest_file = datetimeStamp( basepath='./Data/Archive/Cosmos ED/flu/
   pull(filePath)
 
 epic_ed_flu <-
-  epic_age_import(ds_name = paste0('./Data/Archive/Cosmos ED/flu/',epic_ed_flu_latest_file), skipN=12)%>%
+  epic_age_import(ds_name = paste0('./Data/Archive/Cosmos ED/flu/',epic_ed_flu_latest_file), skipN=13)%>%
   rename(N_ED_type = N_cases_epic) %>%
   dplyr::select(geography, Level, date, N_ED_type) %>%
   filter(!is.na(Level)) %>%
