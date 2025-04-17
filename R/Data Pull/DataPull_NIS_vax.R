@@ -12,7 +12,7 @@ vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/h
   filter(grepl('MMR',Vaccine)|grepl('Varicella',Vaccine)|  grepl('DTaP',Vaccine)|  grepl('Hep A',Vaccine)|  
      grepl('Hep B',Vaccine)| grepl('Hib',Vaccine)|  grepl('PCV',Vaccine) 
   ) %>%
-  mutate(outcome_type='Immunizations',
+  mutate(outcome_type='percent immunized',
          outcome_label1 = 'Immunization (NIS)',
          domain = 'Childhood Immunizations',
          date_resolution = 'year',
