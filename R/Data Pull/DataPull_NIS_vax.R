@@ -1,3 +1,4 @@
+#library(parquetize )
 #pediatric vaccine yptake
 #https://data.cdc.gov/Child-Vaccinations/Vaccination-Coverage-among-Young-Children-0-35-Mon/fhky-rtsk/about_data
 
@@ -10,9 +11,23 @@ vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/h
   dplyr::select(Vaccine,Geography, Dose, dim1, vax_uptake,samp_size_vax, age,birth_year ) %>%
   filter(grepl('MMR',Vaccine)|grepl('Varicella',Vaccine)|  grepl('DTaP',Vaccine)|  grepl('Hep A',Vaccine)|  
      grepl('Hep B',Vaccine)| grepl('Hib',Vaccine)|  grepl('PCV',Vaccine) 
-  ) 
+  ) %>%
+  mutate(outcome_type='Immunizations',
+         outcome_label1 = 'Immunization (NIS)',
+         domain = 'Childhood Immunizations',
+         date_resolution = 'year',
+         update_frequency = 'yearly',
+         source = 'CDC National Immunization Survey',
+         url = 'https://data.cdc.gov/Child-Vaccinations/Vaccination-Coverage-among-Young-Children-0-35-Mon/fhky-rtsk/about_data',
+         geo_strata = 'state',
+         age_strata = 'age_level',
+         race_strata = 'none',
+         race_level = NA_character_,
+         additional_strata1 = 'none',
+         additional_strata_level = NA_character_,
+         sex_strata = 'none',
+         sex_level = NA_character_) 
 
-
-write.csv(vax_age, './Data/Plot Files/vax_age_nis.csv')
+write_parquet(vax_age, './Data/Plot Files/vax_age_nis.parquet')
      
      
