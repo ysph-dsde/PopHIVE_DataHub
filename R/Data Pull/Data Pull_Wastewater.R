@@ -46,7 +46,7 @@
 url_ww_rsv <- "https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/RSVStateLevelDownloadCSV.csv"
 
 cdc_ww_rsv <- runIfExpired(sourceName = "nwss_rsv", storeIn = "NWSS", 
-                           f = ~ read.socrata(url_ww_rsv), returnRecent = FALSE,
+                           f = ~ read_csv(url_ww_rsv), returnRecent = FALSE,
                            fileType = "parquet", tolerance = (24*7))
 
 
@@ -85,7 +85,7 @@ ww1_rsv_harmonized <- cdc_ww_rsv%>%
 url_ww_flu <- "https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/FluA/FluAStateMapDownloadCSV.csv"
 
 cdc_ww_flu <- runIfExpired(sourceName = "nwss_flu-a", storeIn = "NWSS", 
-                           f = ~ read.socrata(url_ww_flu), returnRecent = FALSE,
+                           f = ~ read_csv(url_ww_flu), returnRecent = FALSE,
                            fileType = "parquet", tolerance = (24*7))
 
 
@@ -124,8 +124,8 @@ ww1_flu_harmonized <- cdc_ww_flu %>%
 url_ww_covid <- "https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/SC2StateLevelDownloadCSV.csv"
 
 cdc_ww_covid <- runIfExpired(sourceName = "nwss_covid", storeIn = "NWSS", 
-                             f = ~ read.socrata(url_ww_covid), returnRecent = FALSE,
-                             fileType = "parquet", tolerance = (24*7)))
+                             f = ~ read_csv(url_ww_covid), returnRecent = FALSE,
+                             fileType = "parquet", tolerance = (24*7))
 
 
 ww1_covid_harmonized <- cdc_ww_covid %>%
