@@ -169,4 +169,5 @@ vax1 <- epic_vax_import('./Data/Archive/Cosmos ED/Immunizations/mmr_age_state_20
          additional_strata_level = NA_character_,
          sex_strata = 'none',
          sex_level = NA_character_) 
+
 write_parquet(vax1, './Data/Plot Files/vax_age_cosmos.parquet')
