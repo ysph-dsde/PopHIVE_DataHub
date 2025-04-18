@@ -4,7 +4,9 @@ library(parquetize)
 library(arrow)
 library(MMWRweek)
 
-source('./R/Support Functions/archiving_functions.R') #function for archiving
+#source('./R/Support Functions/archiving_functions.R') #function for archiving
+source('./R/Support Functions/API Interaction.R')
+
 
 #################################
 #Overview
@@ -21,6 +23,7 @@ source('./R/Support Functions/archiving_functions.R') #function for archiving
 #####################################
 source('./R/Cleaning and Harmonization/EpicClean/harmonize_epic.R')
 
+
 #############################################
 #Read in and archive latest files from APIs
 #############################################
@@ -35,7 +38,7 @@ lapply(list.files('./R/Data Pull/', full.names=T), function(X){
 ###Prepare Epic ED files for plots 
 #######################################
 
-epic_ed_rsv_flu_covid <- open_dataset( './Data/Archive/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet') %>%
+epic_ed_rsv_flu_covid <- open_dataset( './Data/Pulled Data/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet') %>%
   collect()
 
 e1 <- epic_ed_rsv_flu_covid %>%
@@ -43,7 +46,7 @@ e1 <- epic_ed_rsv_flu_covid %>%
   )
 
 e1 %>% 
-  write.csv(., './Data/Plot Files/rsv_flu_covid_epic_cosmos_age_state.csv')
+  write.csv(., './Data/Plot Files/Cosmos ED/rsv_flu_covid_epic_cosmos_age_state.csv')
 
 
 
@@ -72,7 +75,7 @@ combined_file_rsv <- cbind.data.frame(combined_file_rsv,dates2[,c('MMWRyear', 'M
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_rsv,'./Data/Plot Files/rsv_combined_all_outcomes_state.csv')
+write.csv(combined_file_rsv,'./Data/Plot Files/Cosmos ED/rsv_combined_all_outcomes_state.csv')
 
 #########################################################
 ###Combined file for overlaid time series flu figure
@@ -99,7 +102,7 @@ combined_file_flu <- cbind.data.frame(combined_file_flu,dates2[,c('MMWRyear', 'M
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_flu,'./Data/Plot Files/flu_combined_all_outcomes_state.csv')
+write.csv(combined_file_flu,'./Data/Plot Files/Cosmos ED/flu_combined_all_outcomes_state.csv')
 
 #########################################################
 ###Combined file for overlaid time series COVID-19 figure
@@ -126,7 +129,7 @@ combined_file_covid <- cbind.data.frame(combined_file_covid,dates2[,c('MMWRyear'
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_covid,'./Data/Plot Files/covid_combined_all_outcomes_state.csv')
+write.csv(combined_file_covid,'./Data/Plot Files/Cosmos ED/covid_combined_all_outcomes_state.csv')
 
 
 ##############################################################
@@ -169,7 +172,7 @@ d1_all <- cdc_nssp_rsv_flu_covid_ed1 %>%
   as.data.frame() 
   
 
-write.csv(d1_all,'./Data/Plot Files/rsv_flu_covid_county_filled_map_nssp.csv')
+write.csv(d1_all,'./Data/Plot Files/Cosmos ED/rsv_flu_covid_county_filled_map_nssp.csv')
 
 
 
@@ -245,7 +248,7 @@ write.csv(d1_all,'./Data/Plot Files/rsv_flu_covid_county_filled_map_nssp.csv')
 ################
 #csv_to_parquet('https://data.cdc.gov/resource/qvzb-qs6p.csv',path_to_parquet ='./Data/ipd_cdc1998.parquet')
 
-ipd1 <- readRDS('./Data/Archive/pneumococcus/ABCs_st_1998_2023.rds') %>%
+ipd1 <- readRDS('./Data/Pulled Data/pneumococcus/ABCs_st_1998_2023.rds') %>%
   rename(agec = "Age.Group..years.",
          year=Year,
          st=IPD.Serotype,
@@ -262,12 +265,12 @@ ipd1 <- readRDS('./Data/Archive/pneumococcus/ABCs_st_1998_2023.rds') %>%
   summarize(N_IPD=sum(N_IPD)) %>%
   ungroup()
 
-write.csv(ipd1, './Data/Plot Files/ipd_serotype_age_year.csv')
+write.csv(ipd1, './Data/Plot Files/pneumococcus/ipd_serotype_age_year.csv')
 
 
 
 # pneumococcal serotype by state
-b2019 <- read.csv('./Data/Archive/pneumococcus/jiac058_suppl_supplementary_table_s2.csv') %>%
+b2019 <- read.csv('./Data/Pulled Data/pneumococcus/jiac058_suppl_supplementary_table_s2.csv') %>%
   group_by(State, sero) %>%
   summarize(N_cases=n()) %>%
   mutate(sero=as.factor(sero)) %>%
@@ -280,5 +283,5 @@ b2019 <- read.csv('./Data/Archive/pneumococcus/jiac058_suppl_supplementary_table
   ungroup() %>%
   tidyr::complete(sero,State , fill=list(pct=0))  #fills 0
 
-write.csv(b2019, './Data/Plot Files/ipd_serotype_state_pct.csv')
+write.csv(b2019, './Data/Plot Files/pneumococcus/ipd_serotype_state_pct.csv')
 

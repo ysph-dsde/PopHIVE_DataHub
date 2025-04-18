@@ -46,7 +46,7 @@
 url_nrevss_rsv <- "https://data.cdc.gov/resource/3cxc-4k8q.csv"
 
 cdc_nrevss_rsv <- runIfExpired(sourceName = "nrevss_rsv", storeIn = "NREVSS", 
-                               f = ~ read.socrata(url_nrevss_rsv), returnRecent = FALSE,
+                               f = ~ read.socrata(url_nrevss_rsv),
                                fileType = "parquet", tolerance = (24*7))
 
 
@@ -78,7 +78,7 @@ rsv_ts <- cbind.data.frame(rsv_ts,dates2_rsv_ts[,c('MMWRyear', 'MMWRweek')]) %>%
           epiwk=epiwk-26
   )
 
-write.csv(rsv_ts,'./Data/Plot Files/rsv_ts_nrevss_test_rsv.csv')
+write.csv(rsv_ts,'./Data/Plot Files/NREVSS/rsv_ts_nrevss_test_rsv.csv')
 
 
 

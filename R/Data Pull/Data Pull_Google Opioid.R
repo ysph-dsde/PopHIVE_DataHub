@@ -59,7 +59,7 @@ temp_file2 <- tempfile(fileext = ".parquet")
 download.file(url2, temp_file2, mode = "wb")
 
 google_naloxone <- runIfExpired(sourceName = "google_naloxone", storeIn = "Google Naloxone", 
-                               f = ~ read_parquet(temp_file2), returnRecent = FALSE,
+                               f = ~ read_parquet(temp_file2),
                                fileType = "parquet", tolerance = (24*7))
 
 
@@ -93,8 +93,8 @@ url3 <- "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/da
 temp_file3 <- tempfile(fileext = ".parquet")
 download.file(url3, temp_file3, mode = "wb")
 
-google_naloxone <- runIfExpired(sourceName = "google_overdose", storeIn = "Google Overdose", 
-                                f = ~ read_parquet(temp_file3), returnRecent = FALSE,
+google_overdose <- runIfExpired(sourceName = "google_overdose", storeIn = "Google Overdose", 
+                                f = ~ read_parquet(temp_file3),
                                 fileType = "parquet", tolerance = (24*7))
 
 
@@ -117,6 +117,5 @@ g1_overdose <- google_overdose %>%
   #filter(date==max(date)) %>%
   full_join(g1_naloxone, by=c('state','date'))
 
-write.csv(g1_overdose,'./Data/Archive/google_overdose/OD_search_state_recent12m.csv')
 
 #plot(g1_overdose$overdose_search_12m, g1_overdose$naloxone_search_12m)

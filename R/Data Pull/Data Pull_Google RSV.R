@@ -52,7 +52,7 @@ temp_file2 <- tempfile(fileext = ".parquet")
 download.file(url2, temp_file2, mode = "wb")
 
 google_rsv_vax <- runIfExpired(sourceName = "google_rsv_vax", storeIn = "Google RSV", 
-                               f = ~ read_parquet(temp_file2), returnRecent = FALSE,
+                               f = ~ read_parquet(temp_file2),
                                fileType = "parquet", tolerance = (24*7))
 
 
@@ -82,7 +82,7 @@ temp_file1 <- tempfile(fileext = ".parquet")
 download.file(url1, temp_file1, mode = "wb")
 
 google_rsv <- runIfExpired(sourceName = "google_rsv", storeIn = "Google RSV", 
-                           f = ~ read_parquet(temp_file1), returnRecent = FALSE,
+                           f = ~ read_parquet(temp_file1),
                            fileType = "parquet", tolerance = (24*7))
 
 

@@ -48,7 +48,7 @@
 url_nssp <- "https://data.cdc.gov/resource/rdmq-nq56.csv"
 
 cdc_nssp_rsv_flu_covid_ed1 <- runIfExpired(sourceName = "nssp_ed1", storeIn = "NSSP ED1", 
-                                           f = ~ read.socrata(url_nssp), returnRecent = FALSE,
+                                           f = ~ read.socrata(url_nssp),
                                            fileType = "parquet", tolerance = (24*7))
 
 

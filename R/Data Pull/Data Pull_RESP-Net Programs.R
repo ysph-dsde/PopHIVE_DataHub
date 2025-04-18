@@ -48,7 +48,7 @@
 url_resp_net <- "https://data.cdc.gov/resource/kvib-3txy.csv"
 
 cdc_respnet <- runIfExpired(sourceName = "resp-net", storeIn = "RESP-NET Programs", 
-                            f = ~ read.socrata(url_resp_net), returnRecent = FALSE,
+                            f = ~ read.socrata(url_resp_net),
                             fileType = "parquet", tolerance = (24*7))
 
 
@@ -156,7 +156,7 @@ h1_harmonized_covid <- cdc_respnet %>%
 url_rsv_net <- "https://data.cdc.gov/resource/29hc-w46k.csv"
 
 cdc_rsvnet <- runIfExpired(sourceName = "rsv-net", storeIn = "RESP-NET Programs", 
-                           f = ~ read.socrata(url_rsv_net), returnRecent = FALSE,
+                           f = ~ read.socrata(url_rsv_net),
                            fileType = "parquet", tolerance = (24*7))
 
 
@@ -188,7 +188,7 @@ h1.age.rsv <- cdc_rsvnet %>%
   ) %>%
   as.data.frame()
 
-write.csv(h1.age.rsv,'./Data/Plot Files/rsv_hosp_age_respnet.csv')
+write.csv(h1.age.rsv,'./Data/Plot Files/RESP-NET Programs/rsv_hosp_age_respnet.csv')
 
 
 
@@ -201,7 +201,7 @@ write.csv(h1.age.rsv,'./Data/Plot Files/rsv_hosp_age_respnet.csv')
 url_covid_net <- "https://data.cdc.gov/resource/6jg4-xsqq.csv"
 
 cdc_covidnet <- runIfExpired(sourceName = "covid-net", storeIn = "RESP-NET Programs", 
-                             f = ~ read.socrata(url_covid_net), returnRecent = FALSE,
+                             f = ~ read.socrata(url_covid_net),
                              fileType = "parquet", tolerance = (24*7))
 
 

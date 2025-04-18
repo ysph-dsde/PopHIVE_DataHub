@@ -378,7 +378,7 @@ runIfExpired <- function(sourceName, storeIn, f, fileType = "parquet", returnRec
     # If within tolerance, and the user does not want to load recent file, then
     # exit the operation.
     } else if(returnRecent == FALSE & mostRecent$History %--% now() < hours(tolerance) ) {
-      stop(sprintf("Request is too close to the most recent archive of '%s'.", mostRecent$filePath))
+      warning(sprintf("Request is too close to the most recent archive of '%s'.", mostRecent$filePath))
       
     # Recent pull is outside of the user-provided tolerance, then save a new
     # file to the archive and return the recent pull to memory.
