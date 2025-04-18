@@ -1,0 +1,470 @@
+Session Title,Percentage with Immunizations: MMR receipt by Age in Years (Current) Range and State of Residence (U.S.),
+Session Description,extend visit back,
+Session ID,2728294,
+Data Model,Patients,
+Population Base,All Patients,
+Population Criteria Filters: These criteria are a summary and do not fully reflect the content of the exported session.,Age in Years (Current): ? 10 years,Chief Complaint: wellness or well child visit
+Session Date Range,All Time,
+Measure,Immunizations (%) ,
+Export User,Daniel Weinberger,
+Date of Export,4/17/2025,
+,,
+,,
+,,Percentage with Immunizations: MMR receipt (%)
+State of Residence (U.S.),Age in Years (Current),
+Maine,Less than 1 years,0.646%
+,? 1 and < 2 years,75.5%
+,? 2 and < 3 years,87.4%
+,? 3 and < 4 years,90.2%
+,? 4 and < 5 years,91.4%
+,? 5 and < 6 years,93.2%
+,6 years or more,94.3%
+,"Total: Total includes all data under the Maine bucket, including data from rows not currently displayed.",85.3%
+Massachusetts,Less than 1 years,0.486%
+,? 1 and < 2 years,77.2%
+,? 2 and < 3 years,90.4%
+,? 3 and < 4 years,92.6%
+,? 4 and < 5 years,94.2%
+,? 5 and < 6 years,93.9%
+,6 years or more,94.4%
+,"Total: Total includes all data under the Massachusetts bucket, including data from rows not currently displayed.",84.7%
+Delaware,Less than 1 years,0.316%
+,? 1 and < 2 years,75.1%
+,? 2 and < 3 years,89.7%
+,? 3 and < 4 years,91.2%
+,? 4 and < 5 years,93%
+,? 5 and < 6 years,93.8%
+,6 years or more,95.2%
+,"Total: Total includes all data under the Delaware bucket, including data from rows not currently displayed.",84.6%
+Iowa,Less than 1 years,0.459%
+,? 1 and < 2 years,69.6%
+,? 2 and < 3 years,89.6%
+,? 3 and < 4 years,91.4%
+,? 4 and < 5 years,92.4%
+,? 5 and < 6 years,93.7%
+,6 years or more,94.7%
+,"Total: Total includes all data under the Iowa bucket, including data from rows not currently displayed.",84.5%
+Connecticut,Less than 1 years,0.629%
+,? 1 and < 2 years,78%
+,? 2 and < 3 years,87.7%
+,? 3 and < 4 years,90.1%
+,? 4 and < 5 years,91.6%
+,? 5 and < 6 years,92%
+,6 years or more,91.7%
+,"Total: Total includes all data under the Connecticut bucket, including data from rows not currently displayed.",84.4%
+West Virginia,Less than 1 years,0.273%
+,? 1 and < 2 years,73.9%
+,? 2 and < 3 years,89.1%
+,? 3 and < 4 years,91.9%
+,? 4 and < 5 years,93.6%
+,? 5 and < 6 years,94.6%
+,6 years or more,94.8%
+,"Total: Total includes all data under the West Virginia bucket, including data from rows not currently displayed.",84.4%
+Wisconsin,Less than 1 years,0.499%
+,? 1 and < 2 years,75%
+,? 2 and < 3 years,86.9%
+,? 3 and < 4 years,89.3%
+,? 4 and < 5 years,90.6%
+,? 5 and < 6 years,91.7%
+,6 years or more,93.5%
+,"Total: Total includes all data under the Wisconsin bucket, including data from rows not currently displayed.",84.2%
+Colorado,Less than 1 years,1.6%
+,? 1 and < 2 years,72.8%
+,? 2 and < 3 years,85.4%
+,? 3 and < 4 years,88.4%
+,? 4 and < 5 years,90%
+,? 5 and < 6 years,91.2%
+,6 years or more,93%
+,"Total: Total includes all data under the Colorado bucket, including data from rows not currently displayed.",83.3%
+Pennsylvania,Less than 1 years,0.401%
+,? 1 and < 2 years,71.9%
+,? 2 and < 3 years,83.4%
+,? 3 and < 4 years,86.5%
+,? 4 and < 5 years,88.5%
+,? 5 and < 6 years,90.8%
+,6 years or more,93%
+,"Total: Total includes all data under the Pennsylvania bucket, including data from rows not currently displayed.",83%
+Ohio,Less than 1 years,0.431%
+,? 1 and < 2 years,73%
+,? 2 and < 3 years,86.8%
+,? 3 and < 4 years,89.9%
+,? 4 and < 5 years,91.2%
+,? 5 and < 6 years,92.1%
+,6 years or more,93.5%
+,"Total: Total includes all data under the Ohio bucket, including data from rows not currently displayed.",82.9%
+Kentucky,Less than 1 years,0.336%
+,? 1 and < 2 years,73.9%
+,? 2 and < 3 years,86.1%
+,? 3 and < 4 years,88.9%
+,? 4 and < 5 years,91.6%
+,? 5 and < 6 years,91.7%
+,6 years or more,93.3%
+,"Total: Total includes all data under the Kentucky bucket, including data from rows not currently displayed.",82.4%
+Indiana,Less than 1 years,0.316%
+,? 1 and < 2 years,71.4%
+,? 2 and < 3 years,84.4%
+,? 3 and < 4 years,87%
+,? 4 and < 5 years,88.4%
+,? 5 and < 6 years,89.4%
+,6 years or more,91.6%
+,"Total: Total includes all data under the Indiana bucket, including data from rows not currently displayed.",81.8%
+New Hampshire,Less than 1 years,0.796%
+,? 1 and < 2 years,77.3%
+,? 2 and < 3 years,86.1%
+,? 3 and < 4 years,88.1%
+,? 4 and < 5 years,88.9%
+,? 5 and < 6 years,88.7%
+,6 years or more,89.1%
+,"Total: Total includes all data under the New Hampshire bucket, including data from rows not currently displayed.",81.7%
+Michigan,Less than 1 years,0.521%
+,? 1 and < 2 years,71.8%
+,? 2 and < 3 years,84.1%
+,? 3 and < 4 years,86.7%
+,? 4 and < 5 years,88.5%
+,? 5 and < 6 years,90.4%
+,6 years or more,92.6%
+,"Total: Total includes all data under the Michigan bucket, including data from rows not currently displayed.",81.6%
+New York,Less than 1 years,0.683%
+,? 1 and < 2 years,71.4%
+,? 2 and < 3 years,84.5%
+,? 3 and < 4 years,86.5%
+,? 4 and < 5 years,87.9%
+,? 5 and < 6 years,88.1%
+,6 years or more,91.3%
+,"Total: Total includes all data under the New York bucket, including data from rows not currently displayed.",81.4%
+South Dakota,Less than 1 years,-
+,? 1 and < 2 years,68.4%
+,? 2 and < 3 years,79.9%
+,? 3 and < 4 years,83.2%
+,? 4 and < 5 years,86%
+,? 5 and < 6 years,88.1%
+,6 years or more,93.5%
+,"Total: Total includes all data under the South Dakota bucket, including data from rows not currently displayed.",81.3%
+Arkansas,Less than 1 years,0.224%
+,? 1 and < 2 years,65.5%
+,? 2 and < 3 years,80%
+,? 3 and < 4 years,83.7%
+,? 4 and < 5 years,87.6%
+,? 5 and < 6 years,88.7%
+,6 years or more,92%
+,"Total: Total includes all data under the Arkansas bucket, including data from rows not currently displayed.",81.2%
+Louisiana,Less than 1 years,0.353%
+,? 1 and < 2 years,67.6%
+,? 2 and < 3 years,81.8%
+,? 3 and < 4 years,85.4%
+,? 4 and < 5 years,88.2%
+,? 5 and < 6 years,90.8%
+,6 years or more,92.5%
+,"Total: Total includes all data under the Louisiana bucket, including data from rows not currently displayed.",81.1%
+Minnesota,Less than 1 years,0.358%
+,? 1 and < 2 years,68.1%
+,? 2 and < 3 years,79.9%
+,? 3 and < 4 years,82.9%
+,? 4 and < 5 years,84.8%
+,? 5 and < 6 years,87.6%
+,6 years or more,91.2%
+,"Total: Total includes all data under the Minnesota bucket, including data from rows not currently displayed.",81.1%
+Illinois,Less than 1 years,0.378%
+,? 1 and < 2 years,69%
+,? 2 and < 3 years,83.5%
+,? 3 and < 4 years,86.3%
+,? 4 and < 5 years,87.8%
+,? 5 and < 6 years,89.3%
+,6 years or more,90.7%
+,"Total: Total includes all data under the Illinois bucket, including data from rows not currently displayed.",81.1%
+North Dakota,Less than 1 years,0.313%
+,? 1 and < 2 years,71.1%
+,? 2 and < 3 years,83.1%
+,? 3 and < 4 years,85.2%
+,? 4 and < 5 years,87%
+,? 5 and < 6 years,88.9%
+,6 years or more,92.1%
+,"Total: Total includes all data under the North Dakota bucket, including data from rows not currently displayed.",81.1%
+Vermont,Less than 1 years,1.3%
+,? 1 and < 2 years,81.4%
+,? 2 and < 3 years,88.2%
+,? 3 and < 4 years,88.4%
+,? 4 and < 5 years,90.8%
+,? 5 and < 6 years,89.9%
+,6 years or more,92.1%
+,"Total: Total includes all data under the Vermont bucket, including data from rows not currently displayed.",81%
+Mississippi,Less than 1 years,0.199%
+,? 1 and < 2 years,67.8%
+,? 2 and < 3 years,82%
+,? 3 and < 4 years,85.1%
+,? 4 and < 5 years,88.3%
+,? 5 and < 6 years,90.4%
+,6 years or more,92%
+,"Total: Total includes all data under the Mississippi bucket, including data from rows not currently displayed.",80.3%
+Idaho,Less than 1 years,0.486%
+,? 1 and < 2 years,67.4%
+,? 2 and < 3 years,78.1%
+,? 3 and < 4 years,82.9%
+,? 4 and < 5 years,86.5%
+,? 5 and < 6 years,88.6%
+,6 years or more,92%
+,"Total: Total includes all data under the Idaho bucket, including data from rows not currently displayed.",80.3%
+Florida,Less than 1 years,0.324%
+,? 1 and < 2 years,64.6%
+,? 2 and < 3 years,79.7%
+,? 3 and < 4 years,86.7%
+,? 4 and < 5 years,90.3%
+,? 5 and < 6 years,91.9%
+,6 years or more,92.5%
+,"Total: Total includes all data under the Florida bucket, including data from rows not currently displayed.",80.2%
+Virginia,Less than 1 years,0.425%
+,? 1 and < 2 years,68.8%
+,? 2 and < 3 years,81.1%
+,? 3 and < 4 years,84.1%
+,? 4 and < 5 years,86.3%
+,? 5 and < 6 years,88%
+,6 years or more,90.1%
+,"Total: Total includes all data under the Virginia bucket, including data from rows not currently displayed.",80.2%
+Georgia,Less than 1 years,0.267%
+,? 1 and < 2 years,67.8%
+,? 2 and < 3 years,81.3%
+,? 3 and < 4 years,85.3%
+,? 4 and < 5 years,88.2%
+,? 5 and < 6 years,89.7%
+,6 years or more,92.1%
+,"Total: Total includes all data under the Georgia bucket, including data from rows not currently displayed.",79.8%
+California,Less than 1 years,0.898%
+,? 1 and < 2 years,66.4%
+,? 2 and < 3 years,79.9%
+,? 3 and < 4 years,83%
+,? 4 and < 5 years,85.4%
+,? 5 and < 6 years,87.5%
+,6 years or more,90.9%
+,"Total: Total includes all data under the California bucket, including data from rows not currently displayed.",79.8%
+Maryland,Less than 1 years,0.539%
+,? 1 and < 2 years,68.6%
+,? 2 and < 3 years,80.6%
+,? 3 and < 4 years,84.4%
+,? 4 and < 5 years,87.7%
+,? 5 and < 6 years,88.4%
+,6 years or more,91.1%
+,"Total: Total includes all data under the Maryland bucket, including data from rows not currently displayed.",79.7%
+Kansas,Less than 1 years,0.301%
+,? 1 and < 2 years,66.6%
+,? 2 and < 3 years,81.5%
+,? 3 and < 4 years,86.1%
+,? 4 and < 5 years,86%
+,? 5 and < 6 years,86.5%
+,6 years or more,88.8%
+,"Total: Total includes all data under the Kansas bucket, including data from rows not currently displayed.",79.2%
+Oregon,Less than 1 years,0.332%
+,? 1 and < 2 years,57.1%
+,? 2 and < 3 years,75%
+,? 3 and < 4 years,80%
+,? 4 and < 5 years,83.4%
+,? 5 and < 6 years,85.4%
+,6 years or more,88.5%
+,"Total: Total includes all data under the Oregon bucket, including data from rows not currently displayed.",79.1%
+Texas,Less than 1 years,0.911%
+,? 1 and < 2 years,67.7%
+,? 2 and < 3 years,79.6%
+,? 3 and < 4 years,82.5%
+,? 4 and < 5 years,85.5%
+,? 5 and < 6 years,86.8%
+,6 years or more,88.8%
+,"Total: Total includes all data under the Texas bucket, including data from rows not currently displayed.",78.6%
+New Mexico,Less than 1 years,-
+,? 1 and < 2 years,57.1%
+,? 2 and < 3 years,71.4%
+,? 3 and < 4 years,79.5%
+,? 4 and < 5 years,59.2%
+,? 5 and < 6 years,78.8%
+,6 years or more,88.3%
+,"Total: Total includes all data under the New Mexico bucket, including data from rows not currently displayed.",78%
+Rhode Island,Less than 1 years,-
+,? 1 and < 2 years,78.8%
+,? 2 and < 3 years,91.5%
+,? 3 and < 4 years,92%
+,? 4 and < 5 years,88.2%
+,? 5 and < 6 years,89.5%
+,6 years or more,86.4%
+,"Total: Total includes all data under the Rhode Island bucket, including data from rows not currently displayed.",77.8%
+South Carolina,Less than 1 years,0.138%
+,? 1 and < 2 years,62.3%
+,? 2 and < 3 years,77.3%
+,? 3 and < 4 years,81.7%
+,? 4 and < 5 years,84.1%
+,? 5 and < 6 years,86.3%
+,6 years or more,88.4%
+,"Total: Total includes all data under the South Carolina bucket, including data from rows not currently displayed.",77.5%
+Nevada,Less than 1 years,-
+,? 1 and < 2 years,62.7%
+,? 2 and < 3 years,73.5%
+,? 3 and < 4 years,78.5%
+,? 4 and < 5 years,81.9%
+,? 5 and < 6 years,82.9%
+,6 years or more,90.3%
+,"Total: Total includes all data under the Nevada bucket, including data from rows not currently displayed.",77.4%
+Alabama,Less than 1 years,-
+,? 1 and < 2 years,64.9%
+,? 2 and < 3 years,76.9%
+,? 3 and < 4 years,78.7%
+,? 4 and < 5 years,85%
+,? 5 and < 6 years,87.4%
+,6 years or more,87.7%
+,"Total: Total includes all data under the Alabama bucket, including data from rows not currently displayed.",77.3%
+North Carolina,Less than 1 years,0.495%
+,? 1 and < 2 years,64%
+,? 2 and < 3 years,78%
+,? 3 and < 4 years,82.5%
+,? 4 and < 5 years,84.3%
+,? 5 and < 6 years,85.5%
+,6 years or more,86.8%
+,"Total: Total includes all data under the North Carolina bucket, including data from rows not currently displayed.",77%
+Wyoming,Less than 1 years,-
+,? 1 and < 2 years,64.2%
+,? 2 and < 3 years,75.1%
+,? 3 and < 4 years,78.7%
+,? 4 and < 5 years,81.3%
+,? 5 and < 6 years,83.8%
+,6 years or more,88.3%
+,"Total: Total includes all data under the Wyoming bucket, including data from rows not currently displayed.",76.7%
+Missouri,Less than 1 years,-
+,? 1 and < 2 years,64.6%
+,? 2 and < 3 years,79.9%
+,? 3 and < 4 years,82.7%
+,? 4 and < 5 years,85.8%
+,? 5 and < 6 years,87.7%
+,6 years or more,88.8%
+,"Total: Total includes all data under the Missouri bucket, including data from rows not currently displayed.",76.6%
+Oklahoma,Less than 1 years,0.892%
+,? 1 and < 2 years,62.9%
+,? 2 and < 3 years,80.3%
+,? 3 and < 4 years,85%
+,? 4 and < 5 years,85.1%
+,? 5 and < 6 years,87.2%
+,6 years or more,87.2%
+,"Total: Total includes all data under the Oklahoma bucket, including data from rows not currently displayed.",76.2%
+Armed Forces Pacific,Less than 1 years,-
+,? 1 and < 2 years,-
+,? 2 and < 3 years,-
+,? 3 and < 4 years,-
+,? 4 and < 5 years,-
+,? 5 and < 6 years,-
+,6 years or more,80.4%
+,"Total: Total includes all data under the Armed Forces Pacific bucket, including data from rows not currently displayed.",75.6%
+Washington,Less than 1 years,0.363%
+,? 1 and < 2 years,53.5%
+,? 2 and < 3 years,69.5%
+,? 3 and < 4 years,76.1%
+,? 4 and < 5 years,78.5%
+,? 5 and < 6 years,82.2%
+,6 years or more,89.5%
+,"Total: Total includes all data under the Washington bucket, including data from rows not currently displayed.",74.9%
+Nebraska,Less than 1 years,-
+,? 1 and < 2 years,61.1%
+,? 2 and < 3 years,72.2%
+,? 3 and < 4 years,74.2%
+,? 4 and < 5 years,79.8%
+,? 5 and < 6 years,80.3%
+,6 years or more,88%
+,"Total: Total includes all data under the Nebraska bucket, including data from rows not currently displayed.",74.8%
+Utah,Less than 1 years,1.5%
+,? 1 and < 2 years,82.1%
+,? 2 and < 3 years,94.5%
+,? 3 and < 4 years,93.4%
+,? 4 and < 5 years,94.9%
+,? 5 and < 6 years,94.1%
+,6 years or more,95.2%
+,"Total: Total includes all data under the Utah bucket, including data from rows not currently displayed.",74.8%
+Montana,Less than 1 years,0.83%
+,? 1 and < 2 years,57.8%
+,? 2 and < 3 years,73.4%
+,? 3 and < 4 years,78%
+,? 4 and < 5 years,81.6%
+,? 5 and < 6 years,81.3%
+,6 years or more,87.5%
+,"Total: Total includes all data under the Montana bucket, including data from rows not currently displayed.",74.3%
+New Jersey,Less than 1 years,0.263%
+,? 1 and < 2 years,60.5%
+,? 2 and < 3 years,76.8%
+,? 3 and < 4 years,76.9%
+,? 4 and < 5 years,84%
+,? 5 and < 6 years,86.8%
+,6 years or more,88.3%
+,"Total: Total includes all data under the New Jersey bucket, including data from rows not currently displayed.",73.7%
+Hawaii,Less than 1 years,-
+,? 1 and < 2 years,53.7%
+,? 2 and < 3 years,72.2%
+,? 3 and < 4 years,77.4%
+,? 4 and < 5 years,80.2%
+,? 5 and < 6 years,81.5%
+,6 years or more,84.9%
+,"Total: Total includes all data under the Hawaii bucket, including data from rows not currently displayed.",73.5%
+Puerto Rico,Less than 1 years,-
+,? 1 and < 2 years,65.8%
+,? 2 and < 3 years,90.7%
+,? 3 and < 4 years,90.5%
+,? 4 and < 5 years,95.4%
+,? 5 and < 6 years,91.9%
+,6 years or more,94.3%
+,"Total: Total includes all data under the Puerto Rico bucket, including data from rows not currently displayed.",72.5%
+Alaska,Less than 1 years,-
+,? 1 and < 2 years,50.5%
+,? 2 and < 3 years,65.3%
+,? 3 and < 4 years,65.6%
+,? 4 and < 5 years,69.6%
+,? 5 and < 6 years,78.1%
+,6 years or more,82.3%
+,"Total: Total includes all data under the Alaska bucket, including data from rows not currently displayed.",72.2%
+Tennessee,Less than 1 years,-
+,? 1 and < 2 years,50.7%
+,? 2 and < 3 years,66.8%
+,? 3 and < 4 years,72.9%
+,? 4 and < 5 years,80.9%
+,? 5 and < 6 years,82.9%
+,6 years or more,86.7%
+,"Total: Total includes all data under the Tennessee bucket, including data from rows not currently displayed.",70%
+Armed Forces Africa,Less than 1 years,-
+,? 1 and < 2 years,-
+,? 2 and < 3 years,-
+,? 3 and < 4 years,-
+,? 4 and < 5 years,-
+,? 5 and < 6 years,-
+,6 years or more,78.9%
+,"Total: Total includes all data under the Armed Forces Africa bucket, including data from rows not currently displayed.",67%
+Arizona,Less than 1 years,-
+,? 1 and < 2 years,41.5%
+,? 2 and < 3 years,58.3%
+,? 3 and < 4 years,65.3%
+,? 4 and < 5 years,70.4%
+,? 5 and < 6 years,73%
+,6 years or more,77.3%
+,"Total: Total includes all data under the Arizona bucket, including data from rows not currently displayed.",65.7%
+District of Columbia,Less than 1 years,-
+,? 1 and < 2 years,-
+,? 2 and < 3 years,37.5%
+,? 3 and < 4 years,53.5%
+,? 4 and < 5 years,57.6%
+,? 5 and < 6 years,58.8%
+,6 years or more,66.9%
+,"Total: Total includes all data under the District of Columbia bucket, including data from rows not currently displayed.",55.4%
+"American Samoa, South Pacific",Less than 1 years,-
+,? 1 and < 2 years,-
+,? 2 and < 3 years,-
+,? 3 and < 4 years,-
+,? 4 and < 5 years,-
+,? 5 and < 6 years,-
+,6 years or more,-
+,"Total: Total includes all data under the American Samoa, South Pacific bucket, including data from rows not currently displayed.",-
+None of the above,Less than 1 years,0.96%
+,? 1 and < 2 years,49.5%
+,? 2 and < 3 years,55.4%
+,? 3 and < 4 years,55.7%
+,? 4 and < 5 years,61.7%
+,? 5 and < 6 years,71.9%
+,6 years or more,79.3%
+,"Total: Total includes all data under the None of the above bucket, including data from rows not currently displayed.",63.6%
+Total,Less than 1 years,0.543%
+,? 1 and < 2 years,68.4%
+,? 2 and < 3 years,81.8%
+,? 3 and < 4 years,85.1%
+,? 4 and < 5 years,87.3%
+,? 5 and < 6 years,88.8%
+,6 years or more,91%
+,"Total: Total includes all data under the Total bucket, including data from rows not currently displayed.",80.3%
