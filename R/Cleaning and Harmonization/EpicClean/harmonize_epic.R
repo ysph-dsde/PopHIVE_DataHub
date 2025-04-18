@@ -153,7 +153,8 @@ write_parquet(epic_ed_combo,
 source('./R/Cleaning and Harmonization/EpicClean/epic_vax_age.R')
 
 vax1 <- epic_vax_import('./Data/Pulled Data/Cosmos ED/Immunizations/mmr_age_state_2025_04_18.csv')%>%
-  rename(age_level=Level) %>%
+  rename(age_level=Level,
+         Outcome_value1=pct_vax_epic) %>%
   mutate(outcome_type='Percent immunized',
          outcome_label1 = 'Immunization (Epic Cosmos)',
          domain = 'Childhood Immunizations',
