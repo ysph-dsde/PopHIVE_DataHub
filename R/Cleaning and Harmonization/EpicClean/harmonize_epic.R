@@ -146,3 +146,27 @@ write_parquet(epic_ed_combo,
               './Data/Archive/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet')
 
 #test <- read_parquet( './Data/harmonized_epic_flu_rsv_covid.parquet') %>% collect()
+
+###############################################################################
+####Vaccine data
+###############################################################################
+source('./R/Cleaning and Harmonization/EpicClean/epic_vax_age.R')
+
+vax1 <- epic_vax_import('./Data/Archive/Cosmos ED/Immunizations/mmr_age_state_2025_04_18.csv')%>%
+  rename(age_level=Level) %>%
+  mutate(outcome_type='Percent immunized',
+         outcome_label1 = 'Immunization (Epic Cosmos)',
+         domain = 'Childhood Immunizations',
+         date_resolution = 'year',
+         update_frequency = 'yearly',
+         source = 'Epic Cosmos',
+         url = 'https://www.epicresearch.org/',
+         geo_strata = 'state',
+         age_strata = 'age_level',
+         race_strata = 'none',
+         race_level = NA_character_,
+         additional_strata1 = 'none',
+         additional_strata_level = NA_character_,
+         sex_strata = 'none',
+         sex_level = NA_character_) 
+write_parquet(vax1, './Data/Plot Files/vax_age_cosmos.parquet')
