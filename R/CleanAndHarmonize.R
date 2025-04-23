@@ -28,7 +28,7 @@ source('./R/Support Functions/API Interaction.R')
 #######################################
 #Read in and archive latest Epic Files
 #####################################
-source('./R/Cleaning and Harmonization/EpicClean/harmonize_epic.R')
+source('./R/Epic Cleaning/harmonize_epic.R')
 
 
 #############################################
