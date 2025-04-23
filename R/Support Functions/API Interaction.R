@@ -356,6 +356,32 @@ runIfExpired <- function(sourceName, storeIn, f, fileType = "parquet", returnRec
     mostRecent <- suppressMessages(datetimeStamp(storeIn = storeIn, basepath = basepath))$`Report Relative to Date` %>%
       filter(Source == sourceName)
     
+    
+    # Because of variation with file nomenclatures, it is possible to have files
+    # with different conventions with a time stamp dating within the tolerance.
+    # This check detects and handles these cases, and prompts users to make certain
+    # edits manually.
+    if( length(mostRecent$History %--% now() < hours(tolerance)) > 1 ){
+      dateDiff <- as.numeric(mostRecent$History %--% now())
+      numMins  <- dateDiff %>% 
+        (\(x) { which(x %in% min(x)) }) ()
+      
+      # Throw a critical error if more than or no minimums are detected.
+      if(length(numMins) > 1) {
+        stop(sprintf("'%s' has more than one file with the same date. Please resolve this manually before reruning the function.", sourceName))
+      } else if(length(numMins) < 1) {
+        stop(sprintf("'%s' draws an unknow error detecting the recently saved data. Check the directory before attempting the function again.", sourceName))
+      }
+      
+      # Allow the user to choose which file to read in.
+      message(sprintf("More than one file for '%s' is detected to be within the tolerance range.", sourceName))
+      message(paste0(capture.output(mostRecent), collapse = "\n"))
+      use <- readline(prompt = "Referring to the table above, please select one file by providing its numerical row-index: ")
+      
+      mostRecent <- mostRecent[use, ]
+    }
+    
+    
     # Consider if the user wants to pull in the recently saved file if the
     # recent archive happened within the tolerance. If outside of the tolerance
     # then only load the recently pulled data into memory.
