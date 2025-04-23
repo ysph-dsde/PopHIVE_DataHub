@@ -146,7 +146,7 @@ write_parquet(epic_ed_combo,
               './Data/Plot Files/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet')
 
 
-#test <- read_parquet( './Data/harmonized_epic_flu_rsv_covid.parquet') %>% collect()
+#test <- read_parquet( './Data/Plot Files/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet') %>% collect()
 
 ###############################################################################
 ####Vaccine data
