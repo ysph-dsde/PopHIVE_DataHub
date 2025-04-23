@@ -28,7 +28,7 @@ source('./R/Support Functions/API Interaction.R')
 #######################################
 #Read in and archive latest Epic Files
 #####################################
-source('./R/Cleaning and Harmonization/EpicClean/harmonize_epic.R')
+source('./R/Epic Cleaning/harmonize_epic.R')
 
 
 #############################################
@@ -82,7 +82,7 @@ combined_file_rsv <- cbind.data.frame(combined_file_rsv,dates2[,c('MMWRyear', 'M
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_rsv,'./Data/Plot Files/Cosmos ED/rsv_combined_all_outcomes_state.csv')
+write.csv(combined_file_rsv,'./Data/Plot Files/Comparisons/rsv_combined_all_outcomes_state.csv')
 
 #########################################################
 ###Combined file for overlaid time series flu figure
@@ -109,7 +109,7 @@ combined_file_flu <- cbind.data.frame(combined_file_flu,dates2[,c('MMWRyear', 'M
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_flu,'./Data/Plot Files/Cosmos ED/flu_combined_all_outcomes_state.csv')
+write.csv(combined_file_flu,'./Data/Plot Files/Comparisons/flu_combined_all_outcomes_state.csv')
 
 #########################################################
 ###Combined file for overlaid time series COVID-19 figure
@@ -136,7 +136,7 @@ combined_file_covid <- cbind.data.frame(combined_file_covid,dates2[,c('MMWRyear'
           epiwk=epiwk-26
   )
 
-write.csv(combined_file_covid,'./Data/Plot Files/Cosmos ED/covid_combined_all_outcomes_state.csv')
+write.csv(combined_file_covid,'./Data/Plot Files/Comparisons/covid_combined_all_outcomes_state.csv')
 
 
 ##############################################################

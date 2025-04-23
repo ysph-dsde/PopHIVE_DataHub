@@ -153,3 +153,4 @@ ww1_covid_harmonized <- cdc_ww_covid %>%
          additional_strata_level = NA_character_,
          sex_strata = 'none',
          sex_level = NA_character_) 
+

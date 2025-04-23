@@ -9,6 +9,7 @@ wis1_latest_file = datetimeStamp(storeIn = "youth_wellbeing/WISQARS")$`Report Re
   pull(filePath)
 
 wis1 <- read_csv(file.path('./Data/Pulled Data/youth_wellbeing/WISQARS/', wis1_latest_file)) %>%
+
   mutate(Outcome_value1=as.numeric(`Crude Rate`), age_level=`Age Group`) %>%
   dplyr::select(age_level,Sex, Year,Outcome_value1) %>%
   mutate(outcome_type='Self harm',
@@ -28,4 +29,4 @@ wis1 <- read_csv(file.path('./Data/Pulled Data/youth_wellbeing/WISQARS/', wis1_l
          sex_level = NA_character_) 
 
 
-write.csv(wis1,'./Data/Plot Files/youth_wellbeing/wisqars_self_harm.csv')
+write.csv(wis1,'./Data/Plot Files/wisqars/wisqars_self_harm.csv')
