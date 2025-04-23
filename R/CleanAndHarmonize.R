@@ -1,8 +1,15 @@
-library(tidyverse)
-library(RSocrata)
-library(parquetize)
-library(arrow)
-library(MMWRweek)
+suppressPackageStartupMessages({
+  library("arrow")
+  library("parquetize")
+  library("readxl")
+  library("assertthat")
+  library("tidyverse")
+  library("MMWRweek")
+  library("lubridate")
+  library("RSocrata")
+})
+
+"%!in%" <- function(x,y)!("%in%"(x,y))
 
 #source('./R/Support Functions/archiving_functions.R') #function for archiving
 source('./R/Support Functions/API Interaction.R')
