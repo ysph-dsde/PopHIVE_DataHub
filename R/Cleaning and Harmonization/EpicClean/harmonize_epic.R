@@ -2,7 +2,11 @@
 source('./R/Cleaning and Harmonization/EpicClean/epic_age_import.R')
 
 #EPIC ED all cause
+<<<<<<< HEAD
+epic_ed_all_latest_file = datetimeStamp(storeIn = "Cosmos ED/All visits")$`Report Relative to Date` %>%
+=======
 epic_ed_all_latest_file = datetimeStamp( basepath='./Data/Pulled Data/Cosmos ED/All visits/')$`Report Relative to Date` %>%
+>>>>>>> 20769f9312e975f56e694444b4366e589a89125c
   filter(Delta==min(Delta)) %>%
   pull(filePath)
 
@@ -12,7 +16,11 @@ epic_ed_all <- epic_age_import(ds_name = paste0('./Data/Pulled Data/Cosmos ED/Al
 
 
 #EPIC ED RSV
+<<<<<<< HEAD
+epic_ed_rsv_latest_file = datetimeStamp(storeIn = 'Cosmos ED/rsv')$`Report Relative to Date` %>%
+=======
 epic_ed_rsv_latest_file = datetimeStamp( basepath='./Data/Pulled Data/Cosmos ED/rsv/')$`Report Relative to Date` %>%
+>>>>>>> 20769f9312e975f56e694444b4366e589a89125c
   filter(Delta==min(Delta)) %>%
   pull(filePath)
 
@@ -28,12 +36,20 @@ epic_ed_rsv <-
 
 
 # EPIC ED FLU
+<<<<<<< HEAD
+epic_ed_flu_latest_file = datetimeStamp(storeIn='Cosmos ED/flu/')$`Report Relative to Date` %>%
+=======
 epic_ed_flu_latest_file = datetimeStamp( basepath='./Data/Pulled Data/Cosmos ED/flu/')$`Report Relative to Date` %>%
+>>>>>>> 20769f9312e975f56e694444b4366e589a89125c
   filter(Delta==min(Delta)) %>%
   pull(filePath)
 
 epic_ed_flu <-
+<<<<<<< HEAD
+  epic_age_import(ds_name = paste0('./Data/Pulled Data/Cosmos ED/flu/',epic_ed_flu_latest_file), skipN=12)%>%
+=======
   epic_age_import(ds_name = paste0('./Data/Pulled Data/Cosmos ED/flu/',epic_ed_flu_latest_file), skipN=13)%>%
+>>>>>>> 20769f9312e975f56e694444b4366e589a89125c
   rename(N_ED_type = N_cases_epic) %>%
   dplyr::select(geography, Level, date, N_ED_type) %>%
   filter(!is.na(Level)) %>%
@@ -43,7 +59,11 @@ epic_ed_flu <-
   mutate(outcome_name = 'FLU')
 
 # EPIC ED COVID
+<<<<<<< HEAD
+epic_ed_covid_latest_file = datetimeStamp(storeIn = 'Cosmos ED/covid/')$`Report Relative to Date` %>%
+=======
 epic_ed_covid_latest_file = datetimeStamp( basepath='./Data/Pulled Data/Cosmos ED/covid/')$`Report Relative to Date` %>%
+>>>>>>> 20769f9312e975f56e694444b4366e589a89125c
   filter(Delta==min(Delta)) %>%
   pull(filePath)
 
@@ -143,7 +163,11 @@ epic_ed_combo <- bind_rows(epic_ed_rsv, epic_ed_flu , epic_ed_covid) %>%
 
 
 write_parquet(epic_ed_combo,
+<<<<<<< HEAD
+              './Data/Plot Files/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet')
+=======
               './Data/Pulled Data/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet')
+>>>>>>> 20769f9312e975f56e694444b4366e589a89125c
 
 #test <- read_parquet( './Data/harmonized_epic_flu_rsv_covid.parquet') %>% collect()
 
