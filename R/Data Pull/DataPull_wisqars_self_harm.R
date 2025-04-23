@@ -4,7 +4,7 @@
 #######################################
 
 
-wis1 <- read_csv('./Data/Archive/wisqars_self_harm/Raw/2025_04_15_self_harm.csv') %>%
+wis1 <- read_csv('./Data/Pulled Data/wisqars_self_harm/Raw/2025_04_15_self_harm.csv') %>%
   mutate(Outcome_value1=as.numeric(`Crude Rate`), age_level=`Age Group`) %>%
   dplyr::select(age_level,Sex, Year,Outcome_value1) %>%
   mutate(outcome_type='Self harm',
@@ -23,4 +23,4 @@ wis1 <- read_csv('./Data/Archive/wisqars_self_harm/Raw/2025_04_15_self_harm.csv'
          sex_strata = 'none',
          sex_level = NA_character_) 
 
-write.csv(wis1,'./Data/Plot Files/wisqars_self_harm.csv')
+write.csv(wis1,'./Data/Plot Files/wisqars/wisqars_self_harm.csv')

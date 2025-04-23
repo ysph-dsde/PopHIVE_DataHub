@@ -154,12 +154,3 @@ ww1_covid_harmonized <- cdc_ww_covid %>%
          sex_strata = 'none',
          sex_level = NA_character_) 
 
-<<<<<<< HEAD:R/Data Pull/Data Pull_Wastewater.R
-
-
-
-
-
-
-=======
->>>>>>> 20769f9312e975f56e694444b4366e589a89125c:R/Data Pull/DataPull_wastewater.R
