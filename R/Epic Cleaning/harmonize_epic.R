@@ -1,5 +1,5 @@
 
-source('./R/Cleaning and Harmonization/EpicClean/epic_age_import.R')
+source('./R/Epic Cleaning/epic_age_import.R')
 
 #EPIC ED all cause
 epic_ed_all_latest_file = datetimeStamp(storeIn = "Cosmos ED/All visits")$`Report Relative to Date` %>%
@@ -151,7 +151,7 @@ write_parquet(epic_ed_combo,
 ###############################################################################
 ####Vaccine data
 ###############################################################################
-source('./R/Cleaning and Harmonization/EpicClean/epic_vax_age.R')
+source('./R/Epic Cleaning/epic_vax_age.R')
 
 vax1 <- epic_vax_import('./Data/Pulled Data/Cosmos ED/Immunizations/mmr_age_state_2025_04_18.csv')%>%
   rename(age_level=Level,
