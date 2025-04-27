@@ -89,16 +89,33 @@ pop_unstra <- pop %>% group_by(geography) %>% summarize(popsize = sum(popsize)) 
   rbind(pop_PR %>% filter(age_level == "Total"), pop_VI, pop_GU) %>% arrange(geography) 
 pop_unstra <- pop_unstra %>% rbind(data.frame(geography = "United States", popsize = sum(pop_unstra$popsize), age_level = "Total"))
 
-# # population size by state (stratified by age) 
-# pop_stra <- pop %>% 
-#   mutate(age_level = case_when(age == 0 ~ "<1 Years",
-#                                age >= 1 & age <= 4 ~ "1-4 Years",
-#                                age >= 5 & age <= 17 ~ "5-17 Years", 
-#                                age >= 18 & age <= 49 ~ "18-49 Years",
-#                                age >= 50 & age <= 64 ~ "50-64 Years",
-#                                age >= 65 ~ "65+ Years")) %>% 
-#   group_by(geography, age_level) %>% summarize(popsize = sum(popsize)) %>% 
-#   rbind(pop_PR %>% filter(age_level != "Total")) %>% arrange(geography)
+# population size by state (stratified by age)
+pop_stra <- pop %>%
+  mutate(age_level = case_when(age == 0 ~ "<1 Years",
+                               age >= 1 & age <= 4 ~ "1-4 Years",
+                               age >= 5 & age <= 17 ~ "5-17 Years",
+                               age >= 18 & age <= 49 ~ "18-49 Years",
+                               age >= 50 & age <= 64 ~ "50-64 Years",
+                               age >= 65 ~ "65+ Years")) %>%
+  group_by(geography, age_level) %>% summarize(popsize = sum(popsize)) %>%
+  rbind(pop_PR %>% filter(age_level != "Total")) %>% arrange(geography)
+
+
+
+# get population size by Health Region
+pop_unstra_hhs <- pop_unstra %>% 
+  mutate(hhs = case_when(geography %in% c("Connecticut", "Maine", "Massachusetts", "New Hampshire", "Rhode Island", "Vermont") ~ "Region 1",
+                         geography %in% c("Alaska", "Idaho", "Oregon", "Washington") ~ "Region 10",
+                         geography %in% c("New Jersey", "New York") ~ "Region 2",
+                         geography %in% c("Delaware", "Maryland", "Pennsylvania", "Virginia", "West Virginia") ~ "Region 3",
+                         geography %in% c("Alabama", "Florida", "Georgia", "Kentucky", "Mississippi", "North Carolina", "South Carolina", "Tennessee") ~ "Region 4",
+                         geography %in% c("Illinois", "Indiana", "Michigan", "Minnesota", "Ohio", "Wisconsin") ~ "Region 5",
+                         geography %in% c("Arkansas", "Louisiana", "New Mexico", "Oklahoma", "Texas") ~ "Region 6",
+                         geography %in% c("Iowa", "Kansas", "Missouri", "Nebraska") ~ "Region 7",
+                         geography %in% c("Colorado", "Montana", "North Dakota", "South Dakota", "Utah", "Wyoming") ~ "Region 8",
+                         geography %in% c("Arizona", "California", "Hawaii", "Nevada") ~ "Region 9")) %>% 
+  group_by(hhs) %>% summarize(popsize = sum(popsize)) %>%
+  filter(!is.na(hhs))
 
 
 #########################################################
@@ -431,4 +448,69 @@ b2019 <- read.csv('./Data/Pulled Data/pneumococcus/jiac058_suppl_supplementary_t
   tidyr::complete(sero,State , fill=list(pct=0))  #fills 0
 
 write.csv(b2019, './Data/Plot Files/pneumococcus/ipd_serotype_state_pct.csv')
+
+
+
+#############################################################
+# calculate national average for rsv_ts_nrevss_test_rsv.csv 
+#############################################################
+
+# read in NREVSS test data from "Plot Files" folder 
+rsv_nrevss_test <- read.csv("./Data/Plot Files/NREVSS/rsv_ts_nrevss_test_rsv.csv") %>% dplyr::select(-X)
+
+# calculate national average
+rsv_nrevss_test_avg <- rsv_nrevss_test %>%
+  left_join(pop_unstra_hhs, by = c("level" = "hhs")) %>%
+  group_by(date) %>%
+  mutate(wgt =  popsize / sum(popsize)) %>%
+  mutate(across(c("perc_diff", 
+                  "pcr_percent_positive", "percent_pos_2_week", "percent_pos_4_week", 
+                  "pcr_detections", "detections_2_week", "detections_4_week", "pcr_tests", "scaled_cases"), ~ sum(.x * wgt, na.rm = T))) %>%
+  dplyr::select(-popsize, -wgt, -level, -x, -hhs_abbr) %>% distinct() %>%
+  mutate(level = "All regions")
+
+# append the calculated average
+rsv_nrevss_test_addavg <- rsv_nrevss_test %>% 
+  bind_rows(rsv_nrevss_test_avg) %>%
+  arrange(level, date) 
+rsv_nrevss_test <- rsv_nrevss_test_addavg
+
+# save processed data 
+write.csv(rsv_nrevss_test, "./Data/Plot Files/NREVSS/rsv_ts_nrevss_test_rsv.csv", row.names = F)
+
+
+#############################################################
+# calculate national average for rsv_hosp_age_respnet.csv 
+#############################################################
+
+# read in RESPNET hosp data from "Plot Files" folder 
+rsv_respnet_hosp_age <- read.csv("./Data/Plot Files/RESP-NET Programs/rsv_hosp_age_respnet.csv") %>% dplyr::select(-X)
+
+# calculate national average
+rsv_respnet_hosp_age_avg <- rsv_respnet_hosp_age %>%
+  left_join(pop_stra, by = c("state" = "geography", "Level" = "age_level")) %>%
+  group_by(date, Level) %>%
+  mutate(wgt =  popsize / sum(popsize)) %>%
+  mutate(across(c("hosp_rate", "scale_age"), ~ sum(.x * wgt, na.rm = T))) %>%
+  mutate(across(c("hosp_rate_3m"), ~ NA)) %>%
+  dplyr::select(-popsize, -wgt, -state) %>% distinct() %>%
+  mutate(state = "All states") %>%
+  # calculated moving average for calculated average
+  mutate(hosp_rate_3m = zoo::rollapplyr(hosp_rate,3,mean, partial=T, na.rm=T),
+         hosp_rate_3m = if_else(is.nan(hosp_rate_3m), NA, hosp_rate_3m)) 
+
+
+# append the calculated average 
+rsv_respnet_hosp_age_addavg <- rsv_respnet_hosp_age %>% 
+  bind_rows(rsv_respnet_hosp_age_avg) %>%
+  arrange(state, date) 
+rsv_respnet_hosp_age <- rsv_respnet_hosp_age_addavg
+
+# save processed data 
+write.csv(rsv_respnet_hosp_age, "./Data/Plot Files/RESP-NET Programs/rsv_hosp_age_respnet.csv", row.names = F)
+
+
+
+
+
 
