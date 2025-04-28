@@ -463,9 +463,10 @@ rsv_nrevss_test_avg <- rsv_nrevss_test %>%
   left_join(pop_unstra_hhs, by = c("level" = "hhs")) %>%
   group_by(date) %>%
   mutate(wgt =  popsize / sum(popsize)) %>%
+  mutate(across(c("scaled_cases"), ~ sum(.x * wgt, na.rm = T))) %>%
   mutate(across(c("perc_diff", 
                   "pcr_percent_positive", "percent_pos_2_week", "percent_pos_4_week", 
-                  "pcr_detections", "detections_2_week", "detections_4_week", "pcr_tests", "scaled_cases"), ~ sum(.x * wgt, na.rm = T))) %>%
+                  "pcr_detections", "detections_2_week", "detections_4_week", "pcr_tests"), ~ NA)) %>%
   dplyr::select(-popsize, -wgt, -level, -x, -hhs_abbr) %>% distinct() %>%
   mutate(level = "All regions")
 
@@ -491,13 +492,16 @@ rsv_respnet_hosp_age_avg <- rsv_respnet_hosp_age %>%
   left_join(pop_stra, by = c("state" = "geography", "Level" = "age_level")) %>%
   group_by(date, Level) %>%
   mutate(wgt =  popsize / sum(popsize)) %>%
-  mutate(across(c("hosp_rate", "scale_age"), ~ sum(.x * wgt, na.rm = T))) %>%
-  mutate(across(c("hosp_rate_3m"), ~ NA)) %>%
+  mutate(across(c("hosp_rate"), ~ sum(.x * wgt, na.rm = T))) %>%
+  mutate(across(c("hosp_rate_3m", "scale_age"), ~ NA)) %>%
   dplyr::select(-popsize, -wgt, -state) %>% distinct() %>%
   mutate(state = "All states") %>%
-  # calculated moving average for calculated average
+  ungroup() %>%
+  group_by(state, Level) %>%
+  # calculate moving average for calcluated average
   mutate(hosp_rate_3m = zoo::rollapplyr(hosp_rate,3,mean, partial=T, na.rm=T),
-         hosp_rate_3m = if_else(is.nan(hosp_rate_3m), NA, hosp_rate_3m)) 
+         hosp_rate_3m = if_else(is.nan(hosp_rate_3m), NA, hosp_rate_3m),
+         scale_age = hosp_rate_3m / max(hosp_rate_3m, na.rm=T )*100) 
 
 
 # append the calculated average 
@@ -508,6 +512,7 @@ rsv_respnet_hosp_age <- rsv_respnet_hosp_age_addavg
 
 # save processed data 
 write.csv(rsv_respnet_hosp_age, "./Data/Plot Files/RESP-NET Programs/rsv_hosp_age_respnet.csv", row.names = F)
+
 
 
 
