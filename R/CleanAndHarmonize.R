@@ -45,7 +45,7 @@ lapply(list.files('./R/Data Pull/', full.names=T), function(X){
 # Prepare Epic ED files for plots 
 #######################################
 
-epic_ed_rsv_flu_covid <- open_dataset( './Data/Pulled Data/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet') %>%
+epic_ed_rsv_flu_covid <- open_dataset( './Data/Plot Files/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet') %>%
   collect()
 
 e1 <- epic_ed_rsv_flu_covid %>%
