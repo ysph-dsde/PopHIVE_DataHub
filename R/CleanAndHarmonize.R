@@ -129,6 +129,7 @@ combined_file_rsv <- bind_rows(nssp_harmonized_rsv, ww1_rsv_harmonized,h1_harmon
   filter(date>='2023-07-01') %>%
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),          
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100
   )
 
@@ -152,6 +153,7 @@ national_popwgted_avg_rsv <- combined_file_rsv %>%
   group_by(geography, outcome_label1, source) %>%
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),         
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100) 
 
 
@@ -190,6 +192,7 @@ combined_file_flu <- bind_rows(nssp_harmonized_flu, ww1_flu_harmonized,h1_harmon
   filter(date>='2023-07-01') %>%
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),         
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100
   )
 
@@ -211,6 +214,7 @@ national_popwgted_avg_flu <- combined_file_flu %>%
   group_by(geography, outcome_label1, source) %>%
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),         
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100) 
 
 
@@ -247,6 +251,7 @@ combined_file_covid <- bind_rows(nssp_harmonized_covid, ww1_covid_harmonized,h1_
   filter(date>='2023-07-01') %>%
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),          
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100
   )
 
@@ -270,6 +275,7 @@ national_popwgted_avg_covid <- combined_file_covid %>%
   group_by(geography, outcome_label1, source) %>%
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),          
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100) 
 
 
