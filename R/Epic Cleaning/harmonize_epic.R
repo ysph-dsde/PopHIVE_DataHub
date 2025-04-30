@@ -331,7 +331,7 @@ epic_patients <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos
     Outcome_value1 = as.numeric(Outcome_value1)
   )
 
-epic_chronic <- bind_rows(epic_obesity,epic_diabetes)
+epic_chronic <- bind_rows(epic_obesity,epic_diabetes,epic_patients)
 
 write_parquet(epic_chronic,
               './Data/Plot Files/Cosmos ED/diabetes_obesity.parquet')
