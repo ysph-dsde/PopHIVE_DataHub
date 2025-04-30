@@ -186,9 +186,10 @@ epic_ed_all_latest_file = datetimeStamp( storeIn = 'Cosmos ED/Chronic Disease/Ra
   filter(Delta==min(Delta)) %>%
   pull(filePath) 
 
-epic_chronic <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos ED/Chronic Disease/Raw/',epic_ed_all_latest_file)) %>%
-  rename(outcome_name=Measures) %>% 
+epic_diabetes <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos ED/Chronic Disease/Raw/',epic_ed_all_latest_file)) %>%
+  dplyr::select(geography, Level, pct_diabetes) %>%
   mutate(
+    outcome_name='diabetes',
     outcome_type = 'prevalence',
     domain = 'Chronic diseases',
     date_resolution = 'none',
@@ -209,7 +210,7 @@ epic_chronic <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos 
   )  %>%
   ungroup() %>%
   rename(
-    Outcome_value1 = pct,
+    Outcome_value1 = pct_diabetes,
     age_level = Level
   ) %>%
   dplyr::select(
@@ -233,6 +234,104 @@ epic_chronic <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos 
     outcome_label1 = 'Prevalence'
   )
 
+epic_obesity <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos ED/Chronic Disease/Raw/',epic_ed_all_latest_file)) %>%
+  dplyr::select(geography, Level, pct_obesity) %>%
+  mutate(
+    outcome_name='obesity',
+    outcome_type = 'prevalence',
+    domain = 'Chronic diseases',
+    date_resolution = 'none',
+    update_frequency = 'annual',
+    source = 'Epic Cosmos',
+    url = 'https://www.epicresearch.org/',
+    geo_strata = 'state',
+    age_strata = 'age_scheme_2',
+    race_strata = 'none',
+    race_level = NA_character_,
+    additional_strata1 = 'none',
+    additional_strata_level = NA_character_,
+    sex_strata = 'none',
+    sex_level = NA_character_,
+    
+    age_strata = if_else(Level=='Total','none',age_strata ),
+    geo_strata = if_else(geography=='Total', 'none',geo_strata )
+  )  %>%
+  ungroup() %>%
+  rename(
+    Outcome_value1 = pct_obesity,
+    age_level = Level
+  ) %>%
+  dplyr::select(
+    "geography",
+    "age_level",
+    "outcome_name",
+    "outcome_type",
+    "source",
+    "url",
+    "geo_strata",
+    "age_strata",
+    "race_strata",
+    "race_level",
+    "additional_strata1",
+    "additional_strata_level",
+    "sex_strata",
+    "sex_level",
+    "Outcome_value1"
+  ) %>%
+  mutate(
+    outcome_label1 = 'Prevalence'
+  )
+
+epic_patients <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos ED/Chronic Disease/Raw/',epic_ed_all_latest_file)) %>%
+  dplyr::select(geography, Level, Number_Patients) %>%
+  mutate(
+    outcome_name='N_patients',
+    outcome_type = 'Count',
+    domain = 'Chronic diseases',
+    date_resolution = 'none',
+    update_frequency = 'annual',
+    source = 'Epic Cosmos',
+    url = 'https://www.epicresearch.org/',
+    geo_strata = 'state',
+    age_strata = 'age_scheme_2',
+    race_strata = 'none',
+    race_level = NA_character_,
+    additional_strata1 = 'none',
+    additional_strata_level = NA_character_,
+    sex_strata = 'none',
+    sex_level = NA_character_,
+    
+    age_strata = if_else(Level=='Total','none',age_strata ),
+    geo_strata = if_else(geography=='Total', 'none',geo_strata )
+  )  %>%
+  ungroup() %>%
+  rename(
+    Outcome_value1 = Number_Patients,
+    age_level = Level
+  ) %>%
+  dplyr::select(
+    "geography",
+    "age_level",
+    "outcome_name",
+    "outcome_type",
+    "source",
+    "url",
+    "geo_strata",
+    "age_strata",
+    "race_strata",
+    "race_level",
+    "additional_strata1",
+    "additional_strata_level",
+    "sex_strata",
+    "sex_level",
+    "Outcome_value1"
+  ) %>%
+  mutate(
+    outcome_label1 = 'Number Base Patients',
+    Outcome_value1 = as.numeric(Outcome_value1)
+  )
+
+epic_chronic <- bind_rows(epic_obesity,epic_diabetes)
 
 write_parquet(epic_chronic,
               './Data/Plot Files/Cosmos ED/diabetes_obesity.parquet')

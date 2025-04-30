@@ -1,0 +1,469 @@
+Session Title,"C01. HbA1c 7%, BMI 30, and Number, by state, age",,,
+Session Description,"C01 HbA1c, BMI, and Number, by state, age",,,
+Session ID,2731038,,,
+Data Model,Patients,,,
+Population Base,All Patients,,,
+Population Criteria Filters: These criteria are a summary and do not fully reflect the content of the exported session.,Base Patient,,,
+Session Date Range,4/11/2023 - 4/10/2025,,,
+Export User,Daniel Weinberger,,,
+Date of Export,4/30/2025,,,
+,,,,
+,,,,
+,Measures,Number of Patients,Percentage with Hemoglobin A1C 7.0% or more (%),Percentage with BMI 30.0  or more and 49.8  or less (%)
+State of Residence (U.S.),Age in Years (Current),,,
+Texas,Less than 10 years,1634066,0.093%,1%
+,? 10 and < 15 years,728264,0.448%,8.6%
+,? 15 and < 20 years,778427,0.775%,20.4%
+,? 20 and < 40 years,2843096,1.7%,43.7%
+,? 40 and < 65 years,3541414,7.9%,53.9%
+,65 years or more,2317167,11.9%,47.7%
+,No value,82,-,53.7%
+,Total,11842516,5.2%,37.9%
+California,Less than 10 years,874661,0.063%,0.918%
+,? 10 and < 15 years,465112,0.242%,7.5%
+,? 15 and < 20 years,553626,0.472%,16.4%
+,? 20 and < 40 years,2554099,1.3%,30.8%
+,? 40 and < 65 years,2998919,6.4%,38.2%
+,65 years or more,2035905,9.2%,33%
+,No value,51,25.5%,41.2%
+,Total,9482373,4.4%,28.9%
+Florida,Less than 10 years,940262,0.123%,1.2%
+,? 10 and < 15 years,432328,0.549%,8.4%
+,? 15 and < 20 years,483136,0.872%,18.7%
+,? 20 and < 40 years,2053232,1.5%,40.2%
+,? 40 and < 65 years,2788775,6.3%,49.1%
+,65 years or more,2376874,9.2%,40.6%
+,No value,32,-,43.8%
+,Total,9074639,4.8%,36.3%
+Ohio,Less than 10 years,854766,0.092%,0.914%
+,? 10 and < 15 years,412400,0.417%,8.5%
+,? 15 and < 20 years,475825,0.649%,21.1%
+,? 20 and < 40 years,2198786,2.1%,47%
+,? 40 and < 65 years,2837443,11.1%,59.8%
+,65 years or more,2256197,17.7%,55.3%
+,No value,58,19%,46.6%
+,Total,9035475,8.5%,45.6%
+New York,Less than 10 years,540269,0.133%,1.2%
+,? 10 and < 15 years,272245,0.415%,8.6%
+,? 15 and < 20 years,322642,0.659%,18.4%
+,? 20 and < 40 years,1761773,1.5%,37.4%
+,? 40 and < 65 years,2366693,7.5%,49.4%
+,65 years or more,2007121,12.4%,44.9%
+,No value,29,-,51.7%
+,Total,7270772,6.3%,38.7%
+Pennsylvania,Less than 10 years,546210,0.081%,1%
+,? 10 and < 15 years,279546,0.299%,8.1%
+,? 15 and < 20 years,328744,0.49%,19.2%
+,? 20 and < 40 years,1770732,1.5%,41.5%
+,? 40 and < 65 years,2326776,8.2%,53.5%
+,65 years or more,1909992,14%,49.5%
+,No value,58,-,48.3%
+,Total,7162058,6.8%,42.1%
+Illinois,Less than 10 years,617226,0.113%,1.2%
+,? 10 and < 15 years,299214,0.461%,9.5%
+,? 15 and < 20 years,355189,0.782%,21.6%
+,? 20 and < 40 years,1544695,2.1%,43.4%
+,? 40 and < 65 years,1926809,10.3%,55.8%
+,65 years or more,1504391,15.4%,51.5%
+,No value,27,-,51.9%
+,Total,6247551,7.5%,42.1%
+North Carolina,Less than 10 years,602760,0.11%,1.1%
+,? 10 and < 15 years,272536,0.536%,9%
+,? 15 and < 20 years,318736,0.882%,20.7%
+,? 20 and < 40 years,1513041,2%,44.8%
+,? 40 and < 65 years,1995364,10%,56.1%
+,65 years or more,1536547,15%,49.3%
+,No value,49,-,44.9%
+,Total,6239033,7.5%,42.5%
+Michigan,Less than 10 years,505776,0.199%,1.2%
+,? 10 and < 15 years,241750,0.613%,9.3%
+,? 15 and < 20 years,278482,0.865%,20.5%
+,? 20 and < 40 years,1310526,1.9%,43.5%
+,? 40 and < 65 years,1659476,9.4%,55%
+,65 years or more,1340158,15.2%,50.4%
+,No value,35,-,42.9%
+,Total,5336203,7.3%,42.1%
+Virginia,Less than 10 years,428861,0.131%,1.1%
+,? 10 and < 15 years,197748,0.551%,8.7%
+,? 15 and < 20 years,241229,0.812%,19.1%
+,? 20 and < 40 years,1216189,1.8%,43.2%
+,? 40 and < 65 years,1707148,8.7%,54.5%
+,65 years or more,1312555,14.5%,48.9%
+,No value,35,-,37.1%
+,Total,5103765,7.2%,42.4%
+Georgia,Less than 10 years,536270,0.12%,0.991%
+,? 10 and < 15 years,228480,0.577%,7.8%
+,? 15 and < 20 years,251913,1.1%,18.5%
+,? 20 and < 40 years,812301,1.8%,42%
+,? 40 and < 65 years,1117373,8.1%,53.1%
+,65 years or more,825832,12.4%,44.9%
+,No value,12,-,-
+,Total,3772181,5.6%,36.4%
+Massachusetts,Less than 10 years,314661,0.144%,0.951%
+,? 10 and < 15 years,152860,0.565%,8.4%
+,? 15 and < 20 years,178691,0.816%,17.7%
+,? 20 and < 40 years,927193,1.4%,33%
+,? 40 and < 65 years,1113377,7.4%,46.1%
+,65 years or more,822205,13.3%,43.2%
+,No value,23,-,-
+,Total,3509010,5.9%,34.8%
+South Carolina,Less than 10 years,361266,0.139%,1.5%
+,? 10 and < 15 years,167166,0.592%,10.5%
+,? 15 and < 20 years,190866,1%,22.8%
+,? 20 and < 40 years,773297,2.2%,44.7%
+,? 40 and < 65 years,1057962,10%,55.8%
+,65 years or more,877715,14.7%,47.5%
+,No value,31,-,58.1%
+,Total,3428303,7.4%,41.4%
+Wisconsin,Less than 10 years,394298,0.122%,0.86%
+,? 10 and < 15 years,198995,0.484%,8.1%
+,? 15 and < 20 years,212172,0.867%,19.9%
+,? 20 and < 40 years,803907,2%,42.6%
+,? 40 and < 65 years,967169,9.7%,57.3%
+,65 years or more,721491,15.6%,55.2%
+,No value,10 or fewer,-,-
+,Total,3298038,6.8%,41.1%
+Colorado,Less than 10 years,402511,0.122%,0.598%
+,? 10 and < 15 years,184526,0.462%,4.9%
+,? 15 and < 20 years,202803,0.719%,13.9%
+,? 20 and < 40 years,899484,1.2%,31.4%
+,? 40 and < 65 years,937019,5.4%,40.9%
+,65 years or more,635502,9.3%,36.4%
+,No value,16,-,-
+,Total,3261861,3.8%,28.7%
+Indiana,Less than 10 years,337546,0.071%,1.2%
+,? 10 and < 15 years,156726,0.296%,10.1%
+,? 15 and < 20 years,175234,0.555%,23%
+,? 20 and < 40 years,751564,2.1%,48.3%
+,? 40 and < 65 years,952054,11%,60.2%
+,65 years or more,717465,17%,55%
+,No value,16,-,-
+,Total,3090605,7.9%,45%
+New Jersey,Less than 10 years,233995,0.109%,1.5%
+,? 10 and < 15 years,106356,0.543%,9.6%
+,? 15 and < 20 years,133340,0.774%,18.3%
+,? 20 and < 40 years,692999,1.5%,39.1%
+,? 40 and < 65 years,1009969,7.3%,49.4%
+,65 years or more,820101,11.3%,43.3%
+,No value,21,-,-
+,Total,2996781,6%,38.8%
+Minnesota,Less than 10 years,295789,0.1%,0.684%
+,? 10 and < 15 years,143905,0.419%,7%
+,? 15 and < 20 years,158139,0.671%,18%
+,? 20 and < 40 years,703008,1.8%,39.8%
+,? 40 and < 65 years,859404,8.7%,53.7%
+,65 years or more,681349,14.7%,51.8%
+,No value,10 or fewer,-,-
+,Total,2841603,6.7%,39.9%
+Connecticut,Less than 10 years,251709,0.156%,1.3%
+,? 10 and < 15 years,129674,0.552%,8.5%
+,? 15 and < 20 years,151919,0.816%,18.3%
+,? 20 and < 40 years,682529,1.4%,38.1%
+,? 40 and < 65 years,889887,6.7%,51.2%
+,65 years or more,692214,12%,48.2%
+,No value,30,-,60%
+,Total,2797962,5.5%,39%
+Kentucky,Less than 10 years,308542,0.157%,1.4%
+,? 10 and < 15 years,139154,0.687%,11.5%
+,? 15 and < 20 years,153776,1.1%,25.2%
+,? 20 and < 40 years,642585,2.2%,48.8%
+,? 40 and < 65 years,847962,10.9%,60.3%
+,65 years or more,628061,16.3%,52.7%
+,No value,31,-,-
+,Total,2720111,7.8%,44.7%
+Louisiana,Less than 10 years,261760,0.088%,1.8%
+,? 10 and < 15 years,117196,0.421%,10%
+,? 15 and < 20 years,136913,0.698%,22.1%
+,? 20 and < 40 years,586764,1.7%,45.8%
+,? 40 and < 65 years,751661,9%,57.8%
+,65 years or more,565520,15%,51.7%
+,No value,23,-,-
+,Total,2419837,6.8%,43.1%
+Maryland,Less than 10 years,161980,0.126%,1.5%
+,? 10 and < 15 years,64496,0.566%,8.7%
+,? 15 and < 20 years,85014,0.828%,18.4%
+,? 20 and < 40 years,578547,1.6%,41%
+,? 40 and < 65 years,748438,8%,52.4%
+,65 years or more,576459,12.9%,46.2%
+,No value,16,-,-
+,Total,2214950,6.5%,41.5%
+Mississippi,Less than 10 years,208672,0.1%,1.9%
+,? 10 and < 15 years,87225,0.643%,13.3%
+,? 15 and < 20 years,106461,1.1%,26.2%
+,? 20 and < 40 years,437205,2.4%,51.5%
+,? 40 and < 65 years,621786,11.4%,61.9%
+,65 years or more,498885,16.7%,52.2%
+,No value,18,-,61.1%
+,Total,1960252,8.5%,46.6%
+Washington,Less than 10 years,174325,0.06%,0.636%
+,? 10 and < 15 years,75050,0.294%,6.8%
+,? 15 and < 20 years,93548,0.47%,16.1%
+,? 20 and < 40 years,536470,1.4%,31.8%
+,? 40 and < 65 years,618211,6.8%,42.6%
+,65 years or more,441407,11.2%,40.1%
+,No value,10 or fewer,-,-
+,Total,1939016,5.1%,32.6%
+Iowa,Less than 10 years,230245,0.155%,1.2%
+,? 10 and < 15 years,110927,0.645%,9.1%
+,? 15 and < 20 years,119546,0.915%,21.5%
+,? 20 and < 40 years,470874,2%,46.2%
+,? 40 and < 65 years,540223,9.6%,59.4%
+,65 years or more,421645,14.1%,54.4%
+,No value,17,-,-
+,Total,1893477,6.5%,42.6%
+Oregon,Less than 10 years,163873,0.239%,0.768%
+,? 10 and < 15 years,91999,0.827%,7.1%
+,? 15 and < 20 years,109765,1.1%,17.3%
+,? 20 and < 40 years,476372,1.6%,31.2%
+,? 40 and < 65 years,538521,7.5%,42.7%
+,65 years or more,392949,11.7%,42.2%
+,No value,10 or fewer,-,-
+,Total,1773488,5.4%,32.2%
+Arizona,Less than 10 years,115590,0.088%,0.626%
+,? 10 and < 15 years,66077,0.242%,4.8%
+,? 15 and < 20 years,77194,0.5%,12.6%
+,? 20 and < 40 years,410017,1.5%,34.2%
+,? 40 and < 65 years,518628,6.8%,43.6%
+,65 years or more,457892,8.5%,37%
+,No value,10 or fewer,-,-
+,Total,1645399,4.9%,33.4%
+Tennessee,Less than 10 years,131370,0.11%,1.3%
+,? 10 and < 15 years,51659,0.507%,10.8%
+,? 15 and < 20 years,63932,0.843%,23.7%
+,? 20 and < 40 years,340373,1.7%,45.6%
+,? 40 and < 65 years,478117,8%,55.1%
+,65 years or more,400720,11.1%,45.6%
+,No value,20,-,55%
+,Total,1466191,6.1%,42.5%
+Oklahoma,Less than 10 years,169466,0.172%,1.6%
+,? 10 and < 15 years,71152,0.855%,11%
+,? 15 and < 20 years,79340,1.3%,23.5%
+,? 20 and < 40 years,301551,2.1%,47.6%
+,? 40 and < 65 years,402112,10%,56.8%
+,65 years or more,315204,13.9%,49%
+,No value,11,-,-
+,Total,1338836,6.9%,41.5%
+Arkansas,Less than 10 years,179017,0.151%,1.3%
+,? 10 and < 15 years,74745,0.784%,10.3%
+,? 15 and < 20 years,81680,1.4%,24.2%
+,? 20 and < 40 years,267474,2.3%,49.9%
+,? 40 and < 65 years,361898,9.6%,59.4%
+,65 years or more,292292,12.4%,50.1%
+,No value,12,-,-
+,Total,1257118,6.3%,41.7%
+Nevada,Less than 10 years,100412,0.123%,1.2%
+,? 10 and < 15 years,50556,0.34%,8.2%
+,? 15 and < 20 years,58115,0.482%,18.6%
+,? 20 and < 40 years,328097,0.977%,35.4%
+,? 40 and < 65 years,379743,4.8%,43.5%
+,65 years or more,235840,7.8%,38.8%
+,No value,10 or fewer,-,-
+,Total,1152765,3.5%,33.7%
+Missouri,Less than 10 years,90667,0.034%,1.4%
+,? 10 and < 15 years,45786,0.173%,8.8%
+,? 15 and < 20 years,56225,0.327%,21.9%
+,? 20 and < 40 years,288760,1.9%,43.4%
+,? 40 and < 65 years,365785,9.2%,56.2%
+,65 years or more,305524,14%,50.9%
+,No value,10 or fewer,-,-
+,Total,1152753,7.1%,43.7%
+West Virginia,Less than 10 years,109585,0.121%,1.7%
+,? 10 and < 15 years,54805,0.489%,12.1%
+,? 15 and < 20 years,59983,0.862%,26.4%
+,? 20 and < 40 years,230098,2.2%,51.6%
+,? 40 and < 65 years,337748,11.1%,62.4%
+,65 years or more,290765,16%,53.8%
+,No value,10 or fewer,-,-
+,Total,1082988,8.3%,47.1%
+Idaho,Less than 10 years,115694,0.175%,0.905%
+,? 10 and < 15 years,55427,0.597%,6.8%
+,? 15 and < 20 years,63319,0.872%,17.4%
+,? 20 and < 40 years,246266,1.9%,40.5%
+,? 40 and < 65 years,307723,8.1%,51.4%
+,65 years or more,243383,13.7%,49.2%
+,No value,10 or fewer,-,-
+,Total,1031817,6.2%,38.1%
+Kansas,Less than 10 years,70707,0.099%,1.1%
+,? 10 and < 15 years,35169,0.378%,8.6%
+,? 15 and < 20 years,47325,0.581%,20.1%
+,? 20 and < 40 years,234659,1.8%,42%
+,? 40 and < 65 years,309843,8.3%,53.9%
+,65 years or more,267002,13.1%,50.7%
+,No value,14,-,-
+,Total,964719,6.8%,42.9%
+Nebraska,Less than 10 years,62933,0.057%,1.1%
+,? 10 and < 15 years,28332,0.314%,7.5%
+,? 15 and < 20 years,40044,0.467%,19.4%
+,? 20 and < 40 years,219635,2%,44.3%
+,? 40 and < 65 years,260136,8.7%,57%
+,65 years or more,238667,12.3%,51.6%
+,No value,10 or fewer,-,-
+,Total,849752,6.7%,44.6%
+Maine,Less than 10 years,67941,0.184%,1.2%
+,? 10 and < 15 years,34788,0.604%,8.8%
+,? 15 and < 20 years,39007,0.859%,20.2%
+,? 20 and < 40 years,176022,1.9%,39%
+,? 40 and < 65 years,262923,8.4%,50.4%
+,65 years or more,255917,13.8%,46.9%
+,No value,10 or fewer,-,-
+,Total,836607,7.3%,39.8%
+Utah,Less than 10 years,96516,0.023%,0.286%
+,? 10 and < 15 years,52051,0.069%,2.9%
+,? 15 and < 20 years,58148,0.237%,8.8%
+,? 20 and < 40 years,224024,1.5%,29.6%
+,? 40 and < 65 years,218900,6.2%,42.3%
+,65 years or more,138043,9.3%,39.5%
+,No value,10 or fewer,-,-
+,Total,787682,3.8%,28%
+North Dakota,Less than 10 years,83078,0.123%,0.662%
+,? 10 and < 15 years,39173,0.467%,7.6%
+,? 15 and < 20 years,38984,0.736%,19.3%
+,? 20 and < 40 years,173294,1.8%,44.3%
+,? 40 and < 65 years,183738,8.6%,59.2%
+,65 years or more,136766,14.5%,56%
+,No value,10 or fewer,-,-
+,Total,655035,6%,41.7%
+Alabama,Less than 10 years,43370,0.051%,1.2%
+,? 10 and < 15 years,17588,0.398%,11.8%
+,? 15 and < 20 years,23606,0.75%,23.4%
+,? 20 and < 40 years,136370,2.3%,47%
+,? 40 and < 65 years,232615,9.3%,56.8%
+,65 years or more,200272,13.2%,48%
+,No value,13,-,-
+,Total,653834,7.9%,45.9%
+New Hampshire,Less than 10 years,54277,0.205%,0.711%
+,? 10 and < 15 years,27458,0.812%,7.5%
+,? 15 and < 20 years,32538,1.1%,17.9%
+,? 20 and < 40 years,130394,1.7%,37.9%
+,? 40 and < 65 years,193864,7.2%,50.8%
+,65 years or more,183638,11%,44.7%
+,No value,10 or fewer,-,-
+,Total,622171,6%,38.3%
+Hawaii,Less than 10 years,63375,0.11%,0.685%
+,? 10 and < 15 years,29603,0.517%,6.3%
+,? 15 and < 20 years,31525,0.891%,13.7%
+,? 20 and < 40 years,112899,1.8%,33%
+,? 40 and < 65 years,158032,7.8%,37.8%
+,65 years or more,134331,11.7%,29.5%
+,No value,10 or fewer,-,-
+,Total,529765,5.8%,27.1%
+Delaware,Less than 10 years,80858,0.146%,1.3%
+,? 10 and < 15 years,37271,0.555%,10.7%
+,? 15 and < 20 years,40002,1.1%,24.5%
+,? 20 and < 40 years,105426,2.1%,47.8%
+,? 40 and < 65 years,132024,10.8%,58.3%
+,65 years or more,124395,16%,50.2%
+,No value,10 or fewer,-,-
+,Total,519982,7.1%,39.4%
+South Dakota,Less than 10 years,62527,0.131%,0.669%
+,? 10 and < 15 years,29661,0.485%,6.3%
+,? 15 and < 20 years,31200,0.891%,16.7%
+,? 20 and < 40 years,122942,1.7%,38.6%
+,? 40 and < 65 years,137179,8%,51.1%
+,65 years or more,106360,13.1%,48.1%
+,No value,10 or fewer,-,-
+,Total,489870,5.6%,36%
+Vermont,Less than 10 years,31285,0.198%,0.726%
+,? 10 and < 15 years,16144,0.811%,6.2%
+,? 15 and < 20 years,19646,1%,15.7%
+,? 20 and < 40 years,94428,1.3%,32.4%
+,? 40 and < 65 years,143293,4.8%,43.7%
+,65 years or more,133198,8%,41.4%
+,No value,10 or fewer,-,-
+,Total,437996,4.4%,34.9%
+Montana,Less than 10 years,34307,0.093%,0.749%
+,? 10 and < 15 years,15269,0.373%,4.9%
+,? 15 and < 20 years,18835,0.51%,13.5%
+,? 20 and < 40 years,98290,1.1%,29.8%
+,? 40 and < 65 years,103934,4.8%,42.2%
+,65 years or more,83405,8%,38.4%
+,No value,10 or fewer,-,-
+,Total,354045,3.7%,30.7%
+New Mexico,Less than 10 years,15341,-,1.3%
+,? 10 and < 15 years,6737,-,7.9%
+,? 15 and < 20 years,9814,0.265%,18%
+,? 20 and < 40 years,74850,1.7%,41.1%
+,? 40 and < 65 years,107096,7.3%,47.8%
+,65 years or more,109500,8.8%,36.7%
+,No value,10 or fewer,-,-
+,Total,323339,5.8%,38.6%
+Wyoming,Less than 10 years,21205,0.156%,0.618%
+,? 10 and < 15 years,9272,0.669%,5.9%
+,? 15 and < 20 years,10598,0.859%,15.4%
+,? 20 and < 40 years,40174,1.8%,39.6%
+,? 40 and < 65 years,53971,7.8%,51.6%
+,65 years or more,53612,11.9%,45.7%
+,No value,10 or fewer,-,-
+,Total,188832,6.1%,37.4%
+Rhode Island,Less than 10 years,16694,-,1.4%
+,? 10 and < 15 years,8421,0.154%,12.1%
+,? 15 and < 20 years,9512,0.473%,20.8%
+,? 20 and < 40 years,49539,1.6%,36.5%
+,? 40 and < 65 years,54980,8.3%,49.1%
+,65 years or more,45636,11.3%,43.1%
+,No value,10 or fewer,-,-
+,Total,184783,5.7%,36.8%
+District of Columbia,Less than 10 years,2528,-,1.1%
+,? 10 and < 15 years,970,-,6.2%
+,? 15 and < 20 years,2042,-,10.4%
+,? 20 and < 40 years,64679,0.968%,25.7%
+,? 40 and < 65 years,53707,4.6%,38.9%
+,65 years or more,29743,7.1%,34.7%
+,No value,10 or fewer,-,-
+,Total,153670,3.4%,31.3%
+Puerto Rico,Less than 10 years,7255,-,2.9%
+,? 10 and < 15 years,3795,-,13.4%
+,? 15 and < 20 years,4053,-,22.6%
+,? 20 and < 40 years,15277,1.2%,43.9%
+,? 40 and < 65 years,21377,7.3%,56.7%
+,65 years or more,12317,9.2%,41.2%
+,No value,10 or fewer,-,-
+,Total,64074,4.5%,39.9%
+Alaska,Less than 10 years,1532,-,-
+,? 10 and < 15 years,669,-,5.4%
+,? 15 and < 20 years,808,-,15.1%
+,? 20 and < 40 years,4426,0.926%,31.5%
+,? 40 and < 65 years,4633,6.4%,44.7%
+,65 years or more,4770,8.5%,37.7%
+,No value,10 or fewer,-,-
+,Total,16838,4.5%,32.2%
+Virgin Islands,Less than 10 years,90,-,-
+,? 10 and < 15 years,51,-,-
+,? 15 and < 20 years,70,-,-
+,? 20 and < 40 years,518,-,30.7%
+,? 40 and < 65 years,2558,7.8%,49%
+,65 years or more,2850,12%,33.4%
+,No value,10 or fewer,-,-
+,Total,6137,9%,38.8%
+Armed Forces Africa,Less than 10 years,137,-,-
+,? 10 and < 15 years,77,-,-
+,? 15 and < 20 years,74,-,-
+,? 20 and < 40 years,328,-,29.9%
+,? 40 and < 65 years,937,2.2%,36.3%
+,65 years or more,77,-,37.7%
+,No value,10 or fewer,-,-
+,Total,1630,1.8%,28.9%
+Armed Forces Pacific,Less than 10 years,104,-,-
+,? 10 and < 15 years,47,-,-
+,? 15 and < 20 years,46,-,-
+,? 20 and < 40 years,211,-,28.4%
+,? 40 and < 65 years,451,-,41.5%
+,65 years or more,55,-,30.9%
+,No value,10 or fewer,-,-
+,Total,914,2.1%,29.5%
+None of the above,Less than 10 years,77711,0.103%,0.779%
+,? 10 and < 15 years,36946,0.482%,6%
+,? 15 and < 20 years,41313,0.731%,14.8%
+,? 20 and < 40 years,294829,1.4%,31.1%
+,? 40 and < 65 years,308754,6.1%,41.4%
+,65 years or more,206431,9.6%,39.5%
+,No value,10 or fewer,-,-
+,Total,965985,4.5%,32.1%
+Total,Less than 10 years,14087871,0.114%,1.1%
+,? 10 and < 15 years,6655577,0.476%,8.5%
+,? 15 and < 20 years,7635114,0.77%,19.6%
+,? 20 and < 40 years,34327118,1.7%,40.9%
+,? 40 and < 65 years,43816532,8.4%,52.2%
+,65 years or more,33924312,13.1%,46.9%
+,No value,863,16.1%,45%
+,Total,140447387,6.3%,39.2%
