@@ -130,7 +130,8 @@ combined_file_rsv <- bind_rows(nssp_harmonized_rsv, ww1_rsv_harmonized,h1_harmon
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
          outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),          
-         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100
+         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,
+         suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
   )
 
 
@@ -175,7 +176,9 @@ combined_file_rsv <- cbind.data.frame(combined_file_rsv,dates2[,c('MMWRyear', 'M
   mutate( epiyr = MMWRyear, 
           epiyr = if_else(MMWRweek<=26,MMWRyear - 1 ,MMWRyear),
           epiwk  = if_else( MMWRweek<=26, MMWRweek+52, MMWRweek  ),
-          epiwk=epiwk-26
+          epiwk=epiwk-26,         
+          suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
+
   )
 
 write.csv(combined_file_rsv,'./Data/Plot Files/Comparisons/rsv_combined_all_outcomes_state.csv')
@@ -193,7 +196,9 @@ combined_file_flu <- bind_rows(nssp_harmonized_flu, ww1_flu_harmonized,h1_harmon
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
          outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),         
-         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100
+         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,        
+         suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
+
   )
 
 # ========== Calculate population-weighted national average for each week (FLU) ==========
@@ -235,7 +240,9 @@ combined_file_flu <- cbind.data.frame(combined_file_flu,dates2[,c('MMWRyear', 'M
   mutate( epiyr = MMWRyear, 
           epiyr = if_else(MMWRweek<=26,MMWRyear - 1 ,MMWRyear),
           epiwk  = if_else( MMWRweek<=26, MMWRweek+52, MMWRweek  ),
-          epiwk=epiwk-26
+          epiwk=epiwk-26,    
+          suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
+
   )
 
 write.csv(combined_file_flu,'./Data/Plot Files/Comparisons/flu_combined_all_outcomes_state.csv')
@@ -252,7 +259,9 @@ combined_file_covid <- bind_rows(nssp_harmonized_covid, ww1_covid_harmonized,h1_
   mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
          outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
          outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),          
-         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100
+         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,       
+         suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
+
   )
 
 
@@ -295,7 +304,8 @@ combined_file_covid <- cbind.data.frame(combined_file_covid,dates2[,c('MMWRyear'
   mutate( epiyr = MMWRyear, 
           epiyr = if_else(MMWRweek<=26,MMWRyear - 1 ,MMWRyear),
           epiwk  = if_else( MMWRweek<=26, MMWRweek+52, MMWRweek  ),
-          epiwk=epiwk-26
+          epiwk=epiwk-26,    
+          suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
   )
 
 write.csv(combined_file_covid,'./Data/Plot Files/Comparisons/covid_combined_all_outcomes_state.csv')
@@ -345,73 +355,6 @@ d1_all <- cdc_nssp_rsv_flu_covid_ed1 %>%
 write.csv(d1_all,'./Data/Plot Files/Cosmos ED/rsv_flu_covid_county_filled_map_nssp.csv')
 
 
-
-# 
-# ##Metro; Crosswalk the DMA to counties FIPS codes
-# #https://www.kaggle.com/datasets/kapastor/google-trends-countydma-mapping?resource=download
-# cw1 <- read.csv('./Data/other_data/GoogleTrends_CountyDMA_Mapping.csv') %>%
-#   mutate(GOOGLE_DMA=toupper(GOOGLE_DMA))
-
-#Metro region
-#https://stackoverflow.com/questions/61213647/what-do-gtrendsr-statistical-areas-correlate-with
-#Nielsen DMA map: http://bl.ocks.org/simzou/6459889
-#read in 'countries' file from gtrendsR
-# countries <- read.csv('./Data/other_data/countries_gtrendsR.csv')
-# metros <- countries[countries$country_code == 'US', ]
-# 
-# metros <-
-#   metros[grep("[[:digit:]]", substring(metros$sub_code, first = 4)), ]
-# 
-# metros$numeric.sub.area <- gsub('US-', '', metros$sub_code)
-# 
-# 
-# dma_link1 <- cbind.data.frame('DMA_name'=metros$name,'DMA'=metros$numeric.sub.area) %>%
-#   rename(DMA_ID=DMA) %>%
-#   full_join(cw1, by=c("DMA_name"="GOOGLE_DMA")) %>%
-#   dplyr::select(STATE , COUNTY, STATEFP, CNTYFP, DMA_ID) %>%
-#   mutate(DMA_ID = as.numeric(DMA_ID)) %>%
-#   filter(!is.na(DMA_ID))
-# 
-# 
-# 
-# ##Google metro data
-# url1 <- "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet"
-# temp_file1 <- tempfile(fileext = ".parquet")
-# download.file(url1, temp_file1, mode = "wb")
-# 
-# g1_metro <- read_parquet(temp_file1) %>%
-#   filter(!(location %in% g_states)) %>%
-#   group_by(date, location, term) %>%
-#   summarize(value=mean(value)) %>% #averages over duplicate pulls
-#   ungroup() %>%
-#   collect() %>%
-#   mutate(date2=as.Date(date),
-#          date = as.Date(ceiling_date(date2, 'week'))-1) %>%
-#   mutate(location = as.numeric(location)) %>%
-#   filter(!is.na(location)) %>%
-#   rename(search_volume=value) %>%
-#   filter(date == as.Date('2024-12-7')) %>%
-#   left_join(dma_link1, by=c('location'='DMA_ID')) %>% #many to many join by date and counties
-#    group_by(STATEFP,CNTYFP) %>%
-#    mutate(fips=paste0(STATEFP,sprintf("%03d", CNTYFP)),
-#           fips=as.numeric(fips)) %>%
-#   ungroup() %>%
-#          mutate( search_volume_scale = search_volume/max(search_volume,na.rm=T)*100) %>%
-#    ungroup() %>%
-#   dplyr::select(date, term, STATE, COUNTY, fips,search_volume_scale)
-# 
-# 
-# usmap::plot_usmap(data=g1_metro,regions='county', values='search_volume_scale',
-#                   color = NA,    # Faint border color
-#                   size = 0     )+      # Thin border lines)   +
-#   theme(panel.background = element_rect(color = "white", fill = "white")) +
-#   scale_fill_gradientn(
-#     scaletitle,
-#     colors = pal1,
-#     values = scales::rescale(c(0, 25,50, 75, 100)),
-#     limits = c(0, 100),
-#     na.value = "darkgray"
-#   )
 
 ################
 ##Pneumococcal disease 
@@ -519,10 +462,78 @@ rsv_respnet_hosp_age <- rsv_respnet_hosp_age_addavg
 # save processed data 
 write.csv(rsv_respnet_hosp_age, "./Data/Plot Files/RESP-NET Programs/rsv_hosp_age_respnet.csv", row.names = F)
 
-
+############################################################
 ##Prepares the files with format needed to serve to dataface
 source('./R/Support Functions/Webslim_files.R')
+############################################################
 
 
+
+# 
+# ##Metro; Crosswalk the DMA to counties FIPS codes
+# #https://www.kaggle.com/datasets/kapastor/google-trends-countydma-mapping?resource=download
+# cw1 <- read.csv('./Data/other_data/GoogleTrends_CountyDMA_Mapping.csv') %>%
+#   mutate(GOOGLE_DMA=toupper(GOOGLE_DMA))
+
+#Metro region
+#https://stackoverflow.com/questions/61213647/what-do-gtrendsr-statistical-areas-correlate-with
+#Nielsen DMA map: http://bl.ocks.org/simzou/6459889
+#read in 'countries' file from gtrendsR
+# countries <- read.csv('./Data/other_data/countries_gtrendsR.csv')
+# metros <- countries[countries$country_code == 'US', ]
+# 
+# metros <-
+#   metros[grep("[[:digit:]]", substring(metros$sub_code, first = 4)), ]
+# 
+# metros$numeric.sub.area <- gsub('US-', '', metros$sub_code)
+# 
+# 
+# dma_link1 <- cbind.data.frame('DMA_name'=metros$name,'DMA'=metros$numeric.sub.area) %>%
+#   rename(DMA_ID=DMA) %>%
+#   full_join(cw1, by=c("DMA_name"="GOOGLE_DMA")) %>%
+#   dplyr::select(STATE , COUNTY, STATEFP, CNTYFP, DMA_ID) %>%
+#   mutate(DMA_ID = as.numeric(DMA_ID)) %>%
+#   filter(!is.na(DMA_ID))
+# 
+# 
+# 
+# ##Google metro data
+# url1 <- "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet"
+# temp_file1 <- tempfile(fileext = ".parquet")
+# download.file(url1, temp_file1, mode = "wb")
+# 
+# g1_metro <- read_parquet(temp_file1) %>%
+#   filter(!(location %in% g_states)) %>%
+#   group_by(date, location, term) %>%
+#   summarize(value=mean(value)) %>% #averages over duplicate pulls
+#   ungroup() %>%
+#   collect() %>%
+#   mutate(date2=as.Date(date),
+#          date = as.Date(ceiling_date(date2, 'week'))-1) %>%
+#   mutate(location = as.numeric(location)) %>%
+#   filter(!is.na(location)) %>%
+#   rename(search_volume=value) %>%
+#   filter(date == as.Date('2024-12-7')) %>%
+#   left_join(dma_link1, by=c('location'='DMA_ID')) %>% #many to many join by date and counties
+#    group_by(STATEFP,CNTYFP) %>%
+#    mutate(fips=paste0(STATEFP,sprintf("%03d", CNTYFP)),
+#           fips=as.numeric(fips)) %>%
+#   ungroup() %>%
+#          mutate( search_volume_scale = search_volume/max(search_volume,na.rm=T)*100) %>%
+#    ungroup() %>%
+#   dplyr::select(date, term, STATE, COUNTY, fips,search_volume_scale)
+# 
+# 
+# usmap::plot_usmap(data=g1_metro,regions='county', values='search_volume_scale',
+#                   color = NA,    # Faint border color
+#                   size = 0     )+      # Thin border lines)   +
+#   theme(panel.background = element_rect(color = "white", fill = "white")) +
+#   scale_fill_gradientn(
+#     scaletitle,
+#     colors = pal1,
+#     values = scales::rescale(c(0, 25,50, 75, 100)),
+#     limits = c(0, 100),
+#     na.value = "darkgray"
+#   )
 
 
