@@ -71,6 +71,8 @@ epic_ed_combo <- bind_rows(epic_ed_rsv, epic_ed_flu , epic_ed_covid) %>%
     ),
     #is suppressed <10 counts, set to 4.9999
     
+    suppressed_flag = if_else(N_ED_type==4.9999, 1,0),
+    
     pct_ED_epic = N_ED_type / N_ED_epic_all_cause * 100,
     
     pct_ED_epic = if_else(N_ED_type<5, min(pct_ED_epic, na.rm=T)/2, pct_ED_epic ), #if suppressed, half of posiivity
@@ -118,6 +120,7 @@ epic_ed_combo <- bind_rows(epic_ed_rsv, epic_ed_flu , epic_ed_covid) %>%
     "outcome_type",
     "source",
     "url",
+    'suppressed_flag',
     "geo_strata",
     "age_strata",
     "race_strata",
