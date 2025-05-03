@@ -520,7 +520,8 @@ rsv_respnet_hosp_age <- rsv_respnet_hosp_age_addavg
 write.csv(rsv_respnet_hosp_age, "./Data/Plot Files/RESP-NET Programs/rsv_hosp_age_respnet.csv", row.names = F)
 
 
-
+##Prepares the files with format needed to serve to dataface
+source('./R/Support Functions/Webslim_files.R')
 
 
 
