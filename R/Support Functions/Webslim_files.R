@@ -173,3 +173,43 @@ uad <- read_csv('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/mai
 
 write_parquet(uad,'./Data/Webslim/respiratory_diseases/pneumococcus/comparison.parquet')
 
+
+
+####################################################
+##Immunization
+####################################################
+vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/vax_age_nis.parquet') %>%
+  filter(Geography %in% c(state.name,'District of Columbia', 'United States') & birth_year=='2021' & dim1=='Age') %>%
+  mutate(vax_order=as.numeric(as.factor(Vaccine)), Vaccine_dose=as.factor(paste(Vaccine,Dose)) ,
+         Vaccine_dose = gsub('NA','',Vaccine_dose)) %>%
+  dplyr::select(Geography,birth_year,age,Vaccine_dose, Outcome_value1) %>%
+  rename(geography=Geography,vaccine=Vaccine_dose, value=Outcome_value1)
+
+write_parquet(vax_age,'./Data/Webslim/childhood_immunizations/overall_rates.parquet')
+
+vax_urban <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Pulled%20Data/vax/peds_vax.parquet')  %>%
+  rename(birth_year = `Birth Year/Birth Cohort`, dim1=`Dimension Type`, urban=Dimension,vax_uptake=`Estimate (%)`, samp_size_vax=`Sample Size`) %>%
+  collect() %>%
+  mutate( Vaccine_dose=as.factor(paste(Vaccine,Dose))) %>%
+  filter(birth_year=='2016-2019' & dim1=='Urbanicity') %>%
+  dplyr::select(Vaccine_dose,Geography, Dose, dim1, vax_uptake,samp_size_vax, urban,birth_year) %>%
+  filter( Geography %in% c(state.name,'District of Columbia', 'United States') 
+            )  %>%
+  mutate(urban= factor(urban, levels= c("Living In a Non-MSA", "Living In a MSA Non-Principal City","Living In a MSA Principal City"),labels=c('Rural','Smaller City', 'Larger City') )) %>%
+  dplyr::select(Geography,urban,birth_year,Vaccine_dose,vax_uptake) %>%
+  rename(geography=Geography,vaccine=Vaccine_dose, value=vax_uptake)
+
+write_parquet(vax_urban,'./Data/Webslim/childhood_immunizations/rates_by_urbanicity.parquet')
+
+vax_insurance <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Pulled%20Data/vax/peds_vax.parquet') %>%
+  rename(birth_year = `Birth Year/Birth Cohort`, dim1=`Dimension Type`, insurance=Dimension,vax_uptake=`Estimate (%)`, samp_size_vax=`Sample Size`) %>%
+  collect() %>%
+  mutate( Vaccine_dose=as.factor(paste(Vaccine,Dose))) %>%
+  filter(birth_year=='2016-2019' & dim1=='Insurance Coverage') %>%
+  dplyr::select(Vaccine_dose,Geography, Dose, dim1, vax_uptake,samp_size_vax, insurance,birth_year) %>%
+  filter( Geography %in% c(state.name,'District of Columbia', 'United States')) %>%
+  mutate(insurance= factor(insurance, levels= c("Uninsured", "Any Medicaid","Private Insurance Only","Other"),labels=c('Uninsured','Medicaid', 'Private','Other') )) %>%
+  dplyr::select(Geography,insurance,birth_year,Vaccine_dose,vax_uptake) %>%
+    rename(geography=Geography,vaccine=Vaccine_dose, value=vax_uptake)
+
+write_parquet(vax_insurance,'./Data/Webslim/childhood_immunizations/rates_by_insurance.parquet')
