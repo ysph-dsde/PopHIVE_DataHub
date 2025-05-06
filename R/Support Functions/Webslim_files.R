@@ -213,3 +213,11 @@ vax_insurance <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/
     rename(geography=Geography,vaccine=Vaccine_dose, value=vax_uptake)
 
 write_parquet(vax_insurance,'./Data/Webslim/childhood_immunizations/rates_by_insurance.parquet')
+
+vax_epic <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/vax_age_cosmos.parquet') %>%
+  filter( geography %in% c(state.name,'District of Columbia', 'United States')) %>%
+  dplyr::select(geography,age_level,Outcome_value1) %>%
+  rename(value=Outcome_value1)
+  
+write_parquet(vax_epic,'./Data/Webslim/childhood_immunizations/mmr_rates_epic.parquet')
+
