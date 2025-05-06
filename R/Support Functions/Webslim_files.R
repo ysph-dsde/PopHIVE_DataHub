@@ -217,7 +217,19 @@ write_parquet(vax_insurance,'./Data/Webslim/childhood_immunizations/rates_by_ins
 vax_epic <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/vax_age_cosmos.parquet') %>%
   filter( geography %in% c(state.name,'District of Columbia', 'United States')) %>%
   dplyr::select(geography,age_level,Outcome_value1) %>%
-  rename(value=Outcome_value1)
+  rename(value=Outcome_value1, age=age_level)
   
 write_parquet(vax_epic,'./Data/Webslim/childhood_immunizations/mmr_rates_epic.parquet')
+
+
+#################################################
+## Chronic diseases
+#################################################
+diab_obesity <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/Cosmos%20ED/diabetes_obesity.parquet') %>%
+  dplyr::select(geography,age_level,outcome_name,Outcome_value1) %>%
+  rename(value=Outcome_value1, age=age_level) %>%
+  filter(!is.na(age)) %>%
+  filter( geography %in% c(state.name,'District of Columbia', 'United States')) 
+  
+write_parquet(diab_obesity,'./Data/Webslim/chronic_diseases/prevalence_by_geography.parquet')
 
