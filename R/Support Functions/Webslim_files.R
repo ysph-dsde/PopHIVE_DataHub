@@ -179,7 +179,7 @@ write_parquet(uad,'./Data/Webslim/respiratory_diseases/pneumococcus/comparison.p
 ##Immunization
 ####################################################
 vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/vax_age_nis.parquet') %>%
-  filter(Geography %in% c(state.name,'District of Columbia', 'United States') & birth_year=='2021' & dim1=='Age') %>%
+  filter(Geography %in% c(state.name,'District of Columbia', 'United States') & birth_year %in% c('2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025') & dim1=='Age') %>%
   mutate(vax_order=as.numeric(as.factor(Vaccine)), Vaccine_dose=as.factor(paste(Vaccine,Dose)) ,
          Vaccine_dose = gsub('NA','',Vaccine_dose)) %>%
   dplyr::select(Geography,birth_year,age,Vaccine_dose, Outcome_value1) %>%
@@ -190,7 +190,9 @@ write_parquet(vax_age,'./Data/Webslim/childhood_immunizations/overall_rates.parq
 vax_urban <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Pulled%20Data/vax/peds_vax.parquet')  %>%
   rename(birth_year = `Birth Year/Birth Cohort`, dim1=`Dimension Type`, urban=Dimension,vax_uptake=`Estimate (%)`, samp_size_vax=`Sample Size`) %>%
   collect() %>%
-  mutate( Vaccine_dose=as.factor(paste(Vaccine,Dose))) %>%
+  mutate( Vaccine_dose=as.factor(paste(Vaccine,Dose)),
+          Vaccine_dose = gsub('NA','', Vaccine_dose)
+          ) %>%
   filter(birth_year=='2016-2019' & dim1=='Urbanicity') %>%
   dplyr::select(Vaccine_dose,Geography, Dose, dim1, vax_uptake,samp_size_vax, urban,birth_year) %>%
   filter( Geography %in% c(state.name,'District of Columbia', 'United States') 
