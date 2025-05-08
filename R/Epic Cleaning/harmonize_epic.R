@@ -341,3 +341,5 @@ epic_chronic <- bind_rows(epic_obesity,epic_diabetes,epic_patients)
 
 write_parquet(epic_chronic,
               './Data/Plot Files/Cosmos ED/diabetes_obesity.parquet')
+write_csv(epic_chronic,
+              './Data/Plot Files/Cosmos ED/diabetes_obesity.csv')
