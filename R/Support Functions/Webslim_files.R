@@ -178,7 +178,7 @@ write_parquet(uad,'./Data/Webslim/respiratory_diseases/pneumococcus/comparison.p
 ####################################################
 ##Immunization
 ####################################################
-vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/vax_age_nis.parquet') %>%
+vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/childhood_immunizations/vax_age_nis.parquet') %>%
   filter(Geography %in% c(state.name,'District of Columbia', 'United States') & birth_year %in% c('2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025') & dim1=='Age') %>%
   mutate(vax_order=as.numeric(as.factor(Vaccine)), Vaccine_dose=as.factor(paste(Vaccine,Dose)) ,
          Vaccine_dose = gsub('NA','',Vaccine_dose)) %>%

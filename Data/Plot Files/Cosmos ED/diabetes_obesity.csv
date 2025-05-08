@@ -1,0 +1,1369 @@
+geography,age_level,outcome_name,outcome_type,source,url,geo_strata,age_strata,race_strata,race_level,additional_strata1,additional_strata_level,sex_strata,sex_level,Outcome_value1,outcome_label1
+Alabama,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.8,Prevalence
+Alabama,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,23.4,Prevalence
+Alabama,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47,Prevalence
+Alabama,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,56.8,Prevalence
+Alabama,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,48,Prevalence
+Alabama,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Alabama,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,45.9,Prevalence
+Alabama,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Alaska,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,5.4,Prevalence
+Alaska,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15.1,Prevalence
+Alaska,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,31.5,Prevalence
+Alaska,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,44.7,Prevalence
+Alaska,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,37.7,Prevalence
+Alaska,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Alaska,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,32.2,Prevalence
+Alaska,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Arizona,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4.8,Prevalence
+Arizona,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12.6,Prevalence
+Arizona,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,34.2,Prevalence
+Arizona,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.6,Prevalence
+Arizona,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,37,Prevalence
+Arizona,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.626,Prevalence
+Arizona,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,33.4,Prevalence
+Arizona,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Arkansas,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.3,Prevalence
+Arkansas,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,24.2,Prevalence
+Arkansas,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49.9,Prevalence
+Arkansas,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,59.4,Prevalence
+Arkansas,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,50.1,Prevalence
+Arkansas,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.3,Prevalence
+Arkansas,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,41.7,Prevalence
+Arkansas,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,29.9,Prevalence
+Armed Forces Africa,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,36.3,Prevalence
+Armed Forces Africa,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,37.7,Prevalence
+Armed Forces Africa,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,28.9,Prevalence
+Armed Forces Africa,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,28.4,Prevalence
+Armed Forces Pacific,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,41.5,Prevalence
+Armed Forces Pacific,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,30.9,Prevalence
+Armed Forces Pacific,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,29.5,Prevalence
+Armed Forces Pacific,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+California,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.5,Prevalence
+California,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16.4,Prevalence
+California,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,30.8,Prevalence
+California,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,38.2,Prevalence
+California,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,33,Prevalence
+California,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.918,Prevalence
+California,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,28.9,Prevalence
+California,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,41.2,Prevalence
+Colorado,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4.9,Prevalence
+Colorado,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.9,Prevalence
+Colorado,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,31.4,Prevalence
+Colorado,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40.9,Prevalence
+Colorado,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,36.4,Prevalence
+Colorado,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.598,Prevalence
+Colorado,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,28.7,Prevalence
+Colorado,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Connecticut,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.5,Prevalence
+Connecticut,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18.3,Prevalence
+Connecticut,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,38.1,Prevalence
+Connecticut,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.2,Prevalence
+Connecticut,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,48.2,Prevalence
+Connecticut,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.3,Prevalence
+Connecticut,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,39,Prevalence
+Connecticut,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,60,Prevalence
+Delaware,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.7,Prevalence
+Delaware,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,24.5,Prevalence
+Delaware,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47.8,Prevalence
+Delaware,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,58.3,Prevalence
+Delaware,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,50.2,Prevalence
+Delaware,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.3,Prevalence
+Delaware,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,39.4,Prevalence
+Delaware,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+District of Columbia,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.2,Prevalence
+District of Columbia,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.4,Prevalence
+District of Columbia,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,25.7,Prevalence
+District of Columbia,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,38.9,Prevalence
+District of Columbia,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,34.7,Prevalence
+District of Columbia,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+District of Columbia,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,31.3,Prevalence
+District of Columbia,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Florida,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.4,Prevalence
+Florida,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18.7,Prevalence
+Florida,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40.2,Prevalence
+Florida,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49.1,Prevalence
+Florida,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40.6,Prevalence
+Florida,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Florida,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,36.3,Prevalence
+Florida,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,43.8,Prevalence
+Georgia,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.8,Prevalence
+Georgia,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18.5,Prevalence
+Georgia,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,42,Prevalence
+Georgia,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53.1,Prevalence
+Georgia,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,44.9,Prevalence
+Georgia,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.991,Prevalence
+Georgia,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,36.4,Prevalence
+Georgia,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Hawaii,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.3,Prevalence
+Hawaii,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.7,Prevalence
+Hawaii,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,33,Prevalence
+Hawaii,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,37.8,Prevalence
+Hawaii,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,29.5,Prevalence
+Hawaii,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.685,Prevalence
+Hawaii,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,27.1,Prevalence
+Hawaii,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Idaho,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.8,Prevalence
+Idaho,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,17.4,Prevalence
+Idaho,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40.5,Prevalence
+Idaho,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.4,Prevalence
+Idaho,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49.2,Prevalence
+Idaho,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.905,Prevalence
+Idaho,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,38.1,Prevalence
+Idaho,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Illinois,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.5,Prevalence
+Illinois,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,21.6,Prevalence
+Illinois,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.4,Prevalence
+Illinois,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55.8,Prevalence
+Illinois,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.5,Prevalence
+Illinois,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Illinois,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,42.1,Prevalence
+Illinois,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,51.9,Prevalence
+Indiana,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.1,Prevalence
+Indiana,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,23,Prevalence
+Indiana,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,48.3,Prevalence
+Indiana,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,60.2,Prevalence
+Indiana,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55,Prevalence
+Indiana,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Indiana,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,45,Prevalence
+Indiana,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Iowa,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.1,Prevalence
+Iowa,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,21.5,Prevalence
+Iowa,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,46.2,Prevalence
+Iowa,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,59.4,Prevalence
+Iowa,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,54.4,Prevalence
+Iowa,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Iowa,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,42.6,Prevalence
+Iowa,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Kansas,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.6,Prevalence
+Kansas,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,20.1,Prevalence
+Kansas,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,42,Prevalence
+Kansas,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53.9,Prevalence
+Kansas,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,50.7,Prevalence
+Kansas,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Kansas,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,42.9,Prevalence
+Kansas,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Kentucky,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.5,Prevalence
+Kentucky,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,25.2,Prevalence
+Kentucky,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,48.8,Prevalence
+Kentucky,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,60.3,Prevalence
+Kentucky,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,52.7,Prevalence
+Kentucky,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.4,Prevalence
+Kentucky,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,44.7,Prevalence
+Kentucky,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Louisiana,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10,Prevalence
+Louisiana,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,22.1,Prevalence
+Louisiana,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,45.8,Prevalence
+Louisiana,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,57.8,Prevalence
+Louisiana,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.7,Prevalence
+Louisiana,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.8,Prevalence
+Louisiana,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,43.1,Prevalence
+Louisiana,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Maine,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.8,Prevalence
+Maine,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,20.2,Prevalence
+Maine,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,39,Prevalence
+Maine,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,50.4,Prevalence
+Maine,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,46.9,Prevalence
+Maine,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Maine,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,39.8,Prevalence
+Maine,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Maryland,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.7,Prevalence
+Maryland,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18.4,Prevalence
+Maryland,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,41,Prevalence
+Maryland,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,52.4,Prevalence
+Maryland,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,46.2,Prevalence
+Maryland,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+Maryland,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,41.5,Prevalence
+Maryland,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Massachusetts,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.4,Prevalence
+Massachusetts,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,17.7,Prevalence
+Massachusetts,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,33,Prevalence
+Massachusetts,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,46.1,Prevalence
+Massachusetts,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.2,Prevalence
+Massachusetts,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.951,Prevalence
+Massachusetts,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,34.8,Prevalence
+Massachusetts,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Michigan,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.3,Prevalence
+Michigan,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,20.5,Prevalence
+Michigan,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.5,Prevalence
+Michigan,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55,Prevalence
+Michigan,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,50.4,Prevalence
+Michigan,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Michigan,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,42.1,Prevalence
+Michigan,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,42.9,Prevalence
+Minnesota,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7,Prevalence
+Minnesota,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18,Prevalence
+Minnesota,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,39.8,Prevalence
+Minnesota,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53.7,Prevalence
+Minnesota,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.8,Prevalence
+Minnesota,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.684,Prevalence
+Minnesota,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,39.9,Prevalence
+Minnesota,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Mississippi,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.3,Prevalence
+Mississippi,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,26.2,Prevalence
+Mississippi,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.5,Prevalence
+Mississippi,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,61.9,Prevalence
+Mississippi,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,52.2,Prevalence
+Mississippi,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.9,Prevalence
+Mississippi,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,46.6,Prevalence
+Mississippi,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,61.1,Prevalence
+Missouri,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.8,Prevalence
+Missouri,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,21.9,Prevalence
+Missouri,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.4,Prevalence
+Missouri,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,56.2,Prevalence
+Missouri,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,50.9,Prevalence
+Missouri,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.4,Prevalence
+Missouri,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,43.7,Prevalence
+Missouri,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Montana,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4.9,Prevalence
+Montana,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.5,Prevalence
+Montana,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,29.8,Prevalence
+Montana,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,42.2,Prevalence
+Montana,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,38.4,Prevalence
+Montana,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.749,Prevalence
+Montana,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,30.7,Prevalence
+Montana,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Nebraska,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.5,Prevalence
+Nebraska,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,19.4,Prevalence
+Nebraska,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,44.3,Prevalence
+Nebraska,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,57,Prevalence
+Nebraska,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.6,Prevalence
+Nebraska,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Nebraska,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,44.6,Prevalence
+Nebraska,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Nevada,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.2,Prevalence
+Nevada,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18.6,Prevalence
+Nevada,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,35.4,Prevalence
+Nevada,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.5,Prevalence
+Nevada,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,38.8,Prevalence
+Nevada,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Nevada,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,33.7,Prevalence
+Nevada,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+New Hampshire,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.5,Prevalence
+New Hampshire,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,17.9,Prevalence
+New Hampshire,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,37.9,Prevalence
+New Hampshire,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,50.8,Prevalence
+New Hampshire,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,44.7,Prevalence
+New Hampshire,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.711,Prevalence
+New Hampshire,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,38.3,Prevalence
+New Hampshire,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+New Jersey,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.6,Prevalence
+New Jersey,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18.3,Prevalence
+New Jersey,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,39.1,Prevalence
+New Jersey,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49.4,Prevalence
+New Jersey,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.3,Prevalence
+New Jersey,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+New Jersey,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,38.8,Prevalence
+New Jersey,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+New Mexico,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.9,Prevalence
+New Mexico,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18,Prevalence
+New Mexico,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,41.1,Prevalence
+New Mexico,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47.8,Prevalence
+New Mexico,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,36.7,Prevalence
+New Mexico,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.3,Prevalence
+New Mexico,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,38.6,Prevalence
+New Mexico,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+New York,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.6,Prevalence
+New York,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18.4,Prevalence
+New York,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,37.4,Prevalence
+New York,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49.4,Prevalence
+New York,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,44.9,Prevalence
+New York,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+New York,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,38.7,Prevalence
+New York,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,51.7,Prevalence
+None of the above,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6,Prevalence
+None of the above,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14.8,Prevalence
+None of the above,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,31.1,Prevalence
+None of the above,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,41.4,Prevalence
+None of the above,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,39.5,Prevalence
+None of the above,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.779,Prevalence
+None of the above,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,32.1,Prevalence
+None of the above,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+North Carolina,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9,Prevalence
+North Carolina,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,20.7,Prevalence
+North Carolina,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,44.8,Prevalence
+North Carolina,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,56.1,Prevalence
+North Carolina,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49.3,Prevalence
+North Carolina,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+North Carolina,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,42.5,Prevalence
+North Carolina,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,44.9,Prevalence
+North Dakota,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.6,Prevalence
+North Dakota,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,19.3,Prevalence
+North Dakota,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,44.3,Prevalence
+North Dakota,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,59.2,Prevalence
+North Dakota,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,56,Prevalence
+North Dakota,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.662,Prevalence
+North Dakota,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,41.7,Prevalence
+North Dakota,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Ohio,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.5,Prevalence
+Ohio,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,21.1,Prevalence
+Ohio,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47,Prevalence
+Ohio,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,59.8,Prevalence
+Ohio,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55.3,Prevalence
+Ohio,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.914,Prevalence
+Ohio,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,45.6,Prevalence
+Ohio,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,46.6,Prevalence
+Oklahoma,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11,Prevalence
+Oklahoma,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,23.5,Prevalence
+Oklahoma,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47.6,Prevalence
+Oklahoma,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,56.8,Prevalence
+Oklahoma,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49,Prevalence
+Oklahoma,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.6,Prevalence
+Oklahoma,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,41.5,Prevalence
+Oklahoma,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Oregon,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.1,Prevalence
+Oregon,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,17.3,Prevalence
+Oregon,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,31.2,Prevalence
+Oregon,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,42.7,Prevalence
+Oregon,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,42.2,Prevalence
+Oregon,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.768,Prevalence
+Oregon,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,32.2,Prevalence
+Oregon,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Pennsylvania,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.1,Prevalence
+Pennsylvania,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,19.2,Prevalence
+Pennsylvania,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,41.5,Prevalence
+Pennsylvania,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53.5,Prevalence
+Pennsylvania,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49.5,Prevalence
+Pennsylvania,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1,Prevalence
+Pennsylvania,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,42.1,Prevalence
+Pennsylvania,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,48.3,Prevalence
+Puerto Rico,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.4,Prevalence
+Puerto Rico,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,22.6,Prevalence
+Puerto Rico,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.9,Prevalence
+Puerto Rico,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,56.7,Prevalence
+Puerto Rico,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,41.2,Prevalence
+Puerto Rico,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.9,Prevalence
+Puerto Rico,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,39.9,Prevalence
+Puerto Rico,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Rhode Island,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12.1,Prevalence
+Rhode Island,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,20.8,Prevalence
+Rhode Island,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,36.5,Prevalence
+Rhode Island,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49.1,Prevalence
+Rhode Island,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.1,Prevalence
+Rhode Island,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.4,Prevalence
+Rhode Island,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,36.8,Prevalence
+Rhode Island,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+South Carolina,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.5,Prevalence
+South Carolina,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,22.8,Prevalence
+South Carolina,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,44.7,Prevalence
+South Carolina,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55.8,Prevalence
+South Carolina,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47.5,Prevalence
+South Carolina,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+South Carolina,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,41.4,Prevalence
+South Carolina,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,58.1,Prevalence
+South Dakota,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.3,Prevalence
+South Dakota,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16.7,Prevalence
+South Dakota,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,38.6,Prevalence
+South Dakota,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.1,Prevalence
+South Dakota,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,48.1,Prevalence
+South Dakota,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.669,Prevalence
+South Dakota,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,36,Prevalence
+South Dakota,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Tennessee,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.8,Prevalence
+Tennessee,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,23.7,Prevalence
+Tennessee,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,45.6,Prevalence
+Tennessee,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55.1,Prevalence
+Tennessee,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,45.6,Prevalence
+Tennessee,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.3,Prevalence
+Tennessee,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,42.5,Prevalence
+Tennessee,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,55,Prevalence
+Texas,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.6,Prevalence
+Texas,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,20.4,Prevalence
+Texas,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.7,Prevalence
+Texas,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53.9,Prevalence
+Texas,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47.7,Prevalence
+Texas,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1,Prevalence
+Texas,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,37.9,Prevalence
+Texas,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,53.7,Prevalence
+United States,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.5,Prevalence
+United States,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,19.6,Prevalence
+United States,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40.9,Prevalence
+United States,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,52.2,Prevalence
+United States,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,46.9,Prevalence
+United States,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+United States,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,39.2,Prevalence
+United States,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,45,Prevalence
+Utah,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.9,Prevalence
+Utah,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.8,Prevalence
+Utah,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,29.6,Prevalence
+Utah,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,42.3,Prevalence
+Utah,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,39.5,Prevalence
+Utah,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.286,Prevalence
+Utah,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,28,Prevalence
+Utah,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Vermont,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.2,Prevalence
+Vermont,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15.7,Prevalence
+Vermont,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,32.4,Prevalence
+Vermont,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.7,Prevalence
+Vermont,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,41.4,Prevalence
+Vermont,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.726,Prevalence
+Vermont,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,34.9,Prevalence
+Vermont,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,30.7,Prevalence
+Virgin Islands,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49,Prevalence
+Virgin Islands,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,33.4,Prevalence
+Virgin Islands,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,38.8,Prevalence
+Virgin Islands,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Virginia,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.7,Prevalence
+Virginia,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,19.1,Prevalence
+Virginia,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43.2,Prevalence
+Virginia,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,54.5,Prevalence
+Virginia,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,48.9,Prevalence
+Virginia,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Virginia,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,42.4,Prevalence
+Virginia,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,37.1,Prevalence
+Washington,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.8,Prevalence
+Washington,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16.1,Prevalence
+Washington,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,31.8,Prevalence
+Washington,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,42.6,Prevalence
+Washington,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40.1,Prevalence
+Washington,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.636,Prevalence
+Washington,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,32.6,Prevalence
+Washington,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+West Virginia,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12.1,Prevalence
+West Virginia,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,26.4,Prevalence
+West Virginia,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.6,Prevalence
+West Virginia,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,62.4,Prevalence
+West Virginia,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53.8,Prevalence
+West Virginia,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.7,Prevalence
+West Virginia,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,47.1,Prevalence
+West Virginia,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Wisconsin,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.1,Prevalence
+Wisconsin,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,19.9,Prevalence
+Wisconsin,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,42.6,Prevalence
+Wisconsin,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,57.3,Prevalence
+Wisconsin,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55.2,Prevalence
+Wisconsin,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.86,Prevalence
+Wisconsin,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,41.1,Prevalence
+Wisconsin,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Wyoming,10-14 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,5.9,Prevalence
+Wyoming,15-19 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15.4,Prevalence
+Wyoming,20-39 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,39.6,Prevalence
+Wyoming,40-64 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51.6,Prevalence
+Wyoming,65+ Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,45.7,Prevalence
+Wyoming,<10 Years,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.618,Prevalence
+Wyoming,Total,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,37.4,Prevalence
+Wyoming,NA,obesity,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Alabama,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.398,Prevalence
+Alabama,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.75,Prevalence
+Alabama,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.3,Prevalence
+Alabama,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.3,Prevalence
+Alabama,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.2,Prevalence
+Alabama,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.051,Prevalence
+Alabama,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.9,Prevalence
+Alabama,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Alaska,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Alaska,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Alaska,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.926,Prevalence
+Alaska,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.4,Prevalence
+Alaska,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.5,Prevalence
+Alaska,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Alaska,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,4.5,Prevalence
+Alaska,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Arizona,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.242,Prevalence
+Arizona,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.5,Prevalence
+Arizona,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+Arizona,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.8,Prevalence
+Arizona,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.5,Prevalence
+Arizona,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.088,Prevalence
+Arizona,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,4.9,Prevalence
+Arizona,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Arkansas,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.784,Prevalence
+Arkansas,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.4,Prevalence
+Arkansas,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.3,Prevalence
+Arkansas,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.6,Prevalence
+Arkansas,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12.4,Prevalence
+Arkansas,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.151,Prevalence
+Arkansas,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.3,Prevalence
+Arkansas,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.2,Prevalence
+Armed Forces Africa,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Africa,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1.8,Prevalence
+Armed Forces Africa,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Armed Forces Pacific,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,2.1,Prevalence
+Armed Forces Pacific,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+California,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.242,Prevalence
+California,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.472,Prevalence
+California,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.3,Prevalence
+California,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.4,Prevalence
+California,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.2,Prevalence
+California,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.063,Prevalence
+California,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,4.4,Prevalence
+California,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,25.5,Prevalence
+Colorado,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.462,Prevalence
+Colorado,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.719,Prevalence
+Colorado,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Colorado,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,5.4,Prevalence
+Colorado,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.3,Prevalence
+Colorado,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.122,Prevalence
+Colorado,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3.8,Prevalence
+Colorado,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Connecticut,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.552,Prevalence
+Connecticut,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.816,Prevalence
+Connecticut,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.4,Prevalence
+Connecticut,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.7,Prevalence
+Connecticut,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12,Prevalence
+Connecticut,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.156,Prevalence
+Connecticut,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.5,Prevalence
+Connecticut,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Delaware,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.555,Prevalence
+Delaware,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Delaware,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.1,Prevalence
+Delaware,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.8,Prevalence
+Delaware,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16,Prevalence
+Delaware,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.146,Prevalence
+Delaware,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.1,Prevalence
+Delaware,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+District of Columbia,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+District of Columbia,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+District of Columbia,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.968,Prevalence
+District of Columbia,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4.6,Prevalence
+District of Columbia,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.1,Prevalence
+District of Columbia,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+District of Columbia,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3.4,Prevalence
+District of Columbia,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Florida,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.549,Prevalence
+Florida,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.872,Prevalence
+Florida,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+Florida,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.3,Prevalence
+Florida,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.2,Prevalence
+Florida,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.123,Prevalence
+Florida,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,4.8,Prevalence
+Florida,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Georgia,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.577,Prevalence
+Georgia,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Georgia,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.8,Prevalence
+Georgia,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.1,Prevalence
+Georgia,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12.4,Prevalence
+Georgia,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.12,Prevalence
+Georgia,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.6,Prevalence
+Georgia,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Hawaii,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.517,Prevalence
+Hawaii,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.891,Prevalence
+Hawaii,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.8,Prevalence
+Hawaii,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.8,Prevalence
+Hawaii,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.7,Prevalence
+Hawaii,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.11,Prevalence
+Hawaii,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.8,Prevalence
+Hawaii,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Idaho,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.597,Prevalence
+Idaho,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.872,Prevalence
+Idaho,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.9,Prevalence
+Idaho,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.1,Prevalence
+Idaho,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.7,Prevalence
+Idaho,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.175,Prevalence
+Idaho,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.2,Prevalence
+Idaho,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Illinois,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.461,Prevalence
+Illinois,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.782,Prevalence
+Illinois,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.1,Prevalence
+Illinois,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.3,Prevalence
+Illinois,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15.4,Prevalence
+Illinois,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.113,Prevalence
+Illinois,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.5,Prevalence
+Illinois,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Indiana,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.296,Prevalence
+Indiana,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.555,Prevalence
+Indiana,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.1,Prevalence
+Indiana,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11,Prevalence
+Indiana,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,17,Prevalence
+Indiana,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.071,Prevalence
+Indiana,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.9,Prevalence
+Indiana,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Iowa,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.645,Prevalence
+Iowa,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.915,Prevalence
+Iowa,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2,Prevalence
+Iowa,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.6,Prevalence
+Iowa,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14.1,Prevalence
+Iowa,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.155,Prevalence
+Iowa,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.5,Prevalence
+Iowa,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Kansas,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.378,Prevalence
+Kansas,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.581,Prevalence
+Kansas,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.8,Prevalence
+Kansas,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.3,Prevalence
+Kansas,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.1,Prevalence
+Kansas,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.099,Prevalence
+Kansas,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.8,Prevalence
+Kansas,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Kentucky,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.687,Prevalence
+Kentucky,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Kentucky,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.2,Prevalence
+Kentucky,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10.9,Prevalence
+Kentucky,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16.3,Prevalence
+Kentucky,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.157,Prevalence
+Kentucky,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.8,Prevalence
+Kentucky,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Louisiana,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.421,Prevalence
+Louisiana,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.698,Prevalence
+Louisiana,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.7,Prevalence
+Louisiana,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9,Prevalence
+Louisiana,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15,Prevalence
+Louisiana,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.088,Prevalence
+Louisiana,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.8,Prevalence
+Louisiana,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Maine,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.604,Prevalence
+Maine,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.859,Prevalence
+Maine,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.9,Prevalence
+Maine,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.4,Prevalence
+Maine,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.8,Prevalence
+Maine,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.184,Prevalence
+Maine,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.3,Prevalence
+Maine,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Maryland,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.566,Prevalence
+Maryland,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.828,Prevalence
+Maryland,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.6,Prevalence
+Maryland,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8,Prevalence
+Maryland,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12.9,Prevalence
+Maryland,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.126,Prevalence
+Maryland,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.5,Prevalence
+Maryland,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Massachusetts,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.565,Prevalence
+Massachusetts,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.816,Prevalence
+Massachusetts,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.4,Prevalence
+Massachusetts,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.4,Prevalence
+Massachusetts,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.3,Prevalence
+Massachusetts,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.144,Prevalence
+Massachusetts,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.9,Prevalence
+Massachusetts,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Michigan,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.613,Prevalence
+Michigan,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.865,Prevalence
+Michigan,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.9,Prevalence
+Michigan,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.4,Prevalence
+Michigan,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15.2,Prevalence
+Michigan,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.199,Prevalence
+Michigan,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.3,Prevalence
+Michigan,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Minnesota,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.419,Prevalence
+Minnesota,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.671,Prevalence
+Minnesota,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.8,Prevalence
+Minnesota,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.7,Prevalence
+Minnesota,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14.7,Prevalence
+Minnesota,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.1,Prevalence
+Minnesota,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.7,Prevalence
+Minnesota,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Mississippi,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.643,Prevalence
+Mississippi,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Mississippi,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.4,Prevalence
+Mississippi,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.4,Prevalence
+Mississippi,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16.7,Prevalence
+Mississippi,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.1,Prevalence
+Mississippi,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,8.5,Prevalence
+Mississippi,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Missouri,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.173,Prevalence
+Missouri,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.327,Prevalence
+Missouri,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.9,Prevalence
+Missouri,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.2,Prevalence
+Missouri,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14,Prevalence
+Missouri,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.034,Prevalence
+Missouri,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.1,Prevalence
+Missouri,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Montana,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.373,Prevalence
+Montana,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.51,Prevalence
+Montana,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Montana,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4.8,Prevalence
+Montana,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8,Prevalence
+Montana,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.093,Prevalence
+Montana,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3.7,Prevalence
+Montana,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Nebraska,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.314,Prevalence
+Nebraska,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.467,Prevalence
+Nebraska,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2,Prevalence
+Nebraska,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.7,Prevalence
+Nebraska,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12.3,Prevalence
+Nebraska,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.057,Prevalence
+Nebraska,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.7,Prevalence
+Nebraska,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Nevada,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.34,Prevalence
+Nevada,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.482,Prevalence
+Nevada,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.977,Prevalence
+Nevada,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4.8,Prevalence
+Nevada,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.8,Prevalence
+Nevada,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.123,Prevalence
+Nevada,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3.5,Prevalence
+Nevada,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+New Hampshire,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.812,Prevalence
+New Hampshire,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+New Hampshire,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.7,Prevalence
+New Hampshire,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.2,Prevalence
+New Hampshire,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11,Prevalence
+New Hampshire,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.205,Prevalence
+New Hampshire,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6,Prevalence
+New Hampshire,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+New Jersey,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.543,Prevalence
+New Jersey,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.774,Prevalence
+New Jersey,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+New Jersey,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.3,Prevalence
+New Jersey,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.3,Prevalence
+New Jersey,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.109,Prevalence
+New Jersey,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6,Prevalence
+New Jersey,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+New Mexico,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+New Mexico,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.265,Prevalence
+New Mexico,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.7,Prevalence
+New Mexico,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.3,Prevalence
+New Mexico,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.8,Prevalence
+New Mexico,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+New Mexico,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.8,Prevalence
+New Mexico,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+New York,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.415,Prevalence
+New York,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.659,Prevalence
+New York,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+New York,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.5,Prevalence
+New York,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12.4,Prevalence
+New York,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.133,Prevalence
+New York,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.3,Prevalence
+New York,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+None of the above,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.482,Prevalence
+None of the above,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.731,Prevalence
+None of the above,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.4,Prevalence
+None of the above,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.1,Prevalence
+None of the above,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.6,Prevalence
+None of the above,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.103,Prevalence
+None of the above,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,4.5,Prevalence
+None of the above,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+North Carolina,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.536,Prevalence
+North Carolina,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.882,Prevalence
+North Carolina,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2,Prevalence
+North Carolina,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10,Prevalence
+North Carolina,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15,Prevalence
+North Carolina,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.11,Prevalence
+North Carolina,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.5,Prevalence
+North Carolina,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+North Dakota,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.467,Prevalence
+North Dakota,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.736,Prevalence
+North Dakota,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.8,Prevalence
+North Dakota,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.6,Prevalence
+North Dakota,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14.5,Prevalence
+North Dakota,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.123,Prevalence
+North Dakota,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6,Prevalence
+North Dakota,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Ohio,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.417,Prevalence
+Ohio,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.649,Prevalence
+Ohio,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.1,Prevalence
+Ohio,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.1,Prevalence
+Ohio,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,17.7,Prevalence
+Ohio,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.092,Prevalence
+Ohio,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,8.5,Prevalence
+Ohio,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,19,Prevalence
+Oklahoma,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.855,Prevalence
+Oklahoma,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.3,Prevalence
+Oklahoma,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.1,Prevalence
+Oklahoma,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10,Prevalence
+Oklahoma,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.9,Prevalence
+Oklahoma,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.172,Prevalence
+Oklahoma,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.9,Prevalence
+Oklahoma,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Oregon,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.827,Prevalence
+Oregon,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.1,Prevalence
+Oregon,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.6,Prevalence
+Oregon,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.5,Prevalence
+Oregon,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.7,Prevalence
+Oregon,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.239,Prevalence
+Oregon,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.4,Prevalence
+Oregon,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Pennsylvania,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.299,Prevalence
+Pennsylvania,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.49,Prevalence
+Pennsylvania,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+Pennsylvania,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.2,Prevalence
+Pennsylvania,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14,Prevalence
+Pennsylvania,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.081,Prevalence
+Pennsylvania,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.8,Prevalence
+Pennsylvania,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Puerto Rico,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Puerto Rico,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Puerto Rico,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.2,Prevalence
+Puerto Rico,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.3,Prevalence
+Puerto Rico,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.2,Prevalence
+Puerto Rico,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Puerto Rico,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,4.5,Prevalence
+Puerto Rico,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Rhode Island,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.154,Prevalence
+Rhode Island,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.473,Prevalence
+Rhode Island,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.6,Prevalence
+Rhode Island,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.3,Prevalence
+Rhode Island,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.3,Prevalence
+Rhode Island,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Rhode Island,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.7,Prevalence
+Rhode Island,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+South Carolina,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.592,Prevalence
+South Carolina,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1,Prevalence
+South Carolina,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.2,Prevalence
+South Carolina,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10,Prevalence
+South Carolina,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14.7,Prevalence
+South Carolina,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.139,Prevalence
+South Carolina,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.4,Prevalence
+South Carolina,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+South Dakota,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.485,Prevalence
+South Dakota,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.891,Prevalence
+South Dakota,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.7,Prevalence
+South Dakota,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8,Prevalence
+South Dakota,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.1,Prevalence
+South Dakota,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.131,Prevalence
+South Dakota,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.6,Prevalence
+South Dakota,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Tennessee,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.507,Prevalence
+Tennessee,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.843,Prevalence
+Tennessee,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.7,Prevalence
+Tennessee,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8,Prevalence
+Tennessee,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.1,Prevalence
+Tennessee,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.11,Prevalence
+Tennessee,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.1,Prevalence
+Tennessee,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Texas,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.448,Prevalence
+Texas,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.775,Prevalence
+Texas,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.7,Prevalence
+Texas,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.9,Prevalence
+Texas,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.9,Prevalence
+Texas,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.093,Prevalence
+Texas,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.2,Prevalence
+Texas,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+United States,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.476,Prevalence
+United States,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.77,Prevalence
+United States,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.7,Prevalence
+United States,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.4,Prevalence
+United States,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,13.1,Prevalence
+United States,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.114,Prevalence
+United States,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.3,Prevalence
+United States,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,16.1,Prevalence
+Utah,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.069,Prevalence
+Utah,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.237,Prevalence
+Utah,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.5,Prevalence
+Utah,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.2,Prevalence
+Utah,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.3,Prevalence
+Utah,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.023,Prevalence
+Utah,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3.8,Prevalence
+Utah,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Vermont,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.811,Prevalence
+Vermont,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1,Prevalence
+Vermont,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.3,Prevalence
+Vermont,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4.8,Prevalence
+Vermont,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8,Prevalence
+Vermont,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.198,Prevalence
+Vermont,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,4.4,Prevalence
+Vermont,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.8,Prevalence
+Virgin Islands,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12,Prevalence
+Virgin Islands,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,NA,Prevalence
+Virgin Islands,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,9,Prevalence
+Virgin Islands,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Virginia,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.551,Prevalence
+Virginia,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.812,Prevalence
+Virginia,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.8,Prevalence
+Virginia,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8.7,Prevalence
+Virginia,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14.5,Prevalence
+Virginia,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.131,Prevalence
+Virginia,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7.2,Prevalence
+Virginia,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Washington,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.294,Prevalence
+Washington,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.47,Prevalence
+Washington,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.4,Prevalence
+Washington,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6.8,Prevalence
+Washington,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.2,Prevalence
+Washington,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.06,Prevalence
+Washington,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5.1,Prevalence
+Washington,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+West Virginia,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.489,Prevalence
+West Virginia,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.862,Prevalence
+West Virginia,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2.2,Prevalence
+West Virginia,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.1,Prevalence
+West Virginia,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16,Prevalence
+West Virginia,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.121,Prevalence
+West Virginia,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,8.3,Prevalence
+West Virginia,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Wisconsin,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.484,Prevalence
+Wisconsin,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.867,Prevalence
+Wisconsin,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2,Prevalence
+Wisconsin,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9.7,Prevalence
+Wisconsin,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15.6,Prevalence
+Wisconsin,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.122,Prevalence
+Wisconsin,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.8,Prevalence
+Wisconsin,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Wyoming,10-14 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.669,Prevalence
+Wyoming,15-19 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.859,Prevalence
+Wyoming,20-39 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1.8,Prevalence
+Wyoming,40-64 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7.8,Prevalence
+Wyoming,65+ Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,11.9,Prevalence
+Wyoming,<10 Years,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,0.156,Prevalence
+Wyoming,Total,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6.1,Prevalence
+Wyoming,NA,diabetes,prevalence,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Prevalence
+Alabama,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,17588,Number Base Patients
+Alabama,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,23606,Number Base Patients
+Alabama,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,136370,Number Base Patients
+Alabama,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,232615,Number Base Patients
+Alabama,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,200272,Number Base Patients
+Alabama,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43370,Number Base Patients
+Alabama,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,653834,Number Base Patients
+Alabama,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,13,Number Base Patients
+Alaska,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,669,Number Base Patients
+Alaska,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,808,Number Base Patients
+Alaska,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4426,Number Base Patients
+Alaska,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4633,Number Base Patients
+Alaska,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4770,Number Base Patients
+Alaska,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1532,Number Base Patients
+Alaska,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,16838,Number Base Patients
+Alaska,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Arizona,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,66077,Number Base Patients
+Arizona,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,77194,Number Base Patients
+Arizona,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,410017,Number Base Patients
+Arizona,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,518628,Number Base Patients
+Arizona,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,457892,Number Base Patients
+Arizona,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,115590,Number Base Patients
+Arizona,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1645399,Number Base Patients
+Arizona,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Arkansas,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,74745,Number Base Patients
+Arkansas,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,81680,Number Base Patients
+Arkansas,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,267474,Number Base Patients
+Arkansas,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,361898,Number Base Patients
+Arkansas,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,292292,Number Base Patients
+Arkansas,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,179017,Number Base Patients
+Arkansas,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1257118,Number Base Patients
+Arkansas,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,12,Number Base Patients
+Armed Forces Africa,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,77,Number Base Patients
+Armed Forces Africa,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,74,Number Base Patients
+Armed Forces Africa,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,328,Number Base Patients
+Armed Forces Africa,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,937,Number Base Patients
+Armed Forces Africa,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,77,Number Base Patients
+Armed Forces Africa,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,137,Number Base Patients
+Armed Forces Africa,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1630,Number Base Patients
+Armed Forces Africa,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Armed Forces Pacific,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47,Number Base Patients
+Armed Forces Pacific,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,46,Number Base Patients
+Armed Forces Pacific,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,211,Number Base Patients
+Armed Forces Pacific,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,451,Number Base Patients
+Armed Forces Pacific,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55,Number Base Patients
+Armed Forces Pacific,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,104,Number Base Patients
+Armed Forces Pacific,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,914,Number Base Patients
+Armed Forces Pacific,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+California,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,465112,Number Base Patients
+California,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,553626,Number Base Patients
+California,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2554099,Number Base Patients
+California,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2998919,Number Base Patients
+California,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2035905,Number Base Patients
+California,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,874661,Number Base Patients
+California,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,9482373,Number Base Patients
+California,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,51,Number Base Patients
+Colorado,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,184526,Number Base Patients
+Colorado,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,202803,Number Base Patients
+Colorado,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,899484,Number Base Patients
+Colorado,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,937019,Number Base Patients
+Colorado,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,635502,Number Base Patients
+Colorado,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,402511,Number Base Patients
+Colorado,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3261861,Number Base Patients
+Colorado,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,16,Number Base Patients
+Connecticut,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,129674,Number Base Patients
+Connecticut,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,151919,Number Base Patients
+Connecticut,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,682529,Number Base Patients
+Connecticut,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,889887,Number Base Patients
+Connecticut,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,692214,Number Base Patients
+Connecticut,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,251709,Number Base Patients
+Connecticut,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,2797962,Number Base Patients
+Connecticut,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,30,Number Base Patients
+Delaware,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,37271,Number Base Patients
+Delaware,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40002,Number Base Patients
+Delaware,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,105426,Number Base Patients
+Delaware,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,132024,Number Base Patients
+Delaware,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,124395,Number Base Patients
+Delaware,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,80858,Number Base Patients
+Delaware,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,519982,Number Base Patients
+Delaware,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+District of Columbia,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,970,Number Base Patients
+District of Columbia,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2042,Number Base Patients
+District of Columbia,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,64679,Number Base Patients
+District of Columbia,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53707,Number Base Patients
+District of Columbia,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,29743,Number Base Patients
+District of Columbia,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2528,Number Base Patients
+District of Columbia,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,153670,Number Base Patients
+District of Columbia,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Florida,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,432328,Number Base Patients
+Florida,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,483136,Number Base Patients
+Florida,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2053232,Number Base Patients
+Florida,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2788775,Number Base Patients
+Florida,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2376874,Number Base Patients
+Florida,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,940262,Number Base Patients
+Florida,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,9074639,Number Base Patients
+Florida,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,32,Number Base Patients
+Georgia,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,228480,Number Base Patients
+Georgia,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,251913,Number Base Patients
+Georgia,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,812301,Number Base Patients
+Georgia,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1117373,Number Base Patients
+Georgia,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,825832,Number Base Patients
+Georgia,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,536270,Number Base Patients
+Georgia,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3772181,Number Base Patients
+Georgia,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,12,Number Base Patients
+Hawaii,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,29603,Number Base Patients
+Hawaii,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,31525,Number Base Patients
+Hawaii,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,112899,Number Base Patients
+Hawaii,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,158032,Number Base Patients
+Hawaii,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,134331,Number Base Patients
+Hawaii,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,63375,Number Base Patients
+Hawaii,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,529765,Number Base Patients
+Hawaii,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Idaho,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,55427,Number Base Patients
+Idaho,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,63319,Number Base Patients
+Idaho,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,246266,Number Base Patients
+Idaho,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,307723,Number Base Patients
+Idaho,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,243383,Number Base Patients
+Idaho,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,115694,Number Base Patients
+Idaho,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1031817,Number Base Patients
+Idaho,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Illinois,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,299214,Number Base Patients
+Illinois,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,355189,Number Base Patients
+Illinois,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1544695,Number Base Patients
+Illinois,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1926809,Number Base Patients
+Illinois,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1504391,Number Base Patients
+Illinois,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,617226,Number Base Patients
+Illinois,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6247551,Number Base Patients
+Illinois,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,27,Number Base Patients
+Indiana,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,156726,Number Base Patients
+Indiana,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,175234,Number Base Patients
+Indiana,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,751564,Number Base Patients
+Indiana,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,952054,Number Base Patients
+Indiana,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,717465,Number Base Patients
+Indiana,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,337546,Number Base Patients
+Indiana,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3090605,Number Base Patients
+Indiana,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,16,Number Base Patients
+Iowa,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,110927,Number Base Patients
+Iowa,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,119546,Number Base Patients
+Iowa,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,470874,Number Base Patients
+Iowa,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,540223,Number Base Patients
+Iowa,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,421645,Number Base Patients
+Iowa,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,230245,Number Base Patients
+Iowa,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1893477,Number Base Patients
+Iowa,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,17,Number Base Patients
+Kansas,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,35169,Number Base Patients
+Kansas,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,47325,Number Base Patients
+Kansas,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,234659,Number Base Patients
+Kansas,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,309843,Number Base Patients
+Kansas,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,267002,Number Base Patients
+Kansas,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,70707,Number Base Patients
+Kansas,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,964719,Number Base Patients
+Kansas,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,14,Number Base Patients
+Kentucky,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,139154,Number Base Patients
+Kentucky,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,153776,Number Base Patients
+Kentucky,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,642585,Number Base Patients
+Kentucky,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,847962,Number Base Patients
+Kentucky,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,628061,Number Base Patients
+Kentucky,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,308542,Number Base Patients
+Kentucky,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,2720111,Number Base Patients
+Kentucky,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,31,Number Base Patients
+Louisiana,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,117196,Number Base Patients
+Louisiana,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,136913,Number Base Patients
+Louisiana,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,586764,Number Base Patients
+Louisiana,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,751661,Number Base Patients
+Louisiana,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,565520,Number Base Patients
+Louisiana,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,261760,Number Base Patients
+Louisiana,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,2419837,Number Base Patients
+Louisiana,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,23,Number Base Patients
+Maine,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,34788,Number Base Patients
+Maine,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,39007,Number Base Patients
+Maine,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,176022,Number Base Patients
+Maine,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,262923,Number Base Patients
+Maine,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,255917,Number Base Patients
+Maine,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,67941,Number Base Patients
+Maine,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,836607,Number Base Patients
+Maine,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Maryland,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,64496,Number Base Patients
+Maryland,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,85014,Number Base Patients
+Maryland,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,578547,Number Base Patients
+Maryland,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,748438,Number Base Patients
+Maryland,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,576459,Number Base Patients
+Maryland,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,161980,Number Base Patients
+Maryland,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,2214950,Number Base Patients
+Maryland,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,16,Number Base Patients
+Massachusetts,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,152860,Number Base Patients
+Massachusetts,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,178691,Number Base Patients
+Massachusetts,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,927193,Number Base Patients
+Massachusetts,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1113377,Number Base Patients
+Massachusetts,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,822205,Number Base Patients
+Massachusetts,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,314661,Number Base Patients
+Massachusetts,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3509010,Number Base Patients
+Massachusetts,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,23,Number Base Patients
+Michigan,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,241750,Number Base Patients
+Michigan,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,278482,Number Base Patients
+Michigan,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1310526,Number Base Patients
+Michigan,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1659476,Number Base Patients
+Michigan,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1340158,Number Base Patients
+Michigan,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,505776,Number Base Patients
+Michigan,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5336203,Number Base Patients
+Michigan,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,35,Number Base Patients
+Minnesota,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,143905,Number Base Patients
+Minnesota,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,158139,Number Base Patients
+Minnesota,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,703008,Number Base Patients
+Minnesota,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,859404,Number Base Patients
+Minnesota,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,681349,Number Base Patients
+Minnesota,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,295789,Number Base Patients
+Minnesota,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,2841603,Number Base Patients
+Minnesota,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Mississippi,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,87225,Number Base Patients
+Mississippi,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,106461,Number Base Patients
+Mississippi,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,437205,Number Base Patients
+Mississippi,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,621786,Number Base Patients
+Mississippi,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,498885,Number Base Patients
+Mississippi,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,208672,Number Base Patients
+Mississippi,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1960252,Number Base Patients
+Mississippi,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,18,Number Base Patients
+Missouri,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,45786,Number Base Patients
+Missouri,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,56225,Number Base Patients
+Missouri,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,288760,Number Base Patients
+Missouri,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,365785,Number Base Patients
+Missouri,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,305524,Number Base Patients
+Missouri,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,90667,Number Base Patients
+Missouri,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1152753,Number Base Patients
+Missouri,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Montana,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15269,Number Base Patients
+Montana,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,18835,Number Base Patients
+Montana,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,98290,Number Base Patients
+Montana,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,103934,Number Base Patients
+Montana,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,83405,Number Base Patients
+Montana,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,34307,Number Base Patients
+Montana,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,354045,Number Base Patients
+Montana,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Nebraska,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,28332,Number Base Patients
+Nebraska,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40044,Number Base Patients
+Nebraska,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,219635,Number Base Patients
+Nebraska,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,260136,Number Base Patients
+Nebraska,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,238667,Number Base Patients
+Nebraska,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,62933,Number Base Patients
+Nebraska,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,849752,Number Base Patients
+Nebraska,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Nevada,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,50556,Number Base Patients
+Nevada,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,58115,Number Base Patients
+Nevada,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,328097,Number Base Patients
+Nevada,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,379743,Number Base Patients
+Nevada,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,235840,Number Base Patients
+Nevada,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,100412,Number Base Patients
+Nevada,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1152765,Number Base Patients
+Nevada,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+New Hampshire,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,27458,Number Base Patients
+New Hampshire,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,32538,Number Base Patients
+New Hampshire,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,130394,Number Base Patients
+New Hampshire,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,193864,Number Base Patients
+New Hampshire,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,183638,Number Base Patients
+New Hampshire,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,54277,Number Base Patients
+New Hampshire,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,622171,Number Base Patients
+New Hampshire,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+New Jersey,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,106356,Number Base Patients
+New Jersey,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,133340,Number Base Patients
+New Jersey,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,692999,Number Base Patients
+New Jersey,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1009969,Number Base Patients
+New Jersey,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,820101,Number Base Patients
+New Jersey,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,233995,Number Base Patients
+New Jersey,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,2996781,Number Base Patients
+New Jersey,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,21,Number Base Patients
+New Mexico,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6737,Number Base Patients
+New Mexico,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9814,Number Base Patients
+New Mexico,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,74850,Number Base Patients
+New Mexico,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,107096,Number Base Patients
+New Mexico,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,109500,Number Base Patients
+New Mexico,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15341,Number Base Patients
+New Mexico,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,323339,Number Base Patients
+New Mexico,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+New York,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,272245,Number Base Patients
+New York,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,322642,Number Base Patients
+New York,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1761773,Number Base Patients
+New York,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2366693,Number Base Patients
+New York,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2007121,Number Base Patients
+New York,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,540269,Number Base Patients
+New York,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7270772,Number Base Patients
+New York,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,29,Number Base Patients
+None of the above,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,36946,Number Base Patients
+None of the above,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,41313,Number Base Patients
+None of the above,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,294829,Number Base Patients
+None of the above,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,308754,Number Base Patients
+None of the above,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,206431,Number Base Patients
+None of the above,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,77711,Number Base Patients
+None of the above,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,965985,Number Base Patients
+None of the above,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+North Carolina,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,272536,Number Base Patients
+North Carolina,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,318736,Number Base Patients
+North Carolina,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1513041,Number Base Patients
+North Carolina,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1995364,Number Base Patients
+North Carolina,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1536547,Number Base Patients
+North Carolina,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,602760,Number Base Patients
+North Carolina,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6239033,Number Base Patients
+North Carolina,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,49,Number Base Patients
+North Dakota,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,39173,Number Base Patients
+North Dakota,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,38984,Number Base Patients
+North Dakota,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,173294,Number Base Patients
+North Dakota,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,183738,Number Base Patients
+North Dakota,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,136766,Number Base Patients
+North Dakota,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,83078,Number Base Patients
+North Dakota,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,655035,Number Base Patients
+North Dakota,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Ohio,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,412400,Number Base Patients
+Ohio,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,475825,Number Base Patients
+Ohio,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2198786,Number Base Patients
+Ohio,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2837443,Number Base Patients
+Ohio,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2256197,Number Base Patients
+Ohio,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,854766,Number Base Patients
+Ohio,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,9035475,Number Base Patients
+Ohio,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,58,Number Base Patients
+Oklahoma,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,71152,Number Base Patients
+Oklahoma,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,79340,Number Base Patients
+Oklahoma,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,301551,Number Base Patients
+Oklahoma,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,402112,Number Base Patients
+Oklahoma,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,315204,Number Base Patients
+Oklahoma,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,169466,Number Base Patients
+Oklahoma,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1338836,Number Base Patients
+Oklahoma,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,11,Number Base Patients
+Oregon,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,91999,Number Base Patients
+Oregon,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,109765,Number Base Patients
+Oregon,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,476372,Number Base Patients
+Oregon,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,538521,Number Base Patients
+Oregon,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,392949,Number Base Patients
+Oregon,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,163873,Number Base Patients
+Oregon,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1773488,Number Base Patients
+Oregon,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Pennsylvania,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,279546,Number Base Patients
+Pennsylvania,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,328744,Number Base Patients
+Pennsylvania,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1770732,Number Base Patients
+Pennsylvania,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2326776,Number Base Patients
+Pennsylvania,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1909992,Number Base Patients
+Pennsylvania,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,546210,Number Base Patients
+Pennsylvania,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,7162058,Number Base Patients
+Pennsylvania,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,58,Number Base Patients
+Puerto Rico,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,3795,Number Base Patients
+Puerto Rico,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,4053,Number Base Patients
+Puerto Rico,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,15277,Number Base Patients
+Puerto Rico,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,21377,Number Base Patients
+Puerto Rico,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,12317,Number Base Patients
+Puerto Rico,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7255,Number Base Patients
+Puerto Rico,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,64074,Number Base Patients
+Puerto Rico,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Rhode Island,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,8421,Number Base Patients
+Rhode Island,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9512,Number Base Patients
+Rhode Island,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,49539,Number Base Patients
+Rhode Island,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,54980,Number Base Patients
+Rhode Island,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,45636,Number Base Patients
+Rhode Island,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16694,Number Base Patients
+Rhode Island,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,184783,Number Base Patients
+Rhode Island,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+South Carolina,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,167166,Number Base Patients
+South Carolina,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,190866,Number Base Patients
+South Carolina,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,773297,Number Base Patients
+South Carolina,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1057962,Number Base Patients
+South Carolina,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,877715,Number Base Patients
+South Carolina,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,361266,Number Base Patients
+South Carolina,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3428303,Number Base Patients
+South Carolina,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,31,Number Base Patients
+South Dakota,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,29661,Number Base Patients
+South Dakota,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,31200,Number Base Patients
+South Dakota,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,122942,Number Base Patients
+South Dakota,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,137179,Number Base Patients
+South Dakota,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,106360,Number Base Patients
+South Dakota,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,62527,Number Base Patients
+South Dakota,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,489870,Number Base Patients
+South Dakota,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Tennessee,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51659,Number Base Patients
+Tennessee,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,63932,Number Base Patients
+Tennessee,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,340373,Number Base Patients
+Tennessee,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,478117,Number Base Patients
+Tennessee,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,400720,Number Base Patients
+Tennessee,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,131370,Number Base Patients
+Tennessee,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1466191,Number Base Patients
+Tennessee,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,20,Number Base Patients
+Texas,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,728264,Number Base Patients
+Texas,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,778427,Number Base Patients
+Texas,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2843096,Number Base Patients
+Texas,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,3541414,Number Base Patients
+Texas,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2317167,Number Base Patients
+Texas,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1634066,Number Base Patients
+Texas,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,11842516,Number Base Patients
+Texas,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,82,Number Base Patients
+United States,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,6655577,Number Base Patients
+United States,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,7635114,Number Base Patients
+United States,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,34327118,Number Base Patients
+United States,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,43816532,Number Base Patients
+United States,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,33924312,Number Base Patients
+United States,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,14087871,Number Base Patients
+United States,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,140447387,Number Base Patients
+United States,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,863,Number Base Patients
+Utah,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,52051,Number Base Patients
+Utah,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,58148,Number Base Patients
+Utah,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,224024,Number Base Patients
+Utah,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,218900,Number Base Patients
+Utah,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,138043,Number Base Patients
+Utah,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,96516,Number Base Patients
+Utah,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,787682,Number Base Patients
+Utah,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Vermont,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,16144,Number Base Patients
+Vermont,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,19646,Number Base Patients
+Vermont,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,94428,Number Base Patients
+Vermont,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,143293,Number Base Patients
+Vermont,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,133198,Number Base Patients
+Vermont,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,31285,Number Base Patients
+Vermont,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,437996,Number Base Patients
+Vermont,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Virgin Islands,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,51,Number Base Patients
+Virgin Islands,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,70,Number Base Patients
+Virgin Islands,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,518,Number Base Patients
+Virgin Islands,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2558,Number Base Patients
+Virgin Islands,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,2850,Number Base Patients
+Virgin Islands,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,90,Number Base Patients
+Virgin Islands,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,6137,Number Base Patients
+Virgin Islands,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Virginia,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,197748,Number Base Patients
+Virginia,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,241229,Number Base Patients
+Virginia,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1216189,Number Base Patients
+Virginia,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1707148,Number Base Patients
+Virginia,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,1312555,Number Base Patients
+Virginia,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,428861,Number Base Patients
+Virginia,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,5103765,Number Base Patients
+Virginia,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,35,Number Base Patients
+Washington,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,75050,Number Base Patients
+Washington,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,93548,Number Base Patients
+Washington,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,536470,Number Base Patients
+Washington,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,618211,Number Base Patients
+Washington,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,441407,Number Base Patients
+Washington,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,174325,Number Base Patients
+Washington,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1939016,Number Base Patients
+Washington,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+West Virginia,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,54805,Number Base Patients
+West Virginia,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,59983,Number Base Patients
+West Virginia,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,230098,Number Base Patients
+West Virginia,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,337748,Number Base Patients
+West Virginia,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,290765,Number Base Patients
+West Virginia,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,109585,Number Base Patients
+West Virginia,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,1082988,Number Base Patients
+West Virginia,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Wisconsin,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,198995,Number Base Patients
+Wisconsin,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,212172,Number Base Patients
+Wisconsin,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,803907,Number Base Patients
+Wisconsin,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,967169,Number Base Patients
+Wisconsin,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,721491,Number Base Patients
+Wisconsin,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,394298,Number Base Patients
+Wisconsin,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,3298038,Number Base Patients
+Wisconsin,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
+Wyoming,10-14 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,9272,Number Base Patients
+Wyoming,15-19 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,10598,Number Base Patients
+Wyoming,20-39 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,40174,Number Base Patients
+Wyoming,40-64 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53971,Number Base Patients
+Wyoming,65+ Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,53612,Number Base Patients
+Wyoming,<10 Years,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,age_scheme_2,none,NA,none,NA,none,NA,21205,Number Base Patients
+Wyoming,Total,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,none,none,NA,none,NA,none,NA,188832,Number Base Patients
+Wyoming,NA,N_patients,Count,Epic Cosmos,https://www.epicresearch.org/,state,NA,none,NA,none,NA,none,NA,NA,Number Base Patients
