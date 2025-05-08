@@ -2,13 +2,13 @@
 
 #ds_name <- './Data/Archive/Cosmos ED/Immunizations/mmr_age_state_2025_04_18.csv'
 #ds_name='RSV/07042025_RSV_EDvisits_ICD10s_State_Week_Age_2023-2025.csv'
-epic_vax_import <- function(ds_name, skipN=13) {
+epic_vax_import <- function(ds_name, skipN=12) {
   
   ds_out <- readr::read_csv(ds_name, skip=skipN, col_names=T) %>%
-    rename(geography=`State of Residence (U.S.)`, age=`Age in Years (Current)`,  pct_vax="...3") %>%
+    rename(geography=`State of Residence (U.S.)`, age=`Age in Years (Current)`, N_patients='...3', pct_vax="...4") %>%
     tidyr::fill( geography, age,  .direction = 'down') %>%
  
-    dplyr::select(geography, age,  pct_vax )%>%
+    dplyr::select(geography, age,  N_patients,pct_vax )%>%
     arrange(geography, age) %>%
     #week END date
     ungroup() %>%

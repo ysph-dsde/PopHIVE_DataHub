@@ -1,0 +1,618 @@
+Session Title,Number of Patients and Percentage with Immunizations: MMR receipt v2 by Age in Years (Current) Range and State of Residence (U.S.),,
+Session Description,This is an attempt at table using Epic's denominator definition suggested by caleb,,
+Session ID,2732640,,
+Data Model,Patients,,
+Population Base,All Patients,,
+Population Criteria Filters: These criteria are a summary and do not fully reflect the content of the exported session.,"(Billed Procedures: INITIAL PREVENTIVE MEDICINE NEW PT AGE 5-11 YRS 99383, INITIAL PREVENTIVE MEDICINE NEW PT AGE 1-4 YRS 99382, INITIAL PREVENTIVE MEDICINE NEW PATIENT <1YEAR 99381, PERIODIC PREVENTIVE MED EST PATIENT 5-11YRS 99393, PERIODIC PREVENTIVE MED EST PATIENT 1-4YRS 99392, PERIODIC PREVENTIVE MED ESTABLISHED PATIENT <1Y 99391 OR Encounter Type: Well Child OR Diagnosis (All): Encounter for newborn, infant and child health examinations( ICD-10-CM: Z00.1 ))",,
+Session Date Range,4/11/2022 - 4/10/2025,,
+Export User,Daniel Weinberger,,
+Date of Export,5/7/2025,,
+,,,
+,,,
+,Measures,Number of Patients,Percentage with Immunizations: MMR receipt v2 (%)
+Age in Years (Current),State of Residence (U.S.),,
+Less than 1 years,Texas,96098,1.1%
+,Ohio,55032,1.3%
+,California,51818,1.1%
+,Illinois,34487,0.409%
+,North Carolina,26321,0.714%
+,Florida,34659,0.404%
+,Michigan,30535,0.737%
+,Pennsylvania,25765,0.505%
+,Wisconsin,25413,0.535%
+,Indiana,21249,0.438%
+,New York,22498,0.845%
+,Minnesota,18238,0.422%
+,Massachusetts,15985,0.638%
+,South Carolina,16190,0.167%
+,Colorado,14422,2.3%
+,Iowa,14047,0.605%
+,Kentucky,15989,0.444%
+,Louisiana,13250,0.415%
+,Virginia,13184,0.501%
+,Georgia,14025,0.285%
+,Connecticut,6741,0.742%
+,Mississippi,10245,0.185%
+,Idaho,7780,0.668%
+,North Dakota,6749,0.37%
+,New Jersey,8901,0.36%
+,Oklahoma,9088,1.1%
+,Washington,5950,0.538%
+,Oregon,5336,0.487%
+,West Virginia,6266,0.399%
+,Arkansas,5249,0.229%
+,Kansas,4032,0.57%
+,South Dakota,3993,-
+,Delaware,4217,0.427%
+,Maryland,3887,0.695%
+,Maine,3345,0.807%
+,Missouri,5328,-
+,New Hampshire,3126,1.2%
+,Tennessee,4613,-
+,Nevada,3577,0.308%
+,Utah,3296,1.6%
+,Arizona,1444,-
+,Hawaii,2207,-
+,Nebraska,2295,-
+,Alabama,1878,-
+,Montana,1920,0.99%
+,Wyoming,1379,-
+,Rhode Island,1328,-
+,Vermont,1072,1.7%
+,New Mexico,290,-
+,Puerto Rico,332,-
+,Alaska,89,-
+,District of Columbia,19,-
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,4139,0.435%
+,Total,689318,0.737%
+? 1 and < 2 years,Texas,107698,69%
+,Ohio,59789,71.7%
+,California,58403,68.6%
+,Illinois,38321,67.1%
+,North Carolina,29201,73.2%
+,Florida,37165,64.7%
+,Michigan,32631,71.4%
+,Pennsylvania,29659,73%
+,Wisconsin,28223,74.5%
+,Indiana,24564,71.4%
+,New York,24615,69.7%
+,Minnesota,20246,67.7%
+,Massachusetts,17454,77.4%
+,South Carolina,18432,61.9%
+,Colorado,18571,73.2%
+,Iowa,15765,70.3%
+,Kentucky,17474,76.6%
+,Louisiana,15174,71.2%
+,Virginia,15557,68%
+,Georgia,14810,69.5%
+,Connecticut,7447,82.5%
+,Mississippi,11753,68.8%
+,Idaho,8483,67.3%
+,North Dakota,7358,70.4%
+,New Jersey,9106,61.6%
+,Oklahoma,9742,63%
+,Washington,6789,62.3%
+,Oregon,5878,62.6%
+,West Virginia,6662,73.2%
+,Arkansas,6453,64.9%
+,Kansas,4475,65.8%
+,South Dakota,4391,67.2%
+,Delaware,4559,74.6%
+,Maryland,4339,67.8%
+,Maine,4049,73.9%
+,Missouri,5712,63.8%
+,New Hampshire,3501,77%
+,Tennessee,4785,56.7%
+,Nevada,4070,62.8%
+,Utah,3594,68.2%
+,Arizona,1908,57.7%
+,Hawaii,2646,57.7%
+,Nebraska,2417,67%
+,Alabama,2193,66.3%
+,Montana,2196,56.2%
+,Wyoming,1505,61.9%
+,Rhode Island,1445,82%
+,Vermont,1160,82.1%
+,New Mexico,323,55.4%
+,Puerto Rico,394,66.8%
+,Alaska,114,51.8%
+,District of Columbia,22,-
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,1290,61.3%
+,Total,764513,69.6%
+? 2 and < 3 years,Texas,111366,80%
+,Ohio,60988,85.5%
+,California,61225,81.7%
+,Illinois,40150,82.4%
+,North Carolina,31226,84.6%
+,Florida,39967,79.4%
+,Michigan,33478,83.8%
+,Pennsylvania,31653,85.3%
+,Wisconsin,29053,87%
+,Indiana,25964,84.3%
+,New York,25211,82.3%
+,Minnesota,22099,79.7%
+,Massachusetts,17675,90.2%
+,South Carolina,19225,76.9%
+,Colorado,19231,85.3%
+,Iowa,16098,89.7%
+,Kentucky,17962,87.5%
+,Louisiana,15559,85.7%
+,Virginia,15885,80.5%
+,Georgia,14613,82%
+,Connecticut,7845,92.3%
+,Mississippi,11891,82.4%
+,Idaho,8869,77.7%
+,North Dakota,7577,82.7%
+,New Jersey,8807,77.3%
+,Oklahoma,9546,79.8%
+,Washington,7266,78.9%
+,Oregon,6472,78.7%
+,West Virginia,7018,88.7%
+,Arkansas,7289,79.8%
+,Kansas,4596,80.3%
+,South Dakota,4638,79.4%
+,Delaware,4639,89.6%
+,Maryland,4451,80.8%
+,Maine,4244,87.4%
+,Missouri,5602,79.8%
+,New Hampshire,3781,86.4%
+,Tennessee,4983,70.9%
+,Nevada,4372,72.9%
+,Utah,4023,79.4%
+,Arizona,2252,69.6%
+,Hawaii,2575,73.7%
+,Nebraska,2360,77.8%
+,Alabama,2402,78.2%
+,Montana,2142,73.2%
+,Wyoming,1683,74.6%
+,Rhode Island,1436,94.9%
+,Vermont,1150,88.4%
+,New Mexico,355,70.4%
+,Puerto Rico,277,88.1%
+,Alaska,119,63.9%
+,District of Columbia,38,34.2%
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,1462,74.4%
+,Total,794792,82.6%
+? 3 and < 4 years,Texas,103104,90.6%
+,Ohio,59939,91%
+,California,57056,91%
+,Illinois,39293,90.3%
+,North Carolina,31087,92.3%
+,Florida,37331,90.3%
+,Michigan,33154,90.2%
+,Pennsylvania,31552,91.1%
+,Wisconsin,30367,91.9%
+,Indiana,25502,91%
+,New York,23617,91.9%
+,Minnesota,21434,87.2%
+,Massachusetts,17731,94.6%
+,South Carolina,18691,84.8%
+,Colorado,18521,92%
+,Iowa,15886,94.2%
+,Kentucky,17339,93.2%
+,Louisiana,14830,92.4%
+,Virginia,14333,90.5%
+,Georgia,12768,92.1%
+,Connecticut,8132,96%
+,Mississippi,10415,91.7%
+,Idaho,8550,86.7%
+,North Dakota,7317,89.4%
+,New Jersey,7934,83.6%
+,Oklahoma,8744,88.8%
+,Washington,7176,87.1%
+,Oregon,6502,87.9%
+,West Virginia,6864,93.6%
+,Arkansas,6756,88.4%
+,Kansas,4335,90.7%
+,South Dakota,4345,89.6%
+,Delaware,4786,93.5%
+,Maryland,4117,90.8%
+,Maine,4301,93%
+,Missouri,5222,88%
+,New Hampshire,3831,91.8%
+,Tennessee,3949,86.8%
+,Nevada,3882,88%
+,Utah,3871,90.6%
+,Arizona,2187,81.8%
+,Hawaii,2313,86.1%
+,Nebraska,2132,86.9%
+,Alabama,2209,88.2%
+,Montana,2078,85.1%
+,Wyoming,1496,87%
+,Rhode Island,1369,98.2%
+,Vermont,557,92.8%
+,New Mexico,312,87.5%
+,Puerto Rico,261,92.3%
+,Alaska,139,79.9%
+,District of Columbia,27,74.1%
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,1322,85.6%
+,Total,760972,90.7%
+? 4 and < 5 years,Texas,93236,96.2%
+,Ohio,57359,93.8%
+,California,51578,96.4%
+,Illinois,37479,94.1%
+,North Carolina,28699,96.1%
+,Florida,34389,95.3%
+,Michigan,30698,94.1%
+,Pennsylvania,29406,94.9%
+,Wisconsin,28282,94.9%
+,Indiana,23765,94.6%
+,New York,22132,97.1%
+,Minnesota,20074,92.4%
+,Massachusetts,16768,97.1%
+,South Carolina,17145,88.8%
+,Colorado,17362,95.3%
+,Iowa,15172,97%
+,Kentucky,16269,96.7%
+,Louisiana,13342,96.3%
+,Virginia,13382,95.9%
+,Georgia,11491,97.2%
+,Connecticut,7507,98.7%
+,Mississippi,9516,97.1%
+,Idaho,8070,91.9%
+,North Dakota,6817,94%
+,New Jersey,7337,91.2%
+,Oklahoma,7754,93.3%
+,Washington,6602,92.8%
+,Oregon,6023,91.9%
+,West Virginia,6464,96.5%
+,Arkansas,6042,93.6%
+,Kansas,4049,94.6%
+,South Dakota,3926,94.9%
+,Delaware,4660,96%
+,Maryland,3730,97.1%
+,Maine,3889,95.8%
+,Missouri,4637,94.2%
+,New Hampshire,3627,94.4%
+,Tennessee,3334,94.7%
+,Nevada,3575,94.9%
+,Utah,3296,97.3%
+,Arizona,2150,87.9%
+,Hawaii,2147,90.5%
+,Nebraska,1893,93%
+,Alabama,2144,95%
+,Montana,1716,92.2%
+,Wyoming,1316,93.7%
+,Rhode Island,1296,98.7%
+,Vermont,406,96.8%
+,New Mexico,321,92.2%
+,Puerto Rico,266,97.7%
+,Alaska,97,92.8%
+,District of Columbia,11,-
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,1789,94.2%
+,Total,704438,95.1%
+? 5 and < 6 years,Texas,92632,96.7%
+,Ohio,58327,94.4%
+,California,51537,97.7%
+,Illinois,38726,94.8%
+,North Carolina,28310,96.4%
+,Florida,34627,96.1%
+,Michigan,31065,94.9%
+,Pennsylvania,29454,96%
+,Wisconsin,28806,95.9%
+,Indiana,23558,95.7%
+,New York,22026,98%
+,Minnesota,20535,94.4%
+,Massachusetts,17044,97.5%
+,South Carolina,17243,90.2%
+,Colorado,16807,96%
+,Iowa,15651,97.5%
+,Kentucky,15839,97.2%
+,Louisiana,12763,96.8%
+,Virginia,13119,97.1%
+,Georgia,10801,97.5%
+,Connecticut,7711,98.9%
+,Mississippi,9089,97.5%
+,Idaho,7906,93.8%
+,North Dakota,6584,95.7%
+,New Jersey,7122,92.1%
+,Oklahoma,7695,94.7%
+,Washington,6725,94.2%
+,Oregon,6162,93.7%
+,West Virginia,6626,97.6%
+,Arkansas,6177,94.8%
+,Kansas,4112,95.9%
+,South Dakota,3744,96.4%
+,Delaware,4535,96.6%
+,Maryland,3725,97.5%
+,Maine,4032,97.5%
+,Missouri,4517,95.2%
+,New Hampshire,3535,94.8%
+,Tennessee,3371,94.7%
+,Nevada,3515,95.4%
+,Utah,3160,97.4%
+,Arizona,2218,89.6%
+,Hawaii,2127,91.6%
+,Nebraska,1850,94.5%
+,Alabama,2157,95.9%
+,Montana,1567,91.6%
+,Wyoming,1309,94.9%
+,Rhode Island,1312,98.8%
+,Vermont,387,94.8%
+,New Mexico,345,94.2%
+,Puerto Rico,224,94.2%
+,Alaska,94,91.5%
+,District of Columbia,11,-
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,2767,95.8%
+,Total,705283,95.9%
+? 6 and < 7 years,Texas,90224,96.7%
+,Ohio,56756,94.9%
+,California,51347,97.9%
+,Illinois,38793,95.3%
+,North Carolina,28530,96.6%
+,Florida,34027,96.3%
+,Michigan,30436,95.3%
+,Pennsylvania,29960,96.5%
+,Wisconsin,28686,96.6%
+,Indiana,23093,96.3%
+,New York,21792,98.1%
+,Minnesota,20199,95.8%
+,Massachusetts,16765,97.6%
+,South Carolina,17146,91.1%
+,Colorado,16160,96.5%
+,Iowa,15300,98%
+,Kentucky,15562,97.4%
+,Louisiana,12352,97.7%
+,Virginia,12771,96.9%
+,Georgia,10425,97.6%
+,Connecticut,7716,99.1%
+,Mississippi,8801,97.4%
+,Idaho,7678,94.3%
+,North Dakota,6543,96.5%
+,New Jersey,7002,91.6%
+,Oklahoma,7306,94.8%
+,Washington,6702,95.4%
+,Oregon,6409,95.1%
+,West Virginia,6355,97.8%
+,Arkansas,5994,95.1%
+,Kansas,3871,95.7%
+,South Dakota,3970,97.6%
+,Delaware,4539,97.7%
+,Maryland,3443,97.3%
+,Maine,4129,97.9%
+,Missouri,4311,96.3%
+,New Hampshire,3511,95.5%
+,Tennessee,3216,95.6%
+,Nevada,3437,96.2%
+,Utah,2986,97.9%
+,Arizona,2214,90.4%
+,Hawaii,2214,92.7%
+,Nebraska,2004,94.3%
+,Alabama,2135,93.4%
+,Montana,1455,94.1%
+,Wyoming,1279,94.9%
+,Rhode Island,1237,98.3%
+,Vermont,359,95%
+,New Mexico,342,94.2%
+,Puerto Rico,209,97.6%
+,Alaska,75,90.7%
+,District of Columbia,14,-
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,2617,96.1%
+,Total,694402,96.3%
+? 7 and < 8 years,Texas,86762,96.5%
+,Ohio,54997,94.7%
+,California,49851,97.9%
+,Illinois,38666,95.9%
+,North Carolina,27947,96%
+,Florida,32638,96.1%
+,Michigan,29502,95.7%
+,Pennsylvania,30114,96.5%
+,Wisconsin,28292,96.8%
+,Indiana,22259,96.7%
+,New York,21973,98.1%
+,Minnesota,19942,96.5%
+,Massachusetts,16455,97.6%
+,South Carolina,15628,91.1%
+,Colorado,15685,96.6%
+,Iowa,14840,98.2%
+,Kentucky,15032,97.1%
+,Louisiana,11702,97.4%
+,Virginia,12558,96.8%
+,Georgia,10026,97.6%
+,Connecticut,7691,99%
+,Mississippi,7141,97.2%
+,Idaho,7583,94.9%
+,North Dakota,6167,96.4%
+,New Jersey,6597,89.5%
+,Oklahoma,6913,93.4%
+,Washington,6692,96.1%
+,Oregon,6443,95.7%
+,West Virginia,6338,97.2%
+,Arkansas,5776,94.5%
+,Kansas,3856,95.9%
+,South Dakota,3721,98.1%
+,Delaware,4456,97.4%
+,Maryland,3214,97.2%
+,Maine,4067,97.4%
+,Missouri,3827,95.3%
+,New Hampshire,3581,95.5%
+,Tennessee,3077,95.1%
+,Nevada,3058,95.4%
+,Utah,2796,98.2%
+,Arizona,2149,88.4%
+,Hawaii,2235,92.6%
+,Nebraska,1898,95.7%
+,Alabama,2046,91.2%
+,Montana,1395,94.4%
+,Wyoming,1182,96.4%
+,Rhode Island,1245,98.9%
+,Vermont,400,95.8%
+,New Mexico,294,93.2%
+,Puerto Rico,235,95.7%
+,Alaska,90,96.7%
+,District of Columbia,11,-
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,2613,96.3%
+,Total,673661,96.2%
+? 8 and < 9 years,Texas,84120,95.7%
+,Ohio,51569,95%
+,California,48378,97.5%
+,Illinois,35774,95.8%
+,North Carolina,26376,95.4%
+,Florida,30615,96.1%
+,Michigan,28992,96.1%
+,Pennsylvania,29623,96.5%
+,Wisconsin,27764,97.1%
+,Indiana,20732,96.7%
+,New York,21595,98%
+,Minnesota,19119,96.6%
+,Massachusetts,16184,97.8%
+,South Carolina,14896,91.1%
+,Colorado,14884,96.4%
+,Iowa,14067,98.2%
+,Kentucky,13758,96.8%
+,Louisiana,11345,97.8%
+,Virginia,11719,96.6%
+,Georgia,9433,97.3%
+,Connecticut,7796,99%
+,Mississippi,5914,96.1%
+,Idaho,7384,94.7%
+,North Dakota,5887,96.5%
+,New Jersey,6516,88.6%
+,Oklahoma,6466,92.7%
+,Washington,6672,96.3%
+,Oregon,6376,95.3%
+,West Virginia,6090,96.5%
+,Arkansas,5280,93.9%
+,Kansas,3726,96.6%
+,South Dakota,3467,97.7%
+,Delaware,4219,98.1%
+,Maryland,3222,96.7%
+,Maine,4131,97.7%
+,Missouri,3322,94.9%
+,New Hampshire,3619,95.4%
+,Tennessee,2800,94.6%
+,Nevada,2803,95%
+,Utah,2647,97.8%
+,Arizona,2115,86.9%
+,Hawaii,2008,93.5%
+,Nebraska,1837,94.1%
+,Alabama,1568,93.3%
+,Montana,1271,92.6%
+,Wyoming,1078,93.7%
+,Rhode Island,1144,98%
+,Vermont,406,95.3%
+,New Mexico,291,93.1%
+,Puerto Rico,243,97.9%
+,Alaska,68,92.6%
+,District of Columbia,12,91.7%
+,Armed Forces Pacific,10 or fewer,-
+,None of the above,2314,95.9%
+,Total,643638,96.1%
+9 years or more,Texas,405835,91.3%
+,Ohio,237957,91.6%
+,California,227420,93.6%
+,Illinois,185007,89.1%
+,North Carolina,221922,57.1%
+,Florida,146504,93%
+,Michigan,138153,92.9%
+,Pennsylvania,150605,93.8%
+,Wisconsin,147802,88.6%
+,Indiana,98403,94.6%
+,New York,112840,94.5%
+,Minnesota,129587,72%
+,Massachusetts,80248,92.9%
+,South Carolina,74191,84.6%
+,Colorado,73108,93.2%
+,Iowa,70830,92.9%
+,Kentucky,63579,93.2%
+,Louisiana,55784,94.9%
+,Virginia,56601,91.7%
+,Georgia,44459,93.4%
+,Connecticut,33309,94.7%
+,Mississippi,24139,92.6%
+,Idaho,34510,91.5%
+,North Dakota,44252,65.3%
+,New Jersey,31615,84.6%
+,Oklahoma,28860,89.2%
+,Washington,40589,75%
+,Oregon,33653,85.5%
+,West Virginia,27769,93.1%
+,Arkansas,25359,90.8%
+,Kansas,33982,55.8%
+,South Dakota,34674,55.6%
+,Delaware,21236,95.4%
+,Maryland,19648,73.4%
+,Maine,21292,94.9%
+,Missouri,15729,84.1%
+,New Hampshire,18170,93.8%
+,Tennessee,12717,92.7%
+,Nevada,12354,89.9%
+,Utah,11906,94.3%
+,Arizona,12100,82.4%
+,Hawaii,9256,90.8%
+,Nebraska,6643,88.2%
+,Alabama,8189,87.6%
+,Montana,7144,77%
+,Wyoming,4217,90.1%
+,Rhode Island,4644,97.8%
+,Vermont,1726,92.5%
+,New Mexico,1402,90.4%
+,Puerto Rico,968,96.5%
+,Alaska,317,90.5%
+,District of Columbia,53,64.2%
+,Armed Forces Pacific,27,88.9%
+,None of the above,11604,88.7%
+,Total,3314888,87.2%
+"Total: Total includes all data, including data from rows not currently displayed.",Texas,1271076,83.3%
+,Ohio,752714,84%
+,California,708614,84.9%
+,Illinois,526697,83.5%
+,North Carolina,479619,70.4%
+,Florida,461922,83.4%
+,Michigan,418644,84.4%
+,Pennsylvania,417792,86.5%
+,Wisconsin,402688,84.9%
+,Indiana,309090,85.6%
+,New York,318299,86%
+,Minnesota,311473,76.5%
+,Massachusetts,232310,87%
+,South Carolina,228787,78.3%
+,Colorado,224751,86%
+,Iowa,207656,86.6%
+,Kentucky,208803,85.6%
+,Louisiana,176102,85.5%
+,Virginia,179109,83.6%
+,Georgia,152851,82.7%
+,Connecticut,101895,89.1%
+,Mississippi,108904,81.8%
+,Idaho,106813,82.3%
+,North Dakota,105251,73.7%
+,New Jersey,100937,76.5%
+,Oklahoma,102114,79.6%
+,Washington,101163,77.5%
+,Oregon,89254,81.7%
+,West Virginia,86452,86%
+,Arkansas,80375,82.9%
+,Kansas,71034,68%
+,South Dakota,70869,67.8%
+,Delaware,61846,87.4%
+,Maryland,53777,77.3%
+,Maine,57479,88.1%
+,Missouri,58207,78.3%
+,New Hampshire,50283,86.6%
+,Tennessee,46845,77.8%
+,Nevada,44643,80.4%
+,Utah,41575,84.1%
+,Arizona,30737,78.2%
+,Hawaii,29728,79.8%
+,Nebraska,25329,79.4%
+,Alabama,26921,81.3%
+,Montana,22884,74.2%
+,Wyoming,16444,79.8%
+,Rhode Island,16456,88.6%
+,Vermont,7623,78.3%
+,New Mexico,4275,81%
+,Puerto Rico,3409,82.7%
+,Alaska,1202,77.2%
+,District of Columbia,218,55.5%
+,Armed Forces Pacific,59,88.1%
+,None of the above,31917,78%
+,Total,9745915,82.7%
