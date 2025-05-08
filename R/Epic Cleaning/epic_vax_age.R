@@ -22,9 +22,13 @@ epic_vax_import <- function(ds_name, skipN=12) {
                                              if_else( toupper(age) %in% toupper(c("? 3 and < 4 years")) ,"3-4 Years" ,         
                                                       if_else( toupper(age) %in% toupper(c("? 4 and < 5 years")) ,"4-5 Years" ,         
                                                                if_else( toupper(age) %in% toupper(c("? 5 and < 6 years")) , "5-6 Years" , 
-                                                                        if_else(age=="6 years or more",'6+ years',NA_character_        
+                                                                        if_else(age== "? 6 and < 7 years" ,'6-7 Years',
+                                                                                if_else(age== "? 7 and < 8 years" ,'7-8 Years',
+                                                                                        if_else(age== "? 8 and < 9 years" ,'8-9 Years',
+                                                                                                if_else(age==  "9 years or more",'9+ years',  
+                                                                                                        NA_character_        
                                                                                 
-                                                                        ) ))))))) %>%
+                                                                        ) )))))))))) %>%
     arrange( geography,Level) %>%
     group_by( geography,Level) %>%
     rename(pct_vax_epic=pct_vax) %>%

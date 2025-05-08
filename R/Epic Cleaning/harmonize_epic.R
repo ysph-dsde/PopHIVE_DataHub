@@ -175,7 +175,8 @@ vax1 <- epic_vax_import('./Data/Pulled Data/Cosmos ED/Immunizations/mmr_age_stat
          additional_strata1 = 'none',
          additional_strata_level = NA_character_,
          sex_strata = 'none',
-         sex_level = NA_character_) 
+         sex_level = NA_character_) %>%
+  filter(!(age_level %in% c("<1 Years","9+ years")))
 write_parquet(vax1, './Data/Plot Files/vax_age_cosmos.parquet')
 
 
