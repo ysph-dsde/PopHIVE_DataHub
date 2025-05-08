@@ -1,0 +1,55 @@
+"","dataset","state","year","quarter","setting","underlying_cause_of_death","drug","characteristic","level","count","qtr","qdate","year_quarter","Count","percentage"
+"1","CDC WONDER","US",2020,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",3463,1,2020,"2020 NA",17557,1
+"2","CDC WONDER","US",2020,NA,"All","Unintentional","All Opioids + Depressant","Not Stratified","N/A",10287,1,2020,"2020 NA",10287,5
+"3","CDC WONDER","US",2020,NA,"All","Unintentional","Other opioids","Not Stratified","N/A",12494,1,2020,"2020 NA",12494,6
+"4","CDC WONDER","US",2020,NA,"All","Unintentional","Benzodiazepines","Not Stratified","N/A",11386,1,2020,"2020 NA",11386,6
+"5","CDC WONDER","US",2020,NA,"All","Unintentional","Heroin","Not Stratified","N/A",13050,1,2020,"2020 NA",13050,7
+"6","CDC WONDER","US",2020,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",14094,1,2020,"2020 NA",17557,7
+"7","CDC WONDER","US",2020,NA,"All","Unintentional","All Opioids + Stimulant","Not Stratified","N/A",15276,1,2020,"2020 NA",15276,8
+"8","CDC WONDER","US",2020,NA,"All","Unintentional","Illegally-Made Opioids","Not Stratified","N/A",14650,1,2020,"2020 NA",14650,8
+"9","CDC WONDER","US",2020,NA,"All","Unintentional","Cocaine","Not Stratified","N/A",19324,1,2020,"2020 NA",19324,10
+"10","CDC WONDER","US",2020,NA,"All","Unintentional","All Opioids","Not Stratified","N/A",67063,1,2020,"2020 NA",67063,37
+"11","CDC WONDER","US",2021,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",3607,1,2021,"2021 NA",17668,1
+"12","CDC WONDER","US",2021,NA,"All","Unintentional","Heroin","Not Stratified","N/A",9111,1,2021,"2021 NA",9111,4
+"13","CDC WONDER","US",2021,NA,"All","Unintentional","Benzodiazepines","Not Stratified","N/A",11615,1,2021,"2021 NA",11615,5
+"14","CDC WONDER","US",2021,NA,"All","Unintentional","All Opioids + Depressant","Not Stratified","N/A",10532,1,2021,"2021 NA",10532,5
+"15","CDC WONDER","US",2021,NA,"All","Unintentional","Illegally-Made Opioids","Not Stratified","N/A",10521,1,2021,"2021 NA",10521,5
+"16","CDC WONDER","US",2021,NA,"All","Unintentional","Other opioids","Not Stratified","N/A",12651,1,2021,"2021 NA",12651,6
+"17","CDC WONDER","US",2021,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",14061,1,2021,"2021 NA",17668,7
+"18","CDC WONDER","US",2021,NA,"All","Unintentional","All Opioids + Stimulant","Not Stratified","N/A",19166,1,2021,"2021 NA",19166,9
+"19","CDC WONDER","US",2021,NA,"All","Unintentional","Cocaine","Not Stratified","N/A",24344,1,2021,"2021 NA",24344,12
+"20","CDC WONDER","US",2021,NA,"All","Unintentional","All Opioids","Not Stratified","N/A",78801,1,2021,"2021 NA",78801,40
+"21","CDC WONDER","US",2022,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",3261,1,2022,"2022 NA",15201,1
+"22","CDC WONDER","US",2022,NA,"All","Unintentional","Heroin","Not Stratified","N/A",5821,1,2022,"2022 NA",5821,3
+"23","CDC WONDER","US",2022,NA,"All","Unintentional","Illegally-Made Opioids","Not Stratified","N/A",6882,1,2022,"2022 NA",6882,3
+"24","CDC WONDER","US",2022,NA,"All","Unintentional","All Opioids + Depressant","Not Stratified","N/A",8926,1,2022,"2022 NA",8926,4
+"25","CDC WONDER","US",2022,NA,"All","Unintentional","Other opioids","Not Stratified","N/A",10879,1,2022,"2022 NA",10879,5
+"26","CDC WONDER","US",2022,NA,"All","Unintentional","Benzodiazepines","Not Stratified","N/A",10000,1,2022,"2022 NA",10000,5
+"27","CDC WONDER","US",2022,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",11940,1,2022,"2022 NA",15201,6
+"28","CDC WONDER","US",2022,NA,"All","Unintentional","All Opioids + Stimulant","Not Stratified","N/A",21605,1,2022,"2022 NA",21605,11
+"29","CDC WONDER","US",2022,NA,"All","Unintentional","Cocaine","Not Stratified","N/A",27395,1,2022,"2022 NA",27395,14
+"30","CDC WONDER","US",2022,NA,"All","Unintentional","All Opioids","Not Stratified","N/A",80053,1,2022,"2022 NA",80053,42
+"31","SUDORS","US",2020,NA,"All","Unintentional","Benzodiazepines","Not Stratified","N/A",6735,1,2020,"2020 NA",6735,4
+"32","SUDORS","US",2020,NA,"All","Unintentional","Heroin","Not Stratified","N/A",8763,1,2020,"2020 NA",8763,5
+"33","SUDORS","US",2020,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",9093,1,2020,"2020 NA",9093,6
+"34","SUDORS","US",2020,NA,"All","Unintentional","Cocaine","Not Stratified","N/A",12063,1,2020,"2020 NA",12063,8
+"35","SUDORS","US",2020,NA,"All","Unintentional","All Opioids + Stimulant","Not Stratified","N/A",17029,1,2020,"2020 NA",17029,11
+"36","SUDORS","US",2020,NA,"All","Unintentional","All Opioids + Depressant","Not Stratified","N/A",22931,1,2020,"2020 NA",22931,15
+"37","SUDORS","US",2020,NA,"All","Unintentional","Illegally-Made Fentanyls","Not Stratified","N/A",33695,1,2020,"2020 NA",33695,22
+"38","SUDORS","US",2020,NA,"All","Unintentional","All Opioids","Not Stratified","N/A",39960,1,2020,"2020 NA",39960,26
+"39","SUDORS","US",2021,NA,"All","Unintentional","Heroin","Not Stratified","N/A",5745,1,2021,"2021 NA",5745,3
+"40","SUDORS","US",2021,NA,"All","Unintentional","Benzodiazepines","Not Stratified","N/A",6306,1,2021,"2021 NA",6306,4
+"41","SUDORS","US",2021,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",8198,1,2021,"2021 NA",8198,5
+"42","SUDORS","US",2021,NA,"All","Unintentional","Cocaine","Not Stratified","N/A",14409,1,2021,"2021 NA",14409,9
+"43","SUDORS","US",2021,NA,"All","Unintentional","All Opioids + Stimulant","Not Stratified","N/A",20597,1,2021,"2021 NA",20597,13
+"44","SUDORS","US",2021,NA,"All","Unintentional","All Opioids + Depressant","Not Stratified","N/A",21697,1,2021,"2021 NA",21697,13
+"45","SUDORS","US",2021,NA,"All","Unintentional","Illegally-Made Fentanyls","Not Stratified","N/A",37477,1,2021,"2021 NA",37477,23
+"46","SUDORS","US",2021,NA,"All","Unintentional","All Opioids","Not Stratified","N/A",42294,1,2021,"2021 NA",42294,26
+"47","SUDORS","US",2022,NA,"All","Unintentional","Heroin","Not Stratified","N/A",4018,1,2022,"2022 NA",4018,2
+"48","SUDORS","US",2022,NA,"All","Unintentional","Benzodiazepines","Not Stratified","N/A",5811,1,2022,"2022 NA",5811,3
+"49","SUDORS","US",2022,NA,"All","Unintentional","Prescription Opioids","Not Stratified","N/A",7443,1,2022,"2022 NA",7443,4
+"50","SUDORS","US",2022,NA,"All","Unintentional","Cocaine","Not Stratified","N/A",17287,1,2022,"2022 NA",17287,10
+"51","SUDORS","US",2022,NA,"All","Unintentional","All Opioids + Depressant","Not Stratified","N/A",22624,1,2022,"2022 NA",22624,13
+"52","SUDORS","US",2022,NA,"All","Unintentional","All Opioids + Stimulant","Not Stratified","N/A",24830,1,2022,"2022 NA",24830,14
+"53","SUDORS","US",2022,NA,"All","Unintentional","Illegally-Made Fentanyls","Not Stratified","N/A",43257,1,2022,"2022 NA",43257,25
+"54","SUDORS","US",2022,NA,"All","Unintentional","All Opioids","Not Stratified","N/A",47454,1,2022,"2022 NA",47454,27
