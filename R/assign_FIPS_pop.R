@@ -11,6 +11,7 @@ suppressPackageStartupMessages({
   library("stringr")
   library("ggplot2")
   library("usdata")
+  library("sf")
 })
 
 
@@ -185,6 +186,8 @@ temp_matched <- temp_matched %>% filter(state != "KY") %>% bind_rows(temp_KY)
 
 diabetes_obesity_county <- temp_matched %>% 
   mutate(pct_captured = ifelse(N_patients == "10 or fewer", NA, as.numeric(N_patients)/pop_2021 * 100 )) %>%
+  mutate(pct_diabetes = as.numeric(gsub('%','',pct_diabetes)),
+        pct_obesity = as.numeric(gsub('%','',pct_diabetes))) %>%
   left_join( us_map("counties") %>% dplyr::select(fips), by = "fips") %>% 
   st_as_sf() %>%
   mutate(age = factor(age, levels = c("Less than 10 years", "≥ 10 and < 15 years", "≥ 15 and < 20 years", "≥ 20 and < 40 years", "≥ 40 and < 65 years", "65 years or more", "Total")))
@@ -196,6 +199,13 @@ diabetes_obesity_county <- temp_matched %>%
 
 saveRDS(diabetes_obesity_county, "Data/Plot Files/Cosmos ED/diabetes_obesity_county.rds")
 
+diabetes_obesity_county_slim <- diabetes_obesity_county %>%
+  as.data.frame() %>%
+    dplyr::select(fips, age,pct_diabetes ,pct_obesity,pct_captured) %>%
+  reshape2::melt(., id.vars=c('fips', 'age')) %>%
+  rename(disease=variable)
+  
+read_parquet(diabetes_obesity_county_slim,'')
 
 #----------------------------------------------------------
 # make county level maps of %population captured by cosmos
@@ -218,7 +228,24 @@ diabetes_obesity_county %>%
   facet_wrap( ~ age) +
   theme_minimal()
 
+# if limit max pct_captured = 100%
+diabetes_obesity_county %>% 
+  filter(age=='Total') %>%
+  mutate(pct_captured = ifelse(pct_captured > 100, 100, pct_captured)) %>%
+  ggplot() +
+  scale_fill_viridis_c(na.value = "grey") +         
+  geom_sf(aes(fill = pct_captured), lwd = 0) +
+  theme_minimal()
 
+
+
+diabetes_obesity_county %>% 
+  filter(age=='Total') %>%
+  mutate(pct_diabetes = ifelse(pct_diabetes > 100, 100, pct_diabetes)) %>%
+  ggplot() +
+  scale_fill_viridis_c(na.value = "grey") +         
+  geom_sf(aes(fill = pct_diabetes), lwd = 0) +
+  theme_minimal()
 
 ###############################################
 # also process the state level data

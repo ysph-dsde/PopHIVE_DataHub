@@ -343,3 +343,6 @@ write_parquet(epic_chronic,
               './Data/Plot Files/Cosmos ED/diabetes_obesity.parquet')
 write_csv(epic_chronic,
               './Data/Plot Files/Cosmos ED/diabetes_obesity.csv')
+
+#Dataset for county and state level obesity, diabetesand percent of population captured
+source('./R/county_state_coverage.R')
