@@ -227,11 +227,23 @@ write_parquet(vax_epic,'./Data/Webslim/childhood_immunizations/mmr_rates_epic.pa
 #################################################
 ## Chronic diseases
 #################################################
-diab_obesity <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/Cosmos%20ED/diabetes_obesity.parquet') %>%
-  dplyr::select(geography,age_level,outcome_name,Outcome_value1) %>%
+#saveRDS(diabetes_obesity_state, "Data/Plot Files/Cosmos ED/diabetes_obesity_state.rds")
+
+#diab_obesity <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/Cosmos%20ED/diabetes_obesity.parquet') %>%
+diabetes_obesity_state <- readRDS("Data/Plot Files/Cosmos ED/diabetes_obesity_state.rds") %>%
+  as.data.frame() %>%
+  dplyr::select(geography,age_level,outcome_name,Outcome_value1,pct_captured) %>%
   rename(value=Outcome_value1, age=age_level) %>%
   filter(!is.na(age)) %>%
   filter( geography %in% c(state.name,'District of Columbia', 'United States')) 
   
-write_parquet(diab_obesity,'./Data/Webslim/chronic_diseases/prevalence_by_geography.parquet')
+write_parquet(diabetes_obesity_state,'./Data/Webslim/chronic_diseases/prevalence_by_geography.parquet')
 
+
+diab_obesity_county <- readRDS("Data/Plot Files/Cosmos ED/diabetes_obesity_county.rds") %>%
+  as.data.frame() %>%
+  dplyr::select(fips, age,pct_diabetes ,pct_obesity,pct_captured) %>%
+  reshape2::melt(., id.vars=c('fips', 'age')) %>%
+  rename(disease=variable)
+
+write_parquet(diab_obesity_county,'./Data/Webslim/chronic_diseases/prevalence_by_geography_county.parquet')
