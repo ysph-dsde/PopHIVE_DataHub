@@ -274,6 +274,9 @@ diabetes_obesity_state <- open_dataset( './Data/Plot Files/Cosmos ED/diabetes_ob
 # save state level data
 saveRDS(diabetes_obesity_state, "Data/Plot Files/Cosmos ED/diabetes_obesity_state.rds")
 
+
+
+
 # 
 # # make county level maps of %population captured by cosmos
 # diabetes_obesity_state %>% 
