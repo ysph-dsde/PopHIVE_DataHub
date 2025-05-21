@@ -13,10 +13,11 @@ url_files <- 'https://raw.githubusercontent.com/ysph-dsde/PopHIVE_DataHub/refs/h
 
 #NREVSS data
 
-nrevss_rsv_ts <- read_csv(paste0(url_files,'NREVSS/rsv_ts_nrevss_test_rsv.csv')) %>%
-  filter(!is.na(hhs_abbr)) %>%
-  dplyr::select(hhs_abbr, MMWRweek, MMWRyear,pcr_detections) %>%
-  rename(geography=hhs_abbr, week=MMWRweek, year=MMWRyear,value=pcr_detections)
+nrevss_rsv_ts <- read_csv(paste0(url_files,'NREVSS/rsv_ts_nrevss_test_rsv_nat.csv')) %>%
+  filter(!is.na(level)) %>%
+  rename(geography=level, week=MMWRweek, year=MMWRyear,value=pcr_detections) %>%
+  mutate(geography = gsub('NA,','', geography),
+         geography = gsub(',NA','', geography))
 
 write_parquet(nrevss_rsv_ts,'./Data/Webslim/respiratory_diseases/rsv/positive_tests.parquet')
 

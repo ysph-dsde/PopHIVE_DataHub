@@ -425,7 +425,7 @@ rsv_nrevss_test_addavg <- rsv_nrevss_test %>%
   arrange(level, date) 
 
 rsv_nrevss_test <- rsv_nrevss_test_addavg %>%
-  dplyr::select(hhs_abbr, date,scaled_cases, epiyr, epiwk) %>%
+  dplyr::select(hhs_abbr, date,scaled_cases,pcr_detections, epiyr, epiwk,  MMWRweek, MMWRyear) %>%
   rename(level=hhs_abbr) %>%
   mutate( epiyr = paste0(epiyr, '-', (epiyr+1)))
 
