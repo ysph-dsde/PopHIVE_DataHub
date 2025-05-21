@@ -412,21 +412,25 @@ rsv_nrevss_test_avg <- rsv_nrevss_test %>%
   left_join(pop_unstra_hhs, by = c("level" = "hhs")) %>%
   group_by(date) %>%
   mutate(wgt =  popsize / sum(popsize)) %>%
-  mutate(across(c("scaled_cases"), ~ sum(.x * wgt, na.rm = T))) %>%
+  mutate(across(c("scaled_cases",'pcr_detections'), ~ sum(.x * wgt, na.rm = T))) %>%
   mutate(across(c("perc_diff", 
                   "pcr_percent_positive", "percent_pos_2_week", "percent_pos_4_week", 
-                  "pcr_detections", "detections_2_week", "detections_4_week", "pcr_tests"), ~ NA)) %>%
-  dplyr::select(-popsize, -wgt, -level, -x, -hhs_abbr) %>% distinct() %>%
-  mutate(level = "All regions")
+                   "detections_2_week", "detections_4_week", "pcr_tests"), ~ NA)) %>%
+  dplyr::select(-popsize, -wgt, -level, -x, ) %>% distinct() %>%
+  mutate(hhs_abbr = "United States")
 
 # append the calculated average
 rsv_nrevss_test_addavg <- rsv_nrevss_test %>% 
   bind_rows(rsv_nrevss_test_avg) %>%
   arrange(level, date) 
-rsv_nrevss_test <- rsv_nrevss_test_addavg
+
+rsv_nrevss_test <- rsv_nrevss_test_addavg %>%
+  dplyr::select(hhs_abbr, date,scaled_cases, epiyr, epiwk) %>%
+  rename(level=hhs_abbr) %>%
+  mutate( epiyr = paste0(epiyr, '-', (epiyr+1)))
 
 # save processed data 
-write.csv(rsv_nrevss_test, "./Data/Plot Files/NREVSS/rsv_ts_nrevss_test_rsv.csv", row.names = F)
+write.csv(rsv_nrevss_test, "./Data/Plot Files/NREVSS/rsv_ts_nrevss_test_rsv_nat.csv", row.names = F)
 
 
 #############################################################
