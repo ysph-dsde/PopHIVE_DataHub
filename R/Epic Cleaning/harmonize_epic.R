@@ -160,7 +160,10 @@ vax1 <- epic_vax_import('./Data/Pulled Data/Cosmos ED/Immunizations/mmr_age_stat
   rename(age_level=Level,
          Outcome_value1=pct_vax_epic,
          Outcome_value2 = N_patients) %>%
-  mutate(outcome_type='Percent immunized',
+  mutate(
+    suppressed_flag = if_else(is.na(Outcome_value1),1,0),
+   
+    outcome_type='Percent immunized',
          outcome_label1 = 'Immunization (Epic Cosmos)',
          outcome_label2 = 'N Patients (Epic Cosmos)',
          domain = 'Childhood Immunizations',
@@ -195,6 +198,7 @@ epic_ed_all_latest_file = datetimeStamp( storeIn = 'Cosmos ED/Chronic Disease/Ra
 epic_diabetes <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos ED/Chronic Disease/Raw/',epic_ed_all_latest_file)) %>%
   dplyr::select(geography, Level, pct_diabetes) %>%
   mutate(
+    suppressed_flag = if_else(is.na(pct_diabetes),1,0),
     outcome_name='diabetes',
     outcome_type = 'prevalence',
     domain = 'Chronic diseases',
@@ -243,6 +247,7 @@ epic_diabetes <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos
 epic_obesity <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos ED/Chronic Disease/Raw/',epic_ed_all_latest_file)) %>%
   dplyr::select(geography, Level, pct_obesity) %>%
   mutate(
+    suppressed_flag = if_else(is.na(pct_obesity),1,0),
     outcome_name='obesity',
     outcome_type = 'prevalence',
     domain = 'Chronic diseases',
@@ -291,6 +296,7 @@ epic_obesity <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos 
 epic_patients <- epic_import_chronic(ds_name = paste0('./Data/Pulled Data/Cosmos ED/Chronic Disease/Raw/',epic_ed_all_latest_file)) %>%
   dplyr::select(geography, Level, Number_Patients) %>%
   mutate(
+    suppressed_flag = if_else(is.na(Number_Patients),1,0),
     outcome_name='N_patients',
     outcome_type = 'Count',
     domain = 'Chronic diseases',
@@ -344,5 +350,5 @@ write_parquet(epic_chronic,
 write_csv(epic_chronic,
               './Data/Plot Files/Cosmos ED/diabetes_obesity.csv')
 
-#Dataset for county and state level obesity, diabetesand percent of population captured
+#Dataset for county and state level obesity, diabetes and percent of population captured
 source('./R/Epic Cleaning/county_state_coverage.R')

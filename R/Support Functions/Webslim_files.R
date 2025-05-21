@@ -3,7 +3,7 @@
 
 library(tidyverse)
 library(arrow)
-
+library(sf)
 url_files <- 'https://raw.githubusercontent.com/ysph-dsde/PopHIVE_DataHub/refs/heads/main/Data/Plot%20Files/'
 
 
@@ -230,20 +230,52 @@ write_parquet(vax_epic,'./Data/Webslim/childhood_immunizations/mmr_rates_epic.pa
 #saveRDS(diabetes_obesity_state, "Data/Plot Files/Cosmos ED/diabetes_obesity_state.rds")
 
 #diab_obesity <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Plot%20Files/Cosmos%20ED/diabetes_obesity.parquet') %>%
-diabetes_obesity_state <- readRDS("Data/Plot Files/Cosmos ED/diabetes_obesity_state.rds") %>%
+diabetes_obesity_state1 <- readRDS("Data/Plot Files/Cosmos ED/diabetes_obesity_state.rds") %>%
+  st_drop_geometry() %>%
   as.data.frame() %>%
-  dplyr::select(geography,age_level,outcome_name,Outcome_value1,pct_captured) %>%
+  dplyr::select(geography,age_level,outcome_name,Outcome_value1, pct_captured) %>%
   rename(value=Outcome_value1, age=age_level) %>%
-  filter(!is.na(age)) %>%
+  filter(!is.na(age))
+
+diabetes_obesity_state2 <- diabetes_obesity_state1 %>%
+  filter(outcome_name != 'N_patients') %>%
+  dplyr::select (-pct_captured) %>%
+  mutate(outcome_name=tools::toTitleCase(outcome_name)) %>%
   filter( geography %in% c(state.name,'District of Columbia', 'United States')) 
   
-write_parquet(diabetes_obesity_state,'./Data/Webslim/chronic_diseases/prevalence_by_geography.parquet')
+diabetes_obesity_state3 <- diabetes_obesity_state1 %>%
+  filter(outcome_name == 'N_patients') %>%
+  dplyr::select (-outcome_name) %>%
+  rename(N_patients=value) %>%
+  full_join(diabetes_obesity_state2, by=c('geography','age')) %>%
+  filter(!is.na(outcome_name)) %>%
+  mutate(suppressed_flag = if_else(is.na(value),1,0)) %>% 
+  dplyr::select(geography, age, outcome_name, value, pct_captured)
 
 
-diab_obesity_county <- readRDS("Data/Plot Files/Cosmos ED/diabetes_obesity_county.rds") %>%
+write_parquet(diabetes_obesity_state3,'./Data/Webslim/chronic_diseases/prevalence_by_geography.parquet')
+
+
+diab_obesity_county1 <- readRDS("Data/Plot Files/Cosmos ED/diabetes_obesity_county.rds") %>%
+  st_drop_geometry() %>%
   as.data.frame() %>%
   dplyr::select(fips, age,pct_diabetes ,pct_obesity,pct_captured) %>%
-  reshape2::melt(., id.vars=c('fips', 'age')) %>%
-  rename(disease=variable)
+  reshape2::melt(., id.vars=c('fips', 'age')) 
 
-write_parquet(diab_obesity_county,'./Data/Webslim/chronic_diseases/prevalence_by_geography_county.parquet')
+
+diab_obesity_county2  <- diab_obesity_county1 %>%
+  filter(variable != 'pct_captured') %>%
+  mutate(outcome_name= if_else(variable=='pct_diabetes', 'Diabetes',
+                        if_else(variable=='pct_obesity','Obesity', NA_character_))) %>%
+  dplyr::select(fips, age, outcome_name, value)
+
+diab_obesity_county3  <- diab_obesity_county1 %>%
+  filter(variable == 'pct_captured') %>%
+  rename(pct_captured=value) %>%
+  dplyr::select(fips, age,  pct_captured) %>%
+  full_join(diab_obesity_county2, by=c('fips','age')) %>%
+  mutate(suppressed_flag = if_else(is.na(value),1,0)) 
+  
+  
+
+write_parquet(diab_obesity_county3,'./Data/Webslim/chronic_diseases/prevalence_by_geography_county.parquet')
