@@ -25,8 +25,8 @@ write_parquet(nrevss_rsv_ts,'./Data/Webslim/respiratory_diseases/rsv/positive_te
 
 rsv_all_indicators_state <- read_csv(paste0(url_files,'Comparisons/rsv_combined_all_outcomes_state.csv')) %>%
   filter(outcome_label1 != 'Google Searches 1') %>% #only keep definition #2 for google searches
-  dplyr::select(geography, date, source, suppressed_flag,Outcome_value1,outcome_3m) %>%  #note this is RAW data; needs 3 week ave and scaling for plot
-  rename(value=Outcome_value1, value_smooth=outcome_3m) %>%
+  dplyr::select(geography, date, source, suppressed_flag,Outcome_value1,outcome_3m,outcome_3m_scale) %>%  #note this is RAW data; needs 3 week ave and scaling for plot
+  rename(value=Outcome_value1, value_smooth=outcome_3m, value_smooth_scale=outcome_3m_scale) %>%
   mutate( source = if_else(source=="Epic Cosmos" , "Epic Cosmos, ED",source ),
           source = if_else(source=="CDC RSV-NET (RespNet)" , "CDC RSV-NET",source ))
 
