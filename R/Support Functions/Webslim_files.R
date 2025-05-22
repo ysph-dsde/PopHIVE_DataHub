@@ -134,6 +134,7 @@ write_parquet(covid_county,'./Data/Webslim/respiratory_diseases/covid/ed_visits_
 #IPD serotype trends
 ipd_serotype_age <- read_csv(paste0(url_files,'./pneumococcus/ipd_serotype_age_year.csv')) %>%
   dplyr::select(st, agec2, year, N_IPD) %>%
+  mutate(agec2 = gsub('year','Year', agec2)) %>%
   rename(serotype=st,
          age=agec2,
          value=N_IPD)
