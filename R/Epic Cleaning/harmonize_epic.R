@@ -81,6 +81,7 @@ epic_ed_combo <- bind_rows(epic_ed_rsv, epic_ed_flu , epic_ed_covid) %>%
     
     pct_ED_epic_smooth = if_else(is.nan(pct_ED_epic_smooth), NA, pct_ED_epic_smooth),
     
+    pct_ED_epic_smooth = pct_ED_epic_smooth - min(pct_ED_epic_smooth, na.rm=T),
     
     ED_epic_scale = 100 * pct_ED_epic_smooth / max(pct_ED_epic_smooth , na.rm =
                                                      T),
