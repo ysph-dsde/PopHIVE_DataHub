@@ -38,7 +38,7 @@ epic_ed_combo_rsv <- read_csv(paste0(url_files,'Cosmos%20ED/rsv_flu_covid_epic_c
   mutate(source= "Epic Cosmos (ED)") %>%
   filter(outcome_name=='RSV') %>%
     dplyr::select(date, geography, age_level, source,suppressed_flag, Outcome_value1,Outcome_value2) %>%
-  rename(value=Outcome_value1, value_smooth=Outcome_value2)
+  rename(value=Outcome_value1, value_smooth=Outcome_value2 , age=age_level)
 
 rsvnet_age <- read_csv(paste0(url_files,'RESP-NET%20Programs/rsv_hosp_age_respnet.csv')) %>%
   mutate(source= "CDC RSV-NET (Hospitalization)",
@@ -49,7 +49,10 @@ rsvnet_age <- read_csv(paste0(url_files,'RESP-NET%20Programs/rsv_hosp_age_respne
          geography=state,
          age=Level)
 
-age_trends_rsv <- bind_rows(epic_ed_combo_rsv,rsvnet_age)
+age_trends_rsv <- bind_rows(epic_ed_combo_rsv,rsvnet_age) %>%
+  group_by(geography, age, source) %>%
+  mutate(value_smooth_scale = value_smooth - min(value_smooth, na.rm=T),
+         value_smooth_scale = value_smooth_scale/max(value_smooth_scale, na.rm=T))
 
 write_parquet(age_trends_rsv,'./Data/Webslim/respiratory_diseases/rsv/trends_by_age.parquet')
 
@@ -81,7 +84,11 @@ epic_ed_combo_flu <- read_csv(paste0(url_files,'Cosmos%20ED/rsv_flu_covid_epic_c
   mutate(source= "Epic Cosmos (ED)") %>%
   filter(outcome_name=='FLU') %>%
   dplyr::select(date, geography, age_level, source,suppressed_flag, Outcome_value1,Outcome_value2) %>%
-  rename(value=Outcome_value1, value_smooth=Outcome_value2)
+  rename(value=Outcome_value1, value_smooth=Outcome_value2, age=age_level)%>%
+  group_by(geography, age, source) %>%
+  mutate(value_smooth_scale = value_smooth - min(value_smooth, na.rm=T),
+         value_smooth_scale = value_smooth_scale/max(value_smooth_scale, na.rm=T))
+
 
 write_parquet(epic_ed_combo_flu,'./Data/Webslim/respiratory_diseases/influenza/trends_by_age.parquet')
 
@@ -109,12 +116,16 @@ covid_all_indicators_state <- read_csv(paste0(url_files,'Comparisons/covid_combi
 write_parquet(covid_all_indicators_state,'./Data/Webslim/respiratory_diseases/covid/overall_trends.parquet')
 
 
-##flu Cosmos age 
+##covid Cosmos age 
 epic_ed_combo_covid <- read_csv(paste0(url_files,'Cosmos%20ED/rsv_flu_covid_epic_cosmos_age_state.csv')) %>%
   mutate(source= "Epic Cosmos (ED)") %>%
   filter(outcome_name=='COVID') %>%
   dplyr::select(date, geography, age_level, source,suppressed_flag, Outcome_value1,Outcome_value2) %>%
-  rename(value=Outcome_value1, value_smooth=Outcome_value2)
+  rename(value=Outcome_value1, value_smooth=Outcome_value2, age=age_level)%>%
+  group_by(geography, age, source) %>%
+  mutate(value_smooth_scale = value_smooth - min(value_smooth, na.rm=T),
+         value_smooth_scale = value_smooth_scale/max(value_smooth_scale, na.rm=T))
+
 
 write_parquet(epic_ed_combo_covid,'./Data/Webslim/respiratory_diseases/covid/trends_by_age.parquet')
 
