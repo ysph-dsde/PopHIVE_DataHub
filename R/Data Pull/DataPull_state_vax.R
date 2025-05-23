@@ -42,11 +42,27 @@ az.ds <- az.ls %>%
           vax= tolower(variable),
           vax= gsub("[^A-Za-z]", "_", vax),
           vax= gsub('__','', vax),
+         county = if_else(county %in% c('Total','State Totals'), 'Total', county),
          fips = if_else(county=='Total', '04', fips),
-         vax = if_else(vax=='exempt_from_every_req_d_vaccine','full_exempt',vax)
+         vax = if_else(vax=='exempt_from_every_req_d_vaccine','full_exempt',vax),
+         vax = gsub('_mmr','mmr', vax)
                             ) %>%
   dplyr::select(year, county, fips, grade, N, vax, value)
 
 write_parquet(az.ds,'./Data/Webslim/childhood_immunizations/az_vaccines.parquet')
 write_csv(az.ds,'./Data/Plot Files/childhood_immunizations/az_vaccines.csv')
+
+az.ds %>%
+  filter(vax=='mmr') %>%
+ggplot(aes(x=year, y=value, group=county,color=county)) +
+  geom_line()+
+  theme_classic()+
+  ggtitle('MMR 2 dose coverage in Kindergarten')
+
+az.ds %>%
+  filter(vax=='full_exempt') %>%
+  ggplot(aes(x=year, y=value, group=county,color=county)) +
+  geom_line()+
+  theme_classic()+
+  ggtitle('Exemption % in Kindergarten')
 

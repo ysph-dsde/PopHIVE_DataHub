@@ -31,22 +31,22 @@ year,county,fips,grade,N,vax,value
 2010-2011,Yavapai,04025,Kindergarten,1828,polio,91.1
 2010-2011,Yuma,04027,Kindergarten,2763,polio,98.3
 2010-2011,Total,04,Kindergarten,83348,polio,95.6
-2010-2011,Apache,04001,Kindergarten,955,_mmr,96.6
-2010-2011,Cochise,04003,Kindergarten,1559,_mmr,96.9
-2010-2011,Coconino,04005,Kindergarten,1305,_mmr,93
-2010-2011,Gila,04007,Kindergarten,654,_mmr,94.3
-2010-2011,Graham,04009,Kindergarten,574,_mmr,94.4
-2010-2011,Greenlee,04011,Kindergarten,35,_mmr,94.3
-2010-2011,La Paz,04012,Kindergarten,215,_mmr,95.8
-2010-2011,Maricopa,04013,Kindergarten,53120,_mmr,95.3
-2010-2011,Mohave,04015,Kindergarten,1809,_mmr,92.8
-2010-2011,Navajo,04017,Kindergarten,1584,_mmr,94.1
-2010-2011,Pima,04019,Kindergarten,11913,_mmr,96.6
-2010-2011,Pinal,04021,Kindergarten,4272,_mmr,93.6
-2010-2011,Santa Cruz,04023,Kindergarten,762,_mmr,97.1
-2010-2011,Yavapai,04025,Kindergarten,1828,_mmr,90
-2010-2011,Yuma,04027,Kindergarten,2763,_mmr,97.8
-2010-2011,Total,04,Kindergarten,83348,_mmr,95.3
+2010-2011,Apache,04001,Kindergarten,955,mmr,96.6
+2010-2011,Cochise,04003,Kindergarten,1559,mmr,96.9
+2010-2011,Coconino,04005,Kindergarten,1305,mmr,93
+2010-2011,Gila,04007,Kindergarten,654,mmr,94.3
+2010-2011,Graham,04009,Kindergarten,574,mmr,94.4
+2010-2011,Greenlee,04011,Kindergarten,35,mmr,94.3
+2010-2011,La Paz,04012,Kindergarten,215,mmr,95.8
+2010-2011,Maricopa,04013,Kindergarten,53120,mmr,95.3
+2010-2011,Mohave,04015,Kindergarten,1809,mmr,92.8
+2010-2011,Navajo,04017,Kindergarten,1584,mmr,94.1
+2010-2011,Pima,04019,Kindergarten,11913,mmr,96.6
+2010-2011,Pinal,04021,Kindergarten,4272,mmr,93.6
+2010-2011,Santa Cruz,04023,Kindergarten,762,mmr,97.1
+2010-2011,Yavapai,04025,Kindergarten,1828,mmr,90
+2010-2011,Yuma,04027,Kindergarten,2763,mmr,97.8
+2010-2011,Total,04,Kindergarten,83348,mmr,95.3
 2010-2011,Apache,04001,Kindergarten,955,hep_b,98.1
 2010-2011,Cochise,04003,Kindergarten,1559,hep_b,98.5
 2010-2011,Coconino,04005,Kindergarten,1305,hep_b,94.6
@@ -143,22 +143,22 @@ year,county,fips,grade,N,vax,value
 2011-2012,Yavapai,04025,Kindergarten,1886,polio,85.6
 2011-2012,Yuma,04027,Kindergarten,2811,polio,98.2
 2011-2012,Total,04,Kindergarten,85316,polio,95
-2011-2012,Apache,04001,Kindergarten,836,_mmr,95.9
-2011-2012,Cochise,04003,Kindergarten,1645,_mmr,94.7
-2011-2012,Coconino,04005,Kindergarten,1213,_mmr,91.4
-2011-2012,Gila,04007,Kindergarten,599,_mmr,95.5
-2011-2012,Graham,04009,Kindergarten,586,_mmr,93.5
-2011-2012,Greenlee,04011,Kindergarten,27,_mmr,74.1
-2011-2012,La Paz,04012,Kindergarten,231,_mmr,96.5
-2011-2012,Maricopa,04013,Kindergarten,54518,_mmr,94.8
-2011-2012,Mohave,04015,Kindergarten,1801,_mmr,89.6
-2011-2012,Navajo,04017,Kindergarten,1628,_mmr,93.7
-2011-2012,Pima,04019,Kindergarten,12087,_mmr,96.5
-2011-2012,Pinal,04021,Kindergarten,4633,_mmr,94.1
-2011-2012,Santa Cruz,04023,Kindergarten,735,_mmr,97.8
-2011-2012,Yavapai,04025,Kindergarten,1886,_mmr,84.9
-2011-2012,Yuma,04027,Kindergarten,2811,_mmr,97.4
-2011-2012,Total,04,Kindergarten,85316,_mmr,94.7
+2011-2012,Apache,04001,Kindergarten,836,mmr,95.9
+2011-2012,Cochise,04003,Kindergarten,1645,mmr,94.7
+2011-2012,Coconino,04005,Kindergarten,1213,mmr,91.4
+2011-2012,Gila,04007,Kindergarten,599,mmr,95.5
+2011-2012,Graham,04009,Kindergarten,586,mmr,93.5
+2011-2012,Greenlee,04011,Kindergarten,27,mmr,74.1
+2011-2012,La Paz,04012,Kindergarten,231,mmr,96.5
+2011-2012,Maricopa,04013,Kindergarten,54518,mmr,94.8
+2011-2012,Mohave,04015,Kindergarten,1801,mmr,89.6
+2011-2012,Navajo,04017,Kindergarten,1628,mmr,93.7
+2011-2012,Pima,04019,Kindergarten,12087,mmr,96.5
+2011-2012,Pinal,04021,Kindergarten,4633,mmr,94.1
+2011-2012,Santa Cruz,04023,Kindergarten,735,mmr,97.8
+2011-2012,Yavapai,04025,Kindergarten,1886,mmr,84.9
+2011-2012,Yuma,04027,Kindergarten,2811,mmr,97.4
+2011-2012,Total,04,Kindergarten,85316,mmr,94.7
 2011-2012,Apache,04001,Kindergarten,836,hep_b,98.1
 2011-2012,Cochise,04003,Kindergarten,1645,hep_b,97.3
 2011-2012,Coconino,04005,Kindergarten,1213,hep_b,95.3
@@ -255,22 +255,22 @@ year,county,fips,grade,N,vax,value
 2012-2013,Yavapai,04025,Kindergarten,1914,polio,89.7
 2012-2013,Yuma,04027,Kindergarten,2859,polio,97.7
 2012-2013,Total,04,Kindergarten,87909,polio,94.7
-2012-2013,Apache,04001,Kindergarten,766,_mmr,96.2
-2012-2013,Cochise,04003,Kindergarten,1558,_mmr,94.6
-2012-2013,Coconino,04005,Kindergarten,1483,_mmr,93
-2012-2013,Gila,04007,Kindergarten,666,_mmr,97.4
-2012-2013,Graham,04009,Kindergarten,460,_mmr,94.3
-2012-2013,Greenlee,04011,Kindergarten,130,_mmr,97.7
-2012-2013,La Paz,04012,Kindergarten,234,_mmr,97.9
-2012-2013,Maricopa,04013,Kindergarten,56414,_mmr,94.2
-2012-2013,Mohave,04015,Kindergarten,2012,_mmr,90.6
-2012-2013,Navajo,04017,Kindergarten,1669,_mmr,94.1
-2012-2013,Pima,04019,Kindergarten,12211,_mmr,96.3
-2012-2013,Pinal,04021,Kindergarten,4713,_mmr,93.5
-2012-2013,Santa Cruz,04023,Kindergarten,820,_mmr,98.2
-2012-2013,Yavapai,04025,Kindergarten,1914,_mmr,89.6
-2012-2013,Yuma,04027,Kindergarten,2859,_mmr,97.7
-2012-2013,Total,04,Kindergarten,87909,_mmr,94.5
+2012-2013,Apache,04001,Kindergarten,766,mmr,96.2
+2012-2013,Cochise,04003,Kindergarten,1558,mmr,94.6
+2012-2013,Coconino,04005,Kindergarten,1483,mmr,93
+2012-2013,Gila,04007,Kindergarten,666,mmr,97.4
+2012-2013,Graham,04009,Kindergarten,460,mmr,94.3
+2012-2013,Greenlee,04011,Kindergarten,130,mmr,97.7
+2012-2013,La Paz,04012,Kindergarten,234,mmr,97.9
+2012-2013,Maricopa,04013,Kindergarten,56414,mmr,94.2
+2012-2013,Mohave,04015,Kindergarten,2012,mmr,90.6
+2012-2013,Navajo,04017,Kindergarten,1669,mmr,94.1
+2012-2013,Pima,04019,Kindergarten,12211,mmr,96.3
+2012-2013,Pinal,04021,Kindergarten,4713,mmr,93.5
+2012-2013,Santa Cruz,04023,Kindergarten,820,mmr,98.2
+2012-2013,Yavapai,04025,Kindergarten,1914,mmr,89.6
+2012-2013,Yuma,04027,Kindergarten,2859,mmr,97.7
+2012-2013,Total,04,Kindergarten,87909,mmr,94.5
 2012-2013,Apache,04001,Kindergarten,766,hep_b,98.3
 2012-2013,Cochise,04003,Kindergarten,1558,hep_b,96.5
 2012-2013,Coconino,04005,Kindergarten,1483,hep_b,94.8
@@ -367,22 +367,22 @@ year,county,fips,grade,N,vax,value
 2013-2014,Yavapai,04025,Kindergarten,1712,polio,90.5
 2013-2014,Yuma,04027,Kindergarten,2912,polio,97.9
 2013-2014,Total,04,Kindergarten,85861,polio,94.7
-2013-2014,Apache,04001,Kindergarten,946,_mmr,97.5
-2013-2014,Cochise,04003,Kindergarten,1560,_mmr,95.3
-2013-2014,Coconino,04005,Kindergarten,1448,_mmr,86.3
-2013-2014,Gila,04007,Kindergarten,430,_mmr,94.7
-2013-2014,Graham,04009,Kindergarten,648,_mmr,91.8
-2013-2014,Greenlee,04011,Kindergarten,183,_mmr,97.3
-2013-2014,La Paz,04012,Kindergarten,224,_mmr,96.4
-2013-2014,Maricopa,04013,Kindergarten,55155,_mmr,93.7
-2013-2014,Mohave,04015,Kindergarten,1902,_mmr,90.9
-2013-2014,Navajo,04017,Kindergarten,1675,_mmr,93.1
-2013-2014,Pima,04019,Kindergarten,11893,_mmr,96.6
-2013-2014,Pinal,04021,Kindergarten,4379,_mmr,92.6
-2013-2014,Santa Cruz,04023,Kindergarten,794,_mmr,97.1
-2013-2014,Yavapai,04025,Kindergarten,1712,_mmr,86.8
-2013-2014,Yuma,04027,Kindergarten,2912,_mmr,97.7
-2013-2014,Total,04,Kindergarten,85861,_mmr,93.9
+2013-2014,Apache,04001,Kindergarten,946,mmr,97.5
+2013-2014,Cochise,04003,Kindergarten,1560,mmr,95.3
+2013-2014,Coconino,04005,Kindergarten,1448,mmr,86.3
+2013-2014,Gila,04007,Kindergarten,430,mmr,94.7
+2013-2014,Graham,04009,Kindergarten,648,mmr,91.8
+2013-2014,Greenlee,04011,Kindergarten,183,mmr,97.3
+2013-2014,La Paz,04012,Kindergarten,224,mmr,96.4
+2013-2014,Maricopa,04013,Kindergarten,55155,mmr,93.7
+2013-2014,Mohave,04015,Kindergarten,1902,mmr,90.9
+2013-2014,Navajo,04017,Kindergarten,1675,mmr,93.1
+2013-2014,Pima,04019,Kindergarten,11893,mmr,96.6
+2013-2014,Pinal,04021,Kindergarten,4379,mmr,92.6
+2013-2014,Santa Cruz,04023,Kindergarten,794,mmr,97.1
+2013-2014,Yavapai,04025,Kindergarten,1712,mmr,86.8
+2013-2014,Yuma,04027,Kindergarten,2912,mmr,97.7
+2013-2014,Total,04,Kindergarten,85861,mmr,93.9
 2013-2014,Apache,04001,Kindergarten,946,hep_b,98.3
 2013-2014,Cochise,04003,Kindergarten,1560,hep_b,97.2
 2013-2014,Coconino,04005,Kindergarten,1448,hep_b,93
@@ -479,22 +479,22 @@ year,county,fips,grade,N,vax,value
 2014-2015,Yavapai,04025,Kindergarten,1936,polio,89.6
 2014-2015,Yuma,04027,Kindergarten,2802,polio,98.4
 2014-2015,Total,04,Kindergarten,84651,polio,94.7
-2014-2015,Apache,04001,Kindergarten,997,_mmr,96.3
-2014-2015,Cochise,04003,Kindergarten,1577,_mmr,95.9
-2014-2015,Coconino,04005,Kindergarten,1414,_mmr,94.1
-2014-2015,Gila,04007,Kindergarten,694,_mmr,94.7
-2014-2015,Graham,04009,Kindergarten,605,_mmr,90.9
-2014-2015,Greenlee,04011,Kindergarten,175,_mmr,94.3
-2014-2015,La Paz,04012,Kindergarten,179,_mmr,92.7
-2014-2015,Maricopa,04013,Kindergarten,54292,_mmr,93.8
-2014-2015,Mohave,04015,Kindergarten,1817,_mmr,91.5
-2014-2015,Navajo,04017,Kindergarten,1239,_mmr,93.6
-2014-2015,Pima,04019,Kindergarten,11704,_mmr,96.7
-2014-2015,Pinal,04021,Kindergarten,4322,_mmr,93.5
-2014-2015,Santa Cruz,04023,Kindergarten,769,_mmr,98
-2014-2015,Yavapai,04025,Kindergarten,1936,_mmr,87.7
-2014-2015,Yuma,04027,Kindergarten,2802,_mmr,97.9
-2014-2015,Total,04,Kindergarten,84651,_mmr,94.2
+2014-2015,Apache,04001,Kindergarten,997,mmr,96.3
+2014-2015,Cochise,04003,Kindergarten,1577,mmr,95.9
+2014-2015,Coconino,04005,Kindergarten,1414,mmr,94.1
+2014-2015,Gila,04007,Kindergarten,694,mmr,94.7
+2014-2015,Graham,04009,Kindergarten,605,mmr,90.9
+2014-2015,Greenlee,04011,Kindergarten,175,mmr,94.3
+2014-2015,La Paz,04012,Kindergarten,179,mmr,92.7
+2014-2015,Maricopa,04013,Kindergarten,54292,mmr,93.8
+2014-2015,Mohave,04015,Kindergarten,1817,mmr,91.5
+2014-2015,Navajo,04017,Kindergarten,1239,mmr,93.6
+2014-2015,Pima,04019,Kindergarten,11704,mmr,96.7
+2014-2015,Pinal,04021,Kindergarten,4322,mmr,93.5
+2014-2015,Santa Cruz,04023,Kindergarten,769,mmr,98
+2014-2015,Yavapai,04025,Kindergarten,1936,mmr,87.7
+2014-2015,Yuma,04027,Kindergarten,2802,mmr,97.9
+2014-2015,Total,04,Kindergarten,84651,mmr,94.2
 2014-2015,Apache,04001,Kindergarten,997,hep_b,97.6
 2014-2015,Cochise,04003,Kindergarten,1577,hep_b,97.4
 2014-2015,Coconino,04005,Kindergarten,1414,hep_b,95.7
@@ -591,22 +591,22 @@ year,county,fips,grade,N,vax,value
 2015-2016,Yavapai,04025,Kindergarten,1706,polio,85.6
 2015-2016,Yuma,04027,Kindergarten,2609,polio,98.4
 2015-2016,Total,04,Kindergarten,83088,polio,94.6
-2015-2016,Apache,04001,Kindergarten,858,_mmr,96.2
-2015-2016,Cochise,04003,Kindergarten,1309,_mmr,95.6
-2015-2016,Coconino,04005,Kindergarten,1303,_mmr,92.2
-2015-2016,Gila,04007,Kindergarten,616,_mmr,93.7
-2015-2016,Graham,04009,Kindergarten,530,_mmr,88.7
-2015-2016,Greenlee,04011,Kindergarten,159,_mmr,95
-2015-2016,La Paz,04012,Kindergarten,199,_mmr,94.5
-2015-2016,Maricopa,04013,Kindergarten,54019,_mmr,93.8
-2015-2016,Mohave,04015,Kindergarten,1831,_mmr,92.9
-2015-2016,Navajo,04017,Kindergarten,1687,_mmr,94.1
-2015-2016,Pima,04019,Kindergarten,11362,_mmr,96.8
-2015-2016,Pinal,04021,Kindergarten,4201,_mmr,94.5
-2015-2016,Santa Cruz,04023,Kindergarten,699,_mmr,98.6
-2015-2016,Yavapai,04025,Kindergarten,1706,_mmr,83.8
-2015-2016,Yuma,04027,Kindergarten,2609,_mmr,97.5
-2015-2016,Total,04,Kindergarten,83088,_mmr,94.2
+2015-2016,Apache,04001,Kindergarten,858,mmr,96.2
+2015-2016,Cochise,04003,Kindergarten,1309,mmr,95.6
+2015-2016,Coconino,04005,Kindergarten,1303,mmr,92.2
+2015-2016,Gila,04007,Kindergarten,616,mmr,93.7
+2015-2016,Graham,04009,Kindergarten,530,mmr,88.7
+2015-2016,Greenlee,04011,Kindergarten,159,mmr,95
+2015-2016,La Paz,04012,Kindergarten,199,mmr,94.5
+2015-2016,Maricopa,04013,Kindergarten,54019,mmr,93.8
+2015-2016,Mohave,04015,Kindergarten,1831,mmr,92.9
+2015-2016,Navajo,04017,Kindergarten,1687,mmr,94.1
+2015-2016,Pima,04019,Kindergarten,11362,mmr,96.8
+2015-2016,Pinal,04021,Kindergarten,4201,mmr,94.5
+2015-2016,Santa Cruz,04023,Kindergarten,699,mmr,98.6
+2015-2016,Yavapai,04025,Kindergarten,1706,mmr,83.8
+2015-2016,Yuma,04027,Kindergarten,2609,mmr,97.5
+2015-2016,Total,04,Kindergarten,83088,mmr,94.2
 2015-2016,Apache,04001,Kindergarten,858,hep_b,97.8
 2015-2016,Cochise,04003,Kindergarten,1309,hep_b,96
 2015-2016,Coconino,04005,Kindergarten,1303,hep_b,93.5
@@ -702,7 +702,7 @@ year,county,fips,grade,N,vax,value
 2016-2017,Santa Cruz,04023,Kindergarten,776,dtap,97.8
 2016-2017,Yavapai,04025,Kindergarten,1869,dtap,87.1
 2016-2017,Yuma,04027,Kindergarten,2727,dtap,97.7
-2016-2017,State Totals,NA,Kindergarten,83627,dtap,93.9
+2016-2017,Total,04,Kindergarten,83627,dtap,93.9
 2016-2017,Apache,04001,Kindergarten,783,polio,96.3
 2016-2017,Cochise,04003,Kindergarten,1490,polio,96.4
 2016-2017,Coconino,04005,Kindergarten,1258,polio,93.2
@@ -718,23 +718,23 @@ year,county,fips,grade,N,vax,value
 2016-2017,Santa Cruz,04023,Kindergarten,776,polio,97.4
 2016-2017,Yavapai,04025,Kindergarten,1869,polio,87.3
 2016-2017,Yuma,04027,Kindergarten,2727,polio,97.6
-2016-2017,State Totals,NA,Kindergarten,83627,polio,94.4
-2016-2017,Apache,04001,Kindergarten,783,_mmr,96
-2016-2017,Cochise,04003,Kindergarten,1490,_mmr,96
-2016-2017,Coconino,04005,Kindergarten,1258,_mmr,93.1
-2016-2017,Gila,04007,Kindergarten,566,_mmr,89.6
-2016-2017,Graham,04009,Kindergarten,523,_mmr,96.9
-2016-2017,Greenlee,04011,Kindergarten,150,_mmr,97.3
-2016-2017,La Paz,04012,Kindergarten,173,_mmr,93.6
-2016-2017,Maricopa,04013,Kindergarten,54567,_mmr,93.8
-2016-2017,Mohave,04015,Kindergarten,1974,_mmr,86.1
-2016-2017,Navajo,04017,Kindergarten,1404,_mmr,90.6
-2016-2017,Pima,04019,Kindergarten,11170,_mmr,96.5
-2016-2017,Pinal,04021,Kindergarten,4197,_mmr,93.3
-2016-2017,Santa Cruz,04023,Kindergarten,776,_mmr,97.8
-2016-2017,Yavapai,04025,Kindergarten,1869,_mmr,86.7
-2016-2017,Yuma,04027,Kindergarten,2727,_mmr,97.5
-2016-2017,State Totals,NA,Kindergarten,83627,_mmr,94
+2016-2017,Total,04,Kindergarten,83627,polio,94.4
+2016-2017,Apache,04001,Kindergarten,783,mmr,96
+2016-2017,Cochise,04003,Kindergarten,1490,mmr,96
+2016-2017,Coconino,04005,Kindergarten,1258,mmr,93.1
+2016-2017,Gila,04007,Kindergarten,566,mmr,89.6
+2016-2017,Graham,04009,Kindergarten,523,mmr,96.9
+2016-2017,Greenlee,04011,Kindergarten,150,mmr,97.3
+2016-2017,La Paz,04012,Kindergarten,173,mmr,93.6
+2016-2017,Maricopa,04013,Kindergarten,54567,mmr,93.8
+2016-2017,Mohave,04015,Kindergarten,1974,mmr,86.1
+2016-2017,Navajo,04017,Kindergarten,1404,mmr,90.6
+2016-2017,Pima,04019,Kindergarten,11170,mmr,96.5
+2016-2017,Pinal,04021,Kindergarten,4197,mmr,93.3
+2016-2017,Santa Cruz,04023,Kindergarten,776,mmr,97.8
+2016-2017,Yavapai,04025,Kindergarten,1869,mmr,86.7
+2016-2017,Yuma,04027,Kindergarten,2727,mmr,97.5
+2016-2017,Total,04,Kindergarten,83627,mmr,94
 2016-2017,Apache,04001,Kindergarten,783,hep_b,97.3
 2016-2017,Cochise,04003,Kindergarten,1490,hep_b,96.9
 2016-2017,Coconino,04005,Kindergarten,1258,hep_b,94
@@ -750,7 +750,7 @@ year,county,fips,grade,N,vax,value
 2016-2017,Santa Cruz,04023,Kindergarten,776,hep_b,99
 2016-2017,Yavapai,04025,Kindergarten,1869,hep_b,89.7
 2016-2017,Yuma,04027,Kindergarten,2727,hep_b,98.5
-2016-2017,State Totals,NA,Kindergarten,83627,hep_b,95.3
+2016-2017,Total,04,Kindergarten,83627,hep_b,95.3
 2016-2017,Apache,04001,Kindergarten,783,varicella,98.1
 2016-2017,Cochise,04003,Kindergarten,1490,varicella,97.9
 2016-2017,Coconino,04005,Kindergarten,1258,varicella,95
@@ -766,7 +766,7 @@ year,county,fips,grade,N,vax,value
 2016-2017,Santa Cruz,04023,Kindergarten,776,varicella,98.8
 2016-2017,Yavapai,04025,Kindergarten,1869,varicella,91.5
 2016-2017,Yuma,04027,Kindergarten,2727,varicella,98.9
-2016-2017,State Totals,NA,Kindergarten,83627,varicella,96.7
+2016-2017,Total,04,Kindergarten,83627,varicella,96.7
 2016-2017,Apache,04001,Kindergarten,783,personal_exempt,2.3
 2016-2017,Cochise,04003,Kindergarten,1490,personal_exempt,1.9
 2016-2017,Coconino,04005,Kindergarten,1258,personal_exempt,7.4
@@ -782,7 +782,7 @@ year,county,fips,grade,N,vax,value
 2016-2017,Santa Cruz,04023,Kindergarten,776,personal_exempt,0.8
 2016-2017,Yavapai,04025,Kindergarten,1869,personal_exempt,11.5
 2016-2017,Yuma,04027,Kindergarten,2727,personal_exempt,1
-2016-2017,State Totals,NA,Kindergarten,83627,personal_exempt,4.9
+2016-2017,Total,04,Kindergarten,83627,personal_exempt,4.9
 2016-2017,Apache,04001,Kindergarten,783,medical_exempt,0.4
 2016-2017,Cochise,04003,Kindergarten,1490,medical_exempt,0.1
 2016-2017,Coconino,04005,Kindergarten,1258,medical_exempt,0.5
@@ -798,7 +798,7 @@ year,county,fips,grade,N,vax,value
 2016-2017,Santa Cruz,04023,Kindergarten,776,medical_exempt,0.1
 2016-2017,Yavapai,04025,Kindergarten,1869,medical_exempt,0.4
 2016-2017,Yuma,04027,Kindergarten,2727,medical_exempt,0.1
-2016-2017,State Totals,NA,Kindergarten,83627,medical_exempt,0.3
+2016-2017,Total,04,Kindergarten,83627,medical_exempt,0.3
 2016-2017,Apache,04001,Kindergarten,783,full_exempt,0.5
 2016-2017,Cochise,04003,Kindergarten,1490,full_exempt,1.1
 2016-2017,Coconino,04005,Kindergarten,1258,full_exempt,3.9
@@ -814,7 +814,7 @@ year,county,fips,grade,N,vax,value
 2016-2017,Santa Cruz,04023,Kindergarten,776,full_exempt,0.3
 2016-2017,Yavapai,04025,Kindergarten,1869,full_exempt,6.5
 2016-2017,Yuma,04027,Kindergarten,2727,full_exempt,0.4
-2016-2017,State Totals,NA,Kindergarten,83627,full_exempt,2.4
+2016-2017,Total,04,Kindergarten,83627,full_exempt,2.4
 2017-2018,Apache,04001,Kindergarten,798,dtap,96.7
 2017-2018,Cochise,04003,Kindergarten,1305,dtap,96.2
 2017-2018,Coconino,04005,Kindergarten,1005,dtap,91
@@ -830,7 +830,7 @@ year,county,fips,grade,N,vax,value
 2017-2018,Santa Cruz,04023,Kindergarten,757,dtap,97.9
 2017-2018,Yavapai,04025,Kindergarten,1734,dtap,83
 2017-2018,Yuma,04027,Kindergarten,2801,dtap,97.4
-2017-2018,State Totals,NA,Kindergarten,81710,dtap,93.5
+2017-2018,Total,04,Kindergarten,81710,dtap,93.5
 2017-2018,Apache,04001,Kindergarten,798,polio,96.5
 2017-2018,Cochise,04003,Kindergarten,1305,polio,96.7
 2017-2018,Coconino,04005,Kindergarten,1005,polio,90.9
@@ -846,23 +846,23 @@ year,county,fips,grade,N,vax,value
 2017-2018,Santa Cruz,04023,Kindergarten,757,polio,97.4
 2017-2018,Yavapai,04025,Kindergarten,1734,polio,83.9
 2017-2018,Yuma,04027,Kindergarten,2801,polio,97.5
-2017-2018,State Totals,NA,Kindergarten,81710,polio,93.9
-2017-2018,Apache,04001,Kindergarten,798,_mmr,96.5
-2017-2018,Cochise,04003,Kindergarten,1305,_mmr,95.6
-2017-2018,Coconino,04005,Kindergarten,1005,_mmr,90.2
-2017-2018,Gila,04007,Kindergarten,766,_mmr,90.9
-2017-2018,Graham,04009,Kindergarten,475,_mmr,94.5
-2017-2018,Greenlee,04011,Kindergarten,157,_mmr,93.6
-2017-2018,La Paz,04012,Kindergarten,158,_mmr,98.1
-2017-2018,Maricopa,04013,Kindergarten,53503,_mmr,93.1
-2017-2018,Mohave,04015,Kindergarten,1792,_mmr,92.1
-2017-2018,Navajo,04017,Kindergarten,1302,_mmr,90.4
-2017-2018,Pima,04019,Kindergarten,10818,_mmr,96.4
-2017-2018,Pinal,04021,Kindergarten,4323,_mmr,93.7
-2017-2018,Santa Cruz,04023,Kindergarten,757,_mmr,97
-2017-2018,Yavapai,04025,Kindergarten,1734,_mmr,81.1
-2017-2018,Yuma,04027,Kindergarten,2801,_mmr,97
-2017-2018,State Totals,NA,Kindergarten,81710,_mmr,93.4
+2017-2018,Total,04,Kindergarten,81710,polio,93.9
+2017-2018,Apache,04001,Kindergarten,798,mmr,96.5
+2017-2018,Cochise,04003,Kindergarten,1305,mmr,95.6
+2017-2018,Coconino,04005,Kindergarten,1005,mmr,90.2
+2017-2018,Gila,04007,Kindergarten,766,mmr,90.9
+2017-2018,Graham,04009,Kindergarten,475,mmr,94.5
+2017-2018,Greenlee,04011,Kindergarten,157,mmr,93.6
+2017-2018,La Paz,04012,Kindergarten,158,mmr,98.1
+2017-2018,Maricopa,04013,Kindergarten,53503,mmr,93.1
+2017-2018,Mohave,04015,Kindergarten,1792,mmr,92.1
+2017-2018,Navajo,04017,Kindergarten,1302,mmr,90.4
+2017-2018,Pima,04019,Kindergarten,10818,mmr,96.4
+2017-2018,Pinal,04021,Kindergarten,4323,mmr,93.7
+2017-2018,Santa Cruz,04023,Kindergarten,757,mmr,97
+2017-2018,Yavapai,04025,Kindergarten,1734,mmr,81.1
+2017-2018,Yuma,04027,Kindergarten,2801,mmr,97
+2017-2018,Total,04,Kindergarten,81710,mmr,93.4
 2017-2018,Apache,04001,Kindergarten,798,hep_b,97.4
 2017-2018,Cochise,04003,Kindergarten,1305,hep_b,96.5
 2017-2018,Coconino,04005,Kindergarten,1005,hep_b,91.6
@@ -878,7 +878,7 @@ year,county,fips,grade,N,vax,value
 2017-2018,Santa Cruz,04023,Kindergarten,757,hep_b,98.2
 2017-2018,Yavapai,04025,Kindergarten,1734,hep_b,86.8
 2017-2018,Yuma,04027,Kindergarten,2801,hep_b,98.4
-2017-2018,State Totals,NA,Kindergarten,81710,hep_b,94.9
+2017-2018,Total,04,Kindergarten,81710,hep_b,94.9
 2017-2018,Apache,04001,Kindergarten,798,varicella,97.6
 2017-2018,Cochise,04003,Kindergarten,1305,varicella,97.4
 2017-2018,Coconino,04005,Kindergarten,1005,varicella,93.4
@@ -894,7 +894,7 @@ year,county,fips,grade,N,vax,value
 2017-2018,Santa Cruz,04023,Kindergarten,757,varicella,98.3
 2017-2018,Yavapai,04025,Kindergarten,1734,varicella,87.7
 2017-2018,Yuma,04027,Kindergarten,2801,varicella,96.3
-2017-2018,State Totals,NA,Kindergarten,81710,varicella,96
+2017-2018,Total,04,Kindergarten,81710,varicella,96
 2017-2018,Apache,04001,Kindergarten,798,personal_exempt,2.5
 2017-2018,Cochise,04003,Kindergarten,1305,personal_exempt,2.7
 2017-2018,Coconino,04005,Kindergarten,1005,personal_exempt,10.3
@@ -910,7 +910,7 @@ year,county,fips,grade,N,vax,value
 2017-2018,Santa Cruz,04023,Kindergarten,757,personal_exempt,1.3
 2017-2018,Yavapai,04025,Kindergarten,1734,personal_exempt,14
 2017-2018,Yuma,04027,Kindergarten,2801,personal_exempt,1.2
-2017-2018,State Totals,NA,Kindergarten,81710,personal_exempt,5.4
+2017-2018,Total,04,Kindergarten,81710,personal_exempt,5.4
 2017-2018,Apache,04001,Kindergarten,798,medical_exempt,0
 2017-2018,Cochise,04003,Kindergarten,1305,medical_exempt,0.2
 2017-2018,Coconino,04005,Kindergarten,1005,medical_exempt,0.3
@@ -926,7 +926,7 @@ year,county,fips,grade,N,vax,value
 2017-2018,Santa Cruz,04023,Kindergarten,757,medical_exempt,0.1
 2017-2018,Yavapai,04025,Kindergarten,1734,medical_exempt,0.2
 2017-2018,Yuma,04027,Kindergarten,2801,medical_exempt,0.1
-2017-2018,State Totals,NA,Kindergarten,81710,medical_exempt,0.7
+2017-2018,Total,04,Kindergarten,81710,medical_exempt,0.7
 2017-2018,Apache,04001,Kindergarten,798,full_exempt,2.3
 2017-2018,Cochise,04003,Kindergarten,1305,full_exempt,1.8
 2017-2018,Coconino,04005,Kindergarten,1005,full_exempt,6.5
@@ -942,7 +942,7 @@ year,county,fips,grade,N,vax,value
 2017-2018,Santa Cruz,04023,Kindergarten,757,full_exempt,0.5
 2017-2018,Yavapai,04025,Kindergarten,1734,full_exempt,10
 2017-2018,Yuma,04027,Kindergarten,2801,full_exempt,0.5
-2017-2018,State Totals,NA,Kindergarten,81710,full_exempt,3.5
+2017-2018,Total,04,Kindergarten,81710,full_exempt,3.5
 2018-2019,Apache,04001,Kindergarten,544,dtap,91.9
 2018-2019,Cochise,04003,Kindergarten,1301,dtap,94.2
 2018-2019,Coconino,04005,Kindergarten,1102,dtap,92.8
@@ -975,22 +975,22 @@ year,county,fips,grade,N,vax,value
 2018-2019,Yavapai,04025,Kindergarten,1737,polio,84.5
 2018-2019,Yuma,04027,Kindergarten,2828,polio,97.7
 2018-2019,Total,04,Kindergarten,79981,polio,93.3
-2018-2019,Apache,04001,Kindergarten,544,_mmr,93.4
-2018-2019,Cochise,04003,Kindergarten,1301,_mmr,95.5
-2018-2019,Coconino,04005,Kindergarten,1102,_mmr,91
-2018-2019,Gila,04007,Kindergarten,591,_mmr,91.4
-2018-2019,Graham,04009,Kindergarten,534,_mmr,92.9
-2018-2019,Greenlee,04011,Kindergarten,159,_mmr,95
-2018-2019,La Paz,04012,Kindergarten,154,_mmr,96.8
-2018-2019,Maricopa,04013,Kindergarten,52867,_mmr,92.7
-2018-2019,Mohave,04015,Kindergarten,1856,_mmr,88.4
-2018-2019,Navajo,04017,Kindergarten,1013,_mmr,88.4
-2018-2019,Pima,04019,Kindergarten,10727,_mmr,95.9
-2018-2019,Pinal,04021,Kindergarten,3986,_mmr,92.2
-2018-2019,Santa Cruz,04023,Kindergarten,582,_mmr,97.1
-2018-2019,Yavapai,04025,Kindergarten,1737,_mmr,83.3
-2018-2019,Yuma,04027,Kindergarten,2828,_mmr,97.3
-2018-2019,Total,04,Kindergarten,79981,_mmr,93
+2018-2019,Apache,04001,Kindergarten,544,mmr,93.4
+2018-2019,Cochise,04003,Kindergarten,1301,mmr,95.5
+2018-2019,Coconino,04005,Kindergarten,1102,mmr,91
+2018-2019,Gila,04007,Kindergarten,591,mmr,91.4
+2018-2019,Graham,04009,Kindergarten,534,mmr,92.9
+2018-2019,Greenlee,04011,Kindergarten,159,mmr,95
+2018-2019,La Paz,04012,Kindergarten,154,mmr,96.8
+2018-2019,Maricopa,04013,Kindergarten,52867,mmr,92.7
+2018-2019,Mohave,04015,Kindergarten,1856,mmr,88.4
+2018-2019,Navajo,04017,Kindergarten,1013,mmr,88.4
+2018-2019,Pima,04019,Kindergarten,10727,mmr,95.9
+2018-2019,Pinal,04021,Kindergarten,3986,mmr,92.2
+2018-2019,Santa Cruz,04023,Kindergarten,582,mmr,97.1
+2018-2019,Yavapai,04025,Kindergarten,1737,mmr,83.3
+2018-2019,Yuma,04027,Kindergarten,2828,mmr,97.3
+2018-2019,Total,04,Kindergarten,79981,mmr,93
 2018-2019,Apache,04001,Kindergarten,544,hep_b,94.9
 2018-2019,Cochise,04003,Kindergarten,1301,hep_b,93.9
 2018-2019,Coconino,04005,Kindergarten,1102,hep_b,93.2
@@ -1103,22 +1103,22 @@ year,county,fips,grade,N,vax,value
 2019-2020,Yavapai,04025,Kindergarten,1737,polio,85.1
 2019-2020,Yuma,04027,Kindergarten,2716,polio,97.7
 2019-2020,Total,04,Kindergarten,82358,polio,93.8
-2019-2020,Apache,04001,Kindergarten,613,_mmr,92.3
-2019-2020,Cochise,04003,Kindergarten,1350,_mmr,95.2
-2019-2020,Coconino,04005,Kindergarten,982,_mmr,92.5
-2019-2020,Gila,04007,Kindergarten,604,_mmr,93
-2019-2020,Graham,04009,Kindergarten,580,_mmr,94.7
-2019-2020,Greenlee,04011,Kindergarten,174,_mmr,97.7
-2019-2020,La Paz,04012,Kindergarten,154,_mmr,95.5
-2019-2020,Maricopa,04013,Kindergarten,54405,_mmr,93.2
-2019-2020,Mohave,04015,Kindergarten,1816,_mmr,90.3
-2019-2020,Navajo,04017,Kindergarten,935,_mmr,93.7
-2019-2020,Pima,04019,Kindergarten,11301,_mmr,95.6
-2019-2020,Pinal,04021,Kindergarten,4241,_mmr,93.2
-2019-2020,Santa Cruz,04023,Kindergarten,750,_mmr,97.1
-2019-2020,Yavapai,04025,Kindergarten,1737,_mmr,83.4
-2019-2020,Yuma,04027,Kindergarten,2716,_mmr,97.7
-2019-2020,Total,04,Kindergarten,82358,_mmr,93.5
+2019-2020,Apache,04001,Kindergarten,613,mmr,92.3
+2019-2020,Cochise,04003,Kindergarten,1350,mmr,95.2
+2019-2020,Coconino,04005,Kindergarten,982,mmr,92.5
+2019-2020,Gila,04007,Kindergarten,604,mmr,93
+2019-2020,Graham,04009,Kindergarten,580,mmr,94.7
+2019-2020,Greenlee,04011,Kindergarten,174,mmr,97.7
+2019-2020,La Paz,04012,Kindergarten,154,mmr,95.5
+2019-2020,Maricopa,04013,Kindergarten,54405,mmr,93.2
+2019-2020,Mohave,04015,Kindergarten,1816,mmr,90.3
+2019-2020,Navajo,04017,Kindergarten,935,mmr,93.7
+2019-2020,Pima,04019,Kindergarten,11301,mmr,95.6
+2019-2020,Pinal,04021,Kindergarten,4241,mmr,93.2
+2019-2020,Santa Cruz,04023,Kindergarten,750,mmr,97.1
+2019-2020,Yavapai,04025,Kindergarten,1737,mmr,83.4
+2019-2020,Yuma,04027,Kindergarten,2716,mmr,97.7
+2019-2020,Total,04,Kindergarten,82358,mmr,93.5
 2019-2020,Apache,04001,Kindergarten,613,hep_b,93.3
 2019-2020,Cochise,04003,Kindergarten,1350,hep_b,96.4
 2019-2020,Coconino,04005,Kindergarten,982,hep_b,93.9
@@ -1231,22 +1231,22 @@ year,county,fips,grade,N,vax,value
 2021-2022,Yavapai,04025,Kindergarten,1754,polio,77.3
 2021-2022,Yuma,04027,Kindergarten,2628,polio,95.2
 2021-2022,Total,04,Kindergarten,80918,polio,90.9
-2021-2022,Apache,04001,Kindergarten,676,_mmr,88.5
-2021-2022,Cochise,04003,Kindergarten,1398,_mmr,90.1
-2021-2022,Coconino,04005,Kindergarten,1195,_mmr,89.2
-2021-2022,Gila,04007,Kindergarten,472,_mmr,85.8
-2021-2022,Graham,04009,Kindergarten,552,_mmr,92.2
-2021-2022,Greenlee,04011,Kindergarten,153,_mmr,89.5
-2021-2022,La Paz,04012,Kindergarten,144,_mmr,90.3
-2021-2022,Maricopa,04013,Kindergarten,53476,_mmr,90.6
-2021-2022,Mohave,04015,Kindergarten,1874,_mmr,84.3
-2021-2022,Navajo,04017,Kindergarten,1258,_mmr,87
-2021-2022,Pima,04019,Kindergarten,10147,_mmr,93.8
-2021-2022,Pinal,04021,Kindergarten,4493,_mmr,89.4
-2021-2022,Santa Cruz,04023,Kindergarten,698,_mmr,96.6
-2021-2022,Yavapai,04025,Kindergarten,1754,_mmr,77.3
-2021-2022,Yuma,04027,Kindergarten,2628,_mmr,95.4
-2021-2022,Total,04,Kindergarten,80918,_mmr,90.6
+2021-2022,Apache,04001,Kindergarten,676,mmr,88.5
+2021-2022,Cochise,04003,Kindergarten,1398,mmr,90.1
+2021-2022,Coconino,04005,Kindergarten,1195,mmr,89.2
+2021-2022,Gila,04007,Kindergarten,472,mmr,85.8
+2021-2022,Graham,04009,Kindergarten,552,mmr,92.2
+2021-2022,Greenlee,04011,Kindergarten,153,mmr,89.5
+2021-2022,La Paz,04012,Kindergarten,144,mmr,90.3
+2021-2022,Maricopa,04013,Kindergarten,53476,mmr,90.6
+2021-2022,Mohave,04015,Kindergarten,1874,mmr,84.3
+2021-2022,Navajo,04017,Kindergarten,1258,mmr,87
+2021-2022,Pima,04019,Kindergarten,10147,mmr,93.8
+2021-2022,Pinal,04021,Kindergarten,4493,mmr,89.4
+2021-2022,Santa Cruz,04023,Kindergarten,698,mmr,96.6
+2021-2022,Yavapai,04025,Kindergarten,1754,mmr,77.3
+2021-2022,Yuma,04027,Kindergarten,2628,mmr,95.4
+2021-2022,Total,04,Kindergarten,80918,mmr,90.6
 2021-2022,Apache,04001,Kindergarten,676,hep_b,93.6
 2021-2022,Cochise,04003,Kindergarten,1398,hep_b,92.8
 2021-2022,Coconino,04005,Kindergarten,1195,hep_b,93.3
@@ -1359,22 +1359,22 @@ year,county,fips,grade,N,vax,value
 2022-2023,Yavapai,04025,Kindergarten,1617,polio,80.7
 2022-2023,Yuma,04027,Kindergarten,2628,polio,96.1
 2022-2023,Total,04,Kindergarten,78937,polio,90.3
-2022-2023,Apache,04001,Kindergarten,673,_mmr,88.3
-2022-2023,Cochise,04003,Kindergarten,1041,_mmr,86.5
-2022-2023,Coconino,04005,Kindergarten,1087,_mmr,87.3
-2022-2023,Gila,04007,Kindergarten,433,_mmr,85.7
-2022-2023,Graham,04009,Kindergarten,601,_mmr,91.3
-2022-2023,Greenlee,04011,Kindergarten,161,_mmr,82
-2022-2023,La Paz,04012,Kindergarten,149,_mmr,92.6
-2022-2023,Maricopa,04013,Kindergarten,52553,_mmr,89.8
-2022-2023,Mohave,04015,Kindergarten,1799,_mmr,82.8
-2022-2023,Navajo,04017,Kindergarten,1093,_mmr,80.5
-2022-2023,Pima,04019,Kindergarten,10034,_mmr,93.7
-2022-2023,Pinal,04021,Kindergarten,4339,_mmr,90.1
-2022-2023,Santa Cruz,04023,Kindergarten,729,_mmr,97.4
-2022-2023,Yavapai,04025,Kindergarten,1617,_mmr,76.5
-2022-2023,Yuma,04027,Kindergarten,2628,_mmr,95.7
-2022-2023,Total,04,Kindergarten,78937,_mmr,89.9
+2022-2023,Apache,04001,Kindergarten,673,mmr,88.3
+2022-2023,Cochise,04003,Kindergarten,1041,mmr,86.5
+2022-2023,Coconino,04005,Kindergarten,1087,mmr,87.3
+2022-2023,Gila,04007,Kindergarten,433,mmr,85.7
+2022-2023,Graham,04009,Kindergarten,601,mmr,91.3
+2022-2023,Greenlee,04011,Kindergarten,161,mmr,82
+2022-2023,La Paz,04012,Kindergarten,149,mmr,92.6
+2022-2023,Maricopa,04013,Kindergarten,52553,mmr,89.8
+2022-2023,Mohave,04015,Kindergarten,1799,mmr,82.8
+2022-2023,Navajo,04017,Kindergarten,1093,mmr,80.5
+2022-2023,Pima,04019,Kindergarten,10034,mmr,93.7
+2022-2023,Pinal,04021,Kindergarten,4339,mmr,90.1
+2022-2023,Santa Cruz,04023,Kindergarten,729,mmr,97.4
+2022-2023,Yavapai,04025,Kindergarten,1617,mmr,76.5
+2022-2023,Yuma,04027,Kindergarten,2628,mmr,95.7
+2022-2023,Total,04,Kindergarten,78937,mmr,89.9
 2022-2023,Apache,04001,Kindergarten,673,hep_b,92.7
 2022-2023,Cochise,04003,Kindergarten,1041,hep_b,93.1
 2022-2023,Coconino,04005,Kindergarten,1087,hep_b,92.9
@@ -1487,22 +1487,22 @@ year,county,fips,grade,N,vax,value
 2023-2024,Yavapai,04025,Kindergarten,1514,polio,78.6
 2023-2024,Yuma,04027,Kindergarten,2700,polio,95.1
 2023-2024,Total,04,Kindergarten,74535,polio,89.3
-2023-2024,Apache,04001,Kindergarten,619,_mmr,90
-2023-2024,Cochise,04003,Kindergarten,1003,_mmr,89.1
-2023-2024,Coconino,04005,Kindergarten,997,_mmr,86.8
-2023-2024,Gila,04007,Kindergarten,471,_mmr,79.9
-2023-2024,Graham,04009,Kindergarten,477,_mmr,91.3
-2023-2024,Greenlee,04011,Kindergarten,158,_mmr,84.2
-2023-2024,La Paz,04012,Kindergarten,120,_mmr,95.2
-2023-2024,Maricopa,04013,Kindergarten,49022,_mmr,87.5
-2023-2024,Mohave,04015,Kindergarten,1686,_mmr,76
-2023-2024,Navajo,04017,Kindergarten,1032,_mmr,79.7
-2023-2024,Pima,04019,Kindergarten,9830,_mmr,92.8
-2023-2024,Pinal,04021,Kindergarten,4265,_mmr,89
-2023-2024,Santa Cruz,04023,Kindergarten,641,_mmr,96.4
-2023-2024,Yavapai,04025,Kindergarten,1514,_mmr,75.2
-2023-2024,Yuma,04027,Kindergarten,2700,_mmr,95.4
-2023-2024,Total,04,Kindergarten,74535,_mmr,88.1
+2023-2024,Apache,04001,Kindergarten,619,mmr,90
+2023-2024,Cochise,04003,Kindergarten,1003,mmr,89.1
+2023-2024,Coconino,04005,Kindergarten,997,mmr,86.8
+2023-2024,Gila,04007,Kindergarten,471,mmr,79.9
+2023-2024,Graham,04009,Kindergarten,477,mmr,91.3
+2023-2024,Greenlee,04011,Kindergarten,158,mmr,84.2
+2023-2024,La Paz,04012,Kindergarten,120,mmr,95.2
+2023-2024,Maricopa,04013,Kindergarten,49022,mmr,87.5
+2023-2024,Mohave,04015,Kindergarten,1686,mmr,76
+2023-2024,Navajo,04017,Kindergarten,1032,mmr,79.7
+2023-2024,Pima,04019,Kindergarten,9830,mmr,92.8
+2023-2024,Pinal,04021,Kindergarten,4265,mmr,89
+2023-2024,Santa Cruz,04023,Kindergarten,641,mmr,96.4
+2023-2024,Yavapai,04025,Kindergarten,1514,mmr,75.2
+2023-2024,Yuma,04027,Kindergarten,2700,mmr,95.4
+2023-2024,Total,04,Kindergarten,74535,mmr,88.1
 2023-2024,Apache,04001,Kindergarten,619,hep_b,94.9
 2023-2024,Cochise,04003,Kindergarten,1003,hep_b,94
 2023-2024,Coconino,04005,Kindergarten,997,hep_b,91.9
