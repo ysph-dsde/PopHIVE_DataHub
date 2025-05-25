@@ -4,7 +4,8 @@
 
 # csv_to_parquet('./Data/vax/Vaccination_Coverage_among_Young_Children__0-35_Months__20250204.csv',path_to_parquet ='./Data/vax/peds_vax.parquet')
 
-vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Pulled%20Data/vax/peds_vax.parquet') %>%
+
+vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/heads/main/Data/Pulled%20Data/vax/nis_peds_vax.parquet') %>%
   rename(birth_year = `Birth Year/Birth Cohort`, dim1=`Dimension Type`, age=Dimension,vax_uptake=`Estimate (%)`, samp_size_vax=`Sample Size`) %>%
   collect() %>%
   #filter(birth_year==2021 & dim1=='Age') %>%
