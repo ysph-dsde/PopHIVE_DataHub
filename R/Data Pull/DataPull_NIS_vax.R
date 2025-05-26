@@ -31,7 +31,7 @@ vax_age <- read_parquet('https://github.com/ysph-dsde/PopHIVE_DataHub/raw/refs/h
          sex_level = NA_character_) 
 
 write_parquet(vax_age, './Data/Plot Files/childhood_immunizations/vax_age_nis.parquet')
-write_csv(vax_age, './Data/Plot Files/childhood_immunizations/vax_age_nis.parquet')
+write_csv(vax_age,    './Data/Plot Files/childhood_immunizations/vax_age_nis.csv')
 
      
 ##################Urbanicity:
