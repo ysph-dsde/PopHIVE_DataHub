@@ -1,0 +1,640 @@
+"","year","geography","grade","N","vax","value","percent_surveyed"
+"1","2019-20","Indiana","Kindergarten",88253,"polio","90.4",65.7
+"2","2018-19","Indiana","Kindergarten",82324,"polio","91.3",96.4
+"3","2016-17","Indiana","Kindergarten",83263,"polio","89.5",80.3
+"4","2017-18","Indiana","Kindergarten",84296,"polio","92.7",96.4
+"5","2015-16","Indiana","Kindergarten",83525,"polio","89.7",69.5
+"6","2014-15","Indiana","Kindergarten",85477,"polio","89.7",70.1
+"7","2013-14","Indiana","Kindergarten",87193,"polio","90.0",70.3
+"8","2012-13","Indiana","Kindergarten",86983,"polio","93.4",83.4
+"9","2020-21","Indiana","Kindergarten",78694,"polio","89.9",71.4
+"10","2021-22","Indiana","Kindergarten",83198,"polio","89.3",75.1
+"11","2015-16","Indiana","Kindergarten",83525,"dtap","92.6",69.5
+"12","2014-15","Indiana","Kindergarten",85477,"dtap","92.7",70.1
+"13","2016-17","Indiana","Kindergarten",83263,"dtap","92.1",80.3
+"14","2015-16","Indiana","Kindergarten",83525,"mmr","89.2",69.5
+"15","2014-15","Indiana","Kindergarten",85477,"mmr","89.3",70.1
+"16","2013-14","Indiana","Kindergarten",87193,"mmr","92.9",70.3
+"17","2012-13","Indiana","Kindergarten",86983,"mmr","95.4",83.4
+"18","2011-12","Indiana","Kindergarten",83416,"mmr","93.3",67.5
+"19","2010-11","Indiana","Kindergarten",NA,"mmr",NA,NA
+"20","2009-10","Indiana","Kindergarten",84390,"mmr","92.8",94.7
+"21","2009-10","Indiana","Kindergarten",84390,"dtap","91.1",94.7
+"22","2021-22","Indiana","Kindergarten",83198,"mmr","92.1",75.1
+"23","2016-17","Indiana","Kindergarten",83263,"mmr","88.9",80.3
+"24","2019-20","Indiana","Kindergarten",88253,"mmr","94.4",65.7
+"25","2020-21","Indiana","Kindergarten",78694,"mmr","93.1",71.4
+"26","2017-18","Indiana","Kindergarten",84296,"mmr","90.4",96.4
+"27","2018-19","Indiana","Kindergarten",82324,"mmr","91.2",96.4
+"28","2013-14","Indiana","Kindergarten",87193,"dtap","81.8",70.3
+"29","2012-13","Indiana","Kindergarten",86983,"dtap","90.1",83.4
+"30","2011-12","Indiana","Kindergarten",83416,"dtap","90.2",67.5
+"31","2010-11","Indiana","Kindergarten",NA,"dtap",NA,NA
+"32","2020-21","Indiana","Kindergarten",78694,"varicella","92.8",71.4
+"33","2021-22","Indiana","Kindergarten",83198,"varicella","91.7",75.1
+"34","2022-23","Indiana","Kindergarten",81307,"hep_b","94.4",87.5
+"35","2022-23","Indiana","Kindergarten",81307,"varicella","91.6",87.5
+"36","2022-23","Indiana","Kindergarten",81307,"varicella","91.6",87.5
+"37","2022-23","Indiana","Kindergarten",81307,"polio","88.8",87.5
+"38","2022-23","Indiana","Kindergarten",81307,"dtap","83.0",87.5
+"39","2022-23","Indiana","Kindergarten",81307,"varicella","NReq",87.5
+"40","2022-23","Indiana","Kindergarten",81307,"mmr","92.0",87.5
+"41","2023-24","Indiana","Kindergarten",80639,"mmr","90.8",88.5
+"42","2023-24","Indiana","Kindergarten",80639,"dtap","81.8",88.5
+"43","2023-24","Indiana","Kindergarten",80639,"varicella","NReq",88.5
+"44","2023-24","Indiana","Kindergarten",80639,"varicella","90.3",88.5
+"45","2023-24","Indiana","Kindergarten",80639,"hep_b","93.3",88.5
+"46","2023-24","Indiana","Kindergarten",80639,"polio","81.8",88.5
+"47","2023-24","Indiana","Kindergarten",80639,"varicella","90.3",88.5
+"48","2009-10","Indiana","Kindergarten",84390,"varicella","NReq",94.7
+"49","2021-22","Indiana","Kindergarten",83198,"varicella","NReq",75.1
+"50","2015-16","Indiana","Kindergarten",83525,"varicella","88.0",69.5
+"51","2014-15","Indiana","Kindergarten",85477,"varicella","90.1",70.1
+"52","2013-14","Indiana","Kindergarten",87193,"varicella","90.2",70.3
+"53","2012-13","Indiana","Kindergarten",86983,"varicella","93.9",83.4
+"54","2011-12","Indiana","Kindergarten",83416,"varicella","91.9",67.5
+"55","2010-11","Indiana","Kindergarten",NA,"varicella",NA,NA
+"56","2012-13","Indiana","Kindergarten",86983,"varicella",NA,83.4
+"57","2014-15","Indiana","Kindergarten",85477,"varicella",NA,70.1
+"58","2013-14","Indiana","Kindergarten",87193,"varicella",NA,70.3
+"59","2019-20","Indiana","Kindergarten",88253,"varicella","NReq",65.7
+"60","2020-21","Indiana","Kindergarten",78694,"varicella","NReq",71.4
+"61","2015-16","Indiana","Kindergarten",83525,"varicella",NA,69.5
+"62","2017-18","Indiana","Kindergarten",84296,"dtap","94.3",96.4
+"63","2019-20","Indiana","Kindergarten",88253,"dtap","84.0",65.7
+"64","2018-19","Indiana","Kindergarten",82324,"dtap","94.4",96.4
+"65","2021-22","Indiana","Kindergarten",83198,"dtap","84.0",75.1
+"66","2020-21","Indiana","Kindergarten",78694,"dtap","83.9",71.4
+"67","2011-12","Indiana","Kindergarten",83416,"polio","90.4",67.5
+"68","2010-11","Indiana","Kindergarten",NA,"polio",NA,NA
+"69","2009-10","Indiana","Kindergarten",84390,"polio","92.9",94.7
+"70","2021-22","Indiana","Kindergarten",83198,"hep_b","94.9",75.1
+"71","2020-21","Indiana","Kindergarten",78694,"hep_b","95.3",71.4
+"72","2018-19","Indiana","Kindergarten",82324,"hep_b","92.4",96.4
+"73","2019-20","Indiana","Kindergarten",88253,"hep_b","96.0",65.7
+"74","2011-12","Indiana","Kindergarten",83416,"varicella",NA,67.5
+"75","2015-16","Indiana","Kindergarten",83525,"hep_b","90.3",69.5
+"76","2014-15","Indiana","Kindergarten",85477,"hep_b","90.3",70.1
+"77","2016-17","Indiana","Kindergarten",83263,"hep_b","90.2",80.3
+"78","2017-18","Indiana","Kindergarten",84296,"hep_b","92.8",96.4
+"79","2013-14","Indiana","Kindergarten",87193,"hep_b","97.1",70.3
+"80","2012-13","Indiana","Kindergarten",86983,"hep_b","95.6",83.4
+"81","2010-11","Indiana","Kindergarten",NA,"hep_b",NA,NA
+"82","2011-12","Indiana","Kindergarten",83416,"hep_b","93.2",67.5
+"83","2010-11","Indiana","Kindergarten",NA,"varicella",NA,NA
+"84","2009-10","Indiana","Kindergarten",84390,"varicella","96.0",94.7
+"85","2009-10","Indiana","Kindergarten",84390,"hep_b","95.2",94.7
+"86","2021-22","Indiana","Kindergarten",83198,"varicella","91.7",75.1
+"87","2016-17","Indiana","Kindergarten",83263,"varicella","87.9",80.3
+"88","2018-19","Indiana","Kindergarten",82324,"varicella","93.5",96.4
+"89","2017-18","Indiana","Kindergarten",84296,"varicella","90.2",96.4
+"90","2019-20","Indiana","Kindergarten",88253,"varicella","94.0",65.7
+"91","2020-21","Indiana","Kindergarten",78694,"varicella","92.8",71.4
+"92","2022-23","Maryland","Kindergarten",59684,"mmr","96.7",100
+"93","2022-23","Maryland","Kindergarten",59684,"dtap","96.9",100
+"94","2022-23","Maryland","Kindergarten",59684,"varicella","NReq",100
+"95","2022-23","Maryland","Kindergarten",59684,"hep_b","97.0",100
+"96","2022-23","Maryland","Kindergarten",59684,"varicella","96.6",100
+"97","2022-23","Maryland","Kindergarten",59684,"polio","97.2",100
+"98","2022-23","Maryland","Kindergarten",59684,"varicella","96.6",100
+"99","2022-23","New Mexico","Kindergarten",21068,"hep_b","96.5",100
+"100","2022-23","New Mexico","Kindergarten",21068,"dtap","94.7",100
+"101","2022-23","New Mexico","Kindergarten",21068,"varicella","NReq",100
+"102","2022-23","New Mexico","Kindergarten",21068,"mmr","94.9",100
+"103","2022-23","New Mexico","Kindergarten",21068,"varicella","94.4",100
+"104","2022-23","New Mexico","Kindergarten",21068,"polio","95.0",100
+"105","2022-23","New Mexico","Kindergarten",21068,"varicella","94.4",100
+"106","2009-10","New Mexico","Kindergarten",26318,"dtap","99.0",2.2
+"107","2021-22","New Mexico","Kindergarten",20736,"mmr","94.3",100
+"108","2018-19","New Mexico","Kindergarten",25269,"mmr","96.1",99.6
+"109","2017-18","New Mexico","Kindergarten",26896,"mmr","94.8",99.6
+"110","2020-21","New Mexico","Kindergarten",20589,"mmr","95.7",100
+"111","2019-20","New Mexico","Kindergarten",23087,"mmr","97.0",100
+"112","2015-16","New Mexico","Kindergarten",29049,"mmr","96.2",2.7
+"113","2016-17","New Mexico","Kindergarten",27119,"mmr","95.5",4.5
+"114","2021-22","New Mexico","Kindergarten",20736,"varicella","93.6",100
+"115","2020-21","New Mexico","Kindergarten",20589,"varicella","95.3",100
+"116","2009-10","New Mexico","Kindergarten",26318,"hep_b","99.1",2.2
+"117","2021-22","New Mexico","Kindergarten",20736,"varicella","93.6",100
+"118","2011-12","New Mexico","Kindergarten",29159,"hep_b","97.3",2
+"119","2010-11","New Mexico","Kindergarten",NA,"hep_b",NA,NA
+"120","2012-13","New Mexico","Kindergarten",29279,"hep_b","96.2",3.3
+"121","2013-14","New Mexico","Kindergarten",30725,"hep_b","97.2",2.7
+"122","2016-17","New Mexico","Kindergarten",27119,"hep_b","95.4",4.5
+"123","2017-18","New Mexico","Kindergarten",26896,"hep_b","96.0",99.6
+"124","2014-15","New Mexico","Kindergarten",29918,"hep_b","98.7",3.3
+"125","2015-16","New Mexico","Kindergarten",29049,"hep_b","97.0",2.7
+"126","2019-20","New Mexico","Kindergarten",23087,"hep_b","97.7",100
+"127","2018-19","New Mexico","Kindergarten",25269,"hep_b","96.8",99.6
+"128","2020-21","New Mexico","Kindergarten",20589,"hep_b","96.9",100
+"129","2021-22","New Mexico","Kindergarten",20736,"hep_b","93.7",100
+"130","2009-10","New Mexico","Kindergarten",26318,"polio","99.3",2.2
+"131","2010-11","New Mexico","Kindergarten",NA,"polio",NA,NA
+"132","2011-12","New Mexico","Kindergarten",29159,"polio","97.6",2
+"133","2009-10","New Mexico","Kindergarten",26318,"mmr","97.6",2.2
+"134","2010-11","New Mexico","Kindergarten",NA,"mmr",NA,NA
+"135","2011-12","New Mexico","Kindergarten",29159,"mmr","95.7",2
+"136","2012-13","New Mexico","Kindergarten",29279,"mmr","93.9",3.3
+"137","2013-14","New Mexico","Kindergarten",30725,"mmr","95.9",2.7
+"138","2014-15","New Mexico","Kindergarten",29918,"mmr","97.7",3.3
+"139","2010-11","New Mexico","Kindergarten",NA,"dtap",NA,NA
+"140","2011-12","New Mexico","Kindergarten",29159,"dtap","96.9",2
+"141","2012-13","New Mexico","Kindergarten",29279,"dtap","96.6",3.3
+"142","2013-14","New Mexico","Kindergarten",30725,"dtap","97.4",2.7
+"143","2016-17","New Mexico","Kindergarten",27119,"dtap","94.8",4.5
+"144","2014-15","New Mexico","Kindergarten",29918,"dtap","96.4",3.3
+"145","2015-16","New Mexico","Kindergarten",29049,"dtap","94.7",2.7
+"146","2023-24","New Mexico","Kindergarten",20699,"varicella","94.4",100
+"147","2023-24","New Mexico","Kindergarten",20699,"mmr","95.0",100
+"148","2023-24","New Mexico","Kindergarten",20699,"dtap","94.8",100
+"149","2023-24","New Mexico","Kindergarten",20699,"varicella","NReq",100
+"150","2023-24","New Mexico","Kindergarten",20699,"varicella","94.4",100
+"151","2023-24","New Mexico","Kindergarten",20699,"hep_b","96.7",100
+"152","2023-24","New Mexico","Kindergarten",20699,"polio","95.0",100
+"153","2012-13","New Mexico","Kindergarten",29279,"polio","96.8",3.3
+"154","2013-14","New Mexico","Kindergarten",30725,"polio","97.4",2.7
+"155","2014-15","New Mexico","Kindergarten",29918,"polio","97.9",3.3
+"156","2015-16","New Mexico","Kindergarten",29049,"polio","95.6",2.7
+"157","2017-18","New Mexico","Kindergarten",26896,"polio","94.8",99.6
+"158","2016-17","New Mexico","Kindergarten",27119,"polio","95.1",4.5
+"159","2018-19","New Mexico","Kindergarten",25269,"polio","96.1",99.6
+"160","2021-22","New Mexico","Kindergarten",20736,"polio","94.3",100
+"161","2020-21","New Mexico","Kindergarten",20589,"polio","95.7",100
+"162","2010-11","New Mexico","Kindergarten",NA,"varicella",NA,NA
+"163","2011-12","New Mexico","Kindergarten",29159,"varicella","94.2",2
+"164","2012-13","New Mexico","Kindergarten",29279,"varicella","94.0",3.3
+"165","2013-14","New Mexico","Kindergarten",30725,"varicella","93.4",2.7
+"166","2019-20","New Mexico","Kindergarten",23087,"polio","96.9",100
+"167","2009-10","New Mexico","Kindergarten",26318,"varicella","94.9",2.2
+"168","2021-22","New Mexico","Kindergarten",20736,"varicella","NReq",100
+"169","2011-12","New Mexico","Kindergarten",29159,"varicella",NA,2
+"170","2020-21","New Mexico","Kindergarten",20589,"dtap","95.7",100
+"171","2021-22","New Mexico","Kindergarten",20736,"dtap","94.0",100
+"172","2018-19","New Mexico","Kindergarten",25269,"dtap","96.0",99.6
+"173","2019-20","New Mexico","Kindergarten",23087,"dtap","96.7",100
+"174","2017-18","New Mexico","Kindergarten",26896,"dtap","94.9",99.6
+"175","2015-16","New Mexico","Kindergarten",29049,"varicella",NA,2.7
+"176","2020-21","New Mexico","Kindergarten",20589,"varicella","NReq",100
+"177","2019-20","New Mexico","Kindergarten",23087,"varicella","NReq",100
+"178","2013-14","New Mexico","Kindergarten",30725,"varicella",NA,2.7
+"179","2014-15","New Mexico","Kindergarten",29918,"varicella",NA,3.3
+"180","2012-13","New Mexico","Kindergarten",29279,"varicella",NA,3.3
+"181","2009-10","New Mexico","Kindergarten",26318,"varicella",NA,2.2
+"182","2010-11","New Mexico","Kindergarten",NA,"varicella",NA,NA
+"183","2014-15","New Mexico","Kindergarten",29918,"varicella","97.2",3.3
+"184","2020-21","New Mexico","Kindergarten",20589,"varicella","95.3",100
+"185","2019-20","New Mexico","Kindergarten",23087,"varicella","96.7",100
+"186","2017-18","New Mexico","Kindergarten",26896,"varicella","94.5",99.6
+"187","2018-19","New Mexico","Kindergarten",25269,"varicella","95.7",99.6
+"188","2015-16","New Mexico","Kindergarten",29049,"varicella","95.8",2.7
+"189","2016-17","New Mexico","Kindergarten",27119,"varicella","94.6",4.5
+"190","2022-23","Ohio","Kindergarten",134893,"dtap","89.4",93.7
+"191","2022-23","Ohio","Kindergarten",134893,"varicella","NReq",93.7
+"192","2022-23","Ohio","Kindergarten",134893,"mmr","89.3",93.7
+"193","2022-23","Ohio","Kindergarten",134893,"varicella","88.8",93.7
+"194","2022-23","Ohio","Kindergarten",134893,"polio","89.7",93.7
+"195","2022-23","Ohio","Kindergarten",134893,"varicella","88.8",93.7
+"196","2022-23","Ohio","Kindergarten",134893,"hep_b","93.0",93.7
+"197","2021-22","Massachusetts","Kindergarten",65582,"varicella","NReq",100
+"198","2009-10","Massachusetts","Kindergarten",74476,"varicella","NReq",100
+"199","2015-16","Massachusetts","Kindergarten",72897,"varicella",NA,100
+"200","2020-21","Massachusetts","Kindergarten",60724,"varicella","NReq",100
+"201","2019-20","Massachusetts","Kindergarten",66756,"varicella","NReq",100
+"202","2013-14","Massachusetts","Kindergarten",79894,"varicella",NA,97.9
+"203","2014-15","Massachusetts","Kindergarten",74869,"varicella",NA,100
+"204","2012-13","Massachusetts","Kindergarten",79661,"varicella",NA,97.6
+"205","2020-21","Massachusetts","Kindergarten",60724,"dtap","95.7",100
+"206","2021-22","Massachusetts","Kindergarten",65582,"dtap","96.1",100
+"207","2018-19","Massachusetts","Kindergarten",65279,"dtap","97.1",100
+"208","2019-20","Massachusetts","Kindergarten",66756,"dtap","97.2",100
+"209","2017-18","Massachusetts","Kindergarten",63377,"dtap","96.4",100
+"210","2011-12","Massachusetts","Kindergarten",79551,"varicella",NA,97.5
+"211","2009-10","Massachusetts","Kindergarten",74476,"varicella","98.6",100
+"212","2010-11","Massachusetts","Kindergarten",NA,"varicella",NA,NA
+"213","2023-24","Massachusetts","Kindergarten",65424,"varicella","95.7",100
+"214","2023-24","Massachusetts","Kindergarten",65424,"polio","96.2",100
+"215","2023-24","Massachusetts","Kindergarten",65424,"hep_b","97.3",100
+"216","2023-24","Massachusetts","Kindergarten",65424,"varicella","95.7",100
+"217","2023-24","Massachusetts","Kindergarten",65424,"varicella","NReq",100
+"218","2023-24","Massachusetts","Kindergarten",65424,"dtap","96.0",100
+"219","2023-24","Massachusetts","Kindergarten",65424,"mmr","96.3",100
+"220","2010-11","Massachusetts","Kindergarten",NA,"varicella",NA,NA
+"221","2011-12","Massachusetts","Kindergarten",79551,"varicella","92.7",97.5
+"222","2012-13","Massachusetts","Kindergarten",79661,"varicella","93.6",97.6
+"223","2013-14","Massachusetts","Kindergarten",79894,"varicella","93.9",97.9
+"224","2014-15","Massachusetts","Kindergarten",74869,"varicella","94.1",100
+"225","2015-16","Massachusetts","Kindergarten",72897,"varicella","95.8",100
+"226","2018-19","Massachusetts","Kindergarten",65279,"hep_b","97.6",100
+"227","2019-20","Massachusetts","Kindergarten",66756,"hep_b","98.0",100
+"228","2020-21","Massachusetts","Kindergarten",60724,"hep_b","97.2",100
+"229","2021-22","Massachusetts","Kindergarten",65582,"hep_b","97.0",100
+"230","2009-10","Massachusetts","Kindergarten",74476,"polio","92.9",100
+"231","2010-11","Massachusetts","Kindergarten",NA,"polio",NA,NA
+"232","2011-12","Massachusetts","Kindergarten",79551,"polio","93.3",97.5
+"233","2011-12","Massachusetts","Kindergarten",79551,"hep_b","97.8",97.5
+"234","2010-11","Massachusetts","Kindergarten",NA,"hep_b",NA,NA
+"235","2012-13","Massachusetts","Kindergarten",79661,"hep_b","97.8",97.6
+"236","2013-14","Massachusetts","Kindergarten",79894,"hep_b","97.2",97.9
+"237","2017-18","Massachusetts","Kindergarten",63377,"hep_b","97.3",100
+"238","2016-17","Massachusetts","Kindergarten",70109,"hep_b","97.5",100
+"239","2014-15","Massachusetts","Kindergarten",74869,"hep_b","96.9",100
+"240","2015-16","Massachusetts","Kindergarten",72897,"hep_b","97.6",100
+"241","2018-19","Massachusetts","Kindergarten",65279,"varicella","96.5",100
+"242","2017-18","Massachusetts","Kindergarten",63377,"varicella","96.0",100
+"243","2020-21","Massachusetts","Kindergarten",60724,"varicella","95.4",100
+"244","2019-20","Massachusetts","Kindergarten",66756,"varicella","97.0",100
+"245","2016-17","Massachusetts","Kindergarten",70109,"varicella","95.7",100
+"246","2021-22","Massachusetts","Kindergarten",65582,"varicella","95.7",100
+"247","2009-10","Massachusetts","Kindergarten",74476,"hep_b","97.7",100
+"248","2016-17","Massachusetts","Kindergarten",70109,"mmr","96.1",100
+"249","2021-22","Massachusetts","Kindergarten",65582,"mmr","96.2",100
+"250","2009-10","Massachusetts","Kindergarten",74476,"dtap","92.4",100
+"251","2010-11","Massachusetts","Kindergarten",NA,"dtap",NA,NA
+"252","2011-12","Massachusetts","Kindergarten",79551,"dtap","92.5",97.5
+"253","2012-13","Massachusetts","Kindergarten",79661,"dtap","93.1",97.6
+"254","2013-14","Massachusetts","Kindergarten",79894,"dtap","93.0",97.9
+"255","2018-19","Massachusetts","Kindergarten",65279,"mmr","96.9",100
+"256","2017-18","Massachusetts","Kindergarten",63377,"mmr","96.3",100
+"257","2020-21","Massachusetts","Kindergarten",60724,"mmr","95.9",100
+"258","2019-20","Massachusetts","Kindergarten",66756,"mmr","97.3",100
+"259","2016-17","Massachusetts","Kindergarten",70109,"dtap","96.1",100
+"260","2014-15","Massachusetts","Kindergarten",74869,"dtap","92.9",100
+"261","2015-16","Massachusetts","Kindergarten",72897,"dtap","94.9",100
+"262","2009-10","Massachusetts","Kindergarten",74476,"mmr","93.0",100
+"263","2010-11","Massachusetts","Kindergarten",NA,"mmr",NA,NA
+"264","2011-12","Massachusetts","Kindergarten",79551,"mmr","94.2",97.5
+"265","2012-13","Massachusetts","Kindergarten",79661,"mmr","94.8",97.6
+"266","2013-14","Massachusetts","Kindergarten",79894,"mmr","95.1",97.9
+"267","2014-15","Massachusetts","Kindergarten",74869,"mmr","94.7",100
+"268","2015-16","Massachusetts","Kindergarten",72897,"mmr","96.4",100
+"269","2021-22","Massachusetts","Kindergarten",65582,"polio","96.0",100
+"270","2020-21","Massachusetts","Kindergarten",60724,"polio","95.6",100
+"271","2012-13","Massachusetts","Kindergarten",79661,"polio","94.2",97.6
+"272","2013-14","Massachusetts","Kindergarten",79894,"polio","94.4",97.9
+"273","2014-15","Massachusetts","Kindergarten",74869,"polio","95.0",100
+"274","2015-16","Massachusetts","Kindergarten",72897,"polio","96.7",100
+"275","2017-18","Massachusetts","Kindergarten",63377,"polio","96.3",100
+"276","2016-17","Massachusetts","Kindergarten",70109,"polio","96.6",100
+"277","2018-19","Massachusetts","Kindergarten",65279,"polio","96.9",100
+"278","2019-20","Massachusetts","Kindergarten",66756,"polio","97.3",100
+"279","2022-23","NY-City of New York","Kindergarten",85379,"hep_b","97.9",97.6
+"280","2022-23","NY-City of New York","Kindergarten",85379,"varicella","96.7",97.6
+"281","2022-23","NY-City of New York","Kindergarten",85379,"polio","96.6",97.6
+"282","2022-23","NY-City of New York","Kindergarten",85379,"varicella","96.7",97.6
+"283","2022-23","NY-City of New York","Kindergarten",85379,"dtap","96.3",97.6
+"284","2022-23","NY-City of New York","Kindergarten",85379,"varicella","NReq",97.6
+"285","2022-23","NY-City of New York","Kindergarten",85379,"mmr","97.3",97.6
+"286","2013-14","Oklahoma","Kindergarten",57377,"dtap","96.1",71.3
+"287","2012-13","Oklahoma","Kindergarten",56943,"dtap","90.2",95.5
+"288","2011-12","Oklahoma","Kindergarten",52987,"dtap","94.6",90.9
+"289","2010-11","Oklahoma","Kindergarten",NA,"dtap",NA,NA
+"290","2016-17","Oklahoma","Kindergarten",52184,"dtap",NA,0
+"291","2015-16","Oklahoma","Kindergarten",54335,"dtap","96.1",96.1
+"292","2014-15","Oklahoma","Kindergarten",56967,"dtap","90.0",95.9
+"293","2009-10","Oklahoma","Kindergarten",51128,"dtap","97.3",88.9
+"294","2021-22","Oklahoma","Kindergarten",54042,"mmr","90.9",84.3
+"295","2017-18","Oklahoma","Kindergarten",53898,"mmr","92.6",92.1
+"296","2018-19","Oklahoma","Kindergarten",54806,"mmr","92.2",92.1
+"297","2019-20","Oklahoma","Kindergarten",55348,"mmr","93.0",85.6
+"298","2020-21","Oklahoma","Kindergarten",52656,"mmr","90.5",90
+"299","2016-17","Oklahoma","Kindergarten",52184,"mmr",NA,0
+"300","2015-16","Oklahoma","Kindergarten",54335,"mmr","94.4",96.1
+"301","2014-15","Oklahoma","Kindergarten",56967,"varicella","NReq",95.9
+"302","2013-14","Oklahoma","Kindergarten",57377,"varicella","NReq",71.3
+"303","2012-13","Oklahoma","Kindergarten",56943,"varicella","NReq",95.5
+"304","2011-12","Oklahoma","Kindergarten",52987,"varicella","NReq",90.9
+"305","2010-11","Oklahoma","Kindergarten",NA,"varicella",NA,NA
+"306","2009-10","Oklahoma","Kindergarten",51128,"varicella","NReq",88.9
+"307","2021-22","Oklahoma","Kindergarten",54042,"varicella","95.5",84.3
+"308","2019-20","Oklahoma","Kindergarten",55348,"dtap","93.9",85.6
+"309","2018-19","Oklahoma","Kindergarten",54806,"dtap","92.7",92.1
+"310","2020-21","Oklahoma","Kindergarten",52656,"dtap","90.3",90
+"311","2021-22","Oklahoma","Kindergarten",54042,"dtap","91.1",84.3
+"312","2017-18","Oklahoma","Kindergarten",53898,"dtap","93.9",92.1
+"313","2011-12","Oklahoma","Kindergarten",52987,"varicella","97.8",90.9
+"314","2016-17","Oklahoma","Kindergarten",52184,"varicella",NA,0
+"315","2015-16","Oklahoma","Kindergarten",54335,"varicella",NA,96.1
+"316","2019-20","Oklahoma","Kindergarten",55348,"varicella","96.9",85.6
+"317","2020-21","Oklahoma","Kindergarten",52656,"varicella","96.1",90
+"318","2014-15","Oklahoma","Kindergarten",56967,"varicella","92.5",95.9
+"319","2013-14","Oklahoma","Kindergarten",57377,"varicella","98.0",71.3
+"320","2012-13","Oklahoma","Kindergarten",56943,"varicella","92.8",95.5
+"321","2010-11","Oklahoma","Kindergarten",NA,"varicella",NA,NA
+"322","2009-10","Oklahoma","Kindergarten",51128,"varicella","99.7",88.9
+"323","2018-19","Oklahoma","Kindergarten",54806,"varicella","95.8",92.1
+"324","2017-18","Oklahoma","Kindergarten",53898,"varicella","96.8",92.1
+"325","2012-13","Oklahoma","Kindergarten",56943,"mmr","90.5",95.5
+"326","2011-12","Oklahoma","Kindergarten",52987,"mmr","95.0",90.9
+"327","2010-11","Oklahoma","Kindergarten",NA,"mmr",NA,NA
+"328","2009-10","Oklahoma","Kindergarten",51128,"mmr","97.3",88.9
+"329","2014-15","Oklahoma","Kindergarten",56967,"mmr","90.3",95.9
+"330","2013-14","Oklahoma","Kindergarten",57377,"mmr","96.4",71.3
+"331","2015-16","Oklahoma","Kindergarten",54335,"hep_b","96.4",96.1
+"332","2014-15","Oklahoma","Kindergarten",56967,"hep_b","92.5",95.9
+"333","2016-17","Oklahoma","Kindergarten",52184,"hep_b",NA,0
+"334","2013-14","Oklahoma","Kindergarten",57377,"hep_b","97.7",71.3
+"335","2012-13","Oklahoma","Kindergarten",56943,"hep_b","92.7",95.5
+"336","2010-11","Oklahoma","Kindergarten",NA,"hep_b",NA,NA
+"337","2011-12","Oklahoma","Kindergarten",52987,"hep_b","97.7",90.9
+"338","2019-20","Oklahoma","Kindergarten",55348,"varicella","NReq",85.6
+"339","2020-21","Oklahoma","Kindergarten",52656,"varicella","NReq",90
+"340","2015-16","Oklahoma","Kindergarten",54335,"varicella","NReq",96.1
+"341","2009-10","Oklahoma","Kindergarten",51128,"hep_b","99.5",88.9
+"342","2021-22","Oklahoma","Kindergarten",54042,"varicella","NReq",84.3
+"343","2017-18","Oklahoma","Kindergarten",53898,"hep_b","94.1",92.1
+"344","2018-19","Oklahoma","Kindergarten",54806,"hep_b","95.7",92.1
+"345","2019-20","Oklahoma","Kindergarten",55348,"hep_b","95.1",85.6
+"346","2020-21","Oklahoma","Kindergarten",52656,"hep_b","95.8",90
+"347","2021-22","Oklahoma","Kindergarten",54042,"hep_b","95.2",84.3
+"348","2010-11","Oklahoma","Kindergarten",NA,"polio",NA,NA
+"349","2009-10","Oklahoma","Kindergarten",51128,"polio","97.6",88.9
+"350","2011-12","Oklahoma","Kindergarten",52987,"polio","94.6",90.9
+"351","2023-24","Oklahoma","Kindergarten",49979,"mmr","88.3",93.8
+"352","2023-24","Oklahoma","Kindergarten",49979,"dtap","89.0",93.8
+"353","2023-24","Oklahoma","Kindergarten",49979,"varicella","93.7",93.8
+"354","2023-24","Oklahoma","Kindergarten",49979,"varicella","NReq",93.8
+"355","2023-24","Oklahoma","Kindergarten",49979,"hep_b","93.1",93.8
+"356","2023-24","Oklahoma","Kindergarten",49979,"polio","91.4",93.8
+"357","2023-24","Oklahoma","Kindergarten",49979,"varicella","93.7",93.8
+"358","2022-23","New York","Kindergarten",205906,"mmr","97.9",96.6
+"359","2022-23","New York","Kindergarten",205906,"varicella","NReq",96.6
+"360","2022-23","New York","Kindergarten",205906,"dtap","97.2",96.6
+"361","2022-23","New York","Kindergarten",205906,"varicella","97.5",96.6
+"362","2022-23","New York","Kindergarten",205906,"polio","97.5",96.6
+"363","2022-23","New York","Kindergarten",205906,"varicella","97.5",96.6
+"364","2022-23","New York","Kindergarten",205906,"hep_b","98.6",96.6
+"365","2020-21","District of Columbia","Kindergarten",8262,"varicella","78.0",100
+"366","2021-22","District of Columbia","Kindergarten",8959,"varicella","81.0",100
+"367","2023-24","District of Columbia","Kindergarten",7874,"mmr","92.0",100
+"368","2022-23","District of Columbia","Kindergarten",8064,"varicella","86.8",100
+"369","2022-23","District of Columbia","Kindergarten",8064,"hep_b","92.2",100
+"370","2022-23","District of Columbia","Kindergarten",8064,"varicella","86.8",100
+"371","2022-23","District of Columbia","Kindergarten",8064,"polio","87.8",100
+"372","2022-23","District of Columbia","Kindergarten",8064,"dtap","85.0",100
+"373","2022-23","District of Columbia","Kindergarten",8064,"varicella","NReq",100
+"374","2022-23","District of Columbia","Kindergarten",8064,"mmr","87.5",100
+"375","2023-24","Arizona","Kindergarten",74834,"dtap","89.4",99.6
+"376","2023-24","Arizona","Kindergarten",74834,"varicella","94.1",99.6
+"377","2023-24","Arizona","Kindergarten",74834,"varicella","NReq",99.6
+"378","2023-24","Arizona","Kindergarten",74834,"hep_b","92.8",99.6
+"379","2023-24","Arizona","Kindergarten",74834,"polio","90.0",99.6
+"380","2023-24","Arizona","Kindergarten",74834,"varicella","94.1",99.6
+"381","2021-22","Arizona","Kindergarten",83463,"mmr","90.6",97
+"382","2009-10","Arizona","Kindergarten",89287,"dtap","95.0",93.9
+"383","2010-11","Arizona","Kindergarten",NA,"dtap",NA,NA
+"384","2011-12","Arizona","Kindergarten",88293,"dtap","94.9",96.9
+"385","2012-13","Arizona","Kindergarten",90054,"dtap","94.6",97.6
+"386","2013-14","Arizona","Kindergarten",89606,"dtap","94.3",95.8
+"387","2014-15","Arizona","Kindergarten",86153,"dtap","94.3",98.3
+"388","2015-16","Arizona","Kindergarten",83088,"dtap","94.2",100
+"389","2016-17","Arizona","Kindergarten",83627,"dtap","93.9",100
+"390","2017-18","Arizona","Kindergarten",81710,"dtap","93.5",100
+"391","2017-18","Arizona","Kindergarten",81710,"mmr","93.4",100
+"392","2018-19","Arizona","Kindergarten",79981,"mmr","92.9",100
+"393","2019-20","Arizona","Kindergarten",83976,"mmr","92.8",98.7
+"394","2020-21","Arizona","Kindergarten",76382,"mmr","91.9",92.4
+"395","2009-10","Arizona","Kindergarten",89287,"mmr","95.0",93.9
+"396","2010-11","Arizona","Kindergarten",NA,"mmr",NA,NA
+"397","2011-12","Arizona","Kindergarten",88293,"mmr","94.7",96.9
+"398","2012-13","Arizona","Kindergarten",90054,"mmr","94.5",97.6
+"399","2013-14","Arizona","Kindergarten",89606,"mmr","93.9",95.8
+"400","2014-15","Arizona","Kindergarten",86153,"mmr","94.2",98.3
+"401","2015-16","Arizona","Kindergarten",83088,"mmr","94.2",100
+"402","2019-20","Arizona","Kindergarten",83976,"hep_b","94.1",98.7
+"403","2018-19","Arizona","Kindergarten",79981,"hep_b","94.4",100
+"404","2021-22","Arizona","Kindergarten",83463,"hep_b","93.4",97
+"405","2020-21","Arizona","Kindergarten",76382,"hep_b","94.5",92.4
+"406","2009-10","Arizona","Kindergarten",89287,"polio","95.5",93.9
+"407","2010-11","Arizona","Kindergarten",NA,"polio",NA,NA
+"408","2011-12","Arizona","Kindergarten",88293,"polio","94.9",96.9
+"409","2012-13","Arizona","Kindergarten",90054,"polio","94.7",97.6
+"410","2019-20","Arizona","Kindergarten",83976,"varicella","NReq",98.7
+"411","2020-21","Arizona","Kindergarten",76382,"varicella","NReq",92.4
+"412","2021-22","Arizona","Kindergarten",83463,"varicella","NReq",97
+"413","2009-10","Arizona","Kindergarten",89287,"hep_b","96.8",93.9
+"414","2010-11","Arizona","Kindergarten",NA,"hep_b",NA,NA
+"415","2011-12","Arizona","Kindergarten",88293,"hep_b","96.3",96.9
+"416","2012-13","Arizona","Kindergarten",90054,"hep_b","95.9",97.6
+"417","2013-14","Arizona","Kindergarten",89606,"hep_b","95.9",95.8
+"418","2014-15","Arizona","Kindergarten",86153,"hep_b","95.7",98.3
+"419","2015-16","Arizona","Kindergarten",83088,"hep_b","95.5",100
+"420","2017-18","Arizona","Kindergarten",81710,"hep_b","94.9",100
+"421","2016-17","Arizona","Kindergarten",83627,"hep_b","95.3",100
+"422","2019-20","Arizona","Kindergarten",83976,"dtap","92.6",98.7
+"423","2018-19","Arizona","Kindergarten",79981,"dtap","92.7",100
+"424","2021-22","Arizona","Kindergarten",83463,"dtap","90.5",97
+"425","2020-21","Arizona","Kindergarten",76382,"dtap","92.0",92.4
+"426","2011-12","Arizona","Kindergarten",88293,"varicella","96.9",96.9
+"427","2009-10","Arizona","Kindergarten",89287,"varicella","97.5",93.9
+"428","2010-11","Arizona","Kindergarten",NA,"varicella",NA,NA
+"429","2016-17","Arizona","Kindergarten",83627,"mmr","94.0",100
+"430","2010-11","Arizona","Kindergarten",NA,"varicella",NA,NA
+"431","2011-12","Arizona","Kindergarten",88293,"varicella","NReq",96.9
+"432","2012-13","Arizona","Kindergarten",90054,"varicella","NReq",97.6
+"433","2013-14","Arizona","Kindergarten",89606,"varicella","NReq",95.8
+"434","2014-15","Arizona","Kindergarten",86153,"varicella","NReq",98.3
+"435","2015-16","Arizona","Kindergarten",83088,"varicella","NReq",100
+"436","2009-10","Arizona","Kindergarten",89287,"varicella","NReq",93.9
+"437","2021-22","Arizona","Kindergarten",83463,"varicella","94.6",97
+"438","2018-19","Arizona","Kindergarten",79981,"varicella","95.6",100
+"439","2017-18","Arizona","Kindergarten",81710,"varicella","96.2",100
+"440","2012-13","Arizona","Kindergarten",90054,"varicella","96.8",97.6
+"441","2013-14","Arizona","Kindergarten",89606,"varicella","96.4",95.8
+"442","2014-15","Arizona","Kindergarten",86153,"varicella","96.6",98.3
+"443","2015-16","Arizona","Kindergarten",83088,"varicella","96.7",100
+"444","2016-17","Arizona","Kindergarten",83627,"varicella","96.7",100
+"445","2019-20","Arizona","Kindergarten",83976,"varicella","95.3",98.7
+"446","2020-21","Arizona","Kindergarten",76382,"varicella","95.5",92.4
+"447","2013-14","Arizona","Kindergarten",89606,"polio","94.7",95.8
+"448","2014-15","Arizona","Kindergarten",86153,"polio","94.7",98.3
+"449","2015-16","Arizona","Kindergarten",83088,"polio","94.6",100
+"450","2016-17","Arizona","Kindergarten",83627,"polio","94.4",100
+"451","2017-18","Arizona","Kindergarten",81710,"polio","93.9",100
+"452","2019-20","Arizona","Kindergarten",83976,"polio","93.1",98.7
+"453","2018-19","Arizona","Kindergarten",79981,"polio","93.2",100
+"454","2020-21","Arizona","Kindergarten",76382,"polio","92.3",92.4
+"455","2021-22","Arizona","Kindergarten",83463,"polio","90.9",97
+"456","2020-21","Arizona","Kindergarten",76382,"varicella","95.5",92.4
+"457","2021-22","Arizona","Kindergarten",83463,"varicella","94.6",97
+"458","2023-24","Arizona","Kindergarten",74834,"mmr","89.3",99.6
+"459","2022-23","Arizona","Kindergarten",80814,"dtap","89.6",97.7
+"460","2022-23","Arizona","Kindergarten",80814,"varicella","NReq",97.7
+"461","2022-23","Arizona","Kindergarten",80814,"varicella","94.1",97.7
+"462","2022-23","Arizona","Kindergarten",80814,"hep_b","92.9",97.7
+"463","2022-23","Arizona","Kindergarten",80814,"polio","90.3",97.7
+"464","2022-23","Arizona","Kindergarten",80814,"varicella","94.1",97.7
+"465","2022-23","Arizona","Kindergarten",80814,"mmr","89.9",97.7
+"466","2016-17","Washington","Kindergarten",87142,"mmr","90.5",98.2
+"467","2015-16","Washington","Kindergarten",86492,"mmr","91.0",97.3
+"468","2020-21","Washington","Kindergarten",74931,"mmr","94.4",100
+"469","2019-20","Washington","Kindergarten",87757,"mmr","94.4",91.9
+"470","2018-19","Washington","Kindergarten",87510,"mmr","90.8",96.9
+"471","2017-18","Washington","Kindergarten",85118,"mmr","90.6",96.9
+"472","2013-14","Washington","Kindergarten",89165,"dtap","90.3",88.5
+"473","2012-13","Washington","Kindergarten",87773,"dtap","92.4",94.7
+"474","2011-12","Washington","Kindergarten",85134,"dtap","90.9",89.1
+"475","2010-11","Washington","Kindergarten",NA,"dtap",NA,NA
+"476","2021-22","Washington","Kindergarten",87256,"mmr","92.5",97.3
+"477","2012-13","Washington","Kindergarten",87773,"mmr","91.7",94.7
+"478","2011-12","Washington","Kindergarten",85134,"mmr","91.8",89.1
+"479","2010-11","Washington","Kindergarten",NA,"mmr",NA,NA
+"480","2009-10","Washington","Kindergarten",81511,"mmr","91.7",93.3
+"481","2014-15","Washington","Kindergarten",88809,"mmr","89.4",96.7
+"482","2013-14","Washington","Kindergarten",89165,"mmr","89.7",88.5
+"483","2009-10","Washington","Kindergarten",81511,"dtap","91.6",93.3
+"484","2016-17","Washington","Kindergarten",87142,"dtap","90.8",98.2
+"485","2015-16","Washington","Kindergarten",86492,"dtap","91.1",97.3
+"486","2014-15","Washington","Kindergarten",88809,"dtap","90.7",96.7
+"487","2021-22","Washington","Kindergarten",87256,"varicella","NReq",97.3
+"488","2009-10","Washington","Kindergarten",81511,"varicella","88.6",93.3
+"489","2013-14","Washington","Kindergarten",89165,"varicella","88.4",88.5
+"490","2012-13","Washington","Kindergarten",87773,"varicella","90.3",94.7
+"491","2011-12","Washington","Kindergarten",85134,"varicella","90.4",89.1
+"492","2010-11","Washington","Kindergarten",NA,"varicella",NA,NA
+"493","2014-15","Washington","Kindergarten",88809,"varicella","87.9",96.7
+"494","2015-16","Washington","Kindergarten",86492,"varicella","89.4",97.3
+"495","2016-17","Washington","Kindergarten",87142,"varicella","89.3",98.2
+"496","2020-21","Washington","Kindergarten",74931,"varicella","93.2",100
+"497","2019-20","Washington","Kindergarten",87757,"varicella","92.7",91.9
+"498","2018-19","Washington","Kindergarten",87510,"varicella","89.7",96.9
+"499","2017-18","Washington","Kindergarten",85118,"varicella","89.4",96.9
+"500","2021-22","Washington","Kindergarten",87256,"varicella","91.3",97.3
+"501","2009-10","Washington","Kindergarten",81511,"hep_b","92.8",93.3
+"502","2015-16","Washington","Kindergarten",86492,"hep_b","92.7",97.3
+"503","2014-15","Washington","Kindergarten",88809,"hep_b","91.9",96.7
+"504","2016-17","Washington","Kindergarten",87142,"hep_b","90.2",98.2
+"505","2013-14","Washington","Kindergarten",89165,"hep_b","91.8",88.5
+"506","2012-13","Washington","Kindergarten",87773,"hep_b","93.4",94.7
+"507","2010-11","Washington","Kindergarten",NA,"hep_b",NA,NA
+"508","2011-12","Washington","Kindergarten",85134,"hep_b","93.0",89.1
+"509","2020-21","Washington","Kindergarten",74931,"dtap","93.2",100
+"510","2021-22","Washington","Kindergarten",87256,"dtap","91.4",97.3
+"511","2018-19","Washington","Kindergarten",87510,"dtap","90.8",96.9
+"512","2019-20","Washington","Kindergarten",87757,"dtap","92.8",91.9
+"513","2017-18","Washington","Kindergarten",85118,"dtap","90.7",96.9
+"514","2012-13","Washington","Kindergarten",87773,"varicella",NA,94.7
+"515","2014-15","Washington","Kindergarten",88809,"varicella",NA,96.7
+"516","2013-14","Washington","Kindergarten",89165,"varicella",NA,88.5
+"517","2020-21","Washington","Kindergarten",74931,"varicella","NReq",100
+"518","2019-20","Washington","Kindergarten",87757,"varicella","NReq",91.9
+"519","2011-12","Washington","Kindergarten",85134,"varicella",NA,89.1
+"520","2015-16","Washington","Kindergarten",86492,"varicella",NA,97.3
+"521","2010-11","Washington","Kindergarten",NA,"varicella",NA,NA
+"522","2009-10","Washington","Kindergarten",81511,"varicella",NA,93.3
+"523","2023-24","Washington","Kindergarten",84053,"varicella","90.0",97.2
+"524","2017-18","Washington","Kindergarten",85118,"hep_b","92.5",96.9
+"525","2020-21","Washington","Kindergarten",74931,"hep_b","94.9",100
+"526","2021-22","Washington","Kindergarten",87256,"hep_b","93.8",97.3
+"527","2019-20","Washington","Kindergarten",87757,"hep_b","94.2",91.9
+"528","2018-19","Washington","Kindergarten",87510,"hep_b","92.5",96.9
+"529","2010-11","Washington","Kindergarten",NA,"polio",NA,NA
+"530","2009-10","Washington","Kindergarten",81511,"polio","91.8",93.3
+"531","2011-12","Washington","Kindergarten",85134,"polio","91.0",89.1
+"532","2023-24","Washington","Kindergarten",84053,"polio","90.4",97.2
+"533","2023-24","Washington","Kindergarten",84053,"hep_b","92.8",97.2
+"534","2023-24","Washington","Kindergarten",84053,"varicella","90.0",97.2
+"535","2023-24","Washington","Kindergarten",84053,"varicella","NReq",97.2
+"536","2023-24","Washington","Kindergarten",84053,"dtap","90.2",97.2
+"537","2023-24","Washington","Kindergarten",84053,"mmr","91.3",97.2
+"538","2019-20","Washington","Kindergarten",87757,"polio","92.8",91.9
+"539","2021-22","Washington","Kindergarten",87256,"polio","91.9",97.3
+"540","2020-21","Washington","Kindergarten",74931,"polio","93.4",100
+"541","2015-16","Washington","Kindergarten",86492,"polio","88.7",97.3
+"542","2014-15","Washington","Kindergarten",88809,"polio","88.4",96.7
+"543","2013-14","Washington","Kindergarten",89165,"polio","89.1",88.5
+"544","2012-13","Washington","Kindergarten",87773,"polio","91.4",94.7
+"545","2016-17","Washington","Kindergarten",87142,"polio","90.6",98.2
+"546","2017-18","Washington","Kindergarten",85118,"polio","89.9",96.9
+"547","2018-19","Washington","Kindergarten",87510,"polio","90.2",96.9
+"548","2020-21","Washington","Kindergarten",74931,"varicella","93.2",100
+"549","2021-22","United States","Kindergarten",3835130,"varicella","94.6",92.2
+"550","2021-22","Washington","Kindergarten",87256,"varicella","91.3",97.3
+"551","2018-19","Nevada","Kindergarten",37971,"polio","95.4",4.8
+"552","2016-17","Nevada","Kindergarten",36885,"polio","90.4",3.7
+"553","2017-18","Nevada","Kindergarten",37178,"polio","93.8",4.8
+"554","2015-16","Nevada","Kindergarten",37118,"polio","95.6",3.3
+"555","2014-15","Nevada","Kindergarten",36755,"polio","93.7",2.8
+"556","2013-14","Nevada","Kindergarten",35782,"polio","94.8",3.1
+"557","2012-13","Nevada","Kindergarten",36070,"polio","97.4",4.3
+"558","2020-21","Nevada","Kindergarten",34171,"polio","96.1",94.7
+"559","2021-22","Nevada","Kindergarten",36855,"polio","92.2",99.2
+"560","2019-20","Nevada","Kindergarten",37724,"polio","95.0",99.9
+"561","2020-21","Nevada","Kindergarten",34171,"varicella","95.8",94.7
+"562","2021-22","Nevada","Kindergarten",36855,"varicella","92.1",99.2
+"563","2022-23","Nevada","Kindergarten",34333,"mmr","92.8",89.1
+"564","2022-23","Nevada","Kindergarten",34333,"varicella","NReq",89.1
+"565","2022-23","Nevada","Kindergarten",34333,"dtap","92.2",89.1
+"566","2022-23","Nevada","Kindergarten",34333,"varicella","92.6",89.1
+"567","2022-23","Nevada","Kindergarten",34333,"polio","92.8",89.1
+"568","2022-23","Nevada","Kindergarten",34333,"varicella","92.6",89.1
+"569","2022-23","Nevada","Kindergarten",34333,"hep_b","94.2",89.1
+"570","2015-16","Nevada","Kindergarten",37118,"hep_b","97.0",3.3
+"571","2014-15","Nevada","Kindergarten",36755,"hep_b","96.7",2.8
+"572","2017-18","Nevada","Kindergarten",37178,"hep_b","96.4",4.8
+"573","2016-17","Nevada","Kindergarten",36885,"hep_b","95.7",3.7
+"574","2013-14","Nevada","Kindergarten",35782,"hep_b","95.9",3.1
+"575","2012-13","Nevada","Kindergarten",36070,"hep_b","96.8",4.3
+"576","2010-11","Nevada","Kindergarten",NA,"hep_b",NA,NA
+"577","2011-12","Nevada","Kindergarten",36557,"hep_b","97.8",5.2
+"578","2021-22","Nevada","Kindergarten",36855,"varicella","92.1",99.2
+"579","2009-10","Nevada","Kindergarten",35209,"hep_b","98.0",5.6
+"580","2015-16","Nevada","Kindergarten",37118,"varicella","93.4",3.3
+"581","2016-17","Nevada","Kindergarten",36885,"varicella","90.5",3.7
+"582","2019-20","Nevada","Kindergarten",37724,"varicella","94.6",99.9
+"583","2020-21","Nevada","Kindergarten",34171,"varicella","95.8",94.7
+"584","2017-18","Nevada","Kindergarten",37178,"varicella","92.6",4.8
+"585","2018-19","Nevada","Kindergarten",37971,"varicella","94.7",4.8
+"586","2016-17","Nevada","Kindergarten",36885,"mmr","90.9",3.7
+"587","2015-16","Nevada","Kindergarten",37118,"mmr","94.7",3.3
+"588","2019-20","Nevada","Kindergarten",37724,"mmr","95.4",99.9
+"589","2020-21","Nevada","Kindergarten",34171,"mmr","96.1",94.7
+"590","2017-18","Nevada","Kindergarten",37178,"mmr","93.0",4.8
+"591","2018-19","Nevada","Kindergarten",37971,"mmr","95.1",4.8
+"592","2021-22","Nevada","Kindergarten",36855,"mmr","92.7",99.2
+"593","2009-10","Nevada","Kindergarten",35209,"dtap","97.9",5.6
+"594","2021-22","Nevada","Kindergarten",36855,"varicella","NReq",99.2
+"595","2009-10","Nevada","Kindergarten",35209,"varicella","NReq",5.6
+"596","2012-13","Nevada","Kindergarten",36070,"varicella",NA,4.3
+"597","2014-15","Nevada","Kindergarten",36755,"varicella",NA,2.8
+"598","2013-14","Nevada","Kindergarten",35782,"varicella",NA,3.1
+"599","2019-20","Nevada","Kindergarten",37724,"varicella","NReq",99.9
+"600","2020-21","Nevada","Kindergarten",34171,"varicella","NReq",94.7
+"601","2015-16","Nevada","Kindergarten",37118,"varicella",NA,3.3
+"602","2017-18","Nevada","Kindergarten",37178,"dtap","92.6",4.8
+"603","2019-20","Nevada","Kindergarten",37724,"dtap","94.0",99.9
+"604","2018-19","Nevada","Kindergarten",37971,"dtap","95.0",4.8
+"605","2021-22","Nevada","Kindergarten",36855,"dtap","91.5",99.2
+"606","2020-21","Nevada","Kindergarten",34171,"dtap","95.4",94.7
+"607","2010-11","Nevada","Kindergarten",NA,"varicella",NA,NA
+"608","2009-10","Nevada","Kindergarten",35209,"varicella","76.5",5.6
+"609","2011-12","Nevada","Kindergarten",36557,"varicella",NA,5.2
+"610","2011-12","Nevada","Kindergarten",36557,"polio","98.3",5.2
+"611","2010-11","Nevada","Kindergarten",NA,"polio",NA,NA
+"612","2009-10","Nevada","Kindergarten",35209,"polio","98.7",5.6
+"613","2021-22","Nevada","Kindergarten",36855,"hep_b","93.9",99.2
+"614","2020-21","Nevada","Kindergarten",34171,"hep_b","97.4",94.7
+"615","2018-19","Nevada","Kindergarten",37971,"hep_b","97.4",4.8
+"616","2019-20","Nevada","Kindergarten",37724,"hep_b","95.9",99.9
+"617","2013-14","Nevada","Kindergarten",35782,"varicella","93.6",3.1
+"618","2012-13","Nevada","Kindergarten",36070,"varicella","92.2",4.3
+"619","2011-12","Nevada","Kindergarten",36557,"varicella","90.3",5.2
+"620","2010-11","Nevada","Kindergarten",NA,"varicella",NA,NA
+"621","2014-15","Nevada","Kindergarten",36755,"varicella","92.9",2.8
+"622","2023-24","Nevada","Kindergarten",31261,"polio","91.5",91.3
+"623","2023-24","Nevada","Kindergarten",31261,"hep_b","93.4",91.3
+"624","2023-24","Nevada","Kindergarten",31261,"varicella","91.2",91.3
+"625","2023-24","Nevada","Kindergarten",31261,"varicella","NReq",91.3
+"626","2023-24","Nevada","Kindergarten",31261,"dtap","91.1",91.3
+"627","2023-24","Nevada","Kindergarten",31261,"mmr","91.9",91.3
+"628","2023-24","Nevada","Kindergarten",31261,"varicella","91.2",91.3
+"629","2014-15","Nevada","Kindergarten",36755,"mmr","94.0",2.8
+"630","2013-14","Nevada","Kindergarten",35782,"mmr","95.6",3.1
+"631","2012-13","Nevada","Kindergarten",36070,"mmr","93.6",4.3
+"632","2011-12","Nevada","Kindergarten",36557,"mmr","95.3",5.2
+"633","2010-11","Nevada","Kindergarten",NA,"mmr",NA,NA
+"634","2009-10","Nevada","Kindergarten",35209,"mmr","94.5",5.6
+"635","2015-16","Nevada","Kindergarten",37118,"dtap","94.2",3.3
+"636","2014-15","Nevada","Kindergarten",36755,"dtap","93.2",2.8
+"637","2016-17","Nevada","Kindergarten",36885,"dtap","90.0",3.7
+"638","2013-14","Nevada","Kindergarten",35782,"dtap","94.4",3.1
+"639","2012-13","Nevada","Kindergarten",36070,"dtap","96.6",4.3
