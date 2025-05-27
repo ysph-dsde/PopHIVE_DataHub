@@ -477,7 +477,8 @@ source('./R/Support Functions/Webslim_files.R')
 vaxview <- read_parquet('./Data/Webslim/childhood_immunizations/state_kg_school_vax_view.parquet') %>%
   filter(vax=='mmr' & year=='2023-24' )%>%
   rename(value_vaxview=value) %>%
-  dplyr::select(value_vaxview, geography)
+  dplyr::select(value_vaxview, geography) %>%
+  mutate(value_vaxview=as.numeric(value_vaxview))
 
 nis <- read_parquet( './Data/Webslim/childhood_immunizations/overall_rates.parquet') %>%
   filter(vaccine=='≥1 Dose MMR ' & age=="35 Months" & birth_year==2021) %>%
@@ -490,8 +491,10 @@ vax_epic <- read_parquet( './Data/Webslim/childhood_immunizations/mmr_rates_epic
   dplyr::select(value_epic, geography)
 
 vax_compare <- nis %>% full_join( vaxview, by='geography') %>%
-  full_join( vax_epic, by='geography') 
+  full_join( vax_epic, by='geography')  %>%
+  dplyr::select(geography, value_nis, value_vaxview, value_epic)
 
+write_parquet(vax_compare, './Data/Webslim/childhood_immunizations/state_compare.parquet')
 
 # 
 # ##Metro; Crosswalk the DMA to counties FIPS codes
