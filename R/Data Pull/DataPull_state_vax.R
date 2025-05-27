@@ -1,5 +1,8 @@
+#County-level data from individual states. Compiled by ...
 
-
+##########
+#ARIZONA
+##########
 az.ls <- lapply(list.files('./Data/Pulled Data/vax/arizona', full.names=T), function(X){
 #  print(X)
   read_csv(X) %>%
@@ -7,12 +10,6 @@ az.ls <- lapply(list.files('./Data/Pulled Data/vax/arizona', full.names=T), func
     reshape2::melt(., id.vars=c("School Year","County","Grade", "Enrolled"  )) %>%
     mutate(value=as.numeric(value))
 } ) 
-
-
-fips <- pop_county_age <- read.csv("Data/other_data/diabetes_obesity/population_county_age_censusgov_2021.csv", skip = 1) %>% 
-  dplyr::select(c(1,2,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39)) %>%
-  pivot_longer(cols = 3:21, names_to = "agegroup", values_to = "pop_2021", names_prefix = "Estimate..Total..Total.population") %>% 
-  mutate(fips = str_replace(Geography, "0500000US", ""))
 
 # url <- "https://www2.census.gov/geo/docs/reference/codes/files/national_county.txt"
 # fips_df <- read.csv(url, header = FALSE) %>%
@@ -66,3 +63,7 @@ az.ds %>%
   theme_classic()+
   ggtitle('Exemption % in Kindergarten')
 
+
+##Connecticut
+#a1 <- read.csv('https://data.ct.gov/api/views/8kid-pp5k/rows.csv?accessType=DOWNLOAD')
+#write_csv(a1, './Data/Pulled Data/vax/connecticut/ct_school_survey.csv')
