@@ -72,8 +72,8 @@ write_parquet(rsv_county,'./Data/Webslim/respiratory_diseases/rsv/ed_visits_by_c
 
 flu_all_indicators_state <- read_csv(paste0(url_files,'Comparisons/flu_combined_all_outcomes_state.csv')) %>%
   filter(outcome_label1 != 'Google Searches 1') %>% #only keep definition #2 for google searches
-  dplyr::select(geography, date, source,suppressed_flag, Outcome_value1,Outcome_value2) %>%  #note this is RAW data; needs 3 week ave and scaling for plot
-  rename(value=Outcome_value1, value_smooth=Outcome_value2) %>%
+  dplyr::select(geography, date, source,suppressed_flag, Outcome_value1,Outcome_value2,outcome_3m_scale) %>%  #note this is RAW data; needs 3 week ave and scaling for plot
+  rename(value=Outcome_value1, value_smooth=Outcome_value2,value_smooth_scale=outcome_3m_scale) %>%
   mutate( source = if_else(source=="Epic Cosmos" , "Epic Cosmos, ED",source ))
 
 write_parquet(flu_all_indicators_state,'./Data/Webslim/respiratory_diseases/influenza/overall_trends.parquet')
@@ -121,7 +121,7 @@ epic_ed_combo_covid <- read_csv(paste0(url_files,'Cosmos%20ED/rsv_flu_covid_epic
   mutate(source= "Epic Cosmos (ED)") %>%
   filter(outcome_name=='COVID') %>%
   dplyr::select(date, geography, age_level, source,suppressed_flag, Outcome_value1,Outcome_value2) %>%
-  rename(value=Outcome_value1, value_smooth=Outcome_value2, age=age_level)%>%
+  rename(value=Outcome_value1, value_smooth=Outcome_value2, value_smooth_scale=outcome_3m_scale,age=age_level)%>%
   group_by(geography, age, source) %>%
   mutate(value_smooth_scale = value_smooth - min(value_smooth, na.rm=T),
          value_smooth_scale = value_smooth_scale/max(value_smooth_scale, na.rm=T))
