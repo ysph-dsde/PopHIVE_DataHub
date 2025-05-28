@@ -109,8 +109,8 @@ write_parquet(flu_county,'./Data/Webslim/respiratory_diseases/influenza/ed_visit
 
 covid_all_indicators_state <- read_csv(paste0(url_files,'Comparisons/covid_combined_all_outcomes_state.csv')) %>%
   filter(outcome_label1 != 'Google Searches 1') %>% #only keep definition #2 for google searches
-  dplyr::select(geography, date, source,suppressed_flag, Outcome_value1,Outcome_value2) %>%  #note this is RAW data; needs 3 week ave and scaling for plot
-  rename(value=Outcome_value1, value_smooth=Outcome_value2) %>%
+  dplyr::select(geography, date, source,suppressed_flag, Outcome_value1,Outcome_value2,outcome_3m_scale) %>%  #note this is RAW data; needs 3 week ave and scaling for plot
+  rename(value=Outcome_value1, value_smooth=Outcome_value2,value_smooth_scale=outcome_3m_scale) %>%
   mutate( source = if_else(source=="Epic Cosmos" , "Epic Cosmos, ED",source ))
 
 write_parquet(covid_all_indicators_state,'./Data/Webslim/respiratory_diseases/covid/overall_trends.parquet')
