@@ -51,6 +51,12 @@ ggplot(aes(x=year, y=value, group=geography, color=geography)) +
   ylab('uptake')
 
 
+vax_compare %>%
+  reshape2::melt(., id.vars=c ('geography')) %>%
+  ggplot(aes(x=geography, y=value, group=variable, color=variable)) +
+  geom_point() +
+  theme_minimal()+ 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 
 #######################################
 #Chronic disease compare
