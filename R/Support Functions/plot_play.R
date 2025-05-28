@@ -1,31 +1,38 @@
 library(tidyverse)
 library(arrow)
+library(patchwork)
 
 vax_compare <- read_parquet( './Data/Webslim/childhood_immunizations/state_compare.parquet') 
   
 
 
-ggplot(vax_compare,aes(x=value_nis, y=value_vaxview)) +
+p1 <- ggplot(vax_compare,aes(x=value_nis, y=value_vaxview)) +
   geom_point() +
   geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed")+
   theme_classic() +
   ylim(75, 100)+
-  xlim(75,100)
+  xlim(75,100) +
+  ggtitle('Comparison of uptake from NIS and SchoolVaxView')
 
 
-ggplot(vax_compare,aes(x=value_nis, y=value_epic)) +
+p2 <- ggplot(vax_compare,aes(x=value_nis, y=value_epic)) +
   geom_point() +
   geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed")+
   theme_classic() +
   ylim(75, 100)+
-  xlim(75,100)
+  xlim(75,100)+
+  ggtitle('Comparison of uptake from NIS and Epic')
 
-ggplot(vax_compare,aes(x=value_vaxview, y=value_epic)) +
+p3 <- ggplot(vax_compare,aes(x=value_vaxview, y=value_epic)) +
   geom_point() +
   geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed")+
   theme_classic() +
   ylim(75, 100)+
-  xlim(75,100)
+  xlim(75,100)+
+  ggtitle('Comparison of uptake from Epic and SchoolVaxView')
+
+p1+p2+p3
+
 
 
 #Trends in vaxview data
