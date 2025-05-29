@@ -499,57 +499,61 @@ write_parquet(vax_compare, './Data/Webslim/childhood_immunizations/state_compare
 # 
 # ##Metro; Crosswalk the DMA to counties FIPS codes
 # #https://www.kaggle.com/datasets/kapastor/google-trends-countydma-mapping?resource=download
-# cw1 <- read.csv('./Data/other_data/GoogleTrends_CountyDMA_Mapping.csv') %>%
-#   mutate(GOOGLE_DMA=toupper(GOOGLE_DMA))
+ cw1 <- read.csv('./Data/other_data/GoogleTrends_CountyDMA_Mapping.csv') %>%
+   mutate(GOOGLE_DMA=toupper(GOOGLE_DMA))
 
 #Metro region
 #https://stackoverflow.com/questions/61213647/what-do-gtrendsr-statistical-areas-correlate-with
 #Nielsen DMA map: http://bl.ocks.org/simzou/6459889
 #read in 'countries' file from gtrendsR
-# countries <- read.csv('./Data/other_data/countries_gtrendsR.csv')
-# metros <- countries[countries$country_code == 'US', ]
-# 
-# metros <-
-#   metros[grep("[[:digit:]]", substring(metros$sub_code, first = 4)), ]
-# 
-# metros$numeric.sub.area <- gsub('US-', '', metros$sub_code)
-# 
-# 
-# dma_link1 <- cbind.data.frame('DMA_name'=metros$name,'DMA'=metros$numeric.sub.area) %>%
-#   rename(DMA_ID=DMA) %>%
-#   full_join(cw1, by=c("DMA_name"="GOOGLE_DMA")) %>%
-#   dplyr::select(STATE , COUNTY, STATEFP, CNTYFP, DMA_ID) %>%
-#   mutate(DMA_ID = as.numeric(DMA_ID)) %>%
-#   filter(!is.na(DMA_ID))
-# 
+countries <- read.csv('./Data/other_data/countries_gtrendsR.csv')
+metros <- countries[countries$country_code == 'US', ]
+
+metros <-
+  metros[grep("[[:digit:]]", substring(metros$sub_code, first = 4)), ]
+
+metros$numeric.sub.area <- gsub('US-', '', metros$sub_code)
+
+
+dma_link1 <- cbind.data.frame('DMA_name'=metros$name,'DMA'=metros$numeric.sub.area) %>%
+  rename(DMA_ID=DMA) %>%
+  full_join(cw1, by=c("DMA_name"="GOOGLE_DMA")) %>%
+  dplyr::select(STATE , COUNTY, STATEFP, CNTYFP, DMA_ID) %>%
+  mutate(DMA_ID = as.numeric(DMA_ID)) %>%
+  filter(!is.na(DMA_ID))
+
+g_states <- paste('US', state.abb, sep = '-')
+
 # 
 # 
 # ##Google metro data
-# url1 <- "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet"
-# temp_file1 <- tempfile(fileext = ".parquet")
-# download.file(url1, temp_file1, mode = "wb")
-# 
-# g1_metro <- read_parquet(temp_file1) %>%
-#   filter(!(location %in% g_states)) %>%
-#   group_by(date, location, term) %>%
-#   summarize(value=mean(value)) %>% #averages over duplicate pulls
-#   ungroup() %>%
-#   collect() %>%
-#   mutate(date2=as.Date(date),
-#          date = as.Date(ceiling_date(date2, 'week'))-1) %>%
-#   mutate(location = as.numeric(location)) %>%
-#   filter(!is.na(location)) %>%
-#   rename(search_volume=value) %>%
-#   filter(date == as.Date('2024-12-7')) %>%
-#   left_join(dma_link1, by=c('location'='DMA_ID')) %>% #many to many join by date and counties
-#    group_by(STATEFP,CNTYFP) %>%
-#    mutate(fips=paste0(STATEFP,sprintf("%03d", CNTYFP)),
-#           fips=as.numeric(fips)) %>%
-#   ungroup() %>%
-#          mutate( search_volume_scale = search_volume/max(search_volume,na.rm=T)*100) %>%
-#    ungroup() %>%
-#   dplyr::select(date, term, STATE, COUNTY, fips,search_volume_scale)
-# 
+url1 <- "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet"
+temp_file1 <- tempfile(fileext = ".parquet")
+download.file(url1, temp_file1, mode = "wb")
+
+g1_metro <- read_parquet(temp_file1) %>%
+  filter(!(location %in% g_states)) %>%
+  group_by(date, location, term) %>%
+  summarize(value=mean(value)) %>% #averages over duplicate pulls
+  ungroup() %>%
+  collect() %>%
+  mutate(date2=as.Date(date),
+         date = as.Date(ceiling_date(date2, 'week'))-1) %>%
+  mutate(location = as.numeric(location)) %>%
+  filter(!is.na(location)) %>%
+  rename(search_volume=value) %>%
+  filter(date == as.Date('2024-12-7')) %>%
+  left_join(dma_link1, by=c('location'='DMA_ID')) %>% #many to many join by date and counties
+   group_by(STATEFP,CNTYFP) %>%
+   mutate(fips=paste0(STATEFP,sprintf("%03d", CNTYFP)),
+          fips=as.numeric(fips)) %>%
+  ungroup() %>%
+         mutate( search_volume_scale = search_volume/max(search_volume,na.rm=T)*100) %>%
+   ungroup() %>%
+  dplyr::select(date, fips,search_volume_scale) %>%
+  rename(value=search_volume_scale)
+
+write_parquet(g1_metro,'./Data/Webslim/respiratory_diseases/rsv/google_dma.parquet')
 # 
 # usmap::plot_usmap(data=g1_metro,regions='county', values='search_volume_scale',
 #                   color = NA,    # Faint border color
