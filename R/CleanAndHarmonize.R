@@ -542,7 +542,7 @@ g1_metro <- read_parquet(temp_file1) %>%
   mutate(location = as.numeric(location)) %>%
   filter(!is.na(location)) %>%
   rename(search_volume=value) %>%
-  filter(date == as.Date('2024-12-7')) %>%
+  filter(date >= as.Date('2018-07-01')) %>%
   left_join(dma_link1, by=c('location'='DMA_ID')) %>% #many to many join by date and counties
    group_by(STATEFP,CNTYFP) %>%
    mutate(fips=paste0(STATEFP,sprintf("%03d", CNTYFP)),
