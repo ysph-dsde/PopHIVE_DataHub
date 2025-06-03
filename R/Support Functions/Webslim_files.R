@@ -52,7 +52,8 @@ rsvnet_age <- read_csv(paste0(url_files,'RESP-NET%20Programs/rsv_hosp_age_respne
 age_trends_rsv <- bind_rows(epic_ed_combo_rsv,rsvnet_age) %>%
   group_by(geography, age, source) %>%
   mutate(value_smooth_scale = value_smooth - min(value_smooth, na.rm=T),
-         value_smooth_scale = value_smooth_scale/max(value_smooth_scale, na.rm=T))
+         value_smooth_scale = value_smooth_scale/max(value_smooth_scale, na.rm=T)) %>%
+  mutate(geography = if_else(geography=='All states', 'United States', geography))
 
 write_parquet(age_trends_rsv,'./Data/Webslim/respiratory_diseases/rsv/trends_by_age.parquet')
 
