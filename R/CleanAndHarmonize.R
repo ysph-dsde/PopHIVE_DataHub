@@ -46,7 +46,7 @@ lapply(list.files('./R/Data Pull/', full.names=T), function(X){
 #######################################
 
 epic_ed_rsv_flu_covid <- open_dataset( './Data/Plot Files/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet') %>%
-  collect()
+  collect() 
 
 e1 <- epic_ed_rsv_flu_covid %>%
   mutate( geography= if_else(geography=='Total', 'United States', geography)
@@ -132,7 +132,9 @@ combined_file_rsv <- bind_rows(nssp_harmonized_rsv, ww1_rsv_harmonized,h1_harmon
          outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),          
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,
          suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
-  )
+  ) %>%
+  mutate(value_raw=Outcome_value1,
+         value_raw = if_else(suppressed_flag==1, NA_real_, value_raw))
 
 
 # =========== Calculate population-weighted national average for each week (RSV) ==========
@@ -199,7 +201,9 @@ combined_file_flu <- bind_rows(nssp_harmonized_flu, ww1_flu_harmonized,h1_harmon
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,        
          suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
 
-  )
+  )%>%
+  mutate(value_raw=Outcome_value1,
+         value_raw = if_else(suppressed_flag==1, NA_real_, value_raw))
 
 # ========== Calculate population-weighted national average for each week (FLU) ==========
 national_popwgted_avg_flu <- combined_file_flu %>% 
@@ -262,7 +266,9 @@ combined_file_covid <- bind_rows(nssp_harmonized_covid, ww1_covid_harmonized,h1_
          outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,       
          suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
 
-  )
+  )%>%
+  mutate(value_raw=Outcome_value1,
+         value_raw = if_else(suppressed_flag==1, NA_real_, value_raw))
 
 
 # ========== Calculate population-weighted national average for each week (COVID) ==========
@@ -376,7 +382,9 @@ ipd1 <- readRDS('./Data/Pulled Data/pneumococcus/ABCs_st_1998_2023.rds') %>%
   ) %>%
   group_by(st,agec2, year) %>%
   summarize(N_IPD=sum(N_IPD)) %>%
-  ungroup()
+  ungroup() %>%
+  tidyr::complete(year, agec2, st, fill=list(N_IPD=0)) #fills 0
+
 
 write.csv(ipd1, './Data/Plot Files/pneumococcus/ipd_serotype_age_year.csv')
 
