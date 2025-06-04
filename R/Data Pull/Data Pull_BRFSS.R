@@ -44,4 +44,3 @@ epic_compare <-read_parquet('./Data/Webslim/chronic_diseases/prevalence_by_geogr
 write_parquet(epic_compare,'./Data/Webslim/chronic_diseases/brfss_cosmos_prevalence_compared.parquet')
 
 
-
