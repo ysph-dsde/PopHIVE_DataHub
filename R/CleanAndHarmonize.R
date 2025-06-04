@@ -48,10 +48,15 @@ lapply(list.files('./R/Data Pull/', full.names = T), function(X) {
 # Prepare Epic ED files for plots
 #######################################
 
+<<<<<<< HEAD
+epic_ed_rsv_flu_covid <- open_dataset( './Data/Plot Files/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet') %>%
+  collect() 
+=======
 epic_ed_rsv_flu_covid <- open_dataset(
   './Data/Plot Files/Cosmos ED/flu_rsv_covid_epic_cosmos_ed.parquet'
 ) %>%
   collect()
+>>>>>>> eff605d293e30eebf9ecda48cad9b4c6f1694714
 
 e1 <- epic_ed_rsv_flu_covid %>%
   mutate(geography = if_else(geography == 'Total', 'United States', geography))
@@ -212,6 +217,21 @@ pop_unstra_hhs <- pop_unstra %>%
 ### Combined file for overlaid time series RSV figure
 #########################################################
 
+<<<<<<< HEAD
+combined_file_rsv <- bind_rows(nssp_harmonized_rsv, ww1_rsv_harmonized,h1_harmonized_rsv,e1,g1_state_harmonized_v1, g1_state_harmonized_v2) %>%
+  filter(date >=as.Date('2023-07-01') & age_strata=='none' & !outcome_name %in% c('FLU','COVID')) %>%
+  arrange(geography, outcome_label1,source,date) %>%
+  group_by(geography,outcome_label1, source) %>%
+  filter(date>='2023-07-01') %>%
+  mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
+         outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),          
+         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,
+         suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
+  ) %>%
+  mutate(value_raw=Outcome_value1,
+         value_raw = if_else(suppressed_flag==1, NA_real_, value_raw))
+=======
 combined_file_rsv <- bind_rows(
   nssp_harmonized_rsv,
   ww1_rsv_harmonized,
@@ -241,6 +261,7 @@ combined_file_rsv <- bind_rows(
     outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm = T) * 100,
     suppressed_flag = if_else(is.na(suppressed_flag), 0, suppressed_flag)
   )
+>>>>>>> eff605d293e30eebf9ecda48cad9b4c6f1694714
 
 
 # =========== Calculate population-weighted national average for each week (RSV) ==========
@@ -344,6 +365,22 @@ write.csv(
 ### Combined file for overlaid time series flu figure
 #########################################################
 
+<<<<<<< HEAD
+combined_file_flu <- bind_rows(nssp_harmonized_flu, ww1_flu_harmonized,h1_harmonized_flu,e1) %>%
+  filter(date >=as.Date('2023-07-01') & age_strata=='none' & !outcome_name %in% c('COVID','RSV')) %>%
+  arrange(geography, outcome_label1,source,date) %>%
+  group_by(geography,outcome_label1, source) %>%
+  filter(date>='2023-07-01') %>%
+  mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
+         outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),         
+         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,        
+         suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
+
+  )%>%
+  mutate(value_raw=Outcome_value1,
+         value_raw = if_else(suppressed_flag==1, NA_real_, value_raw))
+=======
 combined_file_flu <- bind_rows(
   nssp_harmonized_flu,
   ww1_flu_harmonized,
@@ -371,6 +408,7 @@ combined_file_flu <- bind_rows(
     outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm = T) * 100,
     suppressed_flag = if_else(is.na(suppressed_flag), 0, suppressed_flag)
   )
+>>>>>>> eff605d293e30eebf9ecda48cad9b4c6f1694714
 
 # ========== Calculate population-weighted national average for each week (FLU) ==========
 national_popwgted_avg_flu <- combined_file_flu %>%
@@ -467,6 +505,22 @@ write.csv(
 ###Combined file for overlaid time series COVID-19 figure
 #########################################################
 
+<<<<<<< HEAD
+combined_file_covid <- bind_rows(nssp_harmonized_covid, ww1_covid_harmonized,h1_harmonized_covid,e1) %>%
+  filter(date >=as.Date('2023-07-01') & age_strata=='none' & !outcome_name %in% c('FLU','RSV')) %>%
+  arrange(geography, outcome_label1,source,date) %>%
+  group_by(geography,outcome_label1, source) %>%
+  filter(date>='2023-07-01') %>%
+  mutate(outcome_3m = zoo::rollapplyr(Outcome_value1,3,mean, partial=T, na.rm=T),
+         outcome_3m = if_else(is.nan(outcome_3m), NA, outcome_3m),
+         outcome_3m =  outcome_3m - min(outcome_3m,na.rm=T),          
+         outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm=T)*100,       
+         suppressed_flag=if_else(is.na(suppressed_flag),0,suppressed_flag)
+
+  )%>%
+  mutate(value_raw=Outcome_value1,
+         value_raw = if_else(suppressed_flag==1, NA_real_, value_raw))
+=======
 combined_file_covid <- bind_rows(
   nssp_harmonized_covid,
   ww1_covid_harmonized,
@@ -494,6 +548,7 @@ combined_file_covid <- bind_rows(
     outcome_3m_scale = outcome_3m / max(outcome_3m, na.rm = T) * 100,
     suppressed_flag = if_else(is.na(suppressed_flag), 0, suppressed_flag)
   )
+>>>>>>> eff605d293e30eebf9ecda48cad9b4c6f1694714
 
 
 # ========== Calculate population-weighted national average for each week (COVID) ==========
@@ -708,6 +763,13 @@ ipd1 <- readRDS('./Data/Pulled Data/pneumococcus/ABCs_st_1998_2023.rds') %>%
     st = IPD.Serotype,
     N_IPD = Frequency.Count
   ) %>%
+<<<<<<< HEAD
+  group_by(st,agec2, year) %>%
+  summarize(N_IPD=sum(N_IPD)) %>%
+  ungroup() %>%
+  tidyr::complete(year, agec2, st, fill=list(N_IPD=0)) #fills 0
+
+=======
   mutate(
     st = if_else(st == '16', '16F', st),
     agec1 = if_else(agec %in% c("Age <2", "Age 2-4"), 1, 2),
@@ -730,6 +792,7 @@ ipd1 <- readRDS('./Data/Pulled Data/pneumococcus/ABCs_st_1998_2023.rds') %>%
   group_by(st, agec2, year) %>%
   summarize(N_IPD = sum(N_IPD)) %>%
   ungroup()
+>>>>>>> eff605d293e30eebf9ecda48cad9b4c6f1694714
 
 write.csv(ipd1, './Data/Plot Files/pneumococcus/ipd_serotype_age_year.csv')
 

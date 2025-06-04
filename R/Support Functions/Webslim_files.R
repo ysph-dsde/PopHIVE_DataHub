@@ -275,11 +275,13 @@ epic_ed_combo_covid <- read_csv(paste0(
     source,
     suppressed_flag,
     Outcome_value1,
-    Outcome_value2
+    Outcome_value2,
+    Outcome_value3
   ) %>%
   rename(
     value = Outcome_value1,
     value_smooth = Outcome_value2,
+    value_smooth_scale=Outcome_value3,
     age = age_level
   ) %>%
   group_by(geography, age, source) %>%
@@ -504,7 +506,8 @@ vax_insurance <- read_parquet(
         "Other"
       ),
       labels = c('Uninsured', 'Medicaid', 'Private', 'Other')
-    )
+    ),
+    Vaccine_dose =gsub('NA','', Vaccine_dose)
   ) %>%
   dplyr::select(Geography, insurance, birth_year, Vaccine_dose, vax_uptake) %>%
   rename(geography = Geography, vaccine = Vaccine_dose, value = vax_uptake)
