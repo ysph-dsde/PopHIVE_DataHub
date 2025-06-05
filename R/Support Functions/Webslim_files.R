@@ -146,6 +146,21 @@ log_write(
   './Data/Webslim/respiratory_diseases/rsv/ed_visits_by_county.parquet'
 )
 
+## RSV testing
+rsv_testing <- read_csv(paste0(
+  base_dir,
+  'Cosmos ED/rsv_testing_freq.csv'
+)) %>%
+  rename(age=age_level,
+         value=Outcome_value1,
+         ) %>%
+  dplyr::select(
+    age,
+    date,
+    value,
+    N_J12_J18,
+    suppressed_flag
+  )
 
 ######################################
 ##INFLUENZA
@@ -309,6 +324,8 @@ log_write(
   covid_county,
   './Data/Webslim/respiratory_diseases/covid/ed_visits_by_county.parquet'
 )
+
+
 
 
 #################################################################
