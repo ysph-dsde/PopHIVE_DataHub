@@ -353,3 +353,71 @@ write_csv(epic_chronic,
 
 #Dataset for county and state level obesity, diabetes and percent of population captured
 source('./R/Epic Cleaning/county_state_coverage.R')
+
+##################################
+# Viral Testing
+##################################
+source('./R/Epic Cleaning/epic_rsv_testing_import.R')
+
+epic_rsv_testing <- epic_viral_testing(ds_name = './Data/Pulled Data/Cosmos ED/rsv_testing/2025_06_04_Pneumonia_with_RSV_test_US_Month_Age_2018-2025.csv') %>%
+  dplyr::select( Level, pct_tested_rsv, N_J12_J18, date) %>%
+  mutate(
+    suppressed_flag = if_else(is.na(pct_tested_rsv),1,0),
+    outcome_name='pct_tested_rsv',
+    outcome_type = 'testing',
+    domain = 'Respiratory infections',
+    date_resolution = 'monthly',
+    update_frequency = 'annual',
+    source = 'Epic Cosmos',
+    url = 'https://www.epicresearch.org/',
+    geo_strata = 'none',
+    age_strata = 'age_scheme_2',
+    race_strata = 'none',
+    race_level = NA_character_,
+    additional_strata1 = 'none',
+    additional_strata_level = NA_character_,
+    sex_strata = 'none',
+    sex_level = NA_character_
+    
+  )  %>%
+  ungroup() %>%
+  rename(
+    Outcome_value1 = pct_tested_rsv,
+    age_level = Level
+  ) %>%
+  dplyr::select(
+    'date',
+    "age_level",
+    "outcome_name",
+    "outcome_type",
+    "source",
+    "url",
+    "geo_strata",
+    "age_strata",
+    "race_strata",
+    "race_level",
+    "additional_strata1",
+    "additional_strata_level",
+    "sex_strata",
+    "sex_level",
+    "Outcome_value1",
+    'N_J12_J18',
+    'suppressed_flag'
+  ) %>%
+  mutate(
+    outcome_label1 = 'testing_pct'
+  )
+
+write_csv(epic_rsv_testing,
+          './Data/Plot Files/Cosmos ED/rsv_testing_freq.csv')
+
+
+# epic_rsv_testing %>%
+#   filter(!is.na(age_level)) %>%
+# ggplot() +
+#   geom_line(aes(x=date, y=Outcome_value1))+
+#   facet_wrap(~age_level, scales='free')+
+#   ylim(0,NA)+
+#   theme_minimal()+
+#   ggtitle('% of J12-J18 receiving a test for RSV')+
+#   ylab('% Tested')

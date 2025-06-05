@@ -1,0 +1,617 @@
+date,age_level,outcome_name,outcome_type,source,url,geo_strata,age_strata,race_strata,race_level,additional_strata1,additional_strata_level,sex_strata,sex_level,Outcome_value1,N_J12_J18,suppressed_flag,outcome_label1
+2018-01-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.4,23223,0,testing_pct
+2018-02-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.4,19548,0,testing_pct
+2018-03-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.1,19358,0,testing_pct
+2018-04-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.5,17543,0,testing_pct
+2018-05-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.7,17043,0,testing_pct
+2018-06-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.5,15063,0,testing_pct
+2018-07-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.9,14306,0,testing_pct
+2018-08-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.8,15694,0,testing_pct
+2018-09-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.7,17373,0,testing_pct
+2018-10-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.3,21228,0,testing_pct
+2018-11-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.6,21920,0,testing_pct
+2018-12-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.4,22592,0,testing_pct
+2019-01-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.2,24512,0,testing_pct
+2019-02-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.2,21194,0,testing_pct
+2019-03-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.6,22765,0,testing_pct
+2019-04-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.1,20292,0,testing_pct
+2019-05-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.1,20331,0,testing_pct
+2019-06-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.5,17716,0,testing_pct
+2019-07-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5,18186,0,testing_pct
+2019-08-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.2,19518,0,testing_pct
+2019-09-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.4,22276,0,testing_pct
+2019-10-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.3,26186,0,testing_pct
+2019-11-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.8,27663,0,testing_pct
+2019-12-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.3,30440,0,testing_pct
+2020-01-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.6,32747,0,testing_pct
+2020-02-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.2,27800,0,testing_pct
+2020-03-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.1,29889,0,testing_pct
+2020-04-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8,22690,0,testing_pct
+2020-05-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.6,19452,0,testing_pct
+2020-06-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.7,18792,0,testing_pct
+2020-07-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.7,22384,0,testing_pct
+2020-08-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.8,18599,0,testing_pct
+2020-09-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.6,17227,0,testing_pct
+2020-10-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.3,20938,0,testing_pct
+2020-11-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.1,25900,0,testing_pct
+2020-12-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.6,30224,0,testing_pct
+2021-01-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.3,29581,0,testing_pct
+2021-02-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.7,20581,0,testing_pct
+2021-03-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.2,23159,0,testing_pct
+2021-04-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.1,28722,0,testing_pct
+2021-05-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.3,25413,0,testing_pct
+2021-06-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.8,21273,0,testing_pct
+2021-07-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.3,27472,0,testing_pct
+2021-08-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.2,47850,0,testing_pct
+2021-09-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.9,46241,0,testing_pct
+2021-10-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.4,35700,0,testing_pct
+2021-11-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.9,34914,0,testing_pct
+2021-12-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.1,43293,0,testing_pct
+2022-01-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.2,38128,0,testing_pct
+2022-02-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.7,20661,0,testing_pct
+2022-03-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.5,20881,0,testing_pct
+2022-04-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.8,19399,0,testing_pct
+2022-05-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.3,20662,0,testing_pct
+2022-06-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.8,19352,0,testing_pct
+2022-07-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.9,17001,0,testing_pct
+2022-08-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.2,18184,0,testing_pct
+2022-09-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.1,19350,0,testing_pct
+2022-10-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.1,20986,0,testing_pct
+2022-11-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.8,26451,0,testing_pct
+2022-12-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.5,29679,0,testing_pct
+2023-01-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.9,26395,0,testing_pct
+2023-02-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.2,23354,0,testing_pct
+2023-03-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.7,27259,0,testing_pct
+2023-04-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.1,23637,0,testing_pct
+2023-05-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.8,23565,0,testing_pct
+2023-06-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.5,20957,0,testing_pct
+2023-07-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.6,19415,0,testing_pct
+2023-08-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.7,21202,0,testing_pct
+2023-09-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.3,22695,0,testing_pct
+2023-10-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.9,27651,0,testing_pct
+2023-11-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.8,32229,0,testing_pct
+2023-12-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23.7,36420,0,testing_pct
+2024-01-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.9,36108,0,testing_pct
+2024-02-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.2,31007,0,testing_pct
+2024-03-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.2,31420,0,testing_pct
+2024-04-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.4,30456,0,testing_pct
+2024-05-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.8,30149,0,testing_pct
+2024-06-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.1,28753,0,testing_pct
+2024-07-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.6,30915,0,testing_pct
+2024-08-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.7,33745,0,testing_pct
+2024-09-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.8,39273,0,testing_pct
+2024-10-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.8,58715,0,testing_pct
+2024-11-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.9,68926,0,testing_pct
+2024-12-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.3,68942,0,testing_pct
+2025-01-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.3,59762,0,testing_pct
+2025-02-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23.2,45432,0,testing_pct
+2025-03-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23,38955,0,testing_pct
+2025-04-01,18-39 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23,30703,0,testing_pct
+2018-01-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.9,82093,0,testing_pct
+2018-02-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.6,69300,0,testing_pct
+2018-03-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.2,67729,0,testing_pct
+2018-04-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.4,61844,0,testing_pct
+2018-05-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.9,57019,0,testing_pct
+2018-06-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.2,50986,0,testing_pct
+2018-07-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.9,47309,0,testing_pct
+2018-08-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.7,48518,0,testing_pct
+2018-09-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5,49254,0,testing_pct
+2018-10-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.7,59302,0,testing_pct
+2018-11-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.5,59881,0,testing_pct
+2018-12-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.4,65925,0,testing_pct
+2019-01-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.6,78405,0,testing_pct
+2019-02-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.9,70475,0,testing_pct
+2019-03-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.1,75092,0,testing_pct
+2019-04-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.1,68951,0,testing_pct
+2019-05-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6,66375,0,testing_pct
+2019-06-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.5,57467,0,testing_pct
+2019-07-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.7,55880,0,testing_pct
+2019-08-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.6,54054,0,testing_pct
+2019-09-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.8,58516,0,testing_pct
+2019-10-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.5,67566,0,testing_pct
+2019-11-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.6,68034,0,testing_pct
+2019-12-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.4,80625,0,testing_pct
+2020-01-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.6,94092,0,testing_pct
+2020-02-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9,85493,0,testing_pct
+2020-03-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13,92049,0,testing_pct
+2020-04-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.1,78629,0,testing_pct
+2020-05-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.1,66636,0,testing_pct
+2020-06-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6,62010,0,testing_pct
+2020-07-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6,74510,0,testing_pct
+2020-08-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.3,66732,0,testing_pct
+2020-09-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6,63292,0,testing_pct
+2020-10-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.1,76496,0,testing_pct
+2020-11-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.9,101211,0,testing_pct
+2020-12-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.6,126361,0,testing_pct
+2021-01-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.3,127172,0,testing_pct
+2021-02-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.8,89591,0,testing_pct
+2021-03-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.7,92427,0,testing_pct
+2021-04-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.5,100029,0,testing_pct
+2021-05-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.6,85979,0,testing_pct
+2021-06-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8,74612,0,testing_pct
+2021-07-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.8,84119,0,testing_pct
+2021-08-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.9,133360,0,testing_pct
+2021-09-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.1,138726,0,testing_pct
+2021-10-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.3,116654,0,testing_pct
+2021-11-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.7,115676,0,testing_pct
+2021-12-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.2,142253,0,testing_pct
+2022-01-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13,152486,0,testing_pct
+2022-02-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.2,90611,0,testing_pct
+2022-03-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.8,79401,0,testing_pct
+2022-04-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.1,70461,0,testing_pct
+2022-05-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.5,71900,0,testing_pct
+2022-06-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.1,70650,0,testing_pct
+2022-07-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.7,64439,0,testing_pct
+2022-08-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.2,66846,0,testing_pct
+2022-09-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.9,65651,0,testing_pct
+2022-10-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17,72106,0,testing_pct
+2022-11-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.7,84880,0,testing_pct
+2022-12-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.6,99853,0,testing_pct
+2023-01-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.7,95442,0,testing_pct
+2023-02-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.6,79446,0,testing_pct
+2023-03-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.2,90796,0,testing_pct
+2023-04-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.9,80249,0,testing_pct
+2023-05-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.6,79974,0,testing_pct
+2023-06-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.5,72022,0,testing_pct
+2023-07-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.1,66849,0,testing_pct
+2023-08-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.8,72406,0,testing_pct
+2023-09-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19,73204,0,testing_pct
+2023-10-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.1,83737,0,testing_pct
+2023-11-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.7,93494,0,testing_pct
+2023-12-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.4,109149,0,testing_pct
+2024-01-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.9,117938,0,testing_pct
+2024-02-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.8,98982,0,testing_pct
+2024-03-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.1,97776,0,testing_pct
+2024-04-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.7,96511,0,testing_pct
+2024-05-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.9,94627,0,testing_pct
+2024-06-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.4,83526,0,testing_pct
+2024-07-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.9,84145,0,testing_pct
+2024-08-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.6,87158,0,testing_pct
+2024-09-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.9,90234,0,testing_pct
+2024-10-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.7,111061,0,testing_pct
+2024-11-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.1,117515,0,testing_pct
+2024-12-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.3,138407,0,testing_pct
+2025-01-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.2,151557,0,testing_pct
+2025-02-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.4,135540,0,testing_pct
+2025-03-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23.3,121315,0,testing_pct
+2025-04-01,40-64 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.7,89972,0,testing_pct
+2018-01-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.5,14612,0,testing_pct
+2018-02-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.8,16223,0,testing_pct
+2018-03-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.7,13605,0,testing_pct
+2018-04-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.3,10885,0,testing_pct
+2018-05-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.4,10762,0,testing_pct
+2018-06-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.5,8014,0,testing_pct
+2018-07-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.4,6852,0,testing_pct
+2018-08-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.3,8035,0,testing_pct
+2018-09-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.5,11532,0,testing_pct
+2018-10-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.6,17384,0,testing_pct
+2018-11-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.3,19852,0,testing_pct
+2018-12-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.2,19410,0,testing_pct
+2019-01-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.4,16741,0,testing_pct
+2019-02-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.4,16159,0,testing_pct
+2019-03-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.5,17002,0,testing_pct
+2019-04-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.5,15187,0,testing_pct
+2019-05-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.9,14898,0,testing_pct
+2019-06-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.4,11547,0,testing_pct
+2019-07-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.6,10911,0,testing_pct
+2019-08-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.3,11232,0,testing_pct
+2019-09-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.6,15761,0,testing_pct
+2019-10-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.2,24033,0,testing_pct
+2019-11-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.8,28242,0,testing_pct
+2019-12-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.2,27563,0,testing_pct
+2020-01-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.7,22489,0,testing_pct
+2020-02-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.9,21343,0,testing_pct
+2020-03-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.3,15585,0,testing_pct
+2020-04-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.5,4629,0,testing_pct
+2020-05-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.2,2992,0,testing_pct
+2020-06-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.5,3012,0,testing_pct
+2020-07-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7,3219,0,testing_pct
+2020-08-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.5,2960,0,testing_pct
+2020-09-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8,3259,0,testing_pct
+2020-10-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.4,3699,0,testing_pct
+2020-11-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.5,3624,0,testing_pct
+2020-12-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.8,3529,0,testing_pct
+2021-01-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.8,3471,0,testing_pct
+2021-02-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.3,3249,0,testing_pct
+2021-03-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.7,3726,0,testing_pct
+2021-04-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.5,4251,0,testing_pct
+2021-05-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.1,5026,0,testing_pct
+2021-06-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11,4713,0,testing_pct
+2021-07-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.4,4998,0,testing_pct
+2021-08-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.7,7800,0,testing_pct
+2021-09-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.6,9983,0,testing_pct
+2021-10-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.2,9578,0,testing_pct
+2021-11-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15,11502,0,testing_pct
+2021-12-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.3,11643,0,testing_pct
+2022-01-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.6,7170,0,testing_pct
+2022-02-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.1,6212,0,testing_pct
+2022-03-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.5,9058,0,testing_pct
+2022-04-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.7,9424,0,testing_pct
+2022-05-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.8,11679,0,testing_pct
+2022-06-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.2,8108,0,testing_pct
+2022-07-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.6,5202,0,testing_pct
+2022-08-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.7,7593,0,testing_pct
+2022-09-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.7,13297,0,testing_pct
+2022-10-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19,18582,0,testing_pct
+2022-11-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.2,23073,0,testing_pct
+2022-12-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.5,18509,0,testing_pct
+2023-01-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.8,12271,0,testing_pct
+2023-02-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.3,15303,0,testing_pct
+2023-03-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.1,17013,0,testing_pct
+2023-04-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.4,12899,0,testing_pct
+2023-05-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.9,13563,0,testing_pct
+2023-06-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.2,8955,0,testing_pct
+2023-07-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.4,6615,0,testing_pct
+2023-08-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.4,8603,0,testing_pct
+2023-09-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17,12466,0,testing_pct
+2023-10-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.8,20311,0,testing_pct
+2023-11-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16,28572,0,testing_pct
+2023-12-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.6,29984,0,testing_pct
+2024-01-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16,21417,0,testing_pct
+2024-02-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.6,23622,0,testing_pct
+2024-03-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18,25285,0,testing_pct
+2024-04-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.7,25608,0,testing_pct
+2024-05-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.2,32826,0,testing_pct
+2024-06-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.3,35707,0,testing_pct
+2024-07-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.3,33946,0,testing_pct
+2024-08-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.6,38352,0,testing_pct
+2024-09-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.2,56219,0,testing_pct
+2024-10-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.2,119618,0,testing_pct
+2024-11-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.5,126690,0,testing_pct
+2024-12-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.3,100696,0,testing_pct
+2025-01-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.7,57728,0,testing_pct
+2025-02-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.2,42032,0,testing_pct
+2025-03-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17,33603,0,testing_pct
+2025-04-01,5-17 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.9,27136,0,testing_pct
+2018-01-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.9,131325,0,testing_pct
+2018-02-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.6,105109,0,testing_pct
+2018-03-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.7,106107,0,testing_pct
+2018-04-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.9,100048,0,testing_pct
+2018-05-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.8,95658,0,testing_pct
+2018-06-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.2,85276,0,testing_pct
+2018-07-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.9,79875,0,testing_pct
+2018-08-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,3.7,78921,0,testing_pct
+2018-09-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5,74692,0,testing_pct
+2018-10-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.4,90597,0,testing_pct
+2018-11-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7,90253,0,testing_pct
+2018-12-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.5,103316,0,testing_pct
+2019-01-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.8,123198,0,testing_pct
+2019-02-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9,105987,0,testing_pct
+2019-03-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.2,115670,0,testing_pct
+2019-04-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.8,113091,0,testing_pct
+2019-05-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.5,111539,0,testing_pct
+2019-06-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.5,98891,0,testing_pct
+2019-07-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.8,94598,0,testing_pct
+2019-08-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.6,88498,0,testing_pct
+2019-09-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.9,91759,0,testing_pct
+2019-10-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7,105028,0,testing_pct
+2019-11-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.3,103303,0,testing_pct
+2019-12-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.9,127259,0,testing_pct
+2020-01-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.8,147433,0,testing_pct
+2020-02-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10,125217,0,testing_pct
+2020-03-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.5,122974,0,testing_pct
+2020-04-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.1,98561,0,testing_pct
+2020-05-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.3,88836,0,testing_pct
+2020-06-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.5,85282,0,testing_pct
+2020-07-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.9,96216,0,testing_pct
+2020-08-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.6,91286,0,testing_pct
+2020-09-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.1,92819,0,testing_pct
+2020-10-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.6,114001,0,testing_pct
+2020-11-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.2,145437,0,testing_pct
+2020-12-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.6,183514,0,testing_pct
+2021-01-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.4,180362,0,testing_pct
+2021-02-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.8,123942,0,testing_pct
+2021-03-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.2,119848,0,testing_pct
+2021-04-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.2,113419,0,testing_pct
+2021-05-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.8,106283,0,testing_pct
+2021-06-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.3,104756,0,testing_pct
+2021-07-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.7,111303,0,testing_pct
+2021-08-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.1,140435,0,testing_pct
+2021-09-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.9,145675,0,testing_pct
+2021-10-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.5,140188,0,testing_pct
+2021-11-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.1,144591,0,testing_pct
+2021-12-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.4,177435,0,testing_pct
+2022-01-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.8,208870,0,testing_pct
+2022-02-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.8,138612,0,testing_pct
+2022-03-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.4,127964,0,testing_pct
+2022-04-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.9,119334,0,testing_pct
+2022-05-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.5,130286,0,testing_pct
+2022-06-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.9,129825,0,testing_pct
+2022-07-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.3,122079,0,testing_pct
+2022-08-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.6,128041,0,testing_pct
+2022-09-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.9,121973,0,testing_pct
+2022-10-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.6,137560,0,testing_pct
+2022-11-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.8,157511,0,testing_pct
+2022-12-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,25.2,191024,0,testing_pct
+2023-01-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.1,186515,0,testing_pct
+2023-02-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.9,149748,0,testing_pct
+2023-03-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.2,170996,0,testing_pct
+2023-04-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.8,154551,0,testing_pct
+2023-05-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.9,157713,0,testing_pct
+2023-06-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.5,143414,0,testing_pct
+2023-07-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.9,130300,0,testing_pct
+2023-08-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.3,142833,0,testing_pct
+2023-09-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.7,143959,0,testing_pct
+2023-10-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.3,161315,0,testing_pct
+2023-11-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23.5,174481,0,testing_pct
+2023-12-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.2,205930,0,testing_pct
+2024-01-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,25.9,221718,0,testing_pct
+2024-02-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.6,183511,0,testing_pct
+2024-03-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.4,184353,0,testing_pct
+2024-04-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.5,186262,0,testing_pct
+2024-05-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.5,187679,0,testing_pct
+2024-06-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.9,168764,0,testing_pct
+2024-07-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21,168317,0,testing_pct
+2024-08-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.9,166313,0,testing_pct
+2024-09-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.7,164792,0,testing_pct
+2024-10-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.6,186193,0,testing_pct
+2024-11-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23.4,183684,0,testing_pct
+2024-12-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,27.3,233260,0,testing_pct
+2025-01-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.1,267580,0,testing_pct
+2025-02-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.3,238535,0,testing_pct
+2025-03-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.4,230764,0,testing_pct
+2025-04-01,65+ Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,25.7,175938,0,testing_pct
+2018-01-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.8,21519,0,testing_pct
+2018-02-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.9,19464,0,testing_pct
+2018-03-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13,16847,0,testing_pct
+2018-04-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.7,13410,0,testing_pct
+2018-05-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.9,12304,0,testing_pct
+2018-06-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.1,8721,0,testing_pct
+2018-07-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.3,6971,0,testing_pct
+2018-08-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.5,7685,0,testing_pct
+2018-09-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.1,9678,0,testing_pct
+2018-10-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.9,13464,0,testing_pct
+2018-11-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.1,18870,0,testing_pct
+2018-12-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.1,24412,0,testing_pct
+2019-01-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.5,21661,0,testing_pct
+2019-02-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14,17855,0,testing_pct
+2019-03-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.3,18258,0,testing_pct
+2019-04-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.1,16876,0,testing_pct
+2019-05-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.6,15088,0,testing_pct
+2019-06-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.1,10576,0,testing_pct
+2019-07-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9,8393,0,testing_pct
+2019-08-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.4,8902,0,testing_pct
+2019-09-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.7,11723,0,testing_pct
+2019-10-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.5,17157,0,testing_pct
+2019-11-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.1,24721,0,testing_pct
+2019-12-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.6,30811,0,testing_pct
+2020-01-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.1,24808,0,testing_pct
+2020-02-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16,20389,0,testing_pct
+2020-03-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18,15939,0,testing_pct
+2020-04-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.3,3360,0,testing_pct
+2020-05-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.7,2369,0,testing_pct
+2020-06-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.5,2440,0,testing_pct
+2020-07-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.8,2576,0,testing_pct
+2020-08-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.9,2793,0,testing_pct
+2020-09-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,14.5,2952,0,testing_pct
+2020-10-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.4,3500,0,testing_pct
+2020-11-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.8,3560,0,testing_pct
+2020-12-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19,3400,0,testing_pct
+2021-01-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.9,3478,0,testing_pct
+2021-02-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.4,3297,0,testing_pct
+2021-03-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.1,4511,0,testing_pct
+2021-04-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.5,5628,0,testing_pct
+2021-05-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.1,8612,0,testing_pct
+2021-06-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.9,10555,0,testing_pct
+2021-07-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23,11617,0,testing_pct
+2021-08-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.8,11542,0,testing_pct
+2021-09-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.4,11878,0,testing_pct
+2021-10-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,27,13624,0,testing_pct
+2021-11-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,27.4,17153,0,testing_pct
+2021-12-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,29,17910,0,testing_pct
+2022-01-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.5,10656,0,testing_pct
+2022-02-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.7,8497,0,testing_pct
+2022-03-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24,11309,0,testing_pct
+2022-04-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.8,12320,0,testing_pct
+2022-05-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.9,15358,0,testing_pct
+2022-06-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,27.2,14121,0,testing_pct
+2022-07-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,29.6,9915,0,testing_pct
+2022-08-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,30,11172,0,testing_pct
+2022-09-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,29.4,16710,0,testing_pct
+2022-10-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,30.8,26239,0,testing_pct
+2022-11-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,31.7,29934,0,testing_pct
+2022-12-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,31.4,22168,0,testing_pct
+2023-01-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,31.2,15628,0,testing_pct
+2023-02-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,30.2,16727,0,testing_pct
+2023-03-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.6,19780,0,testing_pct
+2023-04-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,27.2,15082,0,testing_pct
+2023-05-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.7,13408,0,testing_pct
+2023-06-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.6,9708,0,testing_pct
+2023-07-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.9,6955,0,testing_pct
+2023-08-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,25.4,8322,0,testing_pct
+2023-09-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.3,11428,0,testing_pct
+2023-10-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.9,17486,0,testing_pct
+2023-11-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.6,24586,0,testing_pct
+2023-12-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,29.6,25420,0,testing_pct
+2024-01-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.5,17919,0,testing_pct
+2024-02-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.3,16633,0,testing_pct
+2024-03-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,29.7,19419,0,testing_pct
+2024-04-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.1,19483,0,testing_pct
+2024-05-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.4,18736,0,testing_pct
+2024-06-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.9,14473,0,testing_pct
+2024-07-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21,14193,0,testing_pct
+2024-08-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.3,15843,0,testing_pct
+2024-09-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23.1,20557,0,testing_pct
+2024-10-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.7,34932,0,testing_pct
+2024-11-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.8,50139,0,testing_pct
+2024-12-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,25.3,55809,0,testing_pct
+2025-01-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.3,35815,0,testing_pct
+2025-02-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.1,25926,0,testing_pct
+2025-03-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.7,23038,0,testing_pct
+2025-04-01,<5 Years,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,28.5,20429,0,testing_pct
+2018-01-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.6,272772,0,testing_pct
+2018-02-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.5,229646,0,testing_pct
+2018-03-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.8,223648,0,testing_pct
+2018-04-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.1,203731,0,testing_pct
+2018-05-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.1,192787,0,testing_pct
+2018-06-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.5,168061,0,testing_pct
+2018-07-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.1,155313,0,testing_pct
+2018-08-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4,158853,0,testing_pct
+2018-09-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.3,162529,0,testing_pct
+2018-10-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.2,201975,0,testing_pct
+2018-11-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.9,210776,0,testing_pct
+2018-12-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.3,235658,0,testing_pct
+2019-01-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.6,264519,0,testing_pct
+2019-02-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.6,231672,0,testing_pct
+2019-03-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.8,248791,0,testing_pct
+2019-04-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.8,234398,0,testing_pct
+2019-05-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.5,228232,0,testing_pct
+2019-06-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.7,196199,0,testing_pct
+2019-07-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.9,187970,0,testing_pct
+2019-08-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,4.9,182204,0,testing_pct
+2019-09-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.1,200036,0,testing_pct
+2019-10-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.9,239972,0,testing_pct
+2019-11-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.1,251963,0,testing_pct
+2019-12-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.5,296699,0,testing_pct
+2020-01-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.4,321572,0,testing_pct
+2020-02-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.6,280243,0,testing_pct
+2020-03-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.6,276439,0,testing_pct
+2020-04-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.6,207880,0,testing_pct
+2020-05-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.4,180285,0,testing_pct
+2020-06-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6,171539,0,testing_pct
+2020-07-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6,198907,0,testing_pct
+2020-08-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,5.6,182370,0,testing_pct
+2020-09-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,6.3,179549,0,testing_pct
+2020-10-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,7.6,218635,0,testing_pct
+2020-11-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.8,279733,0,testing_pct
+2020-12-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.7,347030,0,testing_pct
+2021-01-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.5,344068,0,testing_pct
+2021-02-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.1,240662,0,testing_pct
+2021-03-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.7,243671,0,testing_pct
+2021-04-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.6,252049,0,testing_pct
+2021-05-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.7,231314,0,testing_pct
+2021-06-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,8.9,215912,0,testing_pct
+2021-07-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10.5,239509,0,testing_pct
+2021-08-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,10,340988,0,testing_pct
+2021-09-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,9.6,352503,0,testing_pct
+2021-10-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,11.2,315744,0,testing_pct
+2021-11-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.7,323837,0,testing_pct
+2021-12-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.4,392534,0,testing_pct
+2022-01-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.2,417315,0,testing_pct
+2022-02-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,12.1,264594,0,testing_pct
+2022-03-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,13.4,248613,0,testing_pct
+2022-04-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,15.8,230939,0,testing_pct
+2022-05-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.4,249887,0,testing_pct
+2022-06-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.9,242056,0,testing_pct
+2022-07-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.3,218636,0,testing_pct
+2022-08-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16,231838,0,testing_pct
+2022-09-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.7,236983,0,testing_pct
+2022-10-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.3,275474,0,testing_pct
+2022-11-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.8,321850,0,testing_pct
+2022-12-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.4,361234,0,testing_pct
+2023-01-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.6,336253,0,testing_pct
+2023-02-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.7,284579,0,testing_pct
+2023-03-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20,325845,0,testing_pct
+2023-04-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.5,286422,0,testing_pct
+2023-05-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,17.8,288226,0,testing_pct
+2023-06-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.3,255057,0,testing_pct
+2023-07-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,16.7,230134,0,testing_pct
+2023-08-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18,253366,0,testing_pct
+2023-09-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.2,263753,0,testing_pct
+2023-10-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.4,310501,0,testing_pct
+2023-11-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.2,353362,0,testing_pct
+2023-12-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,26.1,406903,0,testing_pct
+2024-01-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.4,415101,0,testing_pct
+2024-02-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23.3,353755,0,testing_pct
+2024-03-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,23.4,358253,0,testing_pct
+2024-04-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,21.8,358321,0,testing_pct
+2024-05-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.7,364017,0,testing_pct
+2024-06-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.6,331223,0,testing_pct
+2024-07-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,19.3,331517,0,testing_pct
+2024-08-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.2,341411,0,testing_pct
+2024-09-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,20.4,371076,0,testing_pct
+2024-10-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.4,510519,0,testing_pct
+2024-11-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,18.9,546954,0,testing_pct
+2024-12-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,22.8,597114,0,testing_pct
+2025-01-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,25,572442,0,testing_pct
+2025-02-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,25.7,487465,0,testing_pct
+2025-03-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.6,447675,0,testing_pct
+2025-04-01,Total,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,24.1,344178,0,testing_pct
+2018-01-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-02-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-03-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-04-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-05-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-06-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-07-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-08-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-09-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-10-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-11-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2018-12-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-01-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-02-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-03-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-04-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-05-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-06-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-07-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-08-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-09-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-10-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-11-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2019-12-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-01-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-02-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-03-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-04-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,11,1,testing_pct
+2020-05-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-06-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-07-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-08-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-09-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-10-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-11-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2020-12-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-01-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-02-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-03-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-04-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-05-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-06-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-07-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-08-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-09-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-10-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-11-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2021-12-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-01-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-02-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-03-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-04-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-05-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-06-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-07-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-08-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-09-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-10-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-11-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2022-12-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-01-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-02-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-03-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-04-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-05-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-06-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-07-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-08-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-09-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-10-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-11-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2023-12-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-01-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-02-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-03-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-04-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-05-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-06-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-07-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-08-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-09-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-10-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-11-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2024-12-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2025-01-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2025-02-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2025-03-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct
+2025-04-01,NA,pct_tested_rsv,testing,Epic Cosmos,https://www.epicresearch.org/,none,age_scheme_2,none,NA,none,NA,none,NA,NA,10 or fewer,1,testing_pct

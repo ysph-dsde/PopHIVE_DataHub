@@ -1,0 +1,628 @@
+﻿Session Title,Number of Encounters and RSV tests LOINCs by Age in Years Range,,,
+Session ID,2737279,,,
+Data Model,Encounters,,,
+Population Base,All Encounters,,,
+Population Criteria Filters: These criteria are a summary and do not fully reflect the content of the exported session.,Diagnosis (All): J12-J18 pneumonia,Country of Residence: United States of America,,
+Session Date Range,1/1/2018 - 4/30/2025 (Based On Encounter Start Date),,,
+Export User,Stephanie Perniciaro,,,
+Date of Export,6/4/2025,,,
+,,,,
+,,,,
+,,Measures,Number of Encounters,RSV tests LOINCs (%)
+Year,Month,Age in Years,,
+2018,Jan,Less than 5 years,21519,12.8%
+,,≥ 5 and < 18 years,14612,4.5%
+,,≥ 18 and < 40 years,23223,6.4%
+,,≥ 40 and < 65 years,82093,6.9%
+,,65 years or more,131325,7.9%
+,,No value,10 or fewer,-
+,,Total,272772,7.6%
+,Feb,Less than 5 years,19464,12.9%
+,,≥ 5 and < 18 years,16223,4.8%
+,,≥ 18 and < 40 years,19548,6.4%
+,,≥ 40 and < 65 years,69300,6.6%
+,,65 years or more,105109,7.6%
+,,No value,10 or fewer,-
+,,Total,229646,7.5%
+,Mar,Less than 5 years,16847,13%
+,,≥ 5 and < 18 years,13605,4.7%
+,,≥ 18 and < 40 years,19358,6.1%
+,,≥ 40 and < 65 years,67729,6.2%
+,,65 years or more,106107,6.7%
+,,No value,10 or fewer,-
+,,Total,223648,6.8%
+,Apr,Less than 5 years,13410,11.7%
+,,≥ 5 and < 18 years,10885,4.3%
+,,≥ 18 and < 40 years,17543,5.5%
+,,≥ 40 and < 65 years,61844,5.4%
+,,65 years or more,100048,5.9%
+,,No value,10 or fewer,-
+,,Total,203731,6.1%
+,May,Less than 5 years,12304,9.9%
+,,≥ 5 and < 18 years,10762,4.4%
+,,≥ 18 and < 40 years,17043,4.7%
+,,≥ 40 and < 65 years,57019,4.9%
+,,65 years or more,95658,4.8%
+,,No value,10 or fewer,-
+,,Total,192787,5.1%
+,Jun,Less than 5 years,8721,9.1%
+,,≥ 5 and < 18 years,8014,3.5%
+,,≥ 18 and < 40 years,15063,4.5%
+,,≥ 40 and < 65 years,50986,4.2%
+,,65 years or more,85276,4.2%
+,,No value,10 or fewer,-
+,,Total,168061,4.5%
+,Jul,Less than 5 years,6971,8.3%
+,,≥ 5 and < 18 years,6852,3.4%
+,,≥ 18 and < 40 years,14306,3.9%
+,,≥ 40 and < 65 years,47309,3.9%
+,,65 years or more,79875,3.9%
+,,No value,10 or fewer,-
+,,Total,155313,4.1%
+,Aug,Less than 5 years,7685,8.5%
+,,≥ 5 and < 18 years,8035,4.3%
+,,≥ 18 and < 40 years,15694,3.8%
+,,≥ 40 and < 65 years,48518,3.7%
+,,65 years or more,78921,3.7%
+,,No value,10 or fewer,-
+,,Total,158853,4%
+,Sep,Less than 5 years,9678,10.1%
+,,≥ 5 and < 18 years,11532,4.5%
+,,≥ 18 and < 40 years,17373,4.7%
+,,≥ 40 and < 65 years,49254,5%
+,,65 years or more,74692,5%
+,,No value,10 or fewer,-
+,,Total,162529,5.3%
+,Oct,Less than 5 years,13464,10.9%
+,,≥ 5 and < 18 years,17384,4.6%
+,,≥ 18 and < 40 years,21228,5.3%
+,,≥ 40 and < 65 years,59302,5.7%
+,,65 years or more,90597,6.4%
+,,No value,10 or fewer,-
+,,Total,201975,6.2%
+,Nov,Less than 5 years,18870,12.1%
+,,≥ 5 and < 18 years,19852,4.3%
+,,≥ 18 and < 40 years,21920,5.6%
+,,≥ 40 and < 65 years,59881,6.5%
+,,65 years or more,90253,7%
+,,No value,10 or fewer,-
+,,Total,210776,6.9%
+,Dec,Less than 5 years,24412,14.1%
+,,≥ 5 and < 18 years,19410,5.2%
+,,≥ 18 and < 40 years,22592,6.4%
+,,≥ 40 and < 65 years,65925,7.4%
+,,65 years or more,103316,8.5%
+,,No value,10 or fewer,-
+,,Total,235658,8.3%
+2019,Jan,Less than 5 years,21661,14.5%
+,,≥ 5 and < 18 years,16741,5.4%
+,,≥ 18 and < 40 years,24512,7.2%
+,,≥ 40 and < 65 years,78405,7.6%
+,,65 years or more,123198,8.8%
+,,No value,10 or fewer,-
+,,Total,264519,8.6%
+,Feb,Less than 5 years,17855,14%
+,,≥ 5 and < 18 years,16159,5.4%
+,,≥ 18 and < 40 years,21194,7.2%
+,,≥ 40 and < 65 years,70475,7.9%
+,,65 years or more,105987,9%
+,,No value,10 or fewer,-
+,,Total,231672,8.6%
+,Mar,Less than 5 years,18258,14.3%
+,,≥ 5 and < 18 years,17002,5.5%
+,,≥ 18 and < 40 years,22765,7.6%
+,,≥ 40 and < 65 years,75092,8.1%
+,,65 years or more,115670,9.2%
+,,No value,10 or fewer,-
+,,Total,248791,8.8%
+,Apr,Less than 5 years,16876,13.1%
+,,≥ 5 and < 18 years,15187,5.5%
+,,≥ 18 and < 40 years,20292,7.1%
+,,≥ 40 and < 65 years,68951,7.1%
+,,65 years or more,113091,7.8%
+,,No value,10 or fewer,-
+,,Total,234398,7.8%
+,May,Less than 5 years,15088,11.6%
+,,≥ 5 and < 18 years,14898,4.9%
+,,≥ 18 and < 40 years,20331,6.1%
+,,≥ 40 and < 65 years,66375,6%
+,,65 years or more,111539,6.5%
+,,No value,10 or fewer,-
+,,Total,228232,6.5%
+,Jun,Less than 5 years,10576,10.1%
+,,≥ 5 and < 18 years,11547,4.4%
+,,≥ 18 and < 40 years,17716,5.5%
+,,≥ 40 and < 65 years,57467,5.5%
+,,65 years or more,98891,5.5%
+,,No value,10 or fewer,-
+,,Total,196199,5.7%
+,Jul,Less than 5 years,8393,9%
+,,≥ 5 and < 18 years,10911,3.6%
+,,≥ 18 and < 40 years,18186,5%
+,,≥ 40 and < 65 years,55880,4.7%
+,,65 years or more,94598,4.8%
+,,No value,10 or fewer,-
+,,Total,187970,4.9%
+,Aug,Less than 5 years,8902,9.4%
+,,≥ 5 and < 18 years,11232,4.3%
+,,≥ 18 and < 40 years,19518,5.2%
+,,≥ 40 and < 65 years,54054,4.6%
+,,65 years or more,88498,4.6%
+,,No value,10 or fewer,-
+,,Total,182204,4.9%
+,Sep,Less than 5 years,11723,10.7%
+,,≥ 5 and < 18 years,15761,4.6%
+,,≥ 18 and < 40 years,22276,6.4%
+,,≥ 40 and < 65 years,58516,5.8%
+,,65 years or more,91759,5.9%
+,,No value,10 or fewer,-
+,,Total,200036,6.1%
+,Oct,Less than 5 years,17157,11.5%
+,,≥ 5 and < 18 years,24033,4.2%
+,,≥ 18 and < 40 years,26186,6.3%
+,,≥ 40 and < 65 years,67566,6.5%
+,,65 years or more,105028,7%
+,,No value,10 or fewer,-
+,,Total,239972,6.9%
+,Nov,Less than 5 years,24721,14.1%
+,,≥ 5 and < 18 years,28242,4.8%
+,,≥ 18 and < 40 years,27663,6.8%
+,,≥ 40 and < 65 years,68034,7.6%
+,,65 years or more,103303,8.3%
+,,No value,10 or fewer,-
+,,Total,251963,8.1%
+,Dec,Less than 5 years,30811,16.6%
+,,≥ 5 and < 18 years,27563,5.2%
+,,≥ 18 and < 40 years,30440,7.3%
+,,≥ 40 and < 65 years,80625,8.4%
+,,65 years or more,127259,9.9%
+,,No value,10 or fewer,-
+,,Total,296699,9.5%
+2020,Jan,Less than 5 years,24808,16.1%
+,,≥ 5 and < 18 years,22489,5.7%
+,,≥ 18 and < 40 years,32747,7.6%
+,,≥ 40 and < 65 years,94092,8.6%
+,,65 years or more,147433,9.8%
+,,No value,10 or fewer,-
+,,Total,321572,9.4%
+,Feb,Less than 5 years,20389,16%
+,,≥ 5 and < 18 years,21343,5.9%
+,,≥ 18 and < 40 years,27800,8.2%
+,,≥ 40 and < 65 years,85493,9%
+,,65 years or more,125217,10%
+,,No value,10 or fewer,-
+,,Total,280243,9.6%
+,Mar,Less than 5 years,15939,18%
+,,≥ 5 and < 18 years,15585,8.3%
+,,≥ 18 and < 40 years,29889,12.1%
+,,≥ 40 and < 65 years,92049,13%
+,,65 years or more,122974,14.5%
+,,No value,10 or fewer,-
+,,Total,276439,13.6%
+,Apr,Less than 5 years,3360,14.3%
+,,≥ 5 and < 18 years,4629,7.5%
+,,≥ 18 and < 40 years,22690,8%
+,,≥ 40 and < 65 years,78629,8.1%
+,,65 years or more,98561,9.1%
+,,No value,11,-
+,,Total,207880,8.6%
+,May,Less than 5 years,2369,11.7%
+,,≥ 5 and < 18 years,2992,8.2%
+,,≥ 18 and < 40 years,19452,6.6%
+,,≥ 40 and < 65 years,66636,6.1%
+,,65 years or more,88836,6.3%
+,,No value,10 or fewer,-
+,,Total,180285,6.4%
+,Jun,Less than 5 years,2440,11.5%
+,,≥ 5 and < 18 years,3012,7.5%
+,,≥ 18 and < 40 years,18792,6.7%
+,,≥ 40 and < 65 years,62010,6%
+,,65 years or more,85282,5.5%
+,,No value,10 or fewer,-
+,,Total,171539,6%
+,Jul,Less than 5 years,2576,10.8%
+,,≥ 5 and < 18 years,3219,7%
+,,≥ 18 and < 40 years,22384,5.7%
+,,≥ 40 and < 65 years,74510,6%
+,,65 years or more,96216,5.9%
+,,No value,10 or fewer,-
+,,Total,198907,6%
+,Aug,Less than 5 years,2793,10.9%
+,,≥ 5 and < 18 years,2960,7.5%
+,,≥ 18 and < 40 years,18599,5.8%
+,,≥ 40 and < 65 years,66732,5.3%
+,,65 years or more,91286,5.6%
+,,No value,10 or fewer,-
+,,Total,182370,5.6%
+,Sep,Less than 5 years,2952,14.5%
+,,≥ 5 and < 18 years,3259,8%
+,,≥ 18 and < 40 years,17227,6.6%
+,,≥ 40 and < 65 years,63292,6%
+,,65 years or more,92819,6.1%
+,,No value,10 or fewer,-
+,,Total,179549,6.3%
+,Oct,Less than 5 years,3500,15.4%
+,,≥ 5 and < 18 years,3699,9.4%
+,,≥ 18 and < 40 years,20938,7.3%
+,,≥ 40 and < 65 years,76496,7.1%
+,,65 years or more,114001,7.6%
+,,No value,10 or fewer,-
+,,Total,218635,7.6%
+,Nov,Less than 5 years,3560,18.8%
+,,≥ 5 and < 18 years,3624,11.5%
+,,≥ 18 and < 40 years,25900,9.1%
+,,≥ 40 and < 65 years,101211,8.9%
+,,65 years or more,145437,10.2%
+,,No value,10 or fewer,-
+,,Total,279733,9.8%
+,Dec,Less than 5 years,3400,19%
+,,≥ 5 and < 18 years,3529,11.8%
+,,≥ 18 and < 40 years,30224,9.6%
+,,≥ 40 and < 65 years,126361,9.6%
+,,65 years or more,183514,11.6%
+,,No value,10 or fewer,-
+,,Total,347030,10.7%
+2021,Jan,Less than 5 years,3478,18.9%
+,,≥ 5 and < 18 years,3471,11.8%
+,,≥ 18 and < 40 years,29581,9.3%
+,,≥ 40 and < 65 years,127172,9.3%
+,,65 years or more,180362,11.4%
+,,No value,10 or fewer,-
+,,Total,344068,10.5%
+,Feb,Less than 5 years,3297,21.4%
+,,≥ 5 and < 18 years,3249,11.3%
+,,≥ 18 and < 40 years,20581,9.7%
+,,≥ 40 and < 65 years,89591,8.8%
+,,65 years or more,123942,10.8%
+,,No value,10 or fewer,-
+,,Total,240662,10.1%
+,Mar,Less than 5 years,4511,20.1%
+,,≥ 5 and < 18 years,3726,11.7%
+,,≥ 18 and < 40 years,23159,10.2%
+,,≥ 40 and < 65 years,92427,9.7%
+,,65 years or more,119848,11.2%
+,,No value,10 or fewer,-
+,,Total,243671,10.7%
+,Apr,Less than 5 years,5628,20.5%
+,,≥ 5 and < 18 years,4251,12.5%
+,,≥ 18 and < 40 years,28722,10.1%
+,,≥ 40 and < 65 years,100029,9.5%
+,,65 years or more,113419,11.2%
+,,No value,10 or fewer,-
+,,Total,252049,10.6%
+,May,Less than 5 years,8612,19.1%
+,,≥ 5 and < 18 years,5026,12.1%
+,,≥ 18 and < 40 years,25413,9.3%
+,,≥ 40 and < 65 years,85979,8.6%
+,,65 years or more,106283,9.8%
+,,No value,10 or fewer,-
+,,Total,231314,9.7%
+,Jun,Less than 5 years,10555,19.9%
+,,≥ 5 and < 18 years,4713,11%
+,,≥ 18 and < 40 years,21273,8.8%
+,,≥ 40 and < 65 years,74612,8%
+,,65 years or more,104756,8.3%
+,,No value,10 or fewer,-
+,,Total,215912,8.9%
+,Jul,Less than 5 years,11617,23%
+,,≥ 5 and < 18 years,4998,13.4%
+,,≥ 18 and < 40 years,27472,10.3%
+,,≥ 40 and < 65 years,84119,9.8%
+,,65 years or more,111303,9.7%
+,,No value,10 or fewer,-
+,,Total,239509,10.5%
+,Aug,Less than 5 years,11542,26.8%
+,,≥ 5 and < 18 years,7800,13.7%
+,,≥ 18 and < 40 years,47850,8.2%
+,,≥ 40 and < 65 years,133360,8.9%
+,,65 years or more,140435,10.1%
+,,No value,10 or fewer,-
+,,Total,340988,10%
+,Sep,Less than 5 years,11878,26.4%
+,,≥ 5 and < 18 years,9983,13.6%
+,,≥ 18 and < 40 years,46241,7.9%
+,,≥ 40 and < 65 years,138726,8.1%
+,,65 years or more,145675,9.9%
+,,No value,10 or fewer,-
+,,Total,352503,9.6%
+,Oct,Less than 5 years,13624,27%
+,,≥ 5 and < 18 years,9578,14.2%
+,,≥ 18 and < 40 years,35700,9.4%
+,,≥ 40 and < 65 years,116654,9.3%
+,,65 years or more,140188,11.5%
+,,No value,10 or fewer,-
+,,Total,315744,11.2%
+,Nov,Less than 5 years,17153,27.4%
+,,≥ 5 and < 18 years,11502,15%
+,,≥ 18 and < 40 years,34914,11.9%
+,,≥ 40 and < 65 years,115676,11.7%
+,,65 years or more,144591,14.1%
+,,No value,10 or fewer,-
+,,Total,323837,13.7%
+,Dec,Less than 5 years,17910,29%
+,,≥ 5 and < 18 years,11643,17.3%
+,,≥ 18 and < 40 years,43293,14.1%
+,,≥ 40 and < 65 years,142253,14.2%
+,,65 years or more,177435,17.4%
+,,No value,10 or fewer,-
+,,Total,392534,16.4%
+2022,Jan,Less than 5 years,10656,26.5%
+,,≥ 5 and < 18 years,7170,14.6%
+,,≥ 18 and < 40 years,38128,12.2%
+,,≥ 40 and < 65 years,152486,13%
+,,65 years or more,208870,16.8%
+,,No value,10 or fewer,-
+,,Total,417315,15.2%
+,Feb,Less than 5 years,8497,22.7%
+,,≥ 5 and < 18 years,6212,14.1%
+,,≥ 18 and < 40 years,20661,10.7%
+,,≥ 40 and < 65 years,90611,10.2%
+,,65 years or more,138612,12.8%
+,,No value,10 or fewer,-
+,,Total,264594,12.1%
+,Mar,Less than 5 years,11309,24%
+,,≥ 5 and < 18 years,9058,14.5%
+,,≥ 18 and < 40 years,20881,13.5%
+,,≥ 40 and < 65 years,79401,11.8%
+,,65 years or more,127964,13.4%
+,,No value,10 or fewer,-
+,,Total,248613,13.4%
+,Apr,Less than 5 years,12320,24.8%
+,,≥ 5 and < 18 years,9424,15.7%
+,,≥ 18 and < 40 years,19399,15.8%
+,,≥ 40 and < 65 years,70461,14.1%
+,,65 years or more,119334,15.9%
+,,No value,10 or fewer,-
+,,Total,230939,15.8%
+,May,Less than 5 years,15358,26.9%
+,,≥ 5 and < 18 years,11679,17.8%
+,,≥ 18 and < 40 years,20662,16.3%
+,,≥ 40 and < 65 years,71900,15.5%
+,,65 years or more,130286,17.5%
+,,No value,10 or fewer,-
+,,Total,249887,17.4%
+,Jun,Less than 5 years,14121,27.2%
+,,≥ 5 and < 18 years,8108,17.2%
+,,≥ 18 and < 40 years,19352,15.8%
+,,≥ 40 and < 65 years,70650,15.1%
+,,65 years or more,129825,16.9%
+,,No value,10 or fewer,-
+,,Total,242056,16.9%
+,Jul,Less than 5 years,9915,29.6%
+,,≥ 5 and < 18 years,5202,16.6%
+,,≥ 18 and < 40 years,17001,15.9%
+,,≥ 40 and < 65 years,64439,15.7%
+,,65 years or more,122079,17.3%
+,,No value,10 or fewer,-
+,,Total,218636,17.3%
+,Aug,Less than 5 years,11172,30%
+,,≥ 5 and < 18 years,7593,19.7%
+,,≥ 18 and < 40 years,18184,15.2%
+,,≥ 40 and < 65 years,66846,14.2%
+,,65 years or more,128041,15.6%
+,,No value,10 or fewer,-
+,,Total,231838,16%
+,Sep,Less than 5 years,16710,29.4%
+,,≥ 5 and < 18 years,13297,18.7%
+,,≥ 18 and < 40 years,19350,16.1%
+,,≥ 40 and < 65 years,65651,14.9%
+,,65 years or more,121973,15.9%
+,,No value,10 or fewer,-
+,,Total,236983,16.7%
+,Oct,Less than 5 years,26239,30.8%
+,,≥ 5 and < 18 years,18582,19%
+,,≥ 18 and < 40 years,20986,18.1%
+,,≥ 40 and < 65 years,72106,17%
+,,65 years or more,137560,18.6%
+,,No value,10 or fewer,-
+,,Total,275474,19.3%
+,Nov,Less than 5 years,29934,31.7%
+,,≥ 5 and < 18 years,23073,20.2%
+,,≥ 18 and < 40 years,26451,21.8%
+,,≥ 40 and < 65 years,84880,20.7%
+,,65 years or more,157511,22.8%
+,,No value,10 or fewer,-
+,,Total,321850,22.8%
+,Dec,Less than 5 years,22168,31.4%
+,,≥ 5 and < 18 years,18509,19.5%
+,,≥ 18 and < 40 years,29679,22.5%
+,,≥ 40 and < 65 years,99853,22.6%
+,,65 years or more,191024,25.2%
+,,No value,10 or fewer,-
+,,Total,361234,24.4%
+2023,Jan,Less than 5 years,15628,31.2%
+,,≥ 5 and < 18 years,12271,19.8%
+,,≥ 18 and < 40 years,26395,20.9%
+,,≥ 40 and < 65 years,95442,19.7%
+,,65 years or more,186515,22.1%
+,,No value,10 or fewer,-
+,,Total,336253,21.6%
+,Feb,Less than 5 years,16727,30.2%
+,,≥ 5 and < 18 years,15303,19.3%
+,,≥ 18 and < 40 years,23354,20.2%
+,,≥ 40 and < 65 years,79446,18.6%
+,,65 years or more,149748,20.9%
+,,No value,10 or fewer,-
+,,Total,284579,20.7%
+,Mar,Less than 5 years,19780,28.6%
+,,≥ 5 and < 18 years,17013,17.1%
+,,≥ 18 and < 40 years,27259,19.7%
+,,≥ 40 and < 65 years,90796,18.2%
+,,65 years or more,170996,20.2%
+,,No value,10 or fewer,-
+,,Total,325845,20%
+,Apr,Less than 5 years,15082,27.2%
+,,≥ 5 and < 18 years,12899,17.4%
+,,≥ 18 and < 40 years,23637,19.1%
+,,≥ 40 and < 65 years,80249,17.9%
+,,65 years or more,154551,19.8%
+,,No value,10 or fewer,-
+,,Total,286422,19.5%
+,May,Less than 5 years,13408,24.7%
+,,≥ 5 and < 18 years,13563,15.9%
+,,≥ 18 and < 40 years,23565,17.8%
+,,≥ 40 and < 65 years,79974,16.6%
+,,65 years or more,157713,17.9%
+,,No value,10 or fewer,-
+,,Total,288226,17.8%
+,Jun,Less than 5 years,9708,22.6%
+,,≥ 5 and < 18 years,8955,13.2%
+,,≥ 18 and < 40 years,20957,16.5%
+,,≥ 40 and < 65 years,72022,15.5%
+,,65 years or more,143414,16.5%
+,,No value,10 or fewer,-
+,,Total,255057,16.3%
+,Jul,Less than 5 years,6955,22.9%
+,,≥ 5 and < 18 years,6615,13.4%
+,,≥ 18 and < 40 years,19415,16.6%
+,,≥ 40 and < 65 years,66849,16.1%
+,,65 years or more,130300,16.9%
+,,No value,10 or fewer,-
+,,Total,230134,16.7%
+,Aug,Less than 5 years,8322,25.4%
+,,≥ 5 and < 18 years,8603,15.4%
+,,≥ 18 and < 40 years,21202,17.7%
+,,≥ 40 and < 65 years,72406,16.8%
+,,65 years or more,142833,18.3%
+,,No value,10 or fewer,-
+,,Total,253366,18%
+,Sep,Less than 5 years,11428,28.3%
+,,≥ 5 and < 18 years,12466,17%
+,,≥ 18 and < 40 years,22695,19.3%
+,,≥ 40 and < 65 years,73204,19%
+,,65 years or more,143959,20.7%
+,,No value,10 or fewer,-
+,,Total,263753,20.2%
+,Oct,Less than 5 years,17486,26.9%
+,,≥ 5 and < 18 years,20311,15.8%
+,,≥ 18 and < 40 years,27651,18.9%
+,,≥ 40 and < 65 years,83737,19.1%
+,,65 years or more,161315,21.3%
+,,No value,10 or fewer,-
+,,Total,310501,20.4%
+,Nov,Less than 5 years,24586,28.6%
+,,≥ 5 and < 18 years,28572,16%
+,,≥ 18 and < 40 years,32229,20.8%
+,,≥ 40 and < 65 years,93494,20.7%
+,,65 years or more,174481,23.5%
+,,No value,10 or fewer,-
+,,Total,353362,22.2%
+,Dec,Less than 5 years,25420,29.6%
+,,≥ 5 and < 18 years,29984,17.6%
+,,≥ 18 and < 40 years,36420,23.7%
+,,≥ 40 and < 65 years,109149,24.4%
+,,65 years or more,205930,28.2%
+,,No value,10 or fewer,-
+,,Total,406903,26.1%
+2024,Jan,Less than 5 years,17919,28.5%
+,,≥ 5 and < 18 years,21417,16%
+,,≥ 18 and < 40 years,36108,22.9%
+,,≥ 40 and < 65 years,117938,22.9%
+,,65 years or more,221718,25.9%
+,,No value,10 or fewer,-
+,,Total,415101,24.4%
+,Feb,Less than 5 years,16633,28.3%
+,,≥ 5 and < 18 years,23622,17.6%
+,,≥ 18 and < 40 years,31007,22.2%
+,,≥ 40 and < 65 years,98982,21.8%
+,,65 years or more,183511,24.6%
+,,No value,10 or fewer,-
+,,Total,353755,23.3%
+,Mar,Less than 5 years,19419,29.7%
+,,≥ 5 and < 18 years,25285,18%
+,,≥ 18 and < 40 years,31420,22.2%
+,,≥ 40 and < 65 years,97776,22.1%
+,,65 years or more,184353,24.4%
+,,No value,10 or fewer,-
+,,Total,358253,23.4%
+,Apr,Less than 5 years,19483,28.1%
+,,≥ 5 and < 18 years,25608,16.7%
+,,≥ 18 and < 40 years,30456,21.4%
+,,≥ 40 and < 65 years,96511,20.7%
+,,65 years or more,186262,22.5%
+,,No value,10 or fewer,-
+,,Total,358321,21.8%
+,May,Less than 5 years,18736,26.4%
+,,≥ 5 and < 18 years,32826,15.2%
+,,≥ 18 and < 40 years,30149,20.8%
+,,≥ 40 and < 65 years,94627,19.9%
+,,65 years or more,187679,21.5%
+,,No value,10 or fewer,-
+,,Total,364017,20.7%
+,Jun,Less than 5 years,14473,22.9%
+,,≥ 5 and < 18 years,35707,12.3%
+,,≥ 18 and < 40 years,28753,20.1%
+,,≥ 40 and < 65 years,83526,19.4%
+,,65 years or more,168764,20.9%
+,,No value,10 or fewer,-
+,,Total,331223,19.6%
+,Jul,Less than 5 years,14193,21%
+,,≥ 5 and < 18 years,33946,11.3%
+,,≥ 18 and < 40 years,30915,19.6%
+,,≥ 40 and < 65 years,84145,18.9%
+,,65 years or more,168317,21%
+,,No value,10 or fewer,-
+,,Total,331517,19.3%
+,Aug,Less than 5 years,15843,22.3%
+,,≥ 5 and < 18 years,38352,13.6%
+,,≥ 18 and < 40 years,33745,19.7%
+,,≥ 40 and < 65 years,87158,19.6%
+,,65 years or more,166313,21.9%
+,,No value,10 or fewer,-
+,,Total,341411,20.2%
+,Sep,Less than 5 years,20557,23.1%
+,,≥ 5 and < 18 years,56219,14.2%
+,,≥ 18 and < 40 years,39273,19.8%
+,,≥ 40 and < 65 years,90234,19.9%
+,,65 years or more,164792,22.7%
+,,No value,10 or fewer,-
+,,Total,371076,20.4%
+,Oct,Less than 5 years,34932,20.7%
+,,≥ 5 and < 18 years,119618,12.2%
+,,≥ 18 and < 40 years,58715,18.8%
+,,≥ 40 and < 65 years,111061,18.7%
+,,65 years or more,186193,21.6%
+,,No value,10 or fewer,-
+,,Total,510519,18.4%
+,Nov,Less than 5 years,50139,21.8%
+,,≥ 5 and < 18 years,126690,11.5%
+,,≥ 18 and < 40 years,68926,17.9%
+,,≥ 40 and < 65 years,117515,19.1%
+,,65 years or more,183684,23.4%
+,,No value,10 or fewer,-
+,,Total,546954,18.9%
+,Dec,Less than 5 years,55809,25.3%
+,,≥ 5 and < 18 years,100696,13.3%
+,,≥ 18 and < 40 years,68942,20.3%
+,,≥ 40 and < 65 years,138407,22.3%
+,,65 years or more,233260,27.3%
+,,No value,10 or fewer,-
+,,Total,597114,22.8%
+2025,Jan,Less than 5 years,35815,26.3%
+,,≥ 5 and < 18 years,57728,14.7%
+,,≥ 18 and < 40 years,59762,22.3%
+,,≥ 40 and < 65 years,151557,24.2%
+,,65 years or more,267580,28.1%
+,,No value,10 or fewer,-
+,,Total,572442,25%
+,Feb,Less than 5 years,25926,28.1%
+,,≥ 5 and < 18 years,42032,16.2%
+,,≥ 18 and < 40 years,45432,23.2%
+,,≥ 40 and < 65 years,135540,24.4%
+,,65 years or more,238535,28.3%
+,,No value,10 or fewer,-
+,,Total,487465,25.7%
+,Mar,Less than 5 years,23038,28.7%
+,,≥ 5 and < 18 years,33603,17%
+,,≥ 18 and < 40 years,38955,23%
+,,≥ 40 and < 65 years,121315,23.3%
+,,65 years or more,230764,26.4%
+,,No value,10 or fewer,-
+,,Total,447675,24.6%
+,Apr,Less than 5 years,20429,28.5%
+,,≥ 5 and < 18 years,27136,16.9%
+,,≥ 18 and < 40 years,30703,23%
+,,≥ 40 and < 65 years,89972,22.7%
+,,65 years or more,175938,25.7%
+,,No value,10 or fewer,-
+,,Total,344178,24.1%
