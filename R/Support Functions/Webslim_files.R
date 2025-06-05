@@ -162,6 +162,11 @@ rsv_testing <- read_csv(paste0(
     suppressed_flag
   )
 
+log_write(
+  rsv_testing,
+  './Data/Webslim/respiratory_diseases/rsv/rsv_testing_pct.parquet'
+)
+
 ######################################
 ##INFLUENZA
 ######################################
