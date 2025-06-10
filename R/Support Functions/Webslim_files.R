@@ -70,7 +70,7 @@ rsv_all_indicators_state <- read_csv(paste0(
   ) %>%
   mutate(
     source = if_else(source == "Epic Cosmos", "Epic Cosmos, ED", source),
-    source = if_else(source == "CDC RSV-NET (RespNet)", "CDC RSV-NET", source)
+    source = if_else(source == "CDC RSV-NET (RespNet)", "CDC RespNET", source)
   )
 
 log_write(
@@ -192,7 +192,8 @@ flu_all_indicators_state <- read_csv(paste0(
     value_smooth = Outcome_value2,
     value_smooth_scale = outcome_3m_scale
   ) %>%
-  mutate(source = if_else(source == "Epic Cosmos", "Epic Cosmos, ED", source))
+  mutate(source = if_else(source == "Epic Cosmos", "Epic Cosmos, ED", source),
+         source = if_else(source == "CDC FluSurv-NET", 'CDC RespNET', source))
 
 log_write(
   flu_all_indicators_state,
@@ -273,7 +274,8 @@ covid_all_indicators_state <- read_csv(paste0(
     value_smooth = Outcome_value2,
     value_smooth_scale = outcome_3m_scale
   ) %>%
-  mutate(source = if_else(source == "Epic Cosmos", "Epic Cosmos, ED", source))
+  mutate(source = if_else(source == "Epic Cosmos", "Epic Cosmos, ED", source),
+         source = if_else(source== "CDC COVID-NET", 'CDC RespNET', source))
 
 log_write(
   covid_all_indicators_state,
@@ -434,7 +436,8 @@ vax_age <- read_parquet(
   mutate(
     vax_order = as.numeric(as.factor(Vaccine)),
     Vaccine_dose = as.factor(paste(Vaccine, Dose)),
-    Vaccine_dose = gsub('NA', '', Vaccine_dose)
+    Vaccine_dose = gsub('NA', '', Vaccine_dose),
+    Vaccine_dose = trimws(Vaccine_dose)
   ) %>%
   dplyr::select(Geography, birth_year, age, Vaccine_dose, Outcome_value1) %>%
   rename(geography = Geography, vaccine = Vaccine_dose, value = Outcome_value1)
@@ -457,7 +460,9 @@ vax_urban <- read_parquet(
   collect() %>%
   mutate(
     Vaccine_dose = as.factor(paste(Vaccine, Dose)),
-    Vaccine_dose = gsub('NA', '', Vaccine_dose)
+    Vaccine_dose = gsub('NA', '', Vaccine_dose),
+    Vaccine_dose = trimws(Vaccine_dose)
+    
   ) %>%
   filter(birth_year == '2016-2019' & dim1 == 'Urbanicity') %>%
   dplyr::select(
@@ -529,7 +534,9 @@ vax_insurance <- read_parquet(
       ),
       labels = c('Uninsured', 'Medicaid', 'Private', 'Other')
     ),
-    Vaccine_dose =gsub('NA','', Vaccine_dose)
+    Vaccine_dose =gsub('NA','', Vaccine_dose),
+    Vaccine_dose = trimws(Vaccine_dose)
+    
   ) %>%
   dplyr::select(Geography, insurance, birth_year, Vaccine_dose, vax_uptake) %>%
   rename(geography = Geography, vaccine = Vaccine_dose, value = vax_uptake)
