@@ -910,7 +910,9 @@ g1_metro <- read_parquet(temp_file1) %>%
     date2 = as.Date(date),
     date = as.Date(ceiling_date(date2, 'week')) - 1
   ) %>%
-  mutate(location = as.numeric(location)) %>%
+  mutate(location = as.numeric(location),
+         ucl = quantile(value, probs=0.99),
+         value = if_else(value>ucl, ucl, value)) %>%
   filter(!is.na(location)) %>%
   rename(search_volume = value) %>%
   filter(date >= as.Date('2018-07-01')) %>%
