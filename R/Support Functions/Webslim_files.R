@@ -70,8 +70,11 @@ rsv_all_indicators_state <- read_csv(paste0(
   ) %>%
   mutate(
     source = if_else(source == "Epic Cosmos", "Epic Cosmos, ED", source),
-    source = if_else(source == "CDC RSV-NET (RespNet)", "CDC RespNET", source)
-  )
+    source = if_else(source == "CDC RSV-NET (RespNet)", "CDC RespNET", source),
+    value = if_else(source=="Epic Cosmos, ED" & geography=='Alaska', NA_real_, value ),
+    value_smooth = if_else(source=="Epic Cosmos, ED" & geography=='Alaska', NA_real_, value_smooth )
+    
+      )
 
 log_write(
   rsv_all_indicators_state,
