@@ -24,8 +24,15 @@ epic_ed_rsv <-
   full_join(epic_ed_all, by = c('geography', 'Level', 'date')) %>%
   arrange(Level, geography, date) %>%
   group_by(Level, geography)  %>%
-  mutate(outcome_name = 'RSV')
-
+  mutate(outcome_name = 'RSV')%>%
+  ungroup() %>%
+  group_by(date) %>%
+  mutate(N_date= n(),
+         n_miss= sum(is.na(N_ED_epic_all_cause)),
+         prop_miss=  n_miss/N_date) %>%
+  ungroup() %>%
+  filter( !(prop_miss > 0.5 & date == max(date))) %>% #filter out if last date is missing >50% of obs
+  dplyr::select(-N_date, -n_miss, -prop_miss)
 
 # EPIC ED FLU
 epic_ed_flu_latest_file = datetimeStamp(storeIn='Cosmos ED/flu/')$`Report Relative to Date` %>%
@@ -40,7 +47,14 @@ epic_ed_flu <-
   full_join(epic_ed_all, by = c('geography', 'Level', 'date')) %>%
   arrange(Level, geography, date) %>%
   group_by(Level, geography)  %>%
-  mutate(outcome_name = 'FLU')
+  mutate(outcome_name = 'FLU')%>%
+  ungroup() %>%
+  mutate(N_date= n(),
+         n_miss= sum(is.na(N_ED_epic_all_cause)),
+         prop_miss=  n_miss/N_date) %>%
+  ungroup() %>%
+  filter( !(prop_miss > 0.5 & date == max(date))) %>% #filter out if last date is missing >50% of obs
+  dplyr::select(-N_date, -n_miss, -prop_miss)
 
 # EPIC ED COVID
 epic_ed_covid_latest_file = datetimeStamp(storeIn = 'Cosmos ED/covid/')$`Report Relative to Date` %>%
@@ -55,7 +69,14 @@ epic_ed_covid <-
   full_join(epic_ed_all, by = c('geography', 'Level', 'date')) %>%
   arrange(Level, geography, date) %>%
   group_by(Level, geography)  %>%
-  mutate(outcome_name = 'COVID')
+  mutate(outcome_name = 'COVID') %>%
+  ungroup() %>%
+  mutate(N_date= n(),
+         n_miss= sum(is.na(N_ED_epic_all_cause)),
+         prop_miss=  n_miss/N_date) %>%
+  ungroup() %>%
+  filter( !(prop_miss > 0.5 & date == max(date))) %>% #filter out if last date is missing >50% of obs
+  dplyr::select(-N_date, -n_miss, -prop_miss)
 
 
 epic_ed_combo <- bind_rows(epic_ed_rsv, epic_ed_flu , epic_ed_covid) %>%
