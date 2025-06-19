@@ -49,6 +49,7 @@ epic_ed_flu <-
   group_by(Level, geography)  %>%
   mutate(outcome_name = 'FLU')%>%
   ungroup() %>%
+  group_by(date) %>%
   mutate(N_date= n(),
          n_miss= sum(is.na(N_ED_epic_all_cause)),
          prop_miss=  n_miss/N_date) %>%
@@ -71,6 +72,7 @@ epic_ed_covid <-
   group_by(Level, geography)  %>%
   mutate(outcome_name = 'COVID') %>%
   ungroup() %>%
+  group_by(date) %>%
   mutate(N_date= n(),
          n_miss= sum(is.na(N_ED_epic_all_cause)),
          prop_miss=  n_miss/N_date) %>%
